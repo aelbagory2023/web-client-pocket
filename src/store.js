@@ -55,6 +55,9 @@ import { itemTagReducers } from 'connectors/items-by-id/my-list/items.tag'
 import { itemShareReducers } from 'connectors/items-by-id/my-list/items.share'
 import { itemShareSagas } from 'connectors/items-by-id/my-list/items.share'
 
+import { cardAnalyticsReducers } from 'connectors/item-card/my-list/card.analytics'
+import { cardAnalyticsSagas } from 'connectors/item-card/my-list/card.analytics'
+
 import { homeReducers } from 'containers/home/home.state'
 import { homeSagas } from 'containers/home/home.state'
 
@@ -86,6 +89,7 @@ const collectionReducers = {
   itemsToArchive: itemArchiveReducers,
   itemsToTag: itemTagReducers,
   itemsToShare: itemShareReducers,
+  itemsAnalytics: cardAnalyticsReducers,
   userMessages: userMessageReducers
 }
 
@@ -134,6 +138,7 @@ function* rootSaga() {
     ...myListSagas,
     ...myListSearchSagas,
     ...myListItemsSagas,
+    ...cardAnalyticsSagas,
     ...itemShareSagas,
     ...readSagas,
     ...homeSagas,
