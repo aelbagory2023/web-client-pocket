@@ -155,18 +155,10 @@ const GlobalNav = ({ selectedLink: selected, subset, tag }) => {
     : []
 
   const toolClick = (name) => {
-    if (name === 'search') {
-      dispatch(sendEngagement('global-nav.search'))
-      dispatch(appSetMode('search'))
-    }
-    if (name === 'add-item') {
-      dispatch(sendEngagement('global-nav.add'))
-      dispatch(appSetMode('add'))
-    }
-    if (name === 'bulk-edit') {
-      dispatch(sendEngagement('global-nav.bulk'))
-      dispatch(appSetMode('bulk'))
-    }
+    dispatch(sendEngagement(`global-nav.${name}`))
+    if (name === 'search') dispatch(appSetMode('search'))
+    if (name === 'add-item') dispatch(appSetMode('add'))
+    if (name === 'bulk-edit') dispatch(appSetMode('bulk'))
   }
 
   const resetNav = () => dispatch(appSetMode('default'))
