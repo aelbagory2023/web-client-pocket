@@ -52,7 +52,7 @@ export const sendBulkArchiveEvent = (items, status) => {
     engagement,
     UI_COMPONENT_BUTTON,
     0, // position in list (zero since it's a nav bar button)
-    item,
+    items,
     identifier
   )
 }
@@ -68,6 +68,7 @@ export const sendBulkTagEvent = (items) => (trackContentEngagement(
 export const sendImpression = (identifier) => (trackImpression(
   IMPRESSION_COMPONENT_UI,
   IMPRESSION_REQUIREMENT_VIEWABLE,
+  UI_COMPONENT_BUTTON,
   0,
   identifier
 ))

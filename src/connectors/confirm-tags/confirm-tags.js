@@ -11,6 +11,7 @@ import { itemsTagRemove } from 'connectors/items-by-id/my-list/items.tag'
 import { trackImpression } from 'connectors/snowplow/snowplow.state'
 import { IMPRESSION_COMPONENT_UI } from 'connectors/snowplow/events'
 import { IMPRESSION_REQUIREMENT_VIEWABLE } from 'connectors/snowplow/events'
+import { UI_COMPONENT_BUTTON } from 'connectors/snowplow/entities'
 
 import { TagList } from 'components/tagging/tag.list'
 import { TagInput } from 'components/tagging/tag.input'
@@ -103,6 +104,7 @@ export function TaggingModal() {
   const handleImpression = (identifier) => dispatch(trackImpression(
     IMPRESSION_COMPONENT_UI,
     IMPRESSION_REQUIREMENT_VIEWABLE,
+    UI_COMPONENT_BUTTON,
     0,
     identifier
   ))
