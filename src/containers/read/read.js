@@ -39,7 +39,7 @@ import { itemsUnArchiveAction } from 'connectors/items-by-id/my-list/items.archi
 
 import { selectShortcutItem } from 'connectors/shortcuts/shortcuts.state'
 
-import { genericRecsRequested } from '/connectors/recit/recit.state'
+import { ReaderRecommendations } from 'connectors/recit/reader.recs'
 
 import { sendDeleteEvent } from './read.analytics'
 import { sendArchiveEvent } from './read.analytics'
@@ -78,6 +78,10 @@ const articleWrapper = css`
     padding: 0 var(--spacing250);
     margin: var(--spacing250) auto;
   }
+`
+
+const recsWrapper = css`
+  margin: 0 auto;
 `
 
 export default function Reader() {
@@ -124,7 +128,6 @@ export default function Reader() {
   useEffect(() => {
     dispatch(itemDataRequest(id))
     dispatch(selectShortcutItem(id))
-    // dispatch(genericRecsRequested(id))
   }, [dispatch, id])
 
   if (!articleData) {
@@ -330,6 +333,13 @@ export default function Reader() {
           ) : null}
         </article>
       </main>
+      {articleContent ? (
+        <section
+          className={recsWrapper}
+          style={{ maxWidth: customStyles.maxWidth }}>
+          <ReaderRecommendations id={item_id} />
+        </section>
+      ) : null}
       {!isPremium && articleContent ? (
         <BottomUpsell
           maxWidth={customStyles.maxWidth}
