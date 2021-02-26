@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Pocket/web-client/compare/v1.0.0...v1.0.1) (2021-02-26)
+
+
+### Bug Fixes
+
+* **version:** surface version for users ([e7d99d2](https://github.com/Pocket/web-client/commit/e7d99d24845f7f1e711611847b3fa6e1b636ca49))
+
 # 1.0.0 (2021-02-26)
 
 
