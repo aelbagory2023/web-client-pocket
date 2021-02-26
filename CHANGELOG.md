@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Pocket/web-client/compare/v1.0.3...v1.0.4) (2021-02-26)
+
+
+### Bug Fixes
+
+* **snowplow:** dont send bulk events when no items are selected ([2f24d41](https://github.com/Pocket/web-client/commit/2f24d41e02095aed0317727cae8323b87a4eb2b9))
+
 ## [1.0.3](https://github.com/Pocket/web-client/compare/v1.0.2...v1.0.3) (2021-02-26)
 
 
