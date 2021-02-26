@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/Pocket/web-client/compare/v1.0.1...v1.0.2) (2021-02-26)
+
+
+### Bug Fixes
+
+* **build:** expose RELEASE_VERSION in docker ([7e32acc](https://github.com/Pocket/web-client/commit/7e32acca93cecc5baa80d3f1f6f4816b4ff3ba37))
+* **ci:** attach workspace earlier > access version ([c822d85](https://github.com/Pocket/web-client/commit/c822d859fe00f02126dacbe7d6cb03d193f04531))
+
 ## [1.0.1](https://github.com/Pocket/web-client/compare/v1.0.0...v1.0.1) (2021-02-26)
 
 
