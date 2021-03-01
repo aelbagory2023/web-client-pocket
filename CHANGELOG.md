@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/Pocket/web-client/compare/v1.0.5...v1.0.6) (2021-03-01)
+
+
+### Bug Fixes
+
+* **item:** update save url to fallback to false bool ([493c175](https://github.com/Pocket/web-client/commit/493c175c33ca8d66d2229d2e009ffc1db05b5d5c))
+
 ## [1.0.5](https://github.com/Pocket/web-client/compare/v1.0.4...v1.0.5) (2021-03-01)
 
 
