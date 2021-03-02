@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Pocket/web-client/compare/v1.1.0...v1.1.1) (2021-03-02)
+
+
+### Bug Fixes
+
+* **home:** adding analytics for collections cards ([fa20d59](https://github.com/Pocket/web-client/commit/fa20d59d3d8ad649e1ac9c107b6151e20bab2a89))
+
 # [1.1.0](https://github.com/Pocket/web-client/compare/v1.0.6...v1.1.0) (2021-03-02)
 
 
