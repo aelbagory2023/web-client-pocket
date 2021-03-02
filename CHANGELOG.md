@@ -1,3 +1,20 @@
+# [1.1.0](https://github.com/Pocket/web-client/compare/v1.0.6...v1.1.0) (2021-03-02)
+
+
+### Bug Fixes
+
+* **discover:** updating derive to work with client ([8081ca8](https://github.com/Pocket/web-client/commit/8081ca8e7082ce902bed96b712271170f1994123))
+* **next:** temp re-write for explore/discover ([be925ee](https://github.com/Pocket/web-client/commit/be925eeadaa70c92afb711c8202d0e1b0f1e5ca2))
+* **publisher recs:** styling logo in color modes ([34f2941](https://github.com/Pocket/web-client/commit/34f2941e589bbc5840f382242b575a0892761e97))
+* **recs:** filter publisher logos in color modes ([f01b79b](https://github.com/Pocket/web-client/commit/f01b79b80eedcdadd10a42f873b05e4594ecfcbf))
+* **syndicated:** remove comment to test ads ([a04bc8f](https://github.com/Pocket/web-client/commit/a04bc8f47424337c9f8edf824b55be0c9b13747e))
+
+
+### Features
+
+* **cypress:** cypress for discover happy paths ([01016bd](https://github.com/Pocket/web-client/commit/01016bd9a2cdb2d26fb284fe1dbce04ed439ea78))
+* **one trust:** adding one trust state to store ([2225cb3](https://github.com/Pocket/web-client/commit/2225cb3e7fd31a001932e969b98e469f52d4e91d))
+
 ## [1.0.6](https://github.com/Pocket/web-client/compare/v1.0.5...v1.0.6) (2021-03-01)
 
 
