@@ -1,3 +1,16 @@
+## [1.1.3](https://github.com/Pocket/web-client/compare/v1.1.2...v1.1.3) (2021-03-04)
+
+
+### Bug Fixes
+
+* **accessibility:** remove focus styles for the moment ([62c8ae9](https://github.com/Pocket/web-client/commit/62c8ae98e8cb08593489ac9ddd27adba5c2963a8))
+* **accessibility:** removing focus for now ([e5094d1](https://github.com/Pocket/web-client/commit/e5094d1d18d5986a79723b13d526a74ef3c1fe78))
+* **accessibility:** removing the autofocus for now ([e117fa9](https://github.com/Pocket/web-client/commit/e117fa9017c7526788beeaaa75a3d03a00d43707))
+* **accessibility:** update typo in styles ([f0de2b7](https://github.com/Pocket/web-client/commit/f0de2b7758b4f19d1b008ceff4f63724e0ef70b7))
+* **accessiblity:** adding focus on first item in menu and analytics ([36e0f29](https://github.com/Pocket/web-client/commit/36e0f292e748c8edbb44ded7327c8ad81f64e87d))
+* **menu:** focus on first item when menu is opened ([da4a4f0](https://github.com/Pocket/web-client/commit/da4a4f0002b72711f7041024db445114999749a7))
+* **menu:** remove extra spacing ([b00904b](https://github.com/Pocket/web-client/commit/b00904b684efb2cac438cc9871e2d87f35725f53))
+
 ## [1.1.2](https://github.com/Pocket/web-client/compare/v1.1.1...v1.1.2) (2021-03-03)
 
 
