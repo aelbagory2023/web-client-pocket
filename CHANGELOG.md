@@ -1,3 +1,12 @@
+## [1.1.6](https://github.com/Pocket/web-client/compare/v1.1.5...v1.1.6) (2021-03-05)
+
+
+### Bug Fixes
+
+* **accessbility:** add label to discover card menu ([528c97d](https://github.com/Pocket/web-client/commit/528c97d645ae8c8ff74b028f58d087b727170d4e))
+* **accessibility:** add label to syndicated icon ([c53b138](https://github.com/Pocket/web-client/commit/c53b13890a2b2e593efb625b31a7039524a53eed))
+* **card:** remove unneeded prop ([ce80e62](https://github.com/Pocket/web-client/commit/ce80e62dd5118550a45d299fa836a153611d2c35))
+
 ## [1.1.5](https://github.com/Pocket/web-client/compare/v1.1.4...v1.1.5) (2021-03-05)
 
 
