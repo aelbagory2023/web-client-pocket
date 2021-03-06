@@ -1,3 +1,25 @@
+# [1.2.0](https://github.com/Pocket/web-client/compare/v1.1.6...v1.2.0) (2021-03-06)
+
+
+### Bug Fixes
+
+* **callouts:** replace missing image ([c75054c](https://github.com/Pocket/web-client/commit/c75054cf7f7b79ee027a81b69ab5dd31f7843f7a))
+* **discover:** add item_id for generic card ([f2029ee](https://github.com/Pocket/web-client/commit/f2029eef3edfbe0a051c121075e8fbcdbfc34cb6))
+* **discover item:** update test to include item_id ([a9a371d](https://github.com/Pocket/web-client/commit/a9a371d2390b3c562172ea4038e5dbc8b1040fba))
+
+
+### Features
+
+* **card:** adding detail to general card ([bf0dde1](https://github.com/Pocket/web-client/commit/bf0dde180f0d9c5421ca9af72f8082985ce0d1a4))
+* **card:** adding flexible card ([f2e18c1](https://github.com/Pocket/web-client/commit/f2e18c11883e1ffafc654bfaadddfbb85d9b4345))
+* **card:** adding item action menus/connectors ([8d12151](https://github.com/Pocket/web-client/commit/8d1215117117be4311bbf906a29cb04c9f1e47fe))
+* **card:** adding some basic layouts ([d6c237f](https://github.com/Pocket/web-client/commit/d6c237f10a1b4e72b1a28a32dbee2060bc62e343))
+* **card:** adding specialized card types ([70ac460](https://github.com/Pocket/web-client/commit/70ac460cadf4e9b4a573cd45a03f59b71d0c6fb1))
+* **card:** adding tags to general card ([954ec7e](https://github.com/Pocket/web-client/commit/954ec7e6c3a53a22f898db36281ac3229f64e312))
+* **card:** updating stories ([3fa7ac8](https://github.com/Pocket/web-client/commit/3fa7ac80f866a32b3ab1f6cb972dfbe58ec15f9b))
+* **cards:** update mixed layout options ([0f8c019](https://github.com/Pocket/web-client/commit/0f8c019d2f6d3e38c77a3a0e5c76a9c5ff29e97c))
+* **layouts:** updating stories ([a0bdd40](https://github.com/Pocket/web-client/commit/a0bdd4092fe9ddc732beb3c29d047e5736aa1c30))
+
 ## [1.1.6](https://github.com/Pocket/web-client/compare/v1.1.5...v1.1.6) (2021-03-05)
 
 
