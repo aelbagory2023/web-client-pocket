@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Pocket/web-client/compare/v1.2.0...v1.2.1) (2021-03-09)
+
+
+### Bug Fixes
+
+* **home:** fix for sidenav height, list refresh, various errors ([b053e7d](https://github.com/Pocket/web-client/commit/b053e7deda0d01ec6c196332a00219aaf3baa120))
+
 # [1.2.0](https://github.com/Pocket/web-client/compare/v1.1.6...v1.2.0) (2021-03-06)
 
 
