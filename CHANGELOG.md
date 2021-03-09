@@ -1,3 +1,12 @@
+## [1.2.2](https://github.com/Pocket/web-client/compare/v1.2.1...v1.2.2) (2021-03-09)
+
+
+### Bug Fixes
+
+* **fonts:** disable premium fonts for non-premium users ([89f6feb](https://github.com/Pocket/web-client/commit/89f6febb2110992de31ec4f89efb3b71a661ce24))
+* **reader:** update nav bar to be more accessible with outlines ([1e9d189](https://github.com/Pocket/web-client/commit/1e9d189841b36704d041a6dbe6d0532c9c295670))
+* **stepper:** keep button outline even if not active ([2cf1c10](https://github.com/Pocket/web-client/commit/2cf1c1002036df2c1a0b0df7920cd8194d2a712f))
+
 ## [1.2.1](https://github.com/Pocket/web-client/compare/v1.2.0...v1.2.1) (2021-03-09)
 
 
