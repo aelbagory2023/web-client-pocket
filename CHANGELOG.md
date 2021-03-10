@@ -1,3 +1,13 @@
+# [1.4.0](https://github.com/Pocket/web-client/compare/v1.3.1...v1.4.0) (2021-03-10)
+
+
+### Features
+
+* **home:** recs based on recent saves ([f5e4528](https://github.com/Pocket/web-client/commit/f5e4528b4563791c2c16ccb26cac8bcc484ddc64))
+* **home recs:** adding actions ([19e39ba](https://github.com/Pocket/web-client/commit/19e39ba5d37549999ac6305b5aa7f6d63d9581a1))
+* **home recs:** adding new endpoint module ([3bf18a6](https://github.com/Pocket/web-client/commit/3bf18a6feb079a9bb68388bc972b0e7520dfe639))
+* **home recs:** updating recit state for home rec ([d7bd19a](https://github.com/Pocket/web-client/commit/d7bd19a409c8b16c88779f565c97a2d9586dad09))
+
 ## [1.3.1](https://github.com/Pocket/web-client/compare/v1.3.0...v1.3.1) (2021-03-10)
 
 
