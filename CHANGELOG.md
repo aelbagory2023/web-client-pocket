@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Pocket/web-client/compare/v1.2.3...v1.3.0) (2021-03-10)
+
+
+### Features
+
+* **api:** adding web-client-api route to alb ([f67d054](https://github.com/Pocket/web-client/commit/f67d054b9aba316c9d20f77e9ae9ea39d26c8682))
+
 ## [1.2.3](https://github.com/Pocket/web-client/compare/v1.2.2...v1.2.3) (2021-03-10)
 
 
