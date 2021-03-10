@@ -1,3 +1,13 @@
+## [1.2.3](https://github.com/Pocket/web-client/compare/v1.2.2...v1.2.3) (2021-03-10)
+
+
+### Bug Fixes
+
+* **tooltip:** add tooltip styles and update reader to use ([9477cbe](https://github.com/Pocket/web-client/commit/9477cbe62fc245366e9acaac21c1dbabc26c0271))
+* **tooltip:** adding new tooltip to item actions ([d0cd628](https://github.com/Pocket/web-client/commit/d0cd628c5376b7530008aef9bc27854a805ee485))
+* **tooltip:** adding tooltip to item overflow ([53f68b6](https://github.com/Pocket/web-client/commit/53f68b66b6f317cc42fee04e3c7d7b1311f5066d))
+* **tooltip:** removing withtooltip from all items except cards ([9514cd4](https://github.com/Pocket/web-client/commit/9514cd49b840e4aed194e159979a49aa9816c770))
+
 ## [1.2.2](https://github.com/Pocket/web-client/compare/v1.2.1...v1.2.2) (2021-03-09)
 
 
