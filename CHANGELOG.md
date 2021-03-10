@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/Pocket/web-client/compare/v1.3.0...v1.3.1) (2021-03-10)
+
+
+### Bug Fixes
+
+* **avatar:** add inline block to avatar element ([5420484](https://github.com/Pocket/web-client/commit/542048452b3b8dd648909b9aefb7e6f3fc4af607))
+* **avatar:** add inline block to avatar element ([eed0bd7](https://github.com/Pocket/web-client/commit/eed0bd791653c36b380d4603ce6115c32b3f5a54))
+
 # [1.3.0](https://github.com/Pocket/web-client/compare/v1.2.3...v1.3.0) (2021-03-10)
 
 
