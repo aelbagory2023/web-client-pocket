@@ -1,3 +1,19 @@
+# [1.5.0](https://github.com/Pocket/web-client/compare/v1.4.3...v1.5.0) (2021-03-11)
+
+
+### Bug Fixes
+
+* **card:** remove specificity ([e4fafac](https://github.com/Pocket/web-client/commit/e4fafac2b6f193bd232ecc5201ccb434707390a0))
+* **discover:** adjust derived url for open ([eaee004](https://github.com/Pocket/web-client/commit/eaee004dfb09cbe8139d5738ee05771cd5c44b9f))
+* **greeting:** remove personalization ([11a9b09](https://github.com/Pocket/web-client/commit/11a9b094a03a8fc26a8ada7b385bdf343b5e3875))
+* **home:** add skeletons on recent recs ([953fb9b](https://github.com/Pocket/web-client/commit/953fb9bed3ec7001b2b2c250fd2d2bd97fdbfc58))
+* **reccit:** use proper module from home ([d8050a6](https://github.com/Pocket/web-client/commit/d8050a6b01c968ee7a2c63d2e62b3ca6eb92ddac))
+
+
+### Features
+
+* **recents:** adding recent saves ([875bc14](https://github.com/Pocket/web-client/commit/875bc146e253c4a2d8b611459b8728c2f8d44901))
+
 ## [1.4.3](https://github.com/Pocket/web-client/compare/v1.4.2...v1.4.3) (2021-03-11)
 
 
