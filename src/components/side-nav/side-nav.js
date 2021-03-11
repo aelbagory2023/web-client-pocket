@@ -11,7 +11,7 @@ import { VideoIcon } from '@pocket/web-ui'
 import { ChevronUpIcon } from '@pocket/web-ui'
 import { DiscoverIcon } from '@pocket/web-ui'
 import { ListViewIcon } from '@pocket/web-ui'
-
+import { ReadingIcon } from '@pocket/web-ui'
 import { css, cx } from 'linaria'
 
 import { useInView } from 'react-intersection-observer'
@@ -135,6 +135,7 @@ export function SideNav({
   pinnedTags,
   isDisabled,
   showHome,
+  showCollections,
   flagsReady
 }) {
   const { t } = useTranslation()
@@ -196,6 +197,15 @@ export function SideNav({
             <Trans i18nKey="nav:archive">Archive</Trans>
           </button>
         </Link>
+
+        {showCollections ? (
+          <Link href="/my-collections">
+            <button className={subActive('archive')}>
+              <ReadingIcon className="side-nav-icon" />{' '}
+              <Trans i18nKey="nav:collections">Collections</Trans>
+            </button>
+          </Link>
+        ) : null}
 
         <div className={sideNavHeader}>
           <Trans i18nKey="nav:filters">Filters</Trans>

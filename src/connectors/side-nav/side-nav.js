@@ -9,6 +9,10 @@ export function SideNav({ subset, isLoggedIn, tag }) {
   const featureState = useSelector((state) => state.features)
   const showHome = featureFlagActive({ flag: 'home.new_user', featureState })
 
+  const accountBirth = useSelector((state) => state?.user?.birth)
+  const inHomeTest = useSelector((state) => state.features['temp.web.client.home.new_user'])?.assigned //prettier-ignore
+  const showHome = isEligible(accountBirth, HOME_TEST_START) && inHomeTest
+  const showCollections = useSelector((state) => state.features['temp.web.client.tag.collection.share'])?.assigned //prettier-ignore
   const isDisabled = appMode === 'bulk'
   return (
     <SideNavComponent
@@ -18,6 +22,7 @@ export function SideNav({ subset, isLoggedIn, tag }) {
       pinnedTags={pinnedTags}
       tag={tag}
       showHome={showHome}
+      showCollections={showCollections}
       flagsReady={flagsReady}
     />
   )
