@@ -1,3 +1,11 @@
+## [1.4.2](https://github.com/Pocket/web-client/compare/v1.4.1...v1.4.2) (2021-03-11)
+
+
+### Bug Fixes
+
+* **accessibility:** auto focus in menus when opened ([b7cfce8](https://github.com/Pocket/web-client/commit/b7cfce888040b03af2e98ec3eafee1514c00dead))
+* **accessibility:** update to use keys consts and broken global nav test ([8b38022](https://github.com/Pocket/web-client/commit/8b38022ce97d9af1bd0b135d37e75c9ff0eed6f3))
+
 ## [1.4.1](https://github.com/Pocket/web-client/compare/v1.4.0...v1.4.1) (2021-03-11)
 
 
