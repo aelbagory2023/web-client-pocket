@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/Pocket/web-client/compare/v1.4.2...v1.4.3) (2021-03-11)
+
+
+### Bug Fixes
+
+* **reader:** fix display settings auto close ([4226369](https://github.com/Pocket/web-client/commit/4226369e2597b83f584b137e0a91ac39b50a33c2))
+
 ## [1.4.2](https://github.com/Pocket/web-client/compare/v1.4.1...v1.4.2) (2021-03-11)
 
 
