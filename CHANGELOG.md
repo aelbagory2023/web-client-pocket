@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/Pocket/web-client/compare/v1.5.0...v1.5.1) (2021-03-12)
+
+
+### Bug Fixes
+
+* **account:** fix tooltip active state ([477bfe7](https://github.com/Pocket/web-client/commit/477bfe7284e8657c45c0e176d95e02693f3ce225))
+
 # [1.5.0](https://github.com/Pocket/web-client/compare/v1.4.3...v1.5.0) (2021-03-11)
 
 
