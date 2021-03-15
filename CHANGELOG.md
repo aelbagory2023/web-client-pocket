@@ -1,3 +1,13 @@
+## [1.6.1](https://github.com/Pocket/web-client/compare/v1.6.0...v1.6.1) (2021-03-15)
+
+
+### Bug Fixes
+
+* **reader:** disable sidebar clicks when inactive on smaller screens ([443ff79](https://github.com/Pocket/web-client/commit/443ff79e6bad4a3889a1d2833f71c05d47db1681))
+* **reader:** styling bottom reader recs and analytics events ([f40fd52](https://github.com/Pocket/web-client/commit/f40fd5257fbf007326e8f3c0cf7d389acb1a8a77))
+* **recit:** using the card template for bottom recit ([8faa7bf](https://github.com/Pocket/web-client/commit/8faa7bf48db0bb8ab01a60b827f8fe29aa2e19d5))
+* **recs:** add id to dependency chain ([e44c1eb](https://github.com/Pocket/web-client/commit/e44c1eb89c049ed9547a10f2b4cddd48efc76f88))
+
 # [1.6.0](https://github.com/Pocket/web-client/compare/v1.5.3...v1.6.0) (2021-03-15)
 
 
