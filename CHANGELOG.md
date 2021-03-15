@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/Pocket/web-client/compare/v1.6.1...v1.6.2) (2021-03-15)
+
+
+### Bug Fixes
+
+* **video:** disable autoplay on videos ([8426f84](https://github.com/Pocket/web-client/commit/8426f844dff5a8bcb8bc3d51d0668472ba67db70))
+
 ## [1.6.1](https://github.com/Pocket/web-client/compare/v1.6.0...v1.6.1) (2021-03-15)
 
 
