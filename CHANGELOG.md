@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/Pocket/web-client/compare/v1.5.2...v1.5.3) (2021-03-15)
+
+
+### Bug Fixes
+
+* **video:** direct embeds ([029983e](https://github.com/Pocket/web-client/commit/029983e66f85e8c6e682c8ae0f2f1e9b76764584))
+
 ## [1.5.2](https://github.com/Pocket/web-client/compare/v1.5.1...v1.5.2) (2021-03-15)
 
 
