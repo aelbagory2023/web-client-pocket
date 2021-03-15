@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/Pocket/web-client/compare/v1.5.3...v1.6.0) (2021-03-15)
+
+
+### Features
+
+* **app:** adding auth required to specific pages ([7aee6cf](https://github.com/Pocket/web-client/commit/7aee6cf9b8950caa22f7f05accdbd0798d266e1e))
+
 ## [1.5.3](https://github.com/Pocket/web-client/compare/v1.5.2...v1.5.3) (2021-03-15)
 
 
