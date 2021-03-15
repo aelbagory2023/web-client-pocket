@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/Pocket/web-client/compare/v1.5.1...v1.5.2) (2021-03-15)
+
+
+### Bug Fixes
+
+* **nav:** account for flags in tests ([c048dc8](https://github.com/Pocket/web-client/commit/c048dc8fbdaf4f2fcbb4738bcd58c6973aba0296))
+
 ## [1.5.1](https://github.com/Pocket/web-client/compare/v1.5.0...v1.5.1) (2021-03-12)
 
 
