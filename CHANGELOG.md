@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/Pocket/web-client/compare/v1.6.2...v1.6.3) (2021-03-16)
+
+
+### Bug Fixes
+
+* **home:** hook up snowplow analytics to all cards ([d8db0b9](https://github.com/Pocket/web-client/commit/d8db0b95bfebf439c31c9dde258e16a541c4ca51))
+
 ## [1.6.2](https://github.com/Pocket/web-client/compare/v1.6.1...v1.6.2) (2021-03-15)
 
 
