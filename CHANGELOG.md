@@ -1,3 +1,10 @@
+## [1.6.4](https://github.com/Pocket/web-client/compare/v1.6.3...v1.6.4) (2021-03-16)
+
+
+### Bug Fixes
+
+* **snowplow:** re-enable dev snowplow endpoints for local envs ([3564d5c](https://github.com/Pocket/web-client/commit/3564d5ce8c386c2ba0cb99a64c731a05e032d8a0))
+
 ## [1.6.3](https://github.com/Pocket/web-client/compare/v1.6.2...v1.6.3) (2021-03-16)
 
 
