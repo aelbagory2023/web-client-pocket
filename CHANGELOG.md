@@ -1,3 +1,21 @@
+# [1.7.0](https://github.com/Pocket/web-client/compare/v1.6.4...v1.7.0) (2021-03-17)
+
+
+### Bug Fixes
+
+* **app:** set proper name ([496dafa](https://github.com/Pocket/web-client/commit/496dafa797f341fbbeb44fd8abb698c8f233c1b3))
+* **dev tools:** proper language capture ([9470269](https://github.com/Pocket/web-client/commit/9470269e7993133ed4d033dcb7e5831edcdac239))
+* **discover:** removing underliner ([9eb70ec](https://github.com/Pocket/web-client/commit/9eb70ec7a187705ae7c6ff02fb2bc168f4c48e13))
+* **home:** remove domain from global nav link ([3db17fb](https://github.com/Pocket/web-client/commit/3db17fb3897c0366e4bc8cceb2c6c5a2805e21a4))
+* **localization:** adjust injection point ([f5accbc](https://github.com/Pocket/web-client/commit/f5accbcd3c9773a407c2aed2292ae8c1c79cdb7c))
+* **localization:** update to use latest pattern ([83061dc](https://github.com/Pocket/web-client/commit/83061dc89bc729b15e8bf17a186fb99dc59b6842))
+* **reader:** remove background color from titles ([2e7f7a8](https://github.com/Pocket/web-client/commit/2e7f7a802950b0f2ce062b3de034dc58f385d0f0))
+
+
+### Features
+
+* **explore:** re-write explore/discover ([fd50ea1](https://github.com/Pocket/web-client/commit/fd50ea131c6beb66ff9e22ff1be9f517a18c0633))
+
 ## [1.6.4](https://github.com/Pocket/web-client/compare/v1.6.3...v1.6.4) (2021-03-16)
 
 
