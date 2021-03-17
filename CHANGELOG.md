@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/Pocket/web-client/compare/v1.8.0...v1.8.1) (2021-03-17)
+
+
+### Bug Fixes
+
+* **waypoint:** allow proper redirection ([0eae76f](https://github.com/Pocket/web-client/commit/0eae76fbdf2f945fc2781deb46b12ee1ff73a277))
+
 # [1.8.0](https://github.com/Pocket/web-client/compare/v1.7.2...v1.8.0) (2021-03-17)
 
 
