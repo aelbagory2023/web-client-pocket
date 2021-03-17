@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/Pocket/web-client/compare/v1.7.1...v1.7.2) (2021-03-17)
+
+
+### Bug Fixes
+
+* **home:** basic responsiveness ([46418a8](https://github.com/Pocket/web-client/commit/46418a8215813ed521854526b71450ed56eb0321))
+
 ## [1.7.1](https://github.com/Pocket/web-client/compare/v1.7.0...v1.7.1) (2021-03-17)
 
 
