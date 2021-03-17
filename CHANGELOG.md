@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/Pocket/web-client/compare/v1.7.0...v1.7.1) (2021-03-17)
+
+
+### Bug Fixes
+
+* **home:** add missing links to collections ([76ad91e](https://github.com/Pocket/web-client/commit/76ad91ed417fe6eb6f1aa03b9b5a8d61f4ef4542))
+
 # [1.7.0](https://github.com/Pocket/web-client/compare/v1.6.4...v1.7.0) (2021-03-17)
 
 
