@@ -1,3 +1,11 @@
+# [1.8.0](https://github.com/Pocket/web-client/compare/v1.7.2...v1.8.0) (2021-03-17)
+
+
+### Features
+
+* **waypoint:** adding initial page ([518138a](https://github.com/Pocket/web-client/commit/518138a849574a2fc5bade70e192d238480e97d2))
+* **waypoint:** unleash asignment and redirect ([8aaf085](https://github.com/Pocket/web-client/commit/8aaf085e39a5aeeb1d5bc2b18ae96852b88fe5be))
+
 ## [1.7.2](https://github.com/Pocket/web-client/compare/v1.7.1...v1.7.2) (2021-03-17)
 
 
