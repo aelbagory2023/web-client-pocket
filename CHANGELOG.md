@@ -1,3 +1,11 @@
+## [1.8.2](https://github.com/Pocket/web-client/compare/v1.8.1...v1.8.2) (2021-03-18)
+
+
+### Bug Fixes
+
+* **home:** remove unneeded console log ([da4cccb](https://github.com/Pocket/web-client/commit/da4cccb824d1c1d05a1e0ab26de2b1591be1f0be))
+* **recs:** updating item state on save ([d702002](https://github.com/Pocket/web-client/commit/d70200217aa150556343f09699e393ec4a7ab18b))
+
 ## [1.8.1](https://github.com/Pocket/web-client/compare/v1.8.0...v1.8.1) (2021-03-17)
 
 
