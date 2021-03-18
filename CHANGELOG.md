@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/Pocket/web-client/compare/v1.8.3...v1.8.4) (2021-03-18)
+
+
+### Bug Fixes
+
+* **home:** overflow on ff for card content ([3838947](https://github.com/Pocket/web-client/commit/3838947e4008d41b1d1f8d5d23eda80bcad55c21))
+
 ## [1.8.3](https://github.com/Pocket/web-client/compare/v1.8.2...v1.8.3) (2021-03-18)
 
 
