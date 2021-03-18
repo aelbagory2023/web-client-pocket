@@ -1,3 +1,11 @@
+## [1.8.3](https://github.com/Pocket/web-client/compare/v1.8.2...v1.8.3) (2021-03-18)
+
+
+### Bug Fixes
+
+* **request:** allow explicit cookie passing ([a13ffbf](https://github.com/Pocket/web-client/commit/a13ffbf0fb896405b27f368c5cdec886c305d3ca))
+* **waypoint:** explicitly pass cookies ([568c719](https://github.com/Pocket/web-client/commit/568c7195afa607ff3c776c83c8129c9d2fab0317))
+
 ## [1.8.2](https://github.com/Pocket/web-client/compare/v1.8.1...v1.8.2) (2021-03-18)
 
 
