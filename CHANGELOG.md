@@ -1,3 +1,10 @@
+## [1.8.6](https://github.com/Pocket/web-client/compare/v1.8.5...v1.8.6) (2021-03-18)
+
+
+### Bug Fixes
+
+* **sentry:** remove unused integrations ([63162a6](https://github.com/Pocket/web-client/commit/63162a66254b8acfcc8adc78b4c3b146790eec10))
+
 ## [1.8.5](https://github.com/Pocket/web-client/compare/v1.8.4...v1.8.5) (2021-03-18)
 
 
