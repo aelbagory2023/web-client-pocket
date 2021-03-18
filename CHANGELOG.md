@@ -1,3 +1,10 @@
+## [1.8.7](https://github.com/Pocket/web-client/compare/v1.8.6...v1.8.7) (2021-03-18)
+
+
+### Bug Fixes
+
+* **request:** proper cookie passing ([f089947](https://github.com/Pocket/web-client/commit/f089947797f2691215df677b01c121b4f8595175))
+
 ## [1.8.6](https://github.com/Pocket/web-client/compare/v1.8.5...v1.8.6) (2021-03-18)
 
 
