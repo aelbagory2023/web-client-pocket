@@ -1,3 +1,10 @@
+## [1.8.5](https://github.com/Pocket/web-client/compare/v1.8.4...v1.8.5) (2021-03-18)
+
+
+### Bug Fixes
+
+* **waypoint:** add some sentry logging ([55d5d14](https://github.com/Pocket/web-client/commit/55d5d144f0c87fd5f02061735a8e20e30a68ff08))
+
 ## [1.8.4](https://github.com/Pocket/web-client/compare/v1.8.3...v1.8.4) (2021-03-18)
 
 
