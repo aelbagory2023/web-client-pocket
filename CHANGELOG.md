@@ -1,3 +1,10 @@
+## [1.8.9](https://github.com/Pocket/web-client/compare/v1.8.8...v1.8.9) (2021-03-19)
+
+
+### Bug Fixes
+
+* **snowplow:** update file path ([5bd2c5d](https://github.com/Pocket/web-client/commit/5bd2c5ddbf13ca0fa37e82c9d6bb2b0e417f732e))
+
 ## [1.8.8](https://github.com/Pocket/web-client/compare/v1.8.7...v1.8.8) (2021-03-19)
 
 
