@@ -1,3 +1,12 @@
+## [1.8.14](https://github.com/Pocket/web-client/compare/v1.8.13...v1.8.14) (2021-03-19)
+
+
+### Bug Fixes
+
+* **env:** update node_env check to be against 'dev' ([d630d32](https://github.com/Pocket/web-client/commit/d630d321a2386a8d96f38a03b4d25f8748a8ed71))
+* **env:** updating dev check to show_dev variable ([b11c4e9](https://github.com/Pocket/web-client/commit/b11c4e9c6c3ec1cf9782ac84ae8f03b77f532916))
+* **package:** remove show_dev env variable from build process ([724f8ec](https://github.com/Pocket/web-client/commit/724f8ec8ceea6d9184a5f99ddef7a835c4609eae))
+
 ## [1.8.13](https://github.com/Pocket/web-client/compare/v1.8.12...v1.8.13) (2021-03-19)
 
 
