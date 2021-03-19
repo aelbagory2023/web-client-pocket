@@ -1,3 +1,10 @@
+## [1.8.10](https://github.com/Pocket/web-client/compare/v1.8.9...v1.8.10) (2021-03-19)
+
+
+### Bug Fixes
+
+* **request:** always use cors ([8e7ac68](https://github.com/Pocket/web-client/commit/8e7ac688d668a058f5f82e5d92bb353bf43ed42f))
+
 ## [1.8.9](https://github.com/Pocket/web-client/compare/v1.8.8...v1.8.9) (2021-03-19)
 
 
