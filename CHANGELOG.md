@@ -1,3 +1,11 @@
+## [1.8.11](https://github.com/Pocket/web-client/compare/v1.8.10...v1.8.11) (2021-03-19)
+
+
+### Bug Fixes
+
+* **accesibility:** setting the proper outline parameter on our button reset ([fa1e618](https://github.com/Pocket/web-client/commit/fa1e618dfcacc32e8d76b3ce6bda4544dc3513e8))
+* **accessibility:** adding important to focus styles to combat diff between local and prod ([728c3bc](https://github.com/Pocket/web-client/commit/728c3bc6a85d5c8a285e4e69121183baea3ab52c))
+
 ## [1.8.10](https://github.com/Pocket/web-client/compare/v1.8.9...v1.8.10) (2021-03-19)
 
 
