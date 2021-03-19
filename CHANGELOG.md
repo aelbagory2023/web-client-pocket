@@ -1,3 +1,10 @@
+## [1.8.13](https://github.com/Pocket/web-client/compare/v1.8.12...v1.8.13) (2021-03-19)
+
+
+### Bug Fixes
+
+* **waypoint:** destructure properly ([e814dfd](https://github.com/Pocket/web-client/commit/e814dfd3e3930ef2529cce6a90a6492ef46ca7d2))
+
 ## [1.8.12](https://github.com/Pocket/web-client/compare/v1.8.11...v1.8.12) (2021-03-19)
 
 
