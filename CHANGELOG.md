@@ -1,3 +1,10 @@
+## [1.8.12](https://github.com/Pocket/web-client/compare/v1.8.11...v1.8.12) (2021-03-19)
+
+
+### Bug Fixes
+
+* **request:** ssr/client specific headers ([642d02d](https://github.com/Pocket/web-client/commit/642d02d30f8d6970ef18e61ecdfe5029c4b7398e))
+
 ## [1.8.11](https://github.com/Pocket/web-client/compare/v1.8.10...v1.8.11) (2021-03-19)
 
 
