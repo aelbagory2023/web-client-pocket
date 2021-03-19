@@ -1,3 +1,12 @@
+## [1.8.8](https://github.com/Pocket/web-client/compare/v1.8.7...v1.8.8) (2021-03-19)
+
+
+### Bug Fixes
+
+* **request:** add additional logging for testing ([b0f6f73](https://github.com/Pocket/web-client/commit/b0f6f73d6c8ae002443b64be6fdbc85329357454))
+* **request:** adding user agent ([7b172f7](https://github.com/Pocket/web-client/commit/7b172f73e3de7385bb4a6c5807cf148582e59ccd))
+* **request:** ssr origin ([342be82](https://github.com/Pocket/web-client/commit/342be821244dcd2caa7300a469260d5ed2227f2b))
+
 ## [1.8.7](https://github.com/Pocket/web-client/compare/v1.8.6...v1.8.7) (2021-03-18)
 
 
