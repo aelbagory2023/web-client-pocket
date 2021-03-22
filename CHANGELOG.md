@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/Pocket/web-client/compare/v1.9.1...v1.9.2) (2021-03-22)
+
+
+### Bug Fixes
+
+* **home:** make side nav discover explicit ([1f708d3](https://github.com/Pocket/web-client/commit/1f708d3ae617f03b2946fb7be470638de7ca394c))
+
 ## [1.9.1](https://github.com/Pocket/web-client/compare/v1.9.0...v1.9.1) (2021-03-22)
 
 
