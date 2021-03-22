@@ -1,3 +1,16 @@
+## [1.9.3](https://github.com/Pocket/web-client/compare/v1.9.2...v1.9.3) (2021-03-22)
+
+
+### Bug Fixes
+
+* **discover:** update tests to include openexternal ([bb1df64](https://github.com/Pocket/web-client/commit/bb1df64086bd09ca1862ea398dbf01915452c995))
+* **home:** update save button to allow bubbling ([d45bef5](https://github.com/Pocket/web-client/commit/d45bef52c20a730cc65b7facdda18137421e84e5))
+* **topic:** open in reader once saved ([f740f86](https://github.com/Pocket/web-client/commit/f740f864d596e1d7b770e023bb64f5f56153bb9b))
+* **topic:** remove unneeded funciton ([f1d79bd](https://github.com/Pocket/web-client/commit/f1d79bd9d746337f8ef1c16618106cddb75141d8))
+* **topic:** update topic card so read now is in link ([9c2b8a1](https://github.com/Pocket/web-client/commit/9c2b8a1083e359b3735e551c930958c2f74ef0c0))
+* **topic:** use external link if needed ([642a130](https://github.com/Pocket/web-client/commit/642a13090e63ceac9df6be1d543bbd79733b0c38))
+* **topics:** remove sneaky console ([ce3d344](https://github.com/Pocket/web-client/commit/ce3d3445161c6d217a733274e906ec32c452373e))
+
 ## [1.9.2](https://github.com/Pocket/web-client/compare/v1.9.1...v1.9.2) (2021-03-22)
 
 
