@@ -1,3 +1,10 @@
+## [1.9.5](https://github.com/Pocket/web-client/compare/v1.9.4...v1.9.5) (2021-03-22)
+
+
+### Bug Fixes
+
+* **topic:** update topic link to have onclick event for analytics ([a33670d](https://github.com/Pocket/web-client/commit/a33670deca1cf4d9e2e57746a58fb421f646c07e))
+
 ## [1.9.4](https://github.com/Pocket/web-client/compare/v1.9.3...v1.9.4) (2021-03-22)
 
 
