@@ -1,3 +1,10 @@
+## [1.9.4](https://github.com/Pocket/web-client/compare/v1.9.3...v1.9.4) (2021-03-22)
+
+
+### Bug Fixes
+
+* **home:** update home elegibility date ([992ab47](https://github.com/Pocket/web-client/commit/992ab479192b37fab346be3d5f1e3dd852fd5f50))
+
 ## [1.9.3](https://github.com/Pocket/web-client/compare/v1.9.2...v1.9.3) (2021-03-22)
 
 
