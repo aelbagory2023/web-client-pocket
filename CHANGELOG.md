@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/Pocket/web-client/compare/v1.9.0...v1.9.1) (2021-03-22)
+
+
+### Bug Fixes
+
+* **home:** copy updates ([ac00886](https://github.com/Pocket/web-client/commit/ac0088674bb820b6c0fea811bf7f36ee5d489531))
+
 # [1.9.0](https://github.com/Pocket/web-client/compare/v1.8.14...v1.9.0) (2021-03-22)
 
 
