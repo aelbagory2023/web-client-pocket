@@ -22,7 +22,7 @@ export function SideNav({ subset, isLoggedIn, tag }) {
       pinnedTags={pinnedTags}
       tag={tag}
       showHome={showHome}
-      showCollections={showCollections}
+      showSharedLists={showCollections}
       flagsReady={flagsReady}
     />
   )

@@ -135,7 +135,7 @@ export function SideNav({
   pinnedTags,
   isDisabled,
   showHome,
-  showCollections,
+  showSharedLists,
   flagsReady
 }) {
   const { t } = useTranslation()
@@ -198,11 +198,11 @@ export function SideNav({
           </button>
         </Link>
 
-        {showCollections ? (
-          <Link href="/my-collections">
-            <button className={subActive('archive')}>
+        {showSharedLists ? (
+          <Link href="/shared-lists">
+            <button className={subActive('shared-lists')}>
               <ReadingIcon className="side-nav-icon" />{' '}
-              <Trans i18nKey="nav:collections">Collections</Trans>
+              <Trans i18nKey="nav:shared-list">Shared Lists</Trans>
             </button>
           </Link>
         ) : null}

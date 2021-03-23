@@ -5,7 +5,7 @@ import { HomeSectionHeader } from 'components/headers/home-header'
 import { css } from 'linaria'
 import { Button } from '@pocket/web-ui'
 
-const collectionsStyles = css`
+const sharedListStyles = css`
   padding: 2rem 0;
   p {
     font-family: 'Graphik Web';
@@ -25,16 +25,16 @@ const collectionsStyles = css`
   }
 `
 
-export default function MyCollections() {
+export default function SharedLists() {
   return (
     <Layout>
       <SideNav subset="collections" />
       <main className="main">
         <HomeSectionHeader
-          sectionTitle="Collections"
+          sectionTitle="Shared Lists"
           sectionDescription="Share and find collections of content"
         />
-        <div className={collectionsStyles}>
+        <div className={sharedListStyles}>
           <p>
             We are always exploring new ways to help you discover the best
             content on the web. We have found the best curator for content that
