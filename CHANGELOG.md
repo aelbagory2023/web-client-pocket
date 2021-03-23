@@ -1,3 +1,10 @@
+## [1.9.8](https://github.com/Pocket/web-client/compare/v1.9.7...v1.9.8) (2021-03-23)
+
+
+### Bug Fixes
+
+* **recs:** add save action for reader recs and use that module on topcis ([745bb59](https://github.com/Pocket/web-client/commit/745bb599e27e33223528ee88757bf1536d3233a4))
+
 ## [1.9.7](https://github.com/Pocket/web-client/compare/v1.9.6...v1.9.7) (2021-03-23)
 
 
