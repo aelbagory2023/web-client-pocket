@@ -1,3 +1,10 @@
+## [1.9.7](https://github.com/Pocket/web-client/compare/v1.9.6...v1.9.7) (2021-03-23)
+
+
+### Bug Fixes
+
+* **recs:** add release notes for recs and remove feature flag ([ada2d08](https://github.com/Pocket/web-client/commit/ada2d085968ec48d5dbbf09ff69fbb44e17bc6c0))
+
 ## [1.9.6](https://github.com/Pocket/web-client/compare/v1.9.5...v1.9.6) (2021-03-23)
 
 
