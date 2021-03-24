@@ -96,6 +96,12 @@ export const sideNavItem = css`
   color: var(--color-textPrimary);
   background-color: transparent;
 
+  &.wrap {
+    align-items: flex-start;
+    text-align: left;
+    line-height: 1.25;
+  }
+
   &.tag-class {
     display: block;
     white-space: nowrap;
@@ -200,9 +206,9 @@ export function SideNav({
 
         {showSharedLists ? (
           <Link href="/shared-lists">
-            <button className={subActive('shared-lists')}>
+            <button className={`${subActive('shared-lists')} wrap`}>
               <ReadingIcon className="side-nav-icon" />{' '}
-              <Trans i18nKey="nav:shared-list">Shared Lists</Trans>
+              <Trans i18nKey="nav:shared-list">Share Your Lists</Trans>
             </button>
           </Link>
         ) : null}
