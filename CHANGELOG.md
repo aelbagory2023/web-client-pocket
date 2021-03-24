@@ -1,3 +1,11 @@
+## [1.9.10](https://github.com/Pocket/web-client/compare/v1.9.9...v1.9.10) (2021-03-24)
+
+
+### Bug Fixes
+
+* **snowplow:** add variant enroll event for unleash features ([b56bff9](https://github.com/Pocket/web-client/commit/b56bff97294785c9c1717b49dafdb97d67ec2492))
+* **snowplow:** update home test name ([8fc2154](https://github.com/Pocket/web-client/commit/8fc21549088db5e25161d7a93f381f5f66547142))
+
 ## [1.9.9](https://github.com/Pocket/web-client/compare/v1.9.8...v1.9.9) (2021-03-24)
 
 
