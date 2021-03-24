@@ -1,3 +1,10 @@
+## [1.9.11](https://github.com/Pocket/web-client/compare/v1.9.10...v1.9.11) (2021-03-24)
+
+
+### Bug Fixes
+
+* **storybook:** load error in webpack ([b9f205e](https://github.com/Pocket/web-client/commit/b9f205e37bc472b46d2c3dade58ba45d8febe61c))
+
 ## [1.9.10](https://github.com/Pocket/web-client/compare/v1.9.9...v1.9.10) (2021-03-24)
 
 
