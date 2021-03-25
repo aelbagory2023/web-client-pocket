@@ -1,9 +1,23 @@
 import React from 'react'
+import { useDispatch } from 'react-redux'
 import Layout from 'layouts/with-sidebar'
 import { SideNav } from 'connectors/side-nav/side-nav'
 import { HomeSectionHeader } from 'components/headers/home-header'
 import { css } from 'linaria'
 import { Button } from '@pocket/web-ui'
+
+import { trackEngagement } from 'connectors/snowplow/snowplow.state'
+import { ENGAGEMENT_TYPE_GENERAL } from 'connectors/snowplow/events'
+import { UI_COMPONENT_BUTTON } from 'connectors/snowplow/entities'
+
+/* Analytics Event */
+export const sendEngagementEvent = (answer) => (trackEngagement(
+  ENGAGEMENT_TYPE_GENERAL,
+  UI_COMPONENT_BUTTON,
+  0, // position in list (zero since it's not in list)
+  'shared-lists.survey',
+  answer
+))
 
 const sharedListStyles = css`
   padding: 2rem 0;
@@ -26,6 +40,14 @@ const sharedListStyles = css`
 `
 
 export default function SharedLists() {
+  const dispatch = useDispatch()
+
+  const onYesClick = () => dispatch(sendEngagementEvent('yes'))
+  const onMaybeClick = () => dispatch(sendEngagementEvent('maybe'))
+  const onNoClick = () => {
+    dispatch(sendEngagementEvent('no'))
+  }
+
   return (
     <Layout>
       <SideNav subset="collections" />
@@ -46,9 +68,9 @@ export default function SharedLists() {
             help inspire others?
           </p>
           <div className="actions">
-            <Button variant="secondary">Absolutely!</Button>
-            <Button variant="secondary">Maybe</Button>
-            <Button variant="secondary">No thanks</Button>
+            <Button variant="secondary" onClick={onYesClick}>Absolutely!</Button>
+            <Button variant="secondary" onClick={onMaybeClick}>Maybe</Button>
+            <Button variant="secondary" onClick={onNoClick}>No thanks</Button>
           </div>
         </div>
       </main>
