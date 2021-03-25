@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import Layout from 'layouts/with-sidebar'
 import { SideNav } from 'connectors/side-nav/side-nav'
@@ -32,7 +32,7 @@ const sharedListStyles = css`
     font-weight: 600;
   }
   .actions {
-    button {
+    button, a {
       display: inline-block;
       margin-right: 1rem;
     }
@@ -41,10 +41,12 @@ const sharedListStyles = css`
 
 export default function SharedLists() {
   const dispatch = useDispatch()
+  const [answered, setAnswer] = useState(false)
 
   const onYesClick = () => dispatch(sendEngagementEvent('yes'))
   const onMaybeClick = () => dispatch(sendEngagementEvent('maybe'))
   const onNoClick = () => {
+    setAnswer(true)
     dispatch(sendEngagementEvent('no'))
   }
 
@@ -53,25 +55,54 @@ export default function SharedLists() {
       <SideNav subset="collections" />
       <main className="main">
         <HomeSectionHeader
-          sectionTitle="Shared Lists"
-          sectionDescription="Share and find collections of content"
+          sectionTitle="Share your lists"
+          sectionDescription="Share collections of content"
         />
         <div className={sharedListStyles}>
-          <p>
-            We are always exploring new ways to help you discover the best
-            content on the web. We have found the best curator for content that
-            fascinates you the most...
-          </p>
-          <p class="you">You.</p>
-          <p>
-            Would you be interested in sharing your own curated collections to
-            help inspire others?
-          </p>
-          <div className="actions">
-            <Button variant="secondary" onClick={onYesClick}>Absolutely!</Button>
-            <Button variant="secondary" onClick={onMaybeClick}>Maybe</Button>
-            <Button variant="secondary" onClick={onNoClick}>No thanks</Button>
-          </div>
+          { answered ? (
+            <p>Thanks for your feedback!</p>
+          ) : (
+            <>
+              <p>
+                Hello! We’re thinking about offering people new ways to share lists
+                of things they've saved to Pocket.
+              </p>
+
+              <p>
+                Our first step is to get a sense of whether people might be interested
+                in this feature and why. If you could take a second and select your
+                interest below, that would be incredibly helpful. Thank you!
+              </p>
+
+              <p>
+                Would you be interested in sharing a list of articles with others?
+              </p>
+
+              <div className="actions">
+                <Button
+                  variant="secondary"
+                  href="https://survey.alchemer.com/s3/6158777/Pocket-Shareable-Collections-2021"
+                  target="_survey"
+                  onClick={onYesClick}>
+                  Yes
+                </Button>
+
+                <Button
+                  variant="secondary"
+                  href="https://survey.alchemer.com/s3/6158777/Pocket-Shareable-Collections-2021"
+                  target="_survey"
+                  onClick={onMaybeClick}>
+                  Maybe
+                </Button>
+
+                <Button
+                  variant="secondary"
+                  onClick={onNoClick}>
+                  No
+                </Button>
+              </div>
+            </>
+          )}
         </div>
       </main>
     </Layout>
