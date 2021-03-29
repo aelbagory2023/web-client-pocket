@@ -1,3 +1,12 @@
+## [1.9.12](https://github.com/Pocket/web-client/compare/v1.9.11...v1.9.12) (2021-03-29)
+
+
+### Bug Fixes
+
+* **feature flag:** more robust assignment ([73142b7](https://github.com/Pocket/web-client/commit/73142b78a148a6d81345676d033b9553f91b3c04))
+* **feature flags:** assignment by passed variant ([400595d](https://github.com/Pocket/web-client/commit/400595ddad07c9d697005046daf6d0c38c769061))
+* **feature flags:** only assign if eligible ([cca3414](https://github.com/Pocket/web-client/commit/cca3414ac20d65efe6099ccea517153aa3e2b703))
+
 ## [1.9.11](https://github.com/Pocket/web-client/compare/v1.9.10...v1.9.11) (2021-03-24)
 
 
