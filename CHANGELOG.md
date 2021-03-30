@@ -1,3 +1,11 @@
+## [1.9.14](https://github.com/Pocket/web-client/compare/v1.9.13...v1.9.14) (2021-03-30)
+
+
+### Bug Fixes
+
+* **darkmode:** tweaks for discover in dark mode ([f398110](https://github.com/Pocket/web-client/commit/f39811066ee56da6fcc60d5ef1ab175ccde81e64))
+* **tests:** make user.auth conditional ([a6f3477](https://github.com/Pocket/web-client/commit/a6f34777fe8038c5654a92ff921b0b1a6587c304))
+
 ## [1.9.13](https://github.com/Pocket/web-client/compare/v1.9.12...v1.9.13) (2021-03-30)
 
 
