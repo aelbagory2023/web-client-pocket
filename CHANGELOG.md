@@ -1,3 +1,10 @@
+## [1.9.15](https://github.com/Pocket/web-client/compare/v1.9.14...v1.9.15) (2021-03-30)
+
+
+### Bug Fixes
+
+* **analytics:** add legacy opened app event ([294712e](https://github.com/Pocket/web-client/commit/294712ed79e183a3b4b5872d4d3ef235caca3935))
+
 ## [1.9.14](https://github.com/Pocket/web-client/compare/v1.9.13...v1.9.14) (2021-03-30)
 
 
