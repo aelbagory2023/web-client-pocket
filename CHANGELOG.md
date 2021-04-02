@@ -1,3 +1,13 @@
+## [1.9.16](https://github.com/Pocket/web-client/compare/v1.9.15...v1.9.16) (2021-04-02)
+
+
+### Bug Fixes
+
+* **items:** adding a status filter to no longer store deleted items ([dc6c3f2](https://github.com/Pocket/web-client/commit/dc6c3f230d7cc45eba46d4652ce01993c6838953))
+* **items:** adding a status filter to no longer store deleted items ([74143d6](https://github.com/Pocket/web-client/commit/74143d6cae4bb8eb5d383164653db881ba5f66f6))
+* **items:** adding a status filter to no longer store deleted items ([4e39c38](https://github.com/Pocket/web-client/commit/4e39c381915addcadc59874362619305c9fe26c5))
+* **items:** removing unneeded log ([046fa0f](https://github.com/Pocket/web-client/commit/046fa0ff3f9c80e29c3dd0dfe53b434861c7b0f0))
+
 ## [1.9.15](https://github.com/Pocket/web-client/compare/v1.9.14...v1.9.15) (2021-03-30)
 
 
