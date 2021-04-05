@@ -1,3 +1,11 @@
+## [1.9.17](https://github.com/Pocket/web-client/compare/v1.9.16...v1.9.17) (2021-04-05)
+
+
+### Bug Fixes
+
+* **unleash:**  allow array of flags / add utility ([0784ca5](https://github.com/Pocket/web-client/commit/0784ca5181f2d1bd1f96183b633c279fff34631a))
+* **unleash:** pass in birth for activation ([0b7c68f](https://github.com/Pocket/web-client/commit/0b7c68f2e628747f0135f025f1322087eaaf401f))
+
 ## [1.9.16](https://github.com/Pocket/web-client/compare/v1.9.15...v1.9.16) (2021-04-02)
 
 
