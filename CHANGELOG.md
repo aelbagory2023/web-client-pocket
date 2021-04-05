@@ -1,3 +1,11 @@
+## [1.9.18](https://github.com/Pocket/web-client/compare/v1.9.17...v1.9.18) (2021-04-05)
+
+
+### Bug Fixes
+
+* **unleash:** test for control with regex ([7b50a28](https://github.com/Pocket/web-client/commit/7b50a281a0c208a8b6b35f3eef72b345cfb60ca2))
+* **unleash:** update tests for active ([2fd6d60](https://github.com/Pocket/web-client/commit/2fd6d600daa9670295174f67515d8ce2d46b9b8c))
+
 ## [1.9.17](https://github.com/Pocket/web-client/compare/v1.9.16...v1.9.17) (2021-04-05)
 
 
