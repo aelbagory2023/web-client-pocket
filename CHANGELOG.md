@@ -1,3 +1,13 @@
+## [1.9.20](https://github.com/Pocket/web-client/compare/v1.9.19...v1.9.20) (2021-04-07)
+
+
+### Bug Fixes
+
+* **app:** add check for local version compared to server version ([53dac0a](https://github.com/Pocket/web-client/commit/53dac0a10914a783e6ed6fe7230e69b237c9c848))
+* **app:** wrap call to version check in a feature flag ([a3de7a4](https://github.com/Pocket/web-client/commit/a3de7a4527ec5ada70047690595f5653dd6b58cf))
+* **app:** wrap call to version check in a feature flag ([860ea89](https://github.com/Pocket/web-client/commit/860ea89326086df77da1fb4c8270565b37cfbff9))
+* **constants:** remove unneeded constant ([476d62b](https://github.com/Pocket/web-client/commit/476d62be89b0dcaaabaec3b796d6dcead7949589))
+
 ## [1.9.19](https://github.com/Pocket/web-client/compare/v1.9.18...v1.9.19) (2021-04-06)
 
 
