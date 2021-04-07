@@ -59,7 +59,7 @@ export default function SharedLists() {
   }
 
   const onSurveyClick = () => {
-    //open survey
+    dispatch(sendEngagementEvent('survey'))
   }
 
   const pending = answered === 'pending'
