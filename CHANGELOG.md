@@ -1,3 +1,10 @@
+## [1.9.21](https://github.com/Pocket/web-client/compare/v1.9.20...v1.9.21) (2021-04-07)
+
+
+### Bug Fixes
+
+* **home:** catching error when no recs returned ([1f03602](https://github.com/Pocket/web-client/commit/1f036023105e02908aab30caab706dda0154d772))
+
 ## [1.9.20](https://github.com/Pocket/web-client/compare/v1.9.19...v1.9.20) (2021-04-07)
 
 
