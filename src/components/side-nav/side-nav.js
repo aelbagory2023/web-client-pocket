@@ -11,7 +11,7 @@ import { VideoIcon } from '@pocket/web-ui'
 import { ChevronUpIcon } from '@pocket/web-ui'
 import { DiscoverIcon } from '@pocket/web-ui'
 import { ListViewIcon } from '@pocket/web-ui'
-
+import { ReadingIcon } from '@pocket/web-ui'
 import { css, cx } from 'linaria'
 
 import { useInView } from 'react-intersection-observer'
@@ -96,6 +96,12 @@ export const sideNavItem = css`
   color: var(--color-textPrimary);
   background-color: transparent;
 
+  &.wrap {
+    align-items: flex-start;
+    text-align: left;
+    line-height: 1.25;
+  }
+
   &.tag-class {
     display: block;
     white-space: nowrap;
@@ -135,6 +141,7 @@ export function SideNav({
   pinnedTags,
   isDisabled,
   showHome,
+  showSharedLists,
   flagsReady
 }) {
   const { t } = useTranslation()
@@ -196,6 +203,15 @@ export function SideNav({
             <Trans i18nKey="nav:archive">Archive</Trans>
           </button>
         </Link>
+
+        {showSharedLists ? (
+          <Link href="/shared-lists">
+            <button className={`${subActive('shared-lists')} wrap`}>
+              <ReadingIcon className="side-nav-icon" />{' '}
+              <Trans i18nKey="nav:shared-list">Share Your Lists</Trans>
+            </button>
+          </Link>
+        ) : null}
 
         <div className={sideNavHeader}>
           <Trans i18nKey="nav:filters">Filters</Trans>

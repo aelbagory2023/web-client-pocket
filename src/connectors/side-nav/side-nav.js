@@ -7,6 +7,7 @@ export function SideNav({ subset, isLoggedIn, tag }) {
   const pinnedTags = useSelector((state) => state.userTags.pinnedTags)
   const appMode = useSelector((state) => state?.app?.mode)
   const featureState = useSelector((state) => state.features)
+  const showCollections = featureFlagActive({ flag: 'shared.lists', featureState }) //prettier-ignore
   const showHome = featureFlagActive({ flag: 'home.retention', featureState })
 
   const isDisabled = appMode === 'bulk'
@@ -18,6 +19,7 @@ export function SideNav({ subset, isLoggedIn, tag }) {
       pinnedTags={pinnedTags}
       tag={tag}
       showHome={showHome}
+      showSharedLists={showCollections}
       flagsReady={flagsReady}
     />
   )
