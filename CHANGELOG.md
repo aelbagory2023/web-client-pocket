@@ -1,3 +1,11 @@
+## [1.9.22](https://github.com/Pocket/web-client/compare/v1.9.21...v1.9.22) (2021-04-09)
+
+
+### Bug Fixes
+
+* **home:** changing test name for home ([9771deb](https://github.com/Pocket/web-client/commit/9771deb3f4fbb1fc6c71e3a6a30484e6bb4b4940))
+* **unleash:** pass in accountCreatedAt to query ([67c130b](https://github.com/Pocket/web-client/commit/67c130bb2964d98ae1c2d942c37921d7692fb987))
+
 ## [1.9.21](https://github.com/Pocket/web-client/compare/v1.9.20...v1.9.21) (2021-04-07)
 
 
