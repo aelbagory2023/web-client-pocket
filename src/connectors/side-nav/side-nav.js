@@ -8,7 +8,7 @@ export function SideNav({ subset, isLoggedIn, tag }) {
   const appMode = useSelector((state) => state?.app?.mode)
   const featureState = useSelector((state) => state.features)
   const showHome = featureFlagActive({ flag: 'home.new_user', featureState })
-  const showCollections = featureFlagActive({ flag: 'collection.share', featureState }) //prettier-ignore
+  const showCollections = featureFlagActive({ flag: 'shared.lists', featureState }) //prettier-ignore
 
   const isDisabled = appMode === 'bulk'
   return (
