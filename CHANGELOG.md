@@ -1,3 +1,22 @@
+# [1.10.0](https://github.com/Pocket/web-client/compare/v1.9.22...v1.10.0) (2021-04-12)
+
+
+### Bug Fixes
+
+* **analytics:** hook up survey analytics event ([d101cb1](https://github.com/Pocket/web-client/commit/d101cb1ff4bb6c0476c4397313aa0bb4b78cd0a6))
+* **collection:** add load balancer for shared-lists page ([93e896e](https://github.com/Pocket/web-client/commit/93e896ebf860f46ba41a217285bb78bb89436941))
+* **collection:** add proper unleash strategy to sidenav ([767af78](https://github.com/Pocket/web-client/commit/767af782dabddc96d5d4440688bfe6a4dbb8c5f6))
+* **collections:** adding analytics events for shared collections ([8ae9bf0](https://github.com/Pocket/web-client/commit/8ae9bf088eb0f2322fad62b83cd0c53259462808))
+* **collections:** adding updated copy in both unanswered and answered state ([9f2e59b](https://github.com/Pocket/web-client/commit/9f2e59bbdf612fcc2fb41723bbc33679ef3c91bf))
+* **shared lists:** switching collections to test ([27b23cd](https://github.com/Pocket/web-client/commit/27b23cd4975b7c167d7e5063e039067f445da547))
+* **shared-lists:** update unleash test name ([847dc60](https://github.com/Pocket/web-client/commit/847dc6061d5a6a30ddb33a22951df6b73c123298))
+* **side nav:** share your lists for painted door ([f598e3b](https://github.com/Pocket/web-client/commit/f598e3b2323d532323d85c06fe419f7a1fb14cf1))
+
+
+### Features
+
+* **collections:** painted door survey ([fb9204c](https://github.com/Pocket/web-client/commit/fb9204ce8e024c659e2156ccd2bacad16af7b536))
+
 ## [1.9.22](https://github.com/Pocket/web-client/compare/v1.9.21...v1.9.22) (2021-04-09)
 
 
