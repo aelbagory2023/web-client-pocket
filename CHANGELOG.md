@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/Pocket/web-client/compare/v1.10.1...v1.10.2) (2021-04-13)
+
+
+### Bug Fixes
+
+* **snowplow:** adding snowplow engagement to sidebar and topnav ([5c16f43](https://github.com/Pocket/web-client/commit/5c16f43f3c6f815a9205f8f4eecfe032294fe7c0))
+
 ## [1.10.1](https://github.com/Pocket/web-client/compare/v1.10.0...v1.10.1) (2021-04-13)
 
 
