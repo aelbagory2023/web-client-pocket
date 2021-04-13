@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/Pocket/web-client/compare/v1.10.0...v1.10.1) (2021-04-13)
+
+
+### Bug Fixes
+
+* **snowplow:** link to old snowplow url in dev environments ([3891065](https://github.com/Pocket/web-client/commit/389106587342ae09cfc35dbbeb37898883ef01f0))
+
 # [1.10.0](https://github.com/Pocket/web-client/compare/v1.9.22...v1.10.0) (2021-04-12)
 
 
