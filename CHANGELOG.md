@@ -1,3 +1,11 @@
+## [1.10.4](https://github.com/Pocket/web-client/compare/v1.10.3...v1.10.4) (2021-04-19)
+
+
+### Bug Fixes
+
+* **lab:** add home specific sidebar and move archive ([d0ac73e](https://github.com/Pocket/web-client/commit/d0ac73ed9002ef5af84be70c7e2c2e28cfa56b16))
+* **sidebar:** remove fragment element from around my list ([38a73a9](https://github.com/Pocket/web-client/commit/38a73a9667d7e7b0d5ff13ec29c99882fe01d126))
+
 ## [1.10.3](https://github.com/Pocket/web-client/compare/v1.10.2...v1.10.3) (2021-04-16)
 
 
