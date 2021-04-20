@@ -1,3 +1,10 @@
+## [1.10.5](https://github.com/Pocket/web-client/compare/v1.10.4...v1.10.5) (2021-04-20)
+
+
+### Bug Fixes
+
+* **sidebar:** add snowplow events to sidebar filters ([e33acd9](https://github.com/Pocket/web-client/commit/e33acd9efdd47bf0fc70196b98327b548af08379))
+
 ## [1.10.4](https://github.com/Pocket/web-client/compare/v1.10.3...v1.10.4) (2021-04-19)
 
 
