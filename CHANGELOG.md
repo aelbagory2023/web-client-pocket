@@ -1,3 +1,10 @@
+## [1.10.7](https://github.com/Pocket/web-client/compare/v1.10.6...v1.10.7) (2021-04-21)
+
+
+### Bug Fixes
+
+* **discover:** avoid flash of callouts ([d157173](https://github.com/Pocket/web-client/commit/d15717351464fee66284c83d7a0b5c06cbac1769))
+
 ## [1.10.6](https://github.com/Pocket/web-client/compare/v1.10.5...v1.10.6) (2021-04-21)
 
 
