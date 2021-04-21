@@ -1,3 +1,10 @@
+## [1.10.8](https://github.com/Pocket/web-client/compare/v1.10.7...v1.10.8) (2021-04-21)
+
+
+### Bug Fixes
+
+* **home:** adding home greeting lab ([4c84bd5](https://github.com/Pocket/web-client/commit/4c84bd5cdc5c110f898724d77bbfcef5286689e2))
+
 ## [1.10.7](https://github.com/Pocket/web-client/compare/v1.10.6...v1.10.7) (2021-04-21)
 
 
