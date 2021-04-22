@@ -1,3 +1,10 @@
+## [1.10.9](https://github.com/Pocket/web-client/compare/v1.10.8...v1.10.9) (2021-04-22)
+
+
+### Bug Fixes
+
+* **topic:** conditional render for callout ([7682f3c](https://github.com/Pocket/web-client/commit/7682f3cc703451110bd02ec876d5a37d13de8147))
+
 ## [1.10.8](https://github.com/Pocket/web-client/compare/v1.10.7...v1.10.8) (2021-04-21)
 
 
