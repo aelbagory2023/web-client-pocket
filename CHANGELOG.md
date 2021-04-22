@@ -1,3 +1,10 @@
+## [1.10.11](https://github.com/Pocket/web-client/compare/v1.10.10...v1.10.11) (2021-04-22)
+
+
+### Bug Fixes
+
+* **cypress:** adding data-cy attributes to syndicated and explore pages ([46b7d06](https://github.com/Pocket/web-client/commit/46b7d064f6056130a55eb902596fa3e425d5788d))
+
 ## [1.10.10](https://github.com/Pocket/web-client/compare/v1.10.9...v1.10.10) (2021-04-22)
 
 
