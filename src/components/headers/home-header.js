@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import { css, cx } from 'linaria'
+import { breakpointSmallTablet } from '@pocket/web-ui'
 
 const cardPageHeaderStyle = css`
   margin-bottom: var(--spacing100);
@@ -39,6 +41,29 @@ const cardPageSectionStyle = css`
   }
 `
 
+const cardPageSubheaderLinkStyle = css`
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    margin-bottom: var(--spacing150);
+    font-family: 'Graphik Web';
+    text-decoration: none;
+    color: var(--color-actionPrimary);
+    &:hover {
+      text-decoration: underline;
+      color: var(--color-actionPrimaryHover);
+    }
+  }
+
+  ${breakpointSmallTablet} {
+    flex-direction: column;
+    p {
+      margin-bottom: 0.5rem;
+    }
+  }
+`
+
 export const HomeJourneyHeader = ({ sectionTitle, sectionDescription }) => {
   return sectionTitle ? (
     <header className={cardPageHeaderStyle}>
@@ -59,11 +84,26 @@ export const HomeSectionHeader = ({ sectionTitle, sectionDescription }) => {
   ) : null
 }
 
-export const HomeTopicHeader = ({ sectionTitle, sectionDescription }) => {
+export const HomeTopicHeader = ({
+  topicSlug,
+  sectionTitle,
+  sectionDescription,
+  clickEvent,
+  showLab
+}) => {
   return sectionTitle ? (
     <header className={cardPageHeaderStyle}>
       <h3 className="sectionTitle">{sectionTitle}</h3>
-      {sectionDescription ? <p>{sectionDescription}</p> : null}
+      <div className={cardPageSubheaderLinkStyle}>
+        {sectionDescription ? <p>{sectionDescription}</p> : null}
+        {showLab ? (
+          <Link href={`/explore/${topicSlug}?src=home-view-more`}>
+            <a target="_topic" onClick={clickEvent}>
+              View More Articles
+            </a>
+          </Link>
+        ) : null}
+      </div>
     </header>
   ) : null
 }

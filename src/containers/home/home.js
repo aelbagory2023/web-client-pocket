@@ -56,11 +56,11 @@ export default function Collection(props) {
 
           {/* <HomeRecentList /> */}
 
-          <HomeRecentRecsList />
+          { !showLab ? <HomeRecentRecsList /> : null }
 
           <TopicSelector />
 
-          <HomeTopicsList />
+          <HomeTopicsList count={showLab ? 6 : 3} />
 
           <HomeCollectionList />
         </main>
