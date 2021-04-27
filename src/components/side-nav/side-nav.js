@@ -13,6 +13,7 @@ import { useInView } from 'react-intersection-observer'
 
 import { FiltersSideNav } from './filters'
 import { TopicsSideNav } from './topics'
+import { BookmarkIcon } from './bookmark-icon'
 
 export const sideNavWrapper = css`
   position: relative;
@@ -139,6 +140,7 @@ export function SideNav({
   pinnedTags,
   pinnedTopics,
   isDisabled,
+  newSaveCount,
   showHome,
   showSharedLists,
   showLab,
@@ -189,6 +191,7 @@ export function SideNav({
                 data-cy="side-nav-mylist">
                 <ListViewIcon className="side-nav-icon" />{' '}
                 <Trans i18nKey="nav:my-list">My List</Trans>
+                { showLab ? <BookmarkIcon newSaveCount={newSaveCount} /> : null }
               </button>
             </Link>
             <a href="https://getpocket.com/explore?src=sidebar">
@@ -237,7 +240,6 @@ export function SideNav({
 
         {subset === 'home' && showLab ? (
           <TopicsSideNav
-            showLab={showLab}
             subActive={subActive}
             pinnedTopics={pinnedTopics}
             clickEvent={clickEvent}

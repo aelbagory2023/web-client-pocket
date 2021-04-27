@@ -23,6 +23,7 @@ export function SideNav({ subset, isLoggedIn, tag }) {
   const flagsReady = useSelector((state) => state.features.flagsReady)
   const pinnedTags = useSelector((state) => state.userTags.pinnedTags)
   const pinnedTopics = useSelector((state) => state.home.topicSections)
+  const newSaveCount = useSelector((state) => state.home.newSaves)
   const appMode = useSelector((state) => state?.app?.mode)
   const featureState = useSelector((state) => state.features)
 
@@ -43,6 +44,7 @@ export function SideNav({ subset, isLoggedIn, tag }) {
       pinnedTags={pinnedTags}
       pinnedTopics={pinnedTopics}
       tag={tag}
+      newSaveCount={newSaveCount}
       showHome={showHome}
       showSharedLists={showCollections}
       showLab={showLab}

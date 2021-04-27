@@ -51,11 +51,11 @@ export default function Collection(props) {
         <main className="main">
           {showLab ? <HomeGreeting /> : null}
 
-          <HomeRecentRecsList />
+          { !showLab ? <HomeRecentRecsList /> : null }
 
           <TopicSelector />
 
-          <HomeTopicsList />
+          <HomeTopicsList count={showLab ? 6 : 3} />
 
           <HomeCollectionList />
         </main>

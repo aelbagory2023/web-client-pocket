@@ -1,7 +1,8 @@
 import { css, cx } from 'linaria'
+import { breakpointSmallTablet } from '@pocket/web-ui'
 
 const cardPageHeaderStyle = css`
-  margin-bottom: var(--spacing100);
+  margin-bottom: 1rem;
   h1,
   h2,
   h3,
@@ -12,22 +13,22 @@ const cardPageHeaderStyle = css`
   }
 
   h2 {
-    font-size: var(--fontSize175);
+    font-size: 1.75rem;
     line-height: 1.2;
-    margin-bottom: var(--spacing050);
+    margin-bottom: 0.5rem;
   }
 
   h3 {
-    font-size: var(--fontSize150);
+    font-size: 1.5rem;
     line-height: 1.2;
-    margin-bottom: var(--spacing050);
+    margin-bottom: 0.5rem;
   }
 
   p {
     font-weight: 300;
     font-family: 'Graphik Web';
     font-style: normal;
-    font-size: var(--fontSize100);
+    font-size: 1rem;
     color: var(--color-textSecondary);
   }
 `
@@ -39,6 +40,29 @@ const cardPageSectionStyle = css`
   }
   .collectionSubTitle {
     margin: 0 0 1rem;
+  }
+`
+
+const cardPageSubheaderLinkStyle = css`
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    margin-bottom: 1.5rem;
+    font-family: 'Graphik Web';
+    text-decoration: none;
+    color: var(--color-actionPrimary);
+    &:hover {
+      text-decoration: underline;
+      color: var(--color-actionPrimaryHover);
+    }
+  }
+
+  ${breakpointSmallTablet} {
+    flex-direction: column;
+    p {
+      margin-bottom: 0.5rem;
+    }
   }
 `
 
@@ -69,11 +93,27 @@ export const HomeCollectionHeader = ({ sectionTitle, sectionDescription }) => {
   ) : null
 }
 
-export const HomeTopicHeader = ({ sectionTitle, sectionDescription }) => {
+export const HomeTopicHeader = ({
+  topicSlug,
+  sectionTitle,
+  sectionDescription,
+  clickEvent,
+  showLab
+}) => {
   return sectionTitle ? (
     <header className={cardPageHeaderStyle}>
       <h3 className="sectionTitle">{sectionTitle}</h3>
-      {sectionDescription ? <p>{sectionDescription}</p> : null}
+      <div className={cardPageSubheaderLinkStyle}>
+        {sectionDescription ? <p>{sectionDescription}</p> : null}
+        {showLab ? (
+          <a
+            href={`https://getpocket.com/explore/${topicSlug}?src=home-view-more`}
+            target="_topic"
+            onClick={clickEvent}>
+            View More Articles
+          </a>
+        ) : null}
+      </div>
     </header>
   ) : null
 }
