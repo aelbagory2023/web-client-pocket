@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { css, cx } from 'linaria'
 import { breakpointSmallTablet } from '@pocket/web-ui'
 
@@ -97,11 +96,12 @@ export const HomeTopicHeader = ({
       <div className={cardPageSubheaderLinkStyle}>
         {sectionDescription ? <p>{sectionDescription}</p> : null}
         {showLab ? (
-          <Link href={`/explore/${topicSlug}?src=home-view-more`}>
-            <a target="_topic" onClick={clickEvent}>
-              View More Articles
-            </a>
-          </Link>
+          <a
+            href={`https://getpocket.com/explore/${topicSlug}?src=home-view-more`}
+            target="_topic"
+            onClick={clickEvent}>
+            View More Articles
+          </a>
         ) : null}
       </div>
     </header>
