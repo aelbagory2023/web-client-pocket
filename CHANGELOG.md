@@ -1,3 +1,12 @@
+## [1.11.4](https://github.com/Pocket/web-client/compare/v1.11.3...v1.11.4) (2021-04-27)
+
+
+### Bug Fixes
+
+* **shared-lists:** remove page ([e1f4226](https://github.com/Pocket/web-client/commit/e1f4226f1f03112efb1d3ca110b0496e83a84c96))
+* **side-nav:** remove extra ref ([094845a](https://github.com/Pocket/web-client/commit/094845ac3db342c58e40795f709ce0701b019dbc))
+* **side-nav:** remove shared-lists and moving archive ([8fb3f80](https://github.com/Pocket/web-client/commit/8fb3f805d6fff9d4a0c0cfe13d9e7d31653459d2))
+
 ## [1.11.3](https://github.com/Pocket/web-client/compare/v1.11.2...v1.11.3) (2021-04-27)
 
 
