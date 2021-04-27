@@ -1,3 +1,21 @@
+# [1.11.0](https://github.com/Pocket/web-client/compare/v1.10.11...v1.11.0) (2021-04-27)
+
+
+### Bug Fixes
+
+* **card:** compatibility on all page types ([f9c6a71](https://github.com/Pocket/web-client/commit/f9c6a711210ae6e5df12bdc884d4dfd53731bb5a))
+* **card:** update stories and docs ([7486756](https://github.com/Pocket/web-client/commit/7486756700c747c50c89f96dc4664cb4fddff5ab))
+* **home:** cleanup discrepancies and old code ([1f6986f](https://github.com/Pocket/web-client/commit/1f6986fa236e0a1efd6149e9ef0a7c7197d71d1f))
+* **home:** recs file structure ([6e5086a](https://github.com/Pocket/web-client/commit/6e5086a1059f76e409f33a56c4d2736b94cd73cc))
+* **home:** update card-rec to use new patterns ([799f6c9](https://github.com/Pocket/web-client/commit/799f6c98d345af17492236de89d169f9cd80b812))
+* **home:** vet item before actions ([e4b23d0](https://github.com/Pocket/web-client/commit/e4b23d0eba7bb54e5c17e8cd4a411ae1d316fbfa))
+* **item actions:** consolidate for new card ([5460ef9](https://github.com/Pocket/web-client/commit/5460ef96c3766c16b7c72bbc321bf09ab2b84276))
+
+
+### Features
+
+* **lists:** adding new layout patterns ([fbafc3a](https://github.com/Pocket/web-client/commit/fbafc3a4352ead833febcf1ba4c9b4eae6f74f58))
+
 ## [1.10.11](https://github.com/Pocket/web-client/compare/v1.10.10...v1.10.11) (2021-04-22)
 
 
