@@ -1,3 +1,16 @@
+## [1.11.2](https://github.com/Pocket/web-client/compare/v1.11.1...v1.11.2) (2021-04-27)
+
+
+### Bug Fixes
+
+* **discover:** adjust impression logic ([8205e1d](https://github.com/Pocket/web-client/commit/8205e1db1249fe1766a9754d5e07e7a679375a9d))
+* **discover:** save status check ([72740f7](https://github.com/Pocket/web-client/commit/72740f7f20784211bbeb1811f15c399a1e1879a3))
+* **discover:** update item deriver ([8b9cd8b](https://github.com/Pocket/web-client/commit/8b9cd8b0f4c72afa6285d6ff85006e5c33972e93))
+* **discover:** use universal card ([ea4a77d](https://github.com/Pocket/web-client/commit/ea4a77dd57544877dc3fa6fb11b753feced71da1))
+* **report:** separate item report functionality ([3903384](https://github.com/Pocket/web-client/commit/39033848ce06f5547321588aa64d1dfb807260df))
+* **snowplow:** allow for read tracking ([16c0b4f](https://github.com/Pocket/web-client/commit/16c0b4f7f82777da7be81340eac72bd38584de29))
+* **topic-list:** co-locate with state ([b2a161c](https://github.com/Pocket/web-client/commit/b2a161c7aa3a73cf7bbb1b3295b4dccab3f2ef3a))
+
 ## [1.11.1](https://github.com/Pocket/web-client/compare/v1.11.0...v1.11.1) (2021-04-27)
 
 
