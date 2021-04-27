@@ -1,3 +1,14 @@
+## [1.11.1](https://github.com/Pocket/web-client/compare/v1.11.0...v1.11.1) (2021-04-27)
+
+
+### Bug Fixes
+
+* **home:** adjust impression logic ([56911e9](https://github.com/Pocket/web-client/commit/56911e983654ad57d809a3addb2df068bacbe680))
+* **home:** card skeletons ([a773160](https://github.com/Pocket/web-client/commit/a773160e24a58a9a85d4cd83a4d4bdd3a2a6df82))
+* **home:** collection layout ([a534539](https://github.com/Pocket/web-client/commit/a5345399f20726008c492c91b48df5ced9a5964a))
+* **home:** update skeleton count on recs ([a1b1577](https://github.com/Pocket/web-client/commit/a1b1577bde60394ba5c81aa5b8befa8006566de7))
+* **home:** use universal card for topic/collection ([134d9bd](https://github.com/Pocket/web-client/commit/134d9bd2617bb69d3023291cb71bd5584627a481))
+
 # [1.11.0](https://github.com/Pocket/web-client/compare/v1.10.11...v1.11.0) (2021-04-27)
 
 
