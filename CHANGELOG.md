@@ -1,3 +1,21 @@
+## [1.11.5](https://github.com/Pocket/web-client/compare/v1.11.4...v1.11.5) (2021-04-27)
+
+
+### Bug Fixes
+
+* **article:** allow update to use modified structure ([de86e72](https://github.com/Pocket/web-client/commit/de86e728f60493115e60184dc5897611ccfe3cae))
+* **discover:** use item_id as the key ([47360a5](https://github.com/Pocket/web-client/commit/47360a5b04de4e95e99fa0164d515a15fcc47475))
+* **messages:** use universal card ([6195fae](https://github.com/Pocket/web-client/commit/6195faef274966ea2e2938780910468d5eb4bf09))
+* **my list:** remove extraneous styling ([cbe4567](https://github.com/Pocket/web-client/commit/cbe4567163f14baae570d19023a924b3bec09a4d))
+* **my list:** update deriver ([5509e8b](https://github.com/Pocket/web-client/commit/5509e8bee20f5c9a2bd3e5baaa80cf0533f3e31f))
+* **my-list:** add action labels translated ([b66488a](https://github.com/Pocket/web-client/commit/b66488a955b009a2373971d104eb287a4ccfada3))
+* **my-list:** universal card and updated actions ([91928f5](https://github.com/Pocket/web-client/commit/91928f5babcb11f15a371fc5ea9289dbbd9a810c))
+* **recents:** add key and description ([02c34a8](https://github.com/Pocket/web-client/commit/02c34a8e6ec1e2c1311757e1ea9458e040007b47))
+* **shortcuts:** add key to components ([9e5e55e](https://github.com/Pocket/web-client/commit/9e5e55eb1b85b9fc4ef19b08ae62dfce99742c05))
+* **social:** universal card for share / copy icon ([263be84](https://github.com/Pocket/web-client/commit/263be8452f5377d34ea26c4394c789af375bfa1e))
+* **tags:** use universal card for recent tagged ([fdd3d08](https://github.com/Pocket/web-client/commit/fdd3d084f3611af227d00756de4754df1b8239c5))
+* **topics:** add lockups that got missed ([daef4f6](https://github.com/Pocket/web-client/commit/daef4f6edda5ad432996eb476771e3efe1b057b4))
+
 ## [1.11.4](https://github.com/Pocket/web-client/compare/v1.11.3...v1.11.4) (2021-04-27)
 
 
