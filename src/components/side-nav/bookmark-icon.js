@@ -21,8 +21,12 @@ const bookmarkStyles = css`
   color: var(--color-actionBrand);
   opacity: 0;
 
+  .icon {
+    height: 1.125rem;
+  }
+
   &.visible {
-    animation: 2s ease-in-out 500ms fadeIn;
+    animation: 2500ms ease-in-out 500ms fadeIn;
   }
 `
 
@@ -39,7 +43,7 @@ export const BookmarkIcon = ({ newSaveCount = 0 }) => {
       setShow(false)
     }
 
-    if (hasChanged && inView) {
+    if (hasChanged && inView && newSaveCount !== 0) {
       setHasChanged(false)
       setShow(true)
     }
