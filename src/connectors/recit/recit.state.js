@@ -99,11 +99,7 @@ export const recitReducers = (state = initialState, action) => {
 
     case POCKET_RECS_SUCCESS: {
       const {
-        response: {
-          recommendations: pocketRecs,
-          rec_id: pocketRecId,
-          model: pocketRecModel
-        }
+        response: { recommendations: pocketRecs, rec_id: pocketRecId, model: pocketRecModel }
       } = action
       return {
         ...state,

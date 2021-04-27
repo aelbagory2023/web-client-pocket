@@ -1,3 +1,32 @@
+## [1.11.1](https://github.com/Pocket/web-client/compare/v1.11.0...v1.11.1) (2021-04-27)
+
+
+### Bug Fixes
+
+* **home:** adjust impression logic ([56911e9](https://github.com/Pocket/web-client/commit/56911e983654ad57d809a3addb2df068bacbe680))
+* **home:** card skeletons ([a773160](https://github.com/Pocket/web-client/commit/a773160e24a58a9a85d4cd83a4d4bdd3a2a6df82))
+* **home:** collection layout ([a534539](https://github.com/Pocket/web-client/commit/a5345399f20726008c492c91b48df5ced9a5964a))
+* **home:** update skeleton count on recs ([a1b1577](https://github.com/Pocket/web-client/commit/a1b1577bde60394ba5c81aa5b8befa8006566de7))
+* **home:** use universal card for topic/collection ([134d9bd](https://github.com/Pocket/web-client/commit/134d9bd2617bb69d3023291cb71bd5584627a481))
+
+# [1.11.0](https://github.com/Pocket/web-client/compare/v1.10.11...v1.11.0) (2021-04-27)
+
+
+### Bug Fixes
+
+* **card:** compatibility on all page types ([f9c6a71](https://github.com/Pocket/web-client/commit/f9c6a711210ae6e5df12bdc884d4dfd53731bb5a))
+* **card:** update stories and docs ([7486756](https://github.com/Pocket/web-client/commit/7486756700c747c50c89f96dc4664cb4fddff5ab))
+* **home:** cleanup discrepancies and old code ([1f6986f](https://github.com/Pocket/web-client/commit/1f6986fa236e0a1efd6149e9ef0a7c7197d71d1f))
+* **home:** recs file structure ([6e5086a](https://github.com/Pocket/web-client/commit/6e5086a1059f76e409f33a56c4d2736b94cd73cc))
+* **home:** update card-rec to use new patterns ([799f6c9](https://github.com/Pocket/web-client/commit/799f6c98d345af17492236de89d169f9cd80b812))
+* **home:** vet item before actions ([e4b23d0](https://github.com/Pocket/web-client/commit/e4b23d0eba7bb54e5c17e8cd4a411ae1d316fbfa))
+* **item actions:** consolidate for new card ([5460ef9](https://github.com/Pocket/web-client/commit/5460ef96c3766c16b7c72bbc321bf09ab2b84276))
+
+
+### Features
+
+* **lists:** adding new layout patterns ([fbafc3a](https://github.com/Pocket/web-client/commit/fbafc3a4352ead833febcf1ba4c9b4eae6f74f58))
+
 ## [1.10.11](https://github.com/Pocket/web-client/compare/v1.10.10...v1.10.11) (2021-04-22)
 
 

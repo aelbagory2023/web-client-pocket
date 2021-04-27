@@ -7,7 +7,7 @@ const styles = css`
 `
 
 export default {
-  title: 'Components/SaveToPocketOld',
+  title: 'Components/SaveToPocket',
   component: SaveToPocket
 }
 
@@ -37,7 +37,10 @@ export const LoggedIn = () => {
 
   return (
     <div className={styles}>
-      <SaveToPocket saveStatus={saveStatus} isAuthenticated={true} saveAction={startTimer} />
+      <SaveToPocket
+        saveStatus={saveStatus}
+        isAuthenticated={true}
+        saveAction={startTimer} />
     </div>
   )
 }

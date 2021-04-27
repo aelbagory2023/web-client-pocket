@@ -2,8 +2,8 @@ import { HomeTopicHeader } from 'components/headers/home-header'
 import { useSelector } from 'react-redux'
 import { useDispatch } from 'react-redux'
 import { css } from 'linaria'
-import { ItemCard } from 'connectors/item-card/home/cardTopic'
-import { cardGrid } from 'components/items-layout/virtualized-list'
+import { CardTopic } from 'connectors/item-card/home/card-topic'
+import { cardGrid } from 'components/items-layout/base'
 import classnames from 'classnames'
 import { CardSkeleton } from 'components/item-card/card-skeleton'
 import { breakpointLargeHandset } from '@pocket/web-ui'
@@ -115,6 +115,7 @@ export const HomeTopicsRow = ({ topic_slug, topic, count = 3 }) => {
 
   const topicItems = useSelector((state) => state.home[`${topic}Topic`])
   const displayItems = topicItems?.slice(0, count)
+  const skeletonArray = [0, 1, 2]
 
   const clickEvent = () => {
     dispatch(sendEngagementEvent(topic_slug))
@@ -130,13 +131,13 @@ export const HomeTopicsRow = ({ topic_slug, topic, count = 3 }) => {
         showLab={showLab}
       />
       <section className={classnames(cardGrid, cardRowStyles)}>
-        {displayItems?.length ? (
-          displayItems.map((id, index) => (
-            <ItemCard key={id} id={id} topic={topic} position={index} />
-          ))
-        ) : (
-          <CardSkeleton type="grid" name={`${topic_slug}Skeleton`} count={count} />
-        )}
+        {displayItems?.length
+          ? displayItems.map((id, index) => (
+              <CardTopic key={id} id={id} topic={topic} position={index} />
+            ))
+          : skeletonArray.map((id, index) => (
+              <CardSkeleton key={id + index} id={id} type="grid" name={`${topic_slug}Skeleton`} />
+            ))}
       </section>
     </div>
   )
@@ -146,8 +147,6 @@ export const HomeTopicsList = ({ count }) => {
   const topicSections = useSelector((state) => state.home.topicSections)
 
   return topicSections?.length
-    ? topicSections.map((topic) => (
-        <HomeTopicsRow key={topic.display_name} count={count} {...topic} />
-      ))
+    ? topicSections.map((topic) => <HomeTopicsRow key={topic.display_name} count={count} {...topic} />)
     : null
 }
