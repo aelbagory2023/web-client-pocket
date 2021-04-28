@@ -1,3 +1,23 @@
+## [1.11.6](https://github.com/Pocket/web-client/compare/v1.11.5...v1.11.6) (2021-04-28)
+
+
+### Reverts
+
+* Revert "fix(messages): use universal card" ([e6e5693](https://github.com/Pocket/web-client/commit/e6e569308f409f0e46e85c734caf4f925051e60c))
+* Revert "fix(my list): remove extraneous styling" ([8e8da1c](https://github.com/Pocket/web-client/commit/8e8da1c5f021704bad4130d2c6ce50dcc15b07c8))
+* Revert "fix(shortcuts): add key to components" ([4062a8a](https://github.com/Pocket/web-client/commit/4062a8acc82f7331b49a922e13d916274564c045))
+* Revert "fix(tags): use universal card for recent tagged" ([af11531](https://github.com/Pocket/web-client/commit/af11531c5d364301e0660ad9081cb7ea7490bf5f))
+* Revert "fix(social): universal card for share / copy icon" ([2cf5609](https://github.com/Pocket/web-client/commit/2cf5609a25a22550e63a4e6b1dc4ad53c2b6554d))
+* Revert "fix(my-list): universal card and updated actions" ([000495b](https://github.com/Pocket/web-client/commit/000495bd7c66af5d776a9fa0b7f00114e82e55c2))
+* Revert "chore(cleanup): removing old files" ([bf9b069](https://github.com/Pocket/web-client/commit/bf9b06926ac5327795ce9177f949092ee8a5d7e4))
+* Revert "fix(recents): add key and description" ([a1780d4](https://github.com/Pocket/web-client/commit/a1780d4cb415eb31ca9963c2122052cedf29614e))
+* Revert "fix(my-list): add action labels translated" ([9a5570a](https://github.com/Pocket/web-client/commit/9a5570a9ed1b21dc59437fc1acbcb57fc107fdd9))
+* Revert "chore(cleanup): sneaky console log" ([6f02777](https://github.com/Pocket/web-client/commit/6f027775085d1207fef3e4725e66c9c74554fcfe))
+* Revert "fix(topics): add lockups that got missed" ([fa0a526](https://github.com/Pocket/web-client/commit/fa0a526035623ec6b89ca97b00a18eb9648c146e))
+* Revert "fix(my list): update deriver" ([eafd1d2](https://github.com/Pocket/web-client/commit/eafd1d2038e9a06eff15d5bb06234e3b67cb9290))
+* Revert "fix(article): allow update to use modified structure" ([88cb52b](https://github.com/Pocket/web-client/commit/88cb52b32508381bd63f935cf519f2fb8e9f1b1c))
+* Revert "fix(discover): use item_id as the key" ([6ab4dac](https://github.com/Pocket/web-client/commit/6ab4dac140efca21801594d43df9179b42900f99))
+
 ## [1.11.5](https://github.com/Pocket/web-client/compare/v1.11.4...v1.11.5) (2021-04-27)
 
 
