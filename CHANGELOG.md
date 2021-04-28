@@ -1,3 +1,10 @@
+## [1.11.7](https://github.com/Pocket/web-client/compare/v1.11.6...v1.11.7) (2021-04-28)
+
+
+### Bug Fixes
+
+* **publisher-recs:** update title field and redirect path ([29f6d4c](https://github.com/Pocket/web-client/commit/29f6d4ca2abbdd1ac26bda79f527641598a00224))
+
 ## [1.11.6](https://github.com/Pocket/web-client/compare/v1.11.5...v1.11.6) (2021-04-28)
 
 
