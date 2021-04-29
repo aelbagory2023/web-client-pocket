@@ -1,3 +1,10 @@
+## [1.11.8](https://github.com/Pocket/web-client/compare/v1.11.7...v1.11.8) (2021-04-29)
+
+
+### Bug Fixes
+
+* **home:** updating save/read check ([9031617](https://github.com/Pocket/web-client/commit/903161726a08cdfdaab395587f3a419a17cc027b))
+
 ## [1.11.7](https://github.com/Pocket/web-client/compare/v1.11.6...v1.11.7) (2021-04-28)
 
 
