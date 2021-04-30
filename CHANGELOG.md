@@ -1,3 +1,10 @@
+## [1.11.11](https://github.com/Pocket/web-client/compare/v1.11.10...v1.11.11) (2021-04-30)
+
+
+### Bug Fixes
+
+* **home:** have topics selector key of slug instead of id ([40874e3](https://github.com/Pocket/web-client/commit/40874e383d638e1ba5d985cb689fee74d2ba866e))
+
 ## [1.11.10](https://github.com/Pocket/web-client/compare/v1.11.9...v1.11.10) (2021-04-30)
 
 
