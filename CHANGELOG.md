@@ -1,3 +1,10 @@
+## [1.11.10](https://github.com/Pocket/web-client/compare/v1.11.9...v1.11.10) (2021-04-30)
+
+
+### Bug Fixes
+
+* **card-media:** add object-fit to preserve aspect ratio ([165c731](https://github.com/Pocket/web-client/commit/165c7317b3b4048e6a329e1d570c493afa1f68a9))
+
 ## [1.11.9](https://github.com/Pocket/web-client/compare/v1.11.8...v1.11.9) (2021-04-30)
 
 
