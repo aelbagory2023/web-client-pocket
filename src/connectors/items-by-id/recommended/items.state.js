@@ -79,7 +79,6 @@ export const recommendedItemsSagas = [
 
 /* SAGAS :: SELECTORS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-const getAllRecommendedItems = (state) => state.recommendedItemsByIds.items
 const getRecommendedItemById = (state, id) => state.recommendedItemsByIds.itemsById[id]
 
 /** SAGAS :: RESPONDERS
