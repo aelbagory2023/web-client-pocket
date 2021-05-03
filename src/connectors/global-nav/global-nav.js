@@ -70,10 +70,16 @@ const GlobalNav = ({ selectedLink: selected, subset, tag }) => {
   const isLoggedIn = useSelector((state) => !!state.user.auth)
   const retrievedAvatar = useSelector((state) => state?.user?.profile?.avatar_url)
 
+  const featureState = useSelector((state) => state.features)
+  const showHome = featureFlagActive({ flag: 'home.retention', featureState })
+  const showLab = featureFlagActive({ flag: 'lab', featureState })
+
   const avatarSrc = enforceDefaultAvatar(retrievedAvatar)
   const accountName = useSelector((state) => state?.user?.first_name)
   const userId = useSelector((state) => state?.user?.user_id)
-  const profileUrl = `${BASE_URL}/@${userId}?src=navbar`
+  const profileUrl = showLab
+    ? `/profile/${userId}?src=navbar`
+    : `${BASE_URL}/@${userId}?src=navbar`
 
   const listMode = useSelector((state) => state?.app?.listMode)
   const sortOrder = useSelector((state) => state?.app?.sortOrder)
@@ -100,9 +106,6 @@ const GlobalNav = ({ selectedLink: selected, subset, tag }) => {
       url: `/my-list/tags/${pin}`
     }
   })
-
-  const featureState = useSelector((state) => state.features)
-  const showHome = featureFlagActive({ flag: 'home.retention', featureState })
 
   const homeLinks = [
     {
