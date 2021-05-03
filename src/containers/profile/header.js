@@ -43,8 +43,6 @@ export const ProfileHeader = () => {
   const uid = useSelector((state) => state.userProfile.uid)
   const isSelf = useSelector((state) => state.user.user_id === uid)
 
-  const shareProfileAction = () => console.log('To hook up')
-
   const followStatus = getBool(isFollowing)
   const followAction = () => (!followStatus)
     ? dispatch(followUser(uid))
@@ -60,15 +58,11 @@ export const ProfileHeader = () => {
       { bio ? <p>{bio}</p> : null}
       <p className="followers">{followerCount} Followers | {followCount} Following</p>
 
-      { isSelf ? (
-        <Button variant="brand" size="small" onClick={shareProfileAction}>
-          Share My Recommendations
-        </Button>
-      ) : (
+      { !isSelf ? (
         <Button disabled={followStatus} onClick={followAction}>
           {followStatus ? `Following` : `Follow`}
         </Button>
-      )}
+      ) : null}
     </header>
   )
 }

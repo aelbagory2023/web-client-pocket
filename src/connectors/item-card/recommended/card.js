@@ -17,8 +17,6 @@ export const RecommendedFeedCard = ({ id, position }) => {
   const { save_status, item_id, original_url, openExternal, post } = item
   const openUrl = save_status === 'saved' && !openExternal ? `/read/${item_id}` : original_url
 
-  const { profile, quote, comment, time_shared } = post
-
   /**
    * ITEM TRACKING
    * ----------------------------------------------------------------

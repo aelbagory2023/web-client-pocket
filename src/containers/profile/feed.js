@@ -11,6 +11,10 @@ const cardRowStyles = css`
     margin-bottom: 2rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--color-dividerTertiary);
+
+    &:last-of-type {
+      border-bottom: none;
+    }
   }
 `
 
