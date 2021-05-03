@@ -28,7 +28,7 @@ export function ActionsFeed({ id, position }) {
   }
 
   const onDelete = () => {
-    dispatch(deleteRecommendedItem(post?.post_id))
+    dispatch(deleteRecommendedItem(post?.post_id, id))
     dispatch(trackItemAction(position, item, 'profile.feed.delete'))
   }
 

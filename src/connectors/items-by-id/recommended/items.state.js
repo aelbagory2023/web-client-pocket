@@ -23,7 +23,7 @@ import { RECOMMENDED_ITEM_DELETE_FAILURE } from 'actions'
  --------------------------------------------------------------- */
 export const getProfileItems = (id) => ({ type: GET_PROFILE_FEED_REQUEST, id })
 export const saveRecommendedItem = (id, url) => ({ type: RECOMMENDED_ITEM_SAVE_REQUEST, id, url })
-export const deleteRecommendedItem = (id) => ({ type: RECOMMENDED_ITEM_DELETE_REQUEST, id })
+export const deleteRecommendedItem = (postId, itemId) => ({ type: RECOMMENDED_ITEM_DELETE_REQUEST, postId, itemId }) //prettier-ignore
 
  /** REDUCERS
  --------------------------------------------------------------- */
@@ -45,12 +45,11 @@ export const recommendedItemsReducers = (state = initialState, action) => {
       }
     }
 
-    // This isn't working as expected yet
     case RECOMMENDED_ITEM_DELETE_SUCCESS: {
-      const { id } = action
+      const { itemId } = action
       return {
         ...state,
-        itemsById: state.itemsById.filter((item) => item !== id)
+        items: state.items.filter((item) => item !== itemId)
       }
     }
 
@@ -80,7 +79,8 @@ export const recommendedItemsSagas = [
 
 /* SAGAS :: SELECTORS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-const getProfileItemById = (state, id) => state.profileItemsByIds.itemsById[id]
+const getAllRecommendedItems = (state) => state.recommendedItemsByIds.items
+const getRecommendedItemById = (state, id) => state.recommendedItemsByIds.itemsById[id]
 
 /** SAGAS :: RESPONDERS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -104,7 +104,7 @@ function* saveRecommendedItemRequest({ url, id }) {
     const response = yield saveItemAPI(url)
     if (response?.status !== 1) throw new Error('Unable to save')
 
-    const item = yield select(getProfileItemById, id)
+    const item = yield select(getRecommendedItemById, id)
     const openExternal = checkExternal({item})
 
     yield put({ type: RECOMMENDED_ITEM_SAVE_SUCCESS, id, openExternal })
@@ -114,14 +114,14 @@ function* saveRecommendedItemRequest({ url, id }) {
   }
 }
 
-function* deleteRecommendedItemRequest({ id }) {
+function* deleteRecommendedItemRequest({ postId, itemId }) {
   try {
-    const actions = [{ action: API_ACTION_DELETE_RECOMMEND, post_id: id }]
+    const actions = [{ action: API_ACTION_DELETE_RECOMMEND, post_id: postId }]
     const response = yield call(sendItemActions, actions)
     if (response?.status !== 1) throw new Error('Unable to delete post')
 
-    yield put({ type: RECOMMENDED_ITEM_DELETE_SUCCESS, id })
+    yield put({ type: RECOMMENDED_ITEM_DELETE_SUCCESS, itemId })
   } catch (error) {
-    yield put({ type: RECOMMENDED_ITEM_DELETE_FAILURE, error, id })
+    yield put({ type: RECOMMENDED_ITEM_DELETE_FAILURE, error, postId })
   }
 }
