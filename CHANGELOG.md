@@ -1,3 +1,10 @@
+## [1.12.2](https://github.com/Pocket/web-client/compare/v1.12.1...v1.12.2) (2021-05-03)
+
+
+### Bug Fixes
+
+* **suggested-tags:** display loading while tags are being fetched ([23418d8](https://github.com/Pocket/web-client/commit/23418d8737ca270c5a2f7ba08882ddc44d61cef8))
+
 ## [1.12.1](https://github.com/Pocket/web-client/compare/v1.12.0...v1.12.1) (2021-05-03)
 
 
