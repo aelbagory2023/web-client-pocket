@@ -43,8 +43,9 @@ export const ProfileHeader = () => {
   const uid = useSelector((state) => state.userProfile.uid)
   const isSelf = useSelector((state) => state.user.user_id === uid)
 
-  const followStatus = getBool(isFollowing)
+  const shareProfileAction = () => console.log('To hook up')
 
+  const followStatus = getBool(isFollowing)
   const followAction = () => (!followStatus)
     ? dispatch(followUser(uid))
     : dispatch(unFollowUser(uid)) // Not currently reachable due to disabled button
@@ -60,7 +61,9 @@ export const ProfileHeader = () => {
       <p className="followers">{followerCount} Followers | {followCount} Following</p>
 
       { isSelf ? (
-        <Button variant="brand" size="small">Share My Recommendations</Button>
+        <Button variant="brand" size="small" onClick={shareProfileAction}>
+          Share My Recommendations
+        </Button>
       ) : (
         <Button disabled={followStatus} onClick={followAction}>
           {followStatus ? `Following` : `Follow`}
