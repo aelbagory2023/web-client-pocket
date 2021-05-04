@@ -1,3 +1,10 @@
+## [1.12.4](https://github.com/Pocket/web-client/compare/v1.12.3...v1.12.4) (2021-05-04)
+
+
+### Bug Fixes
+
+* **side-nav:** open topics in new tab and align left ([96c2f1f](https://github.com/Pocket/web-client/commit/96c2f1f608a389a9afb16379aee4777fa2be1def))
+
 ## [1.12.3](https://github.com/Pocket/web-client/compare/v1.12.2...v1.12.3) (2021-05-04)
 
 
