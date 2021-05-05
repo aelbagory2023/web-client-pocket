@@ -1,3 +1,10 @@
+## [1.12.6](https://github.com/Pocket/web-client/compare/v1.12.5...v1.12.6) (2021-05-05)
+
+
+### Bug Fixes
+
+* **tags:** listState should be dirty when successfully tagging items ([085118c](https://github.com/Pocket/web-client/commit/085118c0f865078b1bedcfdde065428bf653abe7))
+
 ## [1.12.5](https://github.com/Pocket/web-client/compare/v1.12.4...v1.12.5) (2021-05-05)
 
 
