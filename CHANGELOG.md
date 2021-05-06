@@ -1,3 +1,10 @@
+## [1.12.9](https://github.com/Pocket/web-client/compare/v1.12.8...v1.12.9) (2021-05-06)
+
+
+### Bug Fixes
+
+* **nav:** update nav to show home for v1 and v2 ([93fe8a5](https://github.com/Pocket/web-client/commit/93fe8a5051057f5f043542b9daf5f5e07f58e5e8))
+
 ## [1.12.8](https://github.com/Pocket/web-client/compare/v1.12.7...v1.12.8) (2021-05-06)
 
 
