@@ -1,3 +1,10 @@
+## [1.12.11](https://github.com/Pocket/web-client/compare/v1.12.10...v1.12.11) (2021-05-06)
+
+
+### Bug Fixes
+
+* **discover:** adjust syndicated check ([6acaeac](https://github.com/Pocket/web-client/commit/6acaeac4f3df6be3baf936c0af45b9341553219f))
+
 ## [1.12.10](https://github.com/Pocket/web-client/compare/v1.12.9...v1.12.10) (2021-05-06)
 
 
