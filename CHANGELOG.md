@@ -1,3 +1,10 @@
+## [1.12.7](https://github.com/Pocket/web-client/compare/v1.12.6...v1.12.7) (2021-05-06)
+
+
+### Bug Fixes
+
+* **home:** update home v2 flag ([187185b](https://github.com/Pocket/web-client/commit/187185bca50b96f049a610e413a3db53c9ed733a))
+
 ## [1.12.6](https://github.com/Pocket/web-client/compare/v1.12.5...v1.12.6) (2021-05-05)
 
 
