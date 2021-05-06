@@ -1,3 +1,10 @@
+## [1.12.10](https://github.com/Pocket/web-client/compare/v1.12.9...v1.12.10) (2021-05-06)
+
+
+### Bug Fixes
+
+* **feature flags:** override more aggressively ([c16d792](https://github.com/Pocket/web-client/commit/c16d7920f2081d241c6b97c710dc4eb6d7e13e5b))
+
 ## [1.12.9](https://github.com/Pocket/web-client/compare/v1.12.8...v1.12.9) (2021-05-06)
 
 
