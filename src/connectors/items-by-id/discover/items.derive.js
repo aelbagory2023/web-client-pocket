@@ -124,12 +124,12 @@ function saveUrl({ item }) {
  * @returns {string} The url that should be opened when visiting the live page
  */
 function originalUrl({ item }) {
-  if (item?.givenUrl) return urlWithPocketRedirect(item?.givenUrl)
-  if (item?.given_url) return urlWithPocketRedirect(item?.given_url)
-  if (item?.normalUrl) return urlWithPocketRedirect(item?.normalUrl)
-  if (item?.normal_url) return urlWithPocketRedirect(item?.normal_url)
-  if (item?.resolvedUrl) return urlWithPocketRedirect(item?.resolvedUrl)
-  if (item?.resolved_url) return urlWithPocketRedirect(item?.resolved_url)
+  if (item?.givenUrl) return item?.givenUrl
+  if (item?.given_url) return item?.given_url
+  if (item?.normalUrl) return item?.normalUrl
+  if (item?.normal_url) return item?.normal_url
+  if (item?.resolvedUrl) return item?.resolvedUrl
+  if (item?.resolved_url) return item?.resolved_url
   return false
 }
 
@@ -170,15 +170,7 @@ function readTimeFromWordCount(wordCount) {
  */
 const syndicated = function ({ item }) {
   if (!item) return false
-  return 'syndicated_article' in item || typeof item?.syndicatedArticle !== 'undefined'
-}
-
-const devLink = function (item) {
-  // In Dev, don't use redirect so we may test article view more easily
-  const isSyndicated = syndicated({ item })
-  const path = saveUrl({ item })
-  const url = path ? path.substring(path.lastIndexOf('/') + 1) : false
-  return isSyndicated && url ? `/explore/item/${url}` : false
+  return 'syndicated_article' in item || !!item?.syndicatedArticle
 }
 
 /**
@@ -192,6 +184,6 @@ function openExternal({ item }) {
   if (item?.is_article === '1') return false
   if (item?.hasVideo === 'IS_VIDEO') return false // NO_VIDEOS || HAS_VIDEOS || IS_VIDEO
   if (item?.hasImage === 'IS_IMAGE') return false // NO_IMAGES || HAS_IMAGES || IS_IMAGE
-  if (item?.isArticle) return false // Boolean
+  if (item?.isArticle && !!item?.syndicatedArticle) return false // Boolean
   return true
 }
