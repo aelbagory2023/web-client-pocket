@@ -1,5 +1,6 @@
 import React from 'react'
 import { SaveToPocket } from 'components/item-actions/save-to-pocket'
+import { OverflowAction } from 'components/item-actions/overflow'
 import { itemActionStyle } from 'components/item-actions/base'
 import { useSelector, useDispatch } from 'react-redux'
 import { saveRecommendedItem } from 'connectors/items-by-id/recommended/items.state'
@@ -7,7 +8,6 @@ import { deleteRecommendedItem } from 'connectors/items-by-id/recommended/items.
 import { trackItemSave } from 'connectors/snowplow/snowplow.state'
 import { trackItemOpen } from 'connectors/snowplow/snowplow.state'
 import { trackItemAction } from 'connectors/snowplow/snowplow.state'
-import { ItemActions } from 'components/item-menus/flat'
 import { DeleteIcon } from '@pocket/web-ui'
 
 export function ActionsFeed({ id, position }) {
@@ -37,7 +37,6 @@ export function ActionsFeed({ id, position }) {
   const onOpen = () => dispatch(trackItemOpen(position, item, 'profile.feed.open', url))
 
   return item ? (
-    <>
     <div className={`${itemActionStyle} actions`}>
       <SaveToPocket
         allowRead={true}
@@ -50,8 +49,8 @@ export function ActionsFeed({ id, position }) {
         id={id}
       />
       { isSelf ? (
-        <ItemActions
-          overflowItems={[
+        <OverflowAction
+          menuItems={[
             {
               label: 'Delete',
               icon: <DeleteIcon />,
@@ -61,6 +60,5 @@ export function ActionsFeed({ id, position }) {
         />
       ) : null}
     </div>
-    </>
   ) : null
 }

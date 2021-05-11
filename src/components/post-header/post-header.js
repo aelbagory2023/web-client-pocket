@@ -4,7 +4,7 @@ import Avatar from 'components/avatar/avatar'
 import dayjs from 'dayjs'
 
 const postStyles = css`
-  font-family: 'Graphik Web';
+  font-family: var(--fontSansSerif);
 
   .heading {
     display: flex;
