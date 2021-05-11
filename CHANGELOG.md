@@ -1,3 +1,11 @@
+## [1.12.16](https://github.com/Pocket/web-client/compare/v1.12.15...v1.12.16) (2021-05-11)
+
+
+### Bug Fixes
+
+* **modal:** remove overflow-x scroll, make it hidden ([7e10d4a](https://github.com/Pocket/web-client/commit/7e10d4a6f30621d92aa1988a943d11dd8a2de38a))
+* **themeSettings:** flex-direction: column for smallHandset bp, flex-direction: row for above smallHandset bp ([cb467d3](https://github.com/Pocket/web-client/commit/cb467d3a91a9488f214af77d048372d5a3e4571f))
+
 ## [1.12.15](https://github.com/Pocket/web-client/compare/v1.12.14...v1.12.15) (2021-05-11)
 
 
