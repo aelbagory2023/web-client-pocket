@@ -1,3 +1,12 @@
+## [1.12.12](https://github.com/Pocket/web-client/compare/v1.12.11...v1.12.12) (2021-05-11)
+
+
+### Bug Fixes
+
+* **discover:** if item doesnt exist, dont render action ([21f4476](https://github.com/Pocket/web-client/commit/21f4476a9f0316d20f70b512d9cbb33557bfe7fd))
+* **home:** if item doesnt exist, dont render action ([8295d53](https://github.com/Pocket/web-client/commit/8295d53bab26314afedec9758c1438902f4ed207))
+* **tags:** tags page actions ([153c5e8](https://github.com/Pocket/web-client/commit/153c5e8919a2defad63697f3559bf273357ff1e6))
+
 ## [1.12.11](https://github.com/Pocket/web-client/compare/v1.12.10...v1.12.11) (2021-05-06)
 
 
