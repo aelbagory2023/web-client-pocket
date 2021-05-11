@@ -150,7 +150,8 @@ export const cardStyles = css`
   &.list .selectedBack {
     padding: 0.125em 1.1em;
   }
-
+  
+  &.selected .selectedBack,
   &.selected:focus-within .selectedBack {
     background-color: var(--color-navCurrentTab);
     display: block;
