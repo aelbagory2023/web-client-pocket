@@ -1,3 +1,10 @@
+## [1.12.14](https://github.com/Pocket/web-client/compare/v1.12.13...v1.12.14) (2021-05-11)
+
+
+### Bug Fixes
+
+* **bulk edit:** allow selected state in bulk edit ([b6cb6bd](https://github.com/Pocket/web-client/commit/b6cb6bdeda5341c381358cea973706cba483cbb7))
+
 ## [1.12.13](https://github.com/Pocket/web-client/compare/v1.12.12...v1.12.13) (2021-05-11)
 
 
