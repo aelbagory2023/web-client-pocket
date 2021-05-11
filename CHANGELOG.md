@@ -1,3 +1,10 @@
+## [1.12.15](https://github.com/Pocket/web-client/compare/v1.12.14...v1.12.15) (2021-05-11)
+
+
+### Bug Fixes
+
+* **card:** update focus states on card media, card when action is selected, and tooltip ([1a7809d](https://github.com/Pocket/web-client/commit/1a7809d22c4572c92474b5dde8a99d231eaed313))
+
 ## [1.12.14](https://github.com/Pocket/web-client/compare/v1.12.13...v1.12.14) (2021-05-11)
 
 
