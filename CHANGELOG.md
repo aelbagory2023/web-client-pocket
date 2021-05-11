@@ -1,3 +1,12 @@
+## [1.12.13](https://github.com/Pocket/web-client/compare/v1.12.12...v1.12.13) (2021-05-11)
+
+
+### Bug Fixes
+
+* **deriver:** make sure original url is pure ([cfa4755](https://github.com/Pocket/web-client/commit/cfa47558141eff654204fad51a67253556b51f8f))
+* **discover:**  check syndication on open external ([b8f6acb](https://github.com/Pocket/web-client/commit/b8f6acb3c082e5e5cc00d915f4361b45d6af5223))
+* **discover:** publisher click to open_url ([7de1c7c](https://github.com/Pocket/web-client/commit/7de1c7ce7bc223f225f6ea8d098e5a6529692374))
+
 ## [1.12.12](https://github.com/Pocket/web-client/compare/v1.12.11...v1.12.12) (2021-05-11)
 
 
