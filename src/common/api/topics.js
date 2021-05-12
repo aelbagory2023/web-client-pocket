@@ -1,6 +1,8 @@
 import { request, requestGQL } from 'common/utilities/request/request'
 import { TOPIC_IDS } from 'common/constants'
 import getSlateLineup from 'common/api/graphql-queries/get-slate-lineup'
+import { getRecIds } from 'common/utilities'
+import { recommendationsFromSlate } from 'common/utilities'
 
 export async function getNewTopicFeed(topic, recommendationCount = 30) {
   return requestGQL({
@@ -40,8 +42,10 @@ export function getTopicList(ssr) {
 }
 
 function processSlates(response) {
+  const slateLineup = getRecIds(response?.data?.getSlateLineup)
   const slates = response?.data?.getSlateLineup?.slates || []
-  const curated = slates[0]?.recommendations
-  const algorithmic = slates[1]?.recommendations
+  const curated = recommendationsFromSlate(slates[0], slateLineup)
+  const algorithmic = recommendationsFromSlate(slates[1], slateLineup)
+
   return { curated, algorithmic }
 }

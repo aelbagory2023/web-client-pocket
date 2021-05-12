@@ -1,3 +1,21 @@
+## [1.12.18](https://github.com/Pocket/web-client/compare/v1.12.17...v1.12.18) (2021-05-12)
+
+
+### Bug Fixes
+
+* **deriver:** remove unneeded index from function ([734fb12](https://github.com/Pocket/web-client/commit/734fb122f474ee7a91cfa87cd69e2bfeb1785ecb))
+* **discover:** remove unneeded code ([58b7835](https://github.com/Pocket/web-client/commit/58b7835ffc447266ca87f28fa85b3a7f542b6223))
+* **discover:** update tests to account for new slate info ([5befe0d](https://github.com/Pocket/web-client/commit/5befe0d8a29e20cc6afc5ee3519b7c7fc0151afa))
+* **recs:** hook up analytics for new recs api items ([287f88d](https://github.com/Pocket/web-client/commit/287f88d6ebbf864452eac12bda260d0e5ad1260f))
+* **recs:** move utility functions to utilities folder ([3cf1061](https://github.com/Pocket/web-client/commit/3cf10615e05dcae6d6fd95c3ff110510be107656))
+
+## [1.12.17](https://github.com/Pocket/web-client/compare/v1.12.16...v1.12.17) (2021-05-12)
+
+
+### Bug Fixes
+
+* **publisher image:** add alt text for publisher image ([03ecca7](https://github.com/Pocket/web-client/commit/03ecca799f53d64df0d9297fe4cac68297295a0c))
+
 ## [1.12.16](https://github.com/Pocket/web-client/compare/v1.12.15...v1.12.16) (2021-05-11)
 
 
