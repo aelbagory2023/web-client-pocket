@@ -1,3 +1,17 @@
+## [1.12.20](https://github.com/Pocket/web-client/compare/v1.12.19...v1.12.20) (2021-05-13)
+
+
+### Bug Fixes
+
+* **home:** fix broken snowplow open actions ([f1fd6b5](https://github.com/Pocket/web-client/commit/f1fd6b5571522d3964a9093a734ea9183a00896c))
+
+## [1.12.19](https://github.com/Pocket/web-client/compare/v1.12.18...v1.12.19) (2021-05-13)
+
+
+### Bug Fixes
+
+* **snowplow:** correct snowplow slate typo ([48835b3](https://github.com/Pocket/web-client/commit/48835b3a3b1a7a61e2bc1ef6a891d1112a933b3b))
+
 ## [1.12.18](https://github.com/Pocket/web-client/compare/v1.12.17...v1.12.18) (2021-05-12)
 
 
