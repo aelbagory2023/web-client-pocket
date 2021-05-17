@@ -1,3 +1,12 @@
+## [1.12.21](https://github.com/Pocket/web-client/compare/v1.12.20...v1.12.21) (2021-05-17)
+
+
+### Bug Fixes
+
+* **dependency:** react-markdown with api change ([50794ad](https://github.com/Pocket/web-client/commit/50794ad939cc1fc0d8a47a1c0e497f40a8cb0440))
+* **storybook:** update/cleanup addons ([f3c1c33](https://github.com/Pocket/web-client/commit/f3c1c335f3869fadfda82445b93475169d1033dc))
+* **topics:** update for curated only collection ([2b7aeb9](https://github.com/Pocket/web-client/commit/2b7aeb9f4246457c0527bcea318aca2a67fdd2db))
+
 ## [1.12.20](https://github.com/Pocket/web-client/compare/v1.12.19...v1.12.20) (2021-05-13)
 
 
