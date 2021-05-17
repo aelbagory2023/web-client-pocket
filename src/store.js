@@ -71,8 +71,8 @@ import { userMessageSagas } from 'containers/messages/user-messages.state'
 import { profileReducers } from 'containers/profile/profile.state'
 import { profileSagas } from 'containers/profile/profile.state'
 
-import { recommendedItemsReducers } from 'connectors/items-by-id/recommended/items.state'
-import { recommendedItemsSagas } from 'connectors/items-by-id/recommended/items.state'
+import { profileItemsReducers } from 'connectors/items-by-id/profile/items.state'
+import { profileItemsSagas } from 'connectors/items-by-id/profile/items.state'
 
 import { actionToastsReducers } from 'connectors/toasts/toast.state'
 
@@ -102,7 +102,7 @@ const collectionReducers = {
   userMessages: userMessageReducers,
   userSearch: userSearchReducers,
   userProfile: profileReducers,
-  recommendedItemsByIds: recommendedItemsReducers
+  profileItemsByIds: profileItemsReducers
 }
 
 const readerReducers = {
@@ -159,7 +159,7 @@ function* rootSaga() {
     ...userMessageSagas,
     ...userSearchSagas,
     ...profileSagas,
-    ...recommendedItemsSagas,
+    ...profileItemsSagas,
     ...shortcutSagas
   ])
 }

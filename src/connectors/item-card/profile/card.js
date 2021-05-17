@@ -12,7 +12,7 @@ export const RecommendedFeedCard = ({ id, position }) => {
 
   // Get data from state
   const impressionFired = useSelector((state) => state.analytics.impressions.includes(id))
-  const item = useSelector((state) => state.recommendedItemsByIds.itemsById[id])
+  const item = useSelector((state) => state.profileItemsByIds.itemsById[id])
 
   const { save_status, item_id, original_url, openExternal, post } = item
   const openUrl = save_status === 'saved' && !openExternal ? `/read/${item_id}` : original_url

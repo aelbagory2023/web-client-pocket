@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getProfile } from 'containers/profile/profile.state'
-import { getProfileItems } from 'connectors/items-by-id/recommended/items.state'
+import { getProfileItems } from 'connectors/items-by-id/profile/items.state'
 import Layout from 'layouts/main'
 import { Loader, LoaderCentered } from 'components/loader/loader'
 import { ProfileHeader } from './header'
@@ -18,7 +18,7 @@ export default function Profile() {
 
   const isSelf = useSelector((state) => state.user.user_id === id)
   const profileName = useSelector((state) => state.userProfile.name)
-  const items = useSelector((state) => state.recommendedItemsByIds.items)
+  const items = useSelector((state) => state.profileItemsByIds.items)
 
   useEffect(() => {
     dispatch(getProfile(id))

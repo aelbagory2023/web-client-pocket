@@ -1,6 +1,6 @@
 import { css } from 'linaria'
 import { cardsGrid } from 'components/items-layout/base'
-import { RecommendedFeedCard } from 'connectors/item-card/recommended/card'
+import { RecommendedFeedCard } from 'connectors/item-card/profile/card'
 import { breakpointLargeHandset } from '@pocket/web-ui'
 
 const cardRowStyles = css`

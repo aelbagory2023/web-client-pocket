@@ -1,9 +1,9 @@
 import { put, select, call, takeLatest } from 'redux-saga/effects'
-import { getFeedByUser } from 'common/api/recommended'
+import { getFeedByUser } from 'common/api/profile'
 import { sendItemActions } from 'common/api/item-actions'
 import { arrayToObject } from 'common/utilities'
 import { saveItem as saveItemAPI } from 'common/api/saveItem'
-import { deriveItems, checkExternal } from 'connectors/items-by-id/recommended/items.derive'
+import { deriveItems, checkExternal } from 'connectors/items-by-id/profile/items.derive'
 
 import { API_ACTION_DELETE_RECOMMEND } from 'common/constants'
 
@@ -11,19 +11,19 @@ import { GET_PROFILE_FEED_REQUEST } from 'actions'
 import { GET_PROFILE_FEED_SUCCESS } from 'actions'
 import { GET_PROFILE_FEED_FAILURE } from 'actions'
 
-import { RECOMMENDED_ITEM_SAVE_REQUEST } from 'actions'
-import { RECOMMENDED_ITEM_SAVE_SUCCESS } from 'actions'
-import { RECOMMENDED_ITEM_SAVE_FAILURE } from 'actions'
+import { PROFILE_ITEM_SAVE_REQUEST } from 'actions'
+import { PROFILE_ITEM_SAVE_SUCCESS } from 'actions'
+import { PROFILE_ITEM_SAVE_FAILURE } from 'actions'
 
-import { RECOMMENDED_ITEM_DELETE_REQUEST } from 'actions'
-import { RECOMMENDED_ITEM_DELETE_SUCCESS } from 'actions'
-import { RECOMMENDED_ITEM_DELETE_FAILURE } from 'actions'
+import { PROFILE_ITEM_DELETE_REQUEST } from 'actions'
+import { PROFILE_ITEM_DELETE_SUCCESS } from 'actions'
+import { PROFILE_ITEM_DELETE_FAILURE } from 'actions'
 
 /** ACTIONS
  --------------------------------------------------------------- */
 export const getProfileItems = (id) => ({ type: GET_PROFILE_FEED_REQUEST, id })
-export const saveRecommendedItem = (id, url) => ({ type: RECOMMENDED_ITEM_SAVE_REQUEST, id, url })
-export const deleteRecommendedItem = (postId, itemId) => ({ type: RECOMMENDED_ITEM_DELETE_REQUEST, postId, itemId }) //prettier-ignore
+export const saveRecommendedItem = (id, url) => ({ type: PROFILE_ITEM_SAVE_REQUEST, id, url })
+export const deleteRecommendedItem = (postId, itemId) => ({ type: PROFILE_ITEM_DELETE_REQUEST, postId, itemId }) //prettier-ignore
 
  /** REDUCERS
  --------------------------------------------------------------- */
@@ -31,13 +31,13 @@ const initialState = {
   items: []
 }
 
-export const recommendedItemsReducers = (state = initialState, action) => {
+export const profileItemsReducers = (state = initialState, action) => {
   switch (action.type) {
     case GET_PROFILE_FEED_SUCCESS:
       const { items, itemsById } = action
       return { ...state, items, itemsById }
 
-    case RECOMMENDED_ITEM_SAVE_SUCCESS: {
+    case PROFILE_ITEM_SAVE_SUCCESS: {
       const { id, openExternal } = action
       return {
         ...state,
@@ -45,7 +45,7 @@ export const recommendedItemsReducers = (state = initialState, action) => {
       }
     }
 
-    case RECOMMENDED_ITEM_DELETE_SUCCESS: {
+    case PROFILE_ITEM_DELETE_SUCCESS: {
       const { itemId } = action
       return {
         ...state,
@@ -71,15 +71,15 @@ export function updateSaveStatus(state, id, save_status, openExternal = true) {
 
 /** SAGAS :: WATCHERS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-export const recommendedItemsSagas = [
+export const profileItemsSagas = [
   takeLatest(GET_PROFILE_FEED_REQUEST, getProfileFeedRequest),
-  takeLatest(RECOMMENDED_ITEM_SAVE_REQUEST, saveRecommendedItemRequest),
-  takeLatest(RECOMMENDED_ITEM_DELETE_REQUEST, deleteRecommendedItemRequest)
+  takeLatest(PROFILE_ITEM_SAVE_REQUEST, saveRecommendedItemRequest),
+  takeLatest(PROFILE_ITEM_DELETE_REQUEST, deleteRecommendedItemRequest)
 ]
 
 /* SAGAS :: SELECTORS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-const getRecommendedItemById = (state, id) => state.recommendedItemsByIds.itemsById[id]
+const getRecommendedItemById = (state, id) => state.profileItemsByIds.itemsById[id]
 
 /** SAGAS :: RESPONDERS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -106,10 +106,10 @@ function* saveRecommendedItemRequest({ url, id }) {
     const item = yield select(getRecommendedItemById, id)
     const openExternal = checkExternal({item})
 
-    yield put({ type: RECOMMENDED_ITEM_SAVE_SUCCESS, id, openExternal })
+    yield put({ type: PROFILE_ITEM_SAVE_SUCCESS, id, openExternal })
     yield put({ type: ITEMS_ADD_SUCCESS })
   } catch (error) {
-    yield put({ type: RECOMMENDED_ITEM_SAVE_FAILURE, error, id })
+    yield put({ type: PROFILE_ITEM_SAVE_FAILURE, error, id })
   }
 }
 
@@ -119,8 +119,8 @@ function* deleteRecommendedItemRequest({ postId, itemId }) {
     const response = yield call(sendItemActions, actions)
     if (response?.status !== 1) throw new Error('Unable to delete post')
 
-    yield put({ type: RECOMMENDED_ITEM_DELETE_SUCCESS, itemId })
+    yield put({ type: PROFILE_ITEM_DELETE_SUCCESS, itemId })
   } catch (error) {
-    yield put({ type: RECOMMENDED_ITEM_DELETE_FAILURE, error, postId })
+    yield put({ type: PROFILE_ITEM_DELETE_FAILURE, error, postId })
   }
 }

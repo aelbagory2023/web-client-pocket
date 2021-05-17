@@ -3,8 +3,8 @@ import { SaveToPocket } from 'components/item-actions/save-to-pocket'
 import { OverflowAction } from 'components/item-actions/overflow'
 import { itemActionStyle } from 'components/item-actions/base'
 import { useSelector, useDispatch } from 'react-redux'
-import { saveRecommendedItem } from 'connectors/items-by-id/recommended/items.state'
-import { deleteRecommendedItem } from 'connectors/items-by-id/recommended/items.state'
+import { saveRecommendedItem } from 'connectors/items-by-id/profile/items.state'
+import { deleteRecommendedItem } from 'connectors/items-by-id/profile/items.state'
 import { trackItemSave } from 'connectors/snowplow/snowplow.state'
 import { trackItemOpen } from 'connectors/snowplow/snowplow.state'
 import { trackItemAction } from 'connectors/snowplow/snowplow.state'
@@ -16,7 +16,7 @@ export function ActionsFeed({ id, position }) {
   const uid = useSelector((state) => state.userProfile.uid)
   const isSelf = useSelector((state) => state.user.user_id === uid)
   const isAuthenticated = useSelector((state) => state.user.auth)
-  const item = useSelector((state) => state.recommendedItemsByIds.itemsById[id])
+  const item = useSelector((state) => state.profileItemsByIds.itemsById[id])
 
   if (!item) return null
   const { save_url, save_status, open_url, openExternal, post } = item
