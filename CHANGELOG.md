@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/Pocket/web-client/compare/v1.12.21...v1.13.0) (2021-05-18)
+
+
+### Features
+
+* **discover:** add locale based feeds (de) ([add8c4a](https://github.com/Pocket/web-client/commit/add8c4aaf0401a3d84ca21f2f4cd8336f91efce4))
+
 ## [1.12.21](https://github.com/Pocket/web-client/compare/v1.12.20...v1.12.21) (2021-05-17)
 
 
