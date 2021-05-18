@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/Pocket/web-client/compare/v1.14.0...v1.14.1) (2021-05-18)
+
+
+### Bug Fixes
+
+* **package:** bump @pocket/web-ui to 2.35.1 to grab new footer link ([6b2b5a0](https://github.com/Pocket/web-client/commit/6b2b5a0812007ea084566a282081685484e467c9))
+
 # [1.14.0](https://github.com/Pocket/web-client/compare/v1.13.1...v1.14.0) (2021-05-18)
 
 
