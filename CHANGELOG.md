@@ -1,3 +1,12 @@
+## [1.13.1](https://github.com/Pocket/web-client/compare/v1.13.0...v1.13.1) (2021-05-18)
+
+
+### Bug Fixes
+
+* **share recommend:** add share.recommend snowplow event when user recommends an item ([0d06826](https://github.com/Pocket/web-client/commit/0d068263c6adaa39b7ec43aa6e811bae94925959))
+* **share recommend:** order of trackItemAction params ([2e46aea](https://github.com/Pocket/web-client/commit/2e46aea62f8a33c9e7febb7b4cdec1cb31418780))
+* **share recommend:** pass position to ShareRecommend ([f84aeb9](https://github.com/Pocket/web-client/commit/f84aeb9ef97158950b8875429679c1165975d6e6))
+
 # [1.13.0](https://github.com/Pocket/web-client/compare/v1.12.21...v1.13.0) (2021-05-18)
 
 
