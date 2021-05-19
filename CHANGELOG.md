@@ -1,3 +1,14 @@
+## [1.14.2](https://github.com/Pocket/web-client/compare/v1.14.1...v1.14.2) (2021-05-19)
+
+
+### Bug Fixes
+
+* **list:** add sort order for each page ([14b569b](https://github.com/Pocket/web-client/commit/14b569b3fce98bc55666399f3fa8a056fd16e499))
+* **list:** remove unneeded icon imports ([6ed5f7b](https://github.com/Pocket/web-client/commit/6ed5f7bb4f05facfe8bc7a05d91cef1255fde6dc))
+* **my-list:** enable sorting for all sub pages ([ec41658](https://github.com/Pocket/web-client/commit/ec416583531a832e7fe042d764cbae26f0bbed7d))
+* **sort:** add sorting to search page ([f3cc24c](https://github.com/Pocket/web-client/commit/f3cc24cb15813c1f79144e17a3f3ee9710d043d1))
+* **state:** removing sneaky console ([6c126ac](https://github.com/Pocket/web-client/commit/6c126ac0fa8422b2b97000cd858f8e4a20654429))
+
 ## [1.14.1](https://github.com/Pocket/web-client/compare/v1.14.0...v1.14.1) (2021-05-18)
 
 
