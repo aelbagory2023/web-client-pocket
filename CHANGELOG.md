@@ -1,3 +1,10 @@
+## [1.14.3](https://github.com/Pocket/web-client/compare/v1.14.2...v1.14.3) (2021-05-19)
+
+
+### Bug Fixes
+
+* **my-list:** update filters to properly display items ([ee4ddff](https://github.com/Pocket/web-client/commit/ee4ddffbed6cac61f7441b15b80535a8df4c841b))
+
 ## [1.14.2](https://github.com/Pocket/web-client/compare/v1.14.1...v1.14.2) (2021-05-19)
 
 
