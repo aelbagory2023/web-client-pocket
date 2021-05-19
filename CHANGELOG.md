@@ -1,3 +1,10 @@
+## [1.14.4](https://github.com/Pocket/web-client/compare/v1.14.3...v1.14.4) (2021-05-19)
+
+
+### Bug Fixes
+
+* **tags:** add sorting to tags pages ([6c44f68](https://github.com/Pocket/web-client/commit/6c44f68d373f3e87f65de6b48d4ba90855e279ab))
+
 ## [1.14.3](https://github.com/Pocket/web-client/compare/v1.14.2...v1.14.3) (2021-05-19)
 
 
