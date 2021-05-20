@@ -1,3 +1,10 @@
+## [1.14.6](https://github.com/Pocket/web-client/compare/v1.14.5...v1.14.6) (2021-05-20)
+
+
+### Bug Fixes
+
+* **discover:** don’t allow read now for now ([28cb240](https://github.com/Pocket/web-client/commit/28cb24089cac1b0cbbb4bb696a9fec5d619a3a73))
+
 ## [1.14.5](https://github.com/Pocket/web-client/compare/v1.14.4...v1.14.5) (2021-05-20)
 
 
