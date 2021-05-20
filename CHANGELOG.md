@@ -1,3 +1,10 @@
+## [1.14.7](https://github.com/Pocket/web-client/compare/v1.14.6...v1.14.7) (2021-05-20)
+
+
+### Bug Fixes
+
+* **explore:** add rewrite for topic pages ([278da58](https://github.com/Pocket/web-client/commit/278da58bf46383b90848db4ac165c6390881c282))
+
 ## [1.14.6](https://github.com/Pocket/web-client/compare/v1.14.5...v1.14.6) (2021-05-20)
 
 
