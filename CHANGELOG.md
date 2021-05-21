@@ -1,3 +1,14 @@
+## [1.14.9](https://github.com/Pocket/web-client/compare/v1.14.8...v1.14.9) (2021-05-21)
+
+
+### Bug Fixes
+
+* **filter:** remove unneeded query param from favorites link ([2f08ff3](https://github.com/Pocket/web-client/commit/2f08ff3ab1b42d0aa11d9c864d416c5c95589e8b))
+* **search:** add filters to search page ([57dbcd5](https://github.com/Pocket/web-client/commit/57dbcd5cd5ae99cd271d9cd36149edb50cf63b6f))
+* **search:** remove unneeded imports ([d3a9aec](https://github.com/Pocket/web-client/commit/d3a9aecfa7ad92176c890cebc19f1376e5168dba))
+* **search:** update formatting of css on search header ([ab30bd0](https://github.com/Pocket/web-client/commit/ab30bd04be6ef02003b0ba9fa65b73db40ce0f3a))
+* **tooltip:** tooltip shouldn't take up width in non hovered state ([fb17c09](https://github.com/Pocket/web-client/commit/fb17c09432dfae3df8256b0848d36db3e5836d39))
+
 ## [1.14.8](https://github.com/Pocket/web-client/compare/v1.14.7...v1.14.8) (2021-05-20)
 
 
