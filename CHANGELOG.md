@@ -1,3 +1,130 @@
+## [1.14.9](https://github.com/Pocket/web-client/compare/v1.14.8...v1.14.9) (2021-05-21)
+
+
+### Bug Fixes
+
+* **filter:** remove unneeded query param from favorites link ([2f08ff3](https://github.com/Pocket/web-client/commit/2f08ff3ab1b42d0aa11d9c864d416c5c95589e8b))
+* **search:** add filters to search page ([57dbcd5](https://github.com/Pocket/web-client/commit/57dbcd5cd5ae99cd271d9cd36149edb50cf63b6f))
+* **search:** remove unneeded imports ([d3a9aec](https://github.com/Pocket/web-client/commit/d3a9aecfa7ad92176c890cebc19f1376e5168dba))
+* **search:** update formatting of css on search header ([ab30bd0](https://github.com/Pocket/web-client/commit/ab30bd04be6ef02003b0ba9fa65b73db40ce0f3a))
+* **tooltip:** tooltip shouldn't take up width in non hovered state ([fb17c09](https://github.com/Pocket/web-client/commit/fb17c09432dfae3df8256b0848d36db3e5836d39))
+
+## [1.14.8](https://github.com/Pocket/web-client/compare/v1.14.7...v1.14.8) (2021-05-20)
+
+
+### Bug Fixes
+
+* **share:** increase specificity for button styles ([44a487e](https://github.com/Pocket/web-client/commit/44a487e5715884c583e83ece05ba72b07004d534))
+
+## [1.14.7](https://github.com/Pocket/web-client/compare/v1.14.6...v1.14.7) (2021-05-20)
+
+
+### Bug Fixes
+
+* **explore:** add rewrite for topic pages ([278da58](https://github.com/Pocket/web-client/commit/278da58bf46383b90848db4ac165c6390881c282))
+
+## [1.14.6](https://github.com/Pocket/web-client/compare/v1.14.5...v1.14.6) (2021-05-20)
+
+
+### Bug Fixes
+
+* **discover:** don’t allow read now for now ([28cb240](https://github.com/Pocket/web-client/commit/28cb24089cac1b0cbbb4bb696a9fec5d619a3a73))
+
+## [1.14.5](https://github.com/Pocket/web-client/compare/v1.14.4...v1.14.5) (2021-05-20)
+
+
+### Bug Fixes
+
+* **call out:** wrap for translation ([a5a557e](https://github.com/Pocket/web-client/commit/a5a557e4811842e52b6f5c2deb2722680beaa46a))
+* **discover:** pass locale from page ([5808495](https://github.com/Pocket/web-client/commit/5808495c4023961414b23d8b4765697f279850e8))
+* **discover:** translation wrap for publisher recs ([16eb0f1](https://github.com/Pocket/web-client/commit/16eb0f1d9682e4c477cb599bd02ba8a4026c6675))
+* **discover:** wrap copy for translation ([37d903a](https://github.com/Pocket/web-client/commit/37d903a9acf067f57f469c08704e661e786b2eee))
+* **item:** wrapping actions for localization ([271c471](https://github.com/Pocket/web-client/commit/271c471c753caa4b1fba704506e45cb55342450d))
+* **locale:** update parser ([95bdbb3](https://github.com/Pocket/web-client/commit/95bdbb3deecc7de867a102bb6cb692ec532b21b3))
+
+## [1.14.4](https://github.com/Pocket/web-client/compare/v1.14.3...v1.14.4) (2021-05-19)
+
+
+### Bug Fixes
+
+* **tags:** add sorting to tags pages ([6c44f68](https://github.com/Pocket/web-client/commit/6c44f68d373f3e87f65de6b48d4ba90855e279ab))
+
+## [1.14.3](https://github.com/Pocket/web-client/compare/v1.14.2...v1.14.3) (2021-05-19)
+
+
+### Bug Fixes
+
+* **my-list:** update filters to properly display items ([ee4ddff](https://github.com/Pocket/web-client/commit/ee4ddffbed6cac61f7441b15b80535a8df4c841b))
+
+## [1.14.2](https://github.com/Pocket/web-client/compare/v1.14.1...v1.14.2) (2021-05-19)
+
+
+### Bug Fixes
+
+* **list:** add sort order for each page ([14b569b](https://github.com/Pocket/web-client/commit/14b569b3fce98bc55666399f3fa8a056fd16e499))
+* **list:** remove unneeded icon imports ([6ed5f7b](https://github.com/Pocket/web-client/commit/6ed5f7bb4f05facfe8bc7a05d91cef1255fde6dc))
+* **my-list:** enable sorting for all sub pages ([ec41658](https://github.com/Pocket/web-client/commit/ec416583531a832e7fe042d764cbae26f0bbed7d))
+* **sort:** add sorting to search page ([f3cc24c](https://github.com/Pocket/web-client/commit/f3cc24cb15813c1f79144e17a3f3ee9710d043d1))
+* **state:** removing sneaky console ([6c126ac](https://github.com/Pocket/web-client/commit/6c126ac0fa8422b2b97000cd858f8e4a20654429))
+
+## [1.14.1](https://github.com/Pocket/web-client/compare/v1.14.0...v1.14.1) (2021-05-18)
+
+
+### Bug Fixes
+
+* **package:** bump @pocket/web-ui to 2.35.1 to grab new footer link ([6b2b5a0](https://github.com/Pocket/web-client/commit/6b2b5a0812007ea084566a282081685484e467c9))
+
+# [1.14.0](https://github.com/Pocket/web-client/compare/v1.13.1...v1.14.0) (2021-05-18)
+
+
+### Bug Fixes
+
+* **ads:** use label always ([1feaedb](https://github.com/Pocket/web-client/commit/1feaedb30c4531418e0cb0732d11e95a790b707a))
+* **card:** add authors to card ([1c05e4c](https://github.com/Pocket/web-client/commit/1c05e4c28fd942b505da290fc38500fd56cc79c3))
+* **collections:** card action onOpen ([0b56c89](https://github.com/Pocket/web-client/commit/0b56c897755715014167f7f8d89d11cb56d833c8))
+* **collections:** remove publisher recs ([5b8eb62](https://github.com/Pocket/web-client/commit/5b8eb62793bc07f42252bc5d1be6707f896d0479))
+* **collections:** update component locations ([89cb19d](https://github.com/Pocket/web-client/commit/89cb19d42acc4555a352aa5dc831f42ae0728bdd))
+* **content actions:** more modularity ([a06e12e](https://github.com/Pocket/web-client/commit/a06e12eff2979bdff079637b9532f5429f049ca1))
+
+
+### Features
+
+* **collections:** add ability to save page ([9a051d2](https://github.com/Pocket/web-client/commit/9a051d29ae95cede38e644e96a5ed922151b7969))
+* **collections:** add topics to collection page ([7f11faf](https://github.com/Pocket/web-client/commit/7f11fafdf4216c5465b2a791879762e7e42bbacf))
+* **collections:** adding ads/actions ([c865c31](https://github.com/Pocket/web-client/commit/c865c3103be0df4eeb5e5ad026fe744e11a9f73c))
+* **collections:** adding collection actions ([d3a6c65](https://github.com/Pocket/web-client/commit/d3a6c65a218d10278fc0038e07819b3e726ff0d4))
+* **collections:** adding state for collections ([8a32767](https://github.com/Pocket/web-client/commit/8a32767dba5ec3a147ee21feb29158f42f165d37))
+* **collections:** endpoint for saving group of urls ([f83baae](https://github.com/Pocket/web-client/commit/f83baae8aff8b8e13163f67a1a98347b76360b8f))
+* **collections:** hook up toasts for collections ([7f69036](https://github.com/Pocket/web-client/commit/7f69036164c990efd2b799d58b05d4470556adbc))
+* **collections:** set up individual collections page ([a010f95](https://github.com/Pocket/web-client/commit/a010f956a7f0e076cb24ebd24dc6da5d31672dd9))
+* **collections:** update collections page layout ([0cf7c9c](https://github.com/Pocket/web-client/commit/0cf7c9c4931ebb4c886b2e69d681711f6a977301))
+* **collections:** web-client api for mock data ([2f20e95](https://github.com/Pocket/web-client/commit/2f20e95af381cf1bddeb808c5bb5878c442cf04d))
+
+## [1.13.1](https://github.com/Pocket/web-client/compare/v1.13.0...v1.13.1) (2021-05-18)
+
+
+### Bug Fixes
+
+* **share recommend:** add share.recommend snowplow event when user recommends an item ([0d06826](https://github.com/Pocket/web-client/commit/0d068263c6adaa39b7ec43aa6e811bae94925959))
+* **share recommend:** order of trackItemAction params ([2e46aea](https://github.com/Pocket/web-client/commit/2e46aea62f8a33c9e7febb7b4cdec1cb31418780))
+* **share recommend:** pass position to ShareRecommend ([f84aeb9](https://github.com/Pocket/web-client/commit/f84aeb9ef97158950b8875429679c1165975d6e6))
+
+# [1.13.0](https://github.com/Pocket/web-client/compare/v1.12.21...v1.13.0) (2021-05-18)
+
+
+### Features
+
+* **discover:** add locale based feeds (de) ([add8c4a](https://github.com/Pocket/web-client/commit/add8c4aaf0401a3d84ca21f2f4cd8336f91efce4))
+
+## [1.12.21](https://github.com/Pocket/web-client/compare/v1.12.20...v1.12.21) (2021-05-17)
+
+
+### Bug Fixes
+
+* **dependency:** react-markdown with api change ([50794ad](https://github.com/Pocket/web-client/commit/50794ad939cc1fc0d8a47a1c0e497f40a8cb0440))
+* **storybook:** update/cleanup addons ([f3c1c33](https://github.com/Pocket/web-client/commit/f3c1c335f3869fadfda82445b93475169d1033dc))
+* **topics:** update for curated only collection ([2b7aeb9](https://github.com/Pocket/web-client/commit/2b7aeb9f4246457c0527bcea318aca2a67fdd2db))
+
 ## [1.12.20](https://github.com/Pocket/web-client/compare/v1.12.19...v1.12.20) (2021-05-13)
 
 

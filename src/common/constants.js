@@ -23,7 +23,7 @@ export const COLUMN_WIDTH = [531, 574, 632, 718, 826, 933, 1041]
 
 export const CACHE_KEY_COLOR_MODE = 'pocket-color-mode'
 export const CACHE_KEY_LIST_MODE = 'pocket-list-mode'
-export const CACHE_KEY_SORT_ORDER = 'pocket-sort-order'
+export const CACHE_KEY_SORT_OPTIONS = 'pocket-sort-options'
 export const CACHE_KEY_RELEASE_VERSION = 'pocket-release-version'
 
 export const CACHE_KEY_HOME_STORED_TOPICS = 'pocket-home-stored-topics'
@@ -229,6 +229,11 @@ export const TOPIC_IDS = {
     id: '2a817ad0-cbba-4330-9559-291468145588'
   },
   explore: {
-    id: '9c3018a8-8aa9-4f91-81e9-ebcd95fc82da'
+    de: {
+      id: '507d215c-4776-4f8e-af49-2ed6f3309aff'
+    },
+    en: {
+      id: '9c3018a8-8aa9-4f91-81e9-ebcd95fc82da'
+    }
   }
 }

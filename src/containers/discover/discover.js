@@ -33,7 +33,10 @@ import { CallOutBrand } from 'components/call-out/call-out-brand'
 import { CallOutStartLibraryExplore } from 'components/call-out/call-out-start-library'
 import { CallOutPocketHitsSignup } from 'components/call-out/call-out-pocket-hits'
 
-export default function Discover({ url }) {
+import { useTranslation } from 'next-i18next'
+
+export default function Discover({ url, locale }) {
+  const { t } = useTranslation()
   useEffect(trackPageView, [])
 
   // Select items
@@ -42,10 +45,14 @@ export default function Discover({ url }) {
   const topics = useSelector((state) => state.topicList?.topicsByName)
   const userStatus = useSelector((state) => state.user.user_status)
   const shouldRender = userStatus !== 'pending'
+  const showTopics = locale === 'en'
 
   const metaData = {
-    description: 'Discover fascinating stories from all across the web with Pocket.',
-    title: 'Discover stories on Pocket',
+    description: t(
+      'discover:page-description',
+      'Discover fascinating stories from all across the web with Pocket.'
+    ),
+    title: t('discover:page-title', 'Discover stories on Pocket'),
     url
   }
 
@@ -57,20 +64,20 @@ export default function Discover({ url }) {
       {!isAuthenticated && shouldRender ? <CallOutBuildHome /> : null}
 
       <CardPageHeader
-        title="Discover the best of the&nbsp;web"
-        subHeading="Today’s essential reads"
+        title={t('discover:best-of-the-web', 'Discover the best of the web')}
+        subHeading={t('discover:essential-reads', 'Today’s essential reads')}
       />
 
       {/* Top Lockup (center)*/}
       <Lockup items={items} offset={0} heroPosition="center" ItemCard={ItemCard} />
 
-      <CardTopicsNav topics={topics} track={trackTopicClick} />
+      {showTopics ? <CardTopicsNav topics={topics} track={trackTopicClick} /> : null}
 
       {/* Pocket Brand Messaging */}
       <CalloutTop shouldRender={shouldRender} isAuthenticated={isAuthenticated} />
 
       {/* Top List */}
-      <CardListHeading>Fascinating stories</CardListHeading>
+      <CardListHeading>{t('discover:fascinating-stories', 'Fascinating stories')}</CardListHeading>
 
       <OffsetList items={items} offset={5} cardShape="wide" ItemCard={ItemCard} border={true} />
 
@@ -78,9 +85,17 @@ export default function Discover({ url }) {
 
       <CalloutBottom shouldRender={shouldRender} isAuthenticated={isAuthenticated} />
 
-      <OffsetList items={items} offset={15} cardShape="wide" ItemCard={ItemCard} border={true} />
+      <OffsetList
+        items={items}
+        offset={15}
+        cardShape="wide"
+        ItemCard={ItemCard}
+        border={showTopics}
+      />
 
-      <CardTopicsNav topics={topics} track={trackTopicClick} className="no-border" />
+      {showTopics ? (
+        <CardTopicsNav topics={topics} track={trackTopicClick} className="no-border" />
+      ) : null}
 
       <ReportFeedbackModal />
     </Layout>

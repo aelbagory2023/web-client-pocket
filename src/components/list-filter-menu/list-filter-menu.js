@@ -1,7 +1,8 @@
-import { css } from 'linaria'
+import { css, cx } from 'linaria'
 import { ChevronDownIcon } from '@pocket/web-ui'
 import { capitalizeFirstLetter } from 'common/utilities'
 import { usePopover, popoverBase } from 'components/popover/popover'
+import { buttonReset } from 'components/buttons/button-reset'
 import Link from 'next/link'
 import { Trans } from 'next-i18next'
 
@@ -54,14 +55,16 @@ const filterStyle = css`
 
   .filter-trigger {
     cursor: pointer;
+    outline-offset: 4px;
   }
   .filter-menu {
     ${popoverBase};
   }
 `
 
-export function FilterMenu({ subset, filter, tag }) {
+export function FilterMenu({ subset, filter, tag, query }) {
   const hasFilter = [
+    'search',
     'favorites',
     'highlights',
     'articles',
@@ -90,37 +93,38 @@ export function FilterMenu({ subset, filter, tag }) {
   })
 
   const path = tag ? `tags/${tag}` : subset
+  const searchQuery = query ? `?query=${query}` : ''
 
   return hasFilter ? (
-    <div className={filterStyle}>
-      <span ref={popTrigger} className="filter-trigger">
+    <div className={cx(filterStyle, 'filter-wrapper')}>
+      <button ref={popTrigger} className={cx(buttonReset, 'filter-trigger')}>
         {capitalizeFirstLetter(activeTitle)}
         <ChevronDownIcon style={{ marginTop: 0, paddingLeft: '3px' }} />
-      </span>
+      </button>
       {shown ? (
         <div className="filter-menu" ref={popBody}>
           <div>
-            <Link href={`/my-list/${path}`}>
+            <Link href={`/my-list/${path}${searchQuery}`}>
               <button className={filterActive()} data-cy="filter-all-items">
                 <Trans i18nKey="nav:all-items">All items</Trans>
               </button>
             </Link>
           </div>
           <div>
-            <Link href={`/my-list/${path}/unread`}>
+            <Link href={`/my-list/${path}/unread${searchQuery}`}>
               <button className={filterActive('unread')} data-cy="filter-unread">
                 <Trans i18nKey="nav:unread">Unread</Trans>
               </button>
             </Link>
           </div>
           <div>
-            <Link href={`/my-list/${path}/archive`}>
+            <Link href={`/my-list/${path}/archive${searchQuery}`}>
               <button className={filterActive('archive')} data-cy="filter-archive">
                 <Trans i18nKey="nav:archive">Archive</Trans>
               </button>
             </Link>
           </div>
-          {path === 'favorites' ? null : (
+          {path === 'favorites' || subset === 'search' ? null : (
             <div>
               <Link href={`/my-list/${path}/favorites`}>
                 <button className={filterActive('favorites')} data-cy="filter-favorites">

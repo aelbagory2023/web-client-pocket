@@ -8,6 +8,7 @@ import Layout from 'layouts/with-sidebar'
 import { getMylistData } from './my-list.state'
 import { updateMyListData } from './my-list.state'
 import { appSetSection } from 'connectors/app/app.state'
+import { sortOrderToggle } from 'connectors/app/app.state'
 import { MyListHeader } from 'components/headers/my-list-header'
 import { TagPageHeader } from './tags-page/tag-page-header'
 import { VirtualizedList } from 'connectors/virtualized/virtualized-list'
@@ -42,7 +43,8 @@ export default function MyList(props) {
   const total = useSelector((state) => state.myList[`${section}Total`])
   const since = useSelector((state) => state.myList[`${section}Since`])
   const listMode = useSelector((state) => state.app.listMode)
-  const sortOrder = useSelector((state) => state.app.sortOrder)
+  const sortSubset = useSelector((state) => state.app.section)
+  const sortOrder = useSelector((state) => state.app.sortOptions[sortSubset] || 'newest')
   const routeChange = useHasChanged(router.pathname)
 
   const isLoggedIn = useSelector((state) => !!state.user.auth)
@@ -138,6 +140,8 @@ export default function MyList(props) {
     dispatch(getMylistData(45, offset, subset, filter, tag))
   }
 
+  const toggleSortOrder = () => dispatch(sortOrderToggle())
+
   const shouldRender = userStatus !== 'pending'
 
   const type = listMode
@@ -158,7 +162,13 @@ export default function MyList(props) {
         <main className="main">
           {isLoggedIn ? (
             <>
-              <Header subset={subset} title={title} filter={filter} tag={tag} />
+              <Header
+                subset={subset}
+                title={title}
+                filter={filter}
+                tag={tag}
+                sortOrder={sortOrder}
+                toggleSortOrder={toggleSortOrder} />
               {items?.length ? (
                 <VirtualizedList
                   type={type}

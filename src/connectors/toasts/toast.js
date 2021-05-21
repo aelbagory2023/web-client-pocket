@@ -41,6 +41,8 @@ import { PROFILE_ITEM_SAVE_FAILURE } from 'actions'
 import { PROFILE_ITEM_DELETE_SUCCESS } from 'actions'
 import { PROFILE_ITEM_DELETE_FAILURE } from 'actions'
 
+import { COLLECTIONS_SAVE_SUCCESS } from 'actions'
+
 const toastWrapper = css`
   text-align: left;
   width: 100%;
@@ -112,7 +114,8 @@ const messages = {
   [PROFILE_ITEM_SAVE_FAILURE]: 'error-adding',
   [PROFILE_ITEM_DELETE_SUCCESS]: 'deleted',
   [PROFILE_ITEM_DELETE_FAILURE]: 'error-deleting',
-  [COPY_ITEM_URL]: 'url-copied'
+  [COPY_ITEM_URL]: 'url-copied',
+  [COLLECTIONS_SAVE_SUCCESS]: 'added'
 }
 
 export function Toast({ stamp, type, itemCount = 1 }) {
@@ -122,10 +125,7 @@ export function Toast({ stamp, type, itemCount = 1 }) {
   const mount = () => setShow(true)
   const unmount = () => setShow(false)
 
-  const remove = useCallback(() => dispatch(clearToast(stamp)), [
-    stamp,
-    dispatch
-  ])
+  const remove = useCallback(() => dispatch(clearToast(stamp)), [stamp, dispatch])
 
   useEffect(() => {
     if (!show) return

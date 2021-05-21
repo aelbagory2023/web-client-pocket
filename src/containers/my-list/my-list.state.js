@@ -15,7 +15,6 @@ import { sortSelector } from './my-list.sorters'
 import { sortByOrder } from './my-list.sorters'
 
 import { MYLIST_DATA_REQUEST } from 'actions'
-import { APP_SORT_ORDER_TOGGLE } from 'actions'
 import { MYLIST_DATA_SUCCESS } from 'actions'
 import { MYLIST_DATA_FAILURE } from 'actions'
 import { MYLIST_UPDATE_REQUEST } from 'actions'
@@ -41,6 +40,8 @@ import { MYLIST_SEARCH_SUCCESS } from 'actions'
 import { MYLIST_SEARCH_FAILURE } from 'actions'
 
 import { APP_SET_MODE } from 'actions'
+
+import { APP_SORT_ORDER_TOGGLE } from 'actions'
 import { APP_SORT_ORDER_OLD } from 'actions'
 import { APP_SORT_ORDER_NEW } from 'actions'
 
@@ -157,9 +158,6 @@ const initialState = {
   videosfavoritesOffset: 0,
   videosfavoritesSince: 0,
   videosfavoritesTotal: false,
-
-  // State for search and search filters
-  searchSortOrder: 'relevance',
 
   search: [],
   searchOffset: 0,
@@ -343,10 +341,10 @@ export const myListSagas = [
 
 /** SAGA :: SELECTORS
  --------------------------------------------------------------- */
-const getSortOrder = (state) => state.app.sortOrder
+const getSortOptionsBySubset = (state, subset) => state.app.sortOptions[subset] || 'newest'
 const getMyListItemsById = (state) => state.myListItemsById
-const getSearchSortOrder = (state) => state.myList.searchSortOrder
 const getState = (state) => state.myList || {}
+const getSubset = (state) => state.app.section
 
 /** SAGA :: RESPONDERS
  --------------------------------------------------------------- */
@@ -356,7 +354,8 @@ function* myListDataRequest(action) {
     const { count = 15, offset = 0, subset = 'active', tag, filter } = action
 
     const parameters = {}
-    const sortOrder = yield select(getSortOrder)
+    const sortSubset = yield select(getSubset)
+    const sortOrder = yield select(getSortOptionsBySubset, sortSubset)
 
     // Set appropriate subset
     if (subset === 'unread') parameters.state = 'unread'
@@ -414,7 +413,8 @@ function* myListDataRequest(action) {
 function* myListUpdate(action) {
   try {
     const { since, subset = 'active', filter, tag } = action
-    const sortOrder = yield select(getSortOrder)
+    const sortSubset = yield select(getSubset)
+    const sortOrder = yield select(getSortOptionsBySubset, sortSubset)
 
     const data = yield fetchMyListUpdate({ since })
 
@@ -431,7 +431,7 @@ function* myListUpdate(action) {
     // Update all items in need of update
     const itemsById = { ...existingItemsById, ...updatedItemsById }
 
-    const filterFunction = filterSelector(subset)
+    const filterFunction = filterSelector(subset, filter)
     const sortFunction = sortSelector(subset, sortOrder) //TODO: hook this to selector
     const items = Object.values(itemsById)
       .filter((item) => filterFunction(item, tag))
@@ -462,10 +462,10 @@ function* myListSearchRequest(action) {
     const section = filter ? 'search' + filter : 'search'
 
     const parameters = { search: query }
-    const sortOrder = yield select(getSearchSortOrder)
+    const sortOrder = yield select(getSortOptionsBySubset, 'search')
 
     // Apply filters
-    if (filter === 'active') parameters.state = 'unread'
+    if (filter === 'unread') parameters.state = 'unread'
     if (filter === 'archive') parameters.state = 'read'
     if (filter === 'favorites') parameters.favorite = 1
 

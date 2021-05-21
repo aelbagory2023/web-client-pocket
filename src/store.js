@@ -27,6 +27,12 @@ import { discoverItemsSagas } from 'connectors/items-by-id/discover/items.state'
 import { discoverHomeReducers } from 'containers/discover/discover.state'
 import { discoverHomeSagas } from 'containers/discover/discover.state'
 
+import { collectionsReducers } from 'containers/collections/collections.state'
+import { collectionsSagas } from 'containers/collections/collections.state'
+
+import { collectionItemsReducers } from 'connectors/items-by-id/collection/items.state'
+import { collectionItemsSagas } from 'connectors/items-by-id/collection/items.state'
+
 import { topicListReducers } from 'connectors/topic-list/topic-list.state'
 import { topicListSagas } from 'connectors/topic-list/topic-list.state'
 
@@ -86,10 +92,12 @@ const discoverReducers = {
   discoverHome: discoverHomeReducers,
   discoverTopic: topicReducers,
   itemToReport: itemReportReducers,
-  syndicatedArticle: syndicatedArticleReducers
+  syndicatedArticle: syndicatedArticleReducers,
+  collections: collectionsReducers,
+  collectionItemsById: collectionItemsReducers
 }
 
-const collectionReducers = {
+const libraryReducers = {
   myListItemsById: myListItemsReducers,
   myList: myListReducers,
   bulkEdit: itemBulkReducers,
@@ -129,7 +137,7 @@ const rootReducer = combineReducers({
   ...globalReducers,
   ...marketingReducers,
   ...discoverReducers,
-  ...collectionReducers,
+  ...libraryReducers,
   ...readerReducers,
   home: homeReducers
 })
@@ -145,6 +153,8 @@ function* rootSaga() {
     ...snowplowSagas,
     ...discoverItemsSagas,
     ...discoverHomeSagas,
+    ...collectionsSagas,
+    ...collectionItemsSagas,
     ...topicListSagas,
     ...topicSagas,
     ...pocketHitsSagas,
