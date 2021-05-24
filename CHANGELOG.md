@@ -1,3 +1,12 @@
+## [1.14.13](https://github.com/Pocket/web-client/compare/v1.14.12...v1.14.13) (2021-05-24)
+
+
+### Bug Fixes
+
+* **mobile:** update search and add so it works on smaller devices ([c534d7b](https://github.com/Pocket/web-client/commit/c534d7bbb8738851660c171f1f764893c0ec926b))
+* **search:** add filter to remove dupes from recent searches ([5ea5751](https://github.com/Pocket/web-client/commit/5ea575172d621b5e26f3247ff1b7fd7e2e122bda))
+* **search:** update filter for dupes ([d7c2204](https://github.com/Pocket/web-client/commit/d7c2204873672bd74028bce21ab092060e42482f))
+
 ## [1.14.12](https://github.com/Pocket/web-client/compare/v1.14.11...v1.14.12) (2021-05-24)
 
 
