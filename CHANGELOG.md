@@ -1,3 +1,11 @@
+## [1.14.10](https://github.com/Pocket/web-client/compare/v1.14.9...v1.14.10) (2021-05-24)
+
+
+### Bug Fixes
+
+* **app:** removing unused code ([10404f1](https://github.com/Pocket/web-client/commit/10404f1b2ab6d226d069c5fa4c7f6421be1c3e5f))
+* **version:** remove old attempt to verify users cached version of application ([b101843](https://github.com/Pocket/web-client/commit/b1018437db2ae02637803c06b7c4b7ede8081532))
+
 ## [1.14.9](https://github.com/Pocket/web-client/compare/v1.14.8...v1.14.9) (2021-05-21)
 
 
