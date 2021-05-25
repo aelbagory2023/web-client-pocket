@@ -1,3 +1,10 @@
+## [1.14.18](https://github.com/Pocket/web-client/compare/v1.14.17...v1.14.18) (2021-05-25)
+
+
+### Bug Fixes
+
+* **content actions:** specificity on svg height ([084696f](https://github.com/Pocket/web-client/commit/084696fe1f5c52c2b746ca4a9018aef2b6947b86))
+
 ## [1.14.17](https://github.com/Pocket/web-client/compare/v1.14.16...v1.14.17) (2021-05-25)
 
 
