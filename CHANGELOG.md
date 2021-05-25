@@ -1,3 +1,10 @@
+## [1.14.14](https://github.com/Pocket/web-client/compare/v1.14.13...v1.14.14) (2021-05-25)
+
+
+### Bug Fixes
+
+* **filters:** update filter titles so unread is now my list ([6b60abc](https://github.com/Pocket/web-client/commit/6b60abc97dca63debd355766d2049ac862efd57e))
+
 ## [1.14.13](https://github.com/Pocket/web-client/compare/v1.14.12...v1.14.13) (2021-05-24)
 
 
