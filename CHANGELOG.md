@@ -1,3 +1,10 @@
+## [1.14.17](https://github.com/Pocket/web-client/compare/v1.14.16...v1.14.17) (2021-05-25)
+
+
+### Bug Fixes
+
+* **syndicated:** video sizing ([0368796](https://github.com/Pocket/web-client/commit/0368796751058ade21842c48e425ed10199c0db0))
+
 ## [1.14.16](https://github.com/Pocket/web-client/compare/v1.14.15...v1.14.16) (2021-05-25)
 
 
