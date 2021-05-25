@@ -1,3 +1,26 @@
+## [1.14.15](https://github.com/Pocket/web-client/compare/v1.14.14...v1.14.15) (2021-05-25)
+
+
+### Bug Fixes
+
+* **app:** adjust use effect inits ([9e02a49](https://github.com/Pocket/web-client/commit/9e02a495334791ceb4d3e5bf7820a31d60187b39))
+* **app:** update init/privacy race ([5b7cc23](https://github.com/Pocket/web-client/commit/5b7cc23ad8aaef9475fd3cf4abf3b83525f1815a))
+* **content:** clean up publisher recs ([ec1e7c9](https://github.com/Pocket/web-client/commit/ec1e7c9713da9f14f6c318287ac79e9a16aaa3ac))
+* **content-ads:** aligning with web-discover ([091cca4](https://github.com/Pocket/web-client/commit/091cca49edc2f9b93a8123d3dd42e9929f1eb739))
+* **discover:** minor ui tweaks ([aa1702f](https://github.com/Pocket/web-client/commit/aa1702f709b96564442b57069ad8bba1c821a982))
+* **onetrust:** updating comments ([43fd824](https://github.com/Pocket/web-client/commit/43fd824817a16060a8b93a4187d1ef7473c9ca83))
+* **pocket recs:** adding alt to publisher link ([58e0ba7](https://github.com/Pocket/web-client/commit/58e0ba7e4cdbe8e5c04967fa171dd7387be89715))
+* **pocket recs:** localize headlines ([51a05f6](https://github.com/Pocket/web-client/commit/51a05f6fdfcc8d70494551f71a4ca5d9f33c0d46))
+* **publisher recs:** testing ([aeae166](https://github.com/Pocket/web-client/commit/aeae166fc31fbd3674ee69ce3d4d10f8539a9211))
+* **publisher recs:** use Link ([c256b20](https://github.com/Pocket/web-client/commit/c256b2066b9b6cd70209453c8d1179e34ec26cd0))
+* **snowplow:** spa pages should still load ads ([0d27d2a](https://github.com/Pocket/web-client/commit/0d27d2a3a27675911df976934c36b1e31f4b67d4))
+* **snowplow:** track on snowplow not onetrust ([20bff8b](https://github.com/Pocket/web-client/commit/20bff8b27e27bdaa3129babb8c0a5713a133ca33))
+* **syndicated:** break up syndicated article ([205f1ed](https://github.com/Pocket/web-client/commit/205f1ed433536b7dd1b41416c182b8db28c49dac))
+* **syndicated:** clean up ad implimentation ([cb4ea02](https://github.com/Pocket/web-client/commit/cb4ea02b1ef24680b7204635d3517c7cbb5a9e1a))
+* **syndicated:** clean up article actions ([c81c95a](https://github.com/Pocket/web-client/commit/c81c95a061943ab7d9f06bcecb86bf6f743b5964))
+* **syndicated:** tweaks based on feedback ([d62a7cc](https://github.com/Pocket/web-client/commit/d62a7cc5d249a4a23ba68ba241687606732a125b))
+* **third-party-scripts:** sync with web-discover ([9fdcaa2](https://github.com/Pocket/web-client/commit/9fdcaa2695213eb00e82e893fdd414910801a388))
+
 ## [1.14.14](https://github.com/Pocket/web-client/compare/v1.14.13...v1.14.14) (2021-05-25)
 
 
