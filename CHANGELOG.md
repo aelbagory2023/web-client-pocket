@@ -1,3 +1,13 @@
+## [1.14.16](https://github.com/Pocket/web-client/compare/v1.14.15...v1.14.16) (2021-05-25)
+
+
+### Bug Fixes
+
+* **collections:** add markdown parsing for intro ([f464de1](https://github.com/Pocket/web-client/commit/f464de175c8a868c5306dfcf4d1b1dbcef4a2a24))
+* **collections:** responsive fixes ([61beec0](https://github.com/Pocket/web-client/commit/61beec06c6236c45f5dd385694aab46d5de4b733))
+* **collections:** switch to live endpoints ([fafbaa8](https://github.com/Pocket/web-client/commit/fafbaa8504a4a8ac1beb010f2e6ae248ad0c42f8))
+* **home:** use live collections ([baa8d94](https://github.com/Pocket/web-client/commit/baa8d947d6db59fd3d98d516573ae5fb5ec20372))
+
 ## [1.14.15](https://github.com/Pocket/web-client/compare/v1.14.14...v1.14.15) (2021-05-25)
 
 
