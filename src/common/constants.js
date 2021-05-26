@@ -60,8 +60,10 @@ export const SNOWPLOW_HEARTBEAT_INTERVAL = 10 // in seconds
 export const SNOWPLOW_CONFIG = {
   appId: SNOWPLOW_APP,
   platform: 'web',
-  eventMethod: 'beacon',
+  eventMethod: 'post',
   respectDoNotTrack: false, // temporary to determine impact
+  stateStorageStrategy: 'none',
+  anonymousTracking: { withServerAnonymisation: true },
   contexts: { webPage: true, performanceTiming: true }
 }
 
