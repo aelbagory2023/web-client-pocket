@@ -1,3 +1,11 @@
+## [1.14.21](https://github.com/Pocket/web-client/compare/v1.14.20...v1.14.21) (2021-05-26)
+
+
+### Bug Fixes
+
+* **content:** parity with styles (should revisit) ([4d31f9f](https://github.com/Pocket/web-client/commit/4d31f9f18d6a6dad0aaf3a84e448b7aef9375f47))
+* **syndicated:** use standard page description ([38474a4](https://github.com/Pocket/web-client/commit/38474a4d19c1c51cb71e317938c1eaa7a61b6dd5))
+
 ## [1.14.20](https://github.com/Pocket/web-client/compare/v1.14.19...v1.14.20) (2021-05-26)
 
 
