@@ -1,3 +1,11 @@
+## [1.14.19](https://github.com/Pocket/web-client/compare/v1.14.18...v1.14.19) (2021-05-26)
+
+
+### Bug Fixes
+
+* **app:** single source of truth for init/trust ([d496c59](https://github.com/Pocket/web-client/commit/d496c59fc6c3f21c0e6d2e2795d0b73800211343))
+* **snowplow:** yield wait properly ([976bb2b](https://github.com/Pocket/web-client/commit/976bb2b363f1a59fabd6edf2f55e85d3e6f78d6d))
+
 ## [1.14.18](https://github.com/Pocket/web-client/compare/v1.14.17...v1.14.18) (2021-05-25)
 
 
