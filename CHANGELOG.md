@@ -1,3 +1,12 @@
+## [1.14.20](https://github.com/Pocket/web-client/compare/v1.14.19...v1.14.20) (2021-05-26)
+
+
+### Bug Fixes
+
+* **card:** support markdown in excerpt ([6b2251d](https://github.com/Pocket/web-client/commit/6b2251d717c701ab7c0feaa4d17ca0fe41dbef25))
+* **collections:** error on null collection ([41d57bf](https://github.com/Pocket/web-client/commit/41d57bfa9a7b5e7b0bde24f52f9771a89d56e30a))
+* **collections:** filter authors ([7e930b4](https://github.com/Pocket/web-client/commit/7e930b424689ae71aceb1639b3ba4a5d6a209961))
+
 ## [1.14.19](https://github.com/Pocket/web-client/compare/v1.14.18...v1.14.19) (2021-05-26)
 
 
