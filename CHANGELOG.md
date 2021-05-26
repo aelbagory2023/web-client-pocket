@@ -1,3 +1,11 @@
+## [1.14.22](https://github.com/Pocket/web-client/compare/v1.14.21...v1.14.22) (2021-05-26)
+
+
+### Bug Fixes
+
+* **collections:** make collections static ([2980912](https://github.com/Pocket/web-client/commit/2980912ba752b81460f3a7e039db9bc853c727ad))
+* **collections:** use image cache for hero ([b48788b](https://github.com/Pocket/web-client/commit/b48788be75b24ca64fdd5c62d91547716c3e2db7))
+
 ## [1.14.21](https://github.com/Pocket/web-client/compare/v1.14.20...v1.14.21) (2021-05-26)
 
 
