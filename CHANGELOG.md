@@ -1,3 +1,10 @@
+## [1.14.27](https://github.com/Pocket/web-client/compare/v1.14.26...v1.14.27) (2021-05-27)
+
+
+### Bug Fixes
+
+* **request:** remove client info for now ([c5f7ca7](https://github.com/Pocket/web-client/commit/c5f7ca7a4d0372863c365714f6fb021314d0b9ef))
+
 ## [1.14.26](https://github.com/Pocket/web-client/compare/v1.14.25...v1.14.26) (2021-05-27)
 
 
