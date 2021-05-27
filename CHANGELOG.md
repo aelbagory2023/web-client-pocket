@@ -1,3 +1,10 @@
+## [1.14.29](https://github.com/Pocket/web-client/compare/v1.14.28...v1.14.29) (2021-05-27)
+
+
+### Bug Fixes
+
+* **snowplow:** update impressions so theres no race condition ([2173c2f](https://github.com/Pocket/web-client/commit/2173c2f167fa3c0e9b41fef3957630925b53a43d))
+
 ## [1.14.28](https://github.com/Pocket/web-client/compare/v1.14.27...v1.14.28) (2021-05-27)
 
 
