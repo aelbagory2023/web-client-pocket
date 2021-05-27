@@ -1,3 +1,11 @@
+## [1.14.23](https://github.com/Pocket/web-client/compare/v1.14.22...v1.14.23) (2021-05-27)
+
+
+### Bug Fixes
+
+* **content:** conditional save tracking ([299b450](https://github.com/Pocket/web-client/commit/299b450e7721463d4302b2f0088a64166741dcfe))
+* **layouts:** render metadata if it exists ([cfe46a5](https://github.com/Pocket/web-client/commit/cfe46a58cbfa73fb222afd33d072c0934ceb7e2b))
+
 ## [1.14.22](https://github.com/Pocket/web-client/compare/v1.14.21...v1.14.22) (2021-05-26)
 
 
