@@ -1,3 +1,11 @@
+## [1.14.24](https://github.com/Pocket/web-client/compare/v1.14.23...v1.14.24) (2021-05-27)
+
+
+### Bug Fixes
+
+* **apollo:** adding in release version ([99d13c2](https://github.com/Pocket/web-client/commit/99d13c210e9a3e038d0556318b15b852a3b10aee))
+* **apollo:** adding in some apollo studio based headers ([2297086](https://github.com/Pocket/web-client/commit/2297086346495cda2fc1f78ea97bea67b7e4f465))
+
 ## [1.14.23](https://github.com/Pocket/web-client/compare/v1.14.22...v1.14.23) (2021-05-27)
 
 
