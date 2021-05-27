@@ -1,3 +1,11 @@
+## [1.14.25](https://github.com/Pocket/web-client/compare/v1.14.24...v1.14.25) (2021-05-27)
+
+
+### Bug Fixes
+
+* **collection:** mobile layout adjustments ([3b66b14](https://github.com/Pocket/web-client/commit/3b66b1403802fa1c196348946c750097cd6be28d))
+* **collections:** only show ads once init is done ([15017c4](https://github.com/Pocket/web-client/commit/15017c46471f0cdff85975866a1fc9a631eedbd5))
+
 ## [1.14.24](https://github.com/Pocket/web-client/compare/v1.14.23...v1.14.24) (2021-05-27)
 
 
