@@ -1,3 +1,10 @@
+## [1.14.26](https://github.com/Pocket/web-client/compare/v1.14.25...v1.14.26) (2021-05-27)
+
+
+### Bug Fixes
+
+* **request:** conditional client identifier ([e938b8c](https://github.com/Pocket/web-client/commit/e938b8c831ba9fe35d640ffda5176b9952c8fd24))
+
 ## [1.14.25](https://github.com/Pocket/web-client/compare/v1.14.24...v1.14.25) (2021-05-27)
 
 
