@@ -1,3 +1,15 @@
+## [1.14.34](https://github.com/Pocket/web-client/compare/v1.14.33...v1.14.34) (2021-06-01)
+
+
+### Bug Fixes
+
+* **settings:** adding pinned topics from home to settings ([98c44a0](https://github.com/Pocket/web-client/commit/98c44a0b2f254a457e8d06e5bca73d339868c603))
+* **settings:** adding server storage for pinned tags ([ce50c6d](https://github.com/Pocket/web-client/commit/ce50c6d7b412922079a31c0136fdcdecf98b45d7))
+* **settings:** adding settings state ([0a2926e](https://github.com/Pocket/web-client/commit/0a2926edb26b2604e8c3ad6b870fe2fff6eeda81))
+* **settings:** make sure to save immediately after converting ([7910ab4](https://github.com/Pocket/web-client/commit/7910ab452d308279ac4fe972e9a00fa107a534d5))
+* **tags-state:** removing uneeded imports ([a2b078a](https://github.com/Pocket/web-client/commit/a2b078a509d43ed36d8a7fc15146e3484ccbe833))
+* **utilities:** remove outdated comment ([8946dbb](https://github.com/Pocket/web-client/commit/8946dbb3ec9c956f76861a123c4809e0e3134497))
+
 ## [1.14.33](https://github.com/Pocket/web-client/compare/v1.14.32...v1.14.33) (2021-05-29)
 
 
