@@ -1,3 +1,14 @@
+## [1.14.35](https://github.com/Pocket/web-client/compare/v1.14.34...v1.14.35) (2021-06-01)
+
+
+### Bug Fixes
+
+* **card layouts:** add responsive to discover layouts ([ab7d5ba](https://github.com/Pocket/web-client/commit/ab7d5bac1529cf459c73a975014d377bbe8f30ba))
+* **layouts:** lockup/offset stories ([55efdee](https://github.com/Pocket/web-client/commit/55efdeed92e0cf37398798618b2946a29b9be0ed))
+* **stories:** update content-parsed ([ebb546a](https://github.com/Pocket/web-client/commit/ebb546aeffaf17e538e51e71f17f99bc5bb9e344))
+* **stories:** update parsed-content stories ([6ee16d0](https://github.com/Pocket/web-client/commit/6ee16d0c03c59cf4e9fb33935b41ae992c2f005b))
+* **storybook:** add viewport ([5fe4848](https://github.com/Pocket/web-client/commit/5fe4848b89ea19d815e619bb0109c71590366d68))
+
 ## [1.14.34](https://github.com/Pocket/web-client/compare/v1.14.33...v1.14.34) (2021-06-01)
 
 
