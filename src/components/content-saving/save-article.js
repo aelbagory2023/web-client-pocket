@@ -70,7 +70,7 @@ const saveArticleStyles = css`
 export function SaveArticleTop({ url, saveAction, saveStatus, isAuthenticated, trackSaveClick }) {
   const { t } = useTranslation()
   return (
-    <div className={classNames(saveArticleStyles, 'top')}>
+    <div className={classNames(saveArticleStyles, 'top', 'save-article')}>
       <SaveStoryButton
         trackSaveClick={trackSaveClick}
         isAuthenticated={isAuthenticated}
@@ -95,7 +95,7 @@ export function SaveArticleBottom({
   const { t } = useTranslation()
 
   return (
-    <aside className={classNames(saveArticleStyles, 'bottom')}>
+    <aside className={classNames(saveArticleStyles, 'bottom', 'save-article')}>
       <p>
         {t(
           'item-action:save-article-bottom',
@@ -129,7 +129,7 @@ function SaveStoryButton({ url, isAuthenticated, saveStatus, saveAction, id, tra
     event.stopPropagation()
 
     saveAction(url)
-    trackSaveClick(id)
+    if (trackSaveClick) trackSaveClick(id) // Legacy method: Remove on analytics confirmation
   }
 
   // Popover Effect

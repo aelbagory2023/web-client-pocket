@@ -1,9 +1,11 @@
+import { BASE_URL } from 'common/constants'
 import Layout from 'layouts/main'
 import MobileLayout from 'layouts/mobile-web'
 
 import { useDispatch, useSelector } from 'react-redux'
 
 import { contentLayout } from 'components/content-layout/content-layout'
+import { printLayout } from 'components/content-layout/print-layout'
 import { PocketWorthy } from 'components/content-headline/pocket-worthy'
 import { ParsedHeadline } from 'components/content-headline/parsed-headline'
 import { AuthorByline } from 'components/content-author/author-byline'
@@ -16,24 +18,20 @@ import { AdRailTop } from 'components/content-ads/content-ads'
 import { AdRailBottom } from 'components/content-ads/content-ads'
 import { ContentIntro } from 'components/content-intro/content-intro'
 
+import { getImageCacheUrl } from 'common/utilities'
 import { CardTopicsNav as TopicsBubbles } from 'connectors/topic-list/topic-list'
 import { ItemCard } from 'connectors/item-card/collection/story-card'
 import { saveCollection } from 'containers/collections/collections.state'
-import { saveCollectionPage } from 'containers/collections/collections.state'
-import { Toasts } from 'connectors/toasts/toast-list'
-import { useTranslation } from 'next-i18next'
 
-export function CollectionPage({ queryParams = {}, slug }) {
-  const { t } = useTranslation()
+import { unSaveCollectionPage } from 'containers/collections/collections.state'
+import { saveCollectionPage } from 'containers/collections/collections.state'
+
+import { Toasts } from 'connectors/toasts/toast-list'
+import ErrorPage from 'pages/_error'
+
+export function CollectionPage({ queryParams = {}, slug, statusCode }) {
   const dispatch = useDispatch()
 
-  const metaData = {
-    description: t(
-      'discover:page-description',
-      'Discover fascinating stories from all across the web with Pocket.'
-    ),
-    title: t('discover:page-title', 'Discover stories on Pocket')
-  }
   const { mobile_web_view: isMobileWebView } = queryParams
   const ArticleLayout = isMobileWebView ? MobileLayout : Layout
 
@@ -43,21 +41,32 @@ export function CollectionPage({ queryParams = {}, slug }) {
   const trackingEnabled = useSelector((state) => state.oneTrust?.tracking?.enabled)
   const data = useSelector((state) => state.collections[slug]) || {}
   const topics = useSelector((state) => state.topicList?.topicsByName)
+  const userStatus = useSelector((state) => state.user.user_status)
+  const shouldRender = userStatus !== 'pending'
+
+  // Show error page if things have gone awry
+  if (statusCode) return <ErrorPage statusCode={statusCode} />
 
   const { title, intro, excerpt, authors, stories, imageUrl, pageSaveStatus } = data
   const { showAds = true } = data
   const authorNames = authors?.map((author) => author.name)
-  const allowAds = isPremium ? false : showAds && oneTrustReady
+  const allowAds = isPremium ? false : showAds && shouldRender && oneTrustReady
   const usePersonalized = allowAds && trackingEnabled
-
-  const saveAction = () => dispatch(saveCollectionPage(slug))
+  const heroImage = getImageCacheUrl(imageUrl, { width: 648 })
 
   // const count = urls?.length
   // const saveCollectionTop = () => dispatch(saveCollection(slug))
   // const saveCollectionBottom = () => dispatch(saveCollection(slug))
+  const url = `${BASE_URL}/collections/${slug}`
+  const metaData = { description: excerpt, title, url, image: imageUrl }
+
+  const saveAction = () => {
+    if (pageSaveStatus === 'saved') dispatch(unSaveCollectionPage(slug))
+    if (pageSaveStatus !== 'saved') dispatch(saveCollectionPage(slug))
+  }
 
   return (
-    <ArticleLayout title={metaData.title} metaData={metaData}>
+    <ArticleLayout title={metaData.title} metaData={metaData} className={printLayout}>
       <main className={contentLayout}>
         <section>
           <AdAboveTheFold allowAds={allowAds} usePersonalized={usePersonalized} />
@@ -66,10 +75,10 @@ export function CollectionPage({ queryParams = {}, slug }) {
         <section className="content-section">
           <header>
             <PocketWorthy />
-            <ParsedHeadline title={title} description={excerpt} />
+            <ParsedHeadline title={title} description={excerpt} useMarkdown={true} />
             {authors ? (
               <AuthorByline
-                url="/collections"
+                url="/explore"
                 name="Pocket Collections"
                 showAuthors={true}
                 authorNames={authorNames}
@@ -91,7 +100,7 @@ export function CollectionPage({ queryParams = {}, slug }) {
               isMobileWebView={isMobileWebView}
               title={title}
               excerpt={excerpt}
-              saveAction={saveAction}
+              onSave={saveAction}
               saveStatus={pageSaveStatus}
               isAuthenticated={isAuthenticated}
               handleShareClick={() => {}}
@@ -107,7 +116,7 @@ export function CollectionPage({ queryParams = {}, slug }) {
           </aside>
 
           <div className="content-body">
-            <img src={imageUrl} alt="" className="hero-image" />
+            <img src={heroImage} alt="" className="hero-image" />
 
             <ContentIntro intro={intro} />
 

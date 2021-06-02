@@ -28,18 +28,18 @@ export const contentLayout = css`
     }
 
     ${breakpointTinyTablet} {
-      grid-column: 1 / 12;
+      grid-column: 1 / -1;
     }
 
     &.isMobileWebView {
       grid-column: 1 / 8;
 
       ${breakpointMediumTablet} {
-        grid-column: 1 / 11;
+        grid-column: 1 / 12;
       }
 
       ${breakpointTinyTablet} {
-        grid-column: 1 / 12;
+        grid-column: 1 / -1;
       }
     }
   }
@@ -54,10 +54,10 @@ export const contentLayout = css`
 
     ${breakpointMediumTablet} {
       position: static;
-      grid-column: 2 / 12;
+      grid-column: 2 / -1;
     }
     ${breakpointTinyTablet} {
-      grid-column: 1 / 12;
+      grid-column: 1 / -1;
     }
   }
 
@@ -82,16 +82,7 @@ export const contentLayout = css`
 
   .hero-image {
     width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  .content-excerpt {
-    font-family: var(--fontSansSerif);
-    font-style: italic;
-    font-weight: 300;
-    font-size: 1.25rem;
-    line-height: 140%;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
   }
 
   article {
