@@ -1,3 +1,11 @@
+## [1.14.41](https://github.com/Pocket/web-client/compare/v1.14.40...v1.14.41) (2021-06-02)
+
+
+### Bug Fixes
+
+* **collections:** don't pass slug through as id ([80f2ef7](https://github.com/Pocket/web-client/commit/80f2ef760e53a6d817ea3527b45bc1e85772cd1c))
+* **snowplow:** run item id through parseint ([fb63ed2](https://github.com/Pocket/web-client/commit/fb63ed28be851b6516f406481de6e3a314fc80f0))
+
 ## [1.14.40](https://github.com/Pocket/web-client/compare/v1.14.39...v1.14.40) (2021-06-02)
 
 
