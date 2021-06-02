@@ -1,3 +1,11 @@
+## [1.14.37](https://github.com/Pocket/web-client/compare/v1.14.36...v1.14.37) (2021-06-02)
+
+
+### Bug Fixes
+
+* **print:** sneaking in update to hide bottom upsell when printing ([0f2d4d7](https://github.com/Pocket/web-client/commit/0f2d4d7ae776b06891117b9210fc2d5f55dd9023))
+* **snowplow:** fixing snowplow errors from the migration ([26e73c0](https://github.com/Pocket/web-client/commit/26e73c00ec9fb41c4efb97a851097122d6dcf3c6))
+
 ## [1.14.36](https://github.com/Pocket/web-client/compare/v1.14.35...v1.14.36) (2021-06-02)
 
 
