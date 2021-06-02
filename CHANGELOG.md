@@ -1,3 +1,11 @@
+## [1.14.39](https://github.com/Pocket/web-client/compare/v1.14.38...v1.14.39) (2021-06-02)
+
+
+### Bug Fixes
+
+* **nav:** update nav links to use next/link component ([d428f9b](https://github.com/Pocket/web-client/commit/d428f9b72d8d7c66641c38a7b3f72eb846b953f5))
+* **nav:** update tests for new link components ([2370e3d](https://github.com/Pocket/web-client/commit/2370e3d36c3104a2a4f4740532c30be4e7fbea7c))
+
 ## [1.14.38](https://github.com/Pocket/web-client/compare/v1.14.37...v1.14.38) (2021-06-02)
 
 
