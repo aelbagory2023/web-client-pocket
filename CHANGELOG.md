@@ -1,3 +1,11 @@
+## [1.14.38](https://github.com/Pocket/web-client/compare/v1.14.37...v1.14.38) (2021-06-02)
+
+
+### Bug Fixes
+
+* **collections:** add conditonal author bio ([591292c](https://github.com/Pocket/web-client/commit/591292cc8a13e6651a60188af1dfc0612db232db))
+* **collections:** allow for bio without image ([1992c75](https://github.com/Pocket/web-client/commit/1992c754934c42a402f9d82aa9dd558780511fb8))
+
 ## [1.14.37](https://github.com/Pocket/web-client/compare/v1.14.36...v1.14.37) (2021-06-02)
 
 
