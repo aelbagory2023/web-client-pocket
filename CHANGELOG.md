@@ -1,3 +1,11 @@
+## [1.14.43](https://github.com/Pocket/web-client/compare/v1.14.42...v1.14.43) (2021-06-03)
+
+
+### Bug Fixes
+
+* **locale:** include discover in common ([32760f0](https://github.com/Pocket/web-client/commit/32760f01b98cd3afdee1a84cd4fee9b83006a04b))
+* **locale:** infer international languages ([e611f58](https://github.com/Pocket/web-client/commit/e611f589baeb24ed6279b17eadbe9256912892d6))
+
 ## [1.14.42](https://github.com/Pocket/web-client/compare/v1.14.41...v1.14.42) (2021-06-03)
 
 
