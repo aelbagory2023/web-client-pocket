@@ -1,3 +1,10 @@
+## [1.14.48](https://github.com/Pocket/web-client/compare/v1.14.47...v1.14.48) (2021-06-04)
+
+
+### Bug Fixes
+
+* **snowplow:** update item object passed to collection impression ([27564cb](https://github.com/Pocket/web-client/commit/27564cb08f8bf185581c245b7a57067fbf1f1fe3))
+
 ## [1.14.47](https://github.com/Pocket/web-client/compare/v1.14.46...v1.14.47) (2021-06-04)
 
 
