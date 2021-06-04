@@ -1,3 +1,10 @@
+## [1.14.46](https://github.com/Pocket/web-client/compare/v1.14.45...v1.14.46) (2021-06-04)
+
+
+### Bug Fixes
+
+* **features:** hydrate features with empty object when logged out ([f37c0d2](https://github.com/Pocket/web-client/commit/f37c0d2eaaa94a36d951eb8dc7a3f2aa31f1dc40))
+
 ## [1.14.45](https://github.com/Pocket/web-client/compare/v1.14.44...v1.14.45) (2021-06-03)
 
 
