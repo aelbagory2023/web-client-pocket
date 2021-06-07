@@ -1,3 +1,11 @@
+## [1.14.49](https://github.com/Pocket/web-client/compare/v1.14.48...v1.14.49) (2021-06-07)
+
+
+### Bug Fixes
+
+* **discover:** remove nbsp for widows in localized ([7e1ef3b](https://github.com/Pocket/web-client/commit/7e1ef3b1145d2d4ab4708e8b80348d5a6d2125a8))
+* **syndicated:** explicit embed width for FF ([4d38e9f](https://github.com/Pocket/web-client/commit/4d38e9f3cbd3212e13a0bce0dfdec82f9a53bdbf))
+
 ## [1.14.48](https://github.com/Pocket/web-client/compare/v1.14.47...v1.14.48) (2021-06-04)
 
 
