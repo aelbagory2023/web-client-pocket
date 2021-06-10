@@ -1,3 +1,12 @@
+## [1.14.51](https://github.com/Pocket/web-client/compare/v1.14.50...v1.14.51) (2021-06-10)
+
+
+### Bug Fixes
+
+* **highlights:** dates needed double curlies for localization ([ffa09c1](https://github.com/Pocket/web-client/commit/ffa09c184fc08e9e9bb82461245a17e99eeae6d1))
+* **version:** use web-localization version 0.10.1 ([93fbb1d](https://github.com/Pocket/web-client/commit/93fbb1db35018e5fc1f41d511549d23abd97b025))
+* **version:** use web-localization version 0.10.2 ([4fa464e](https://github.com/Pocket/web-client/commit/4fa464e94f74511012be41b286b03f43efdea270))
+
 ## [1.14.50](https://github.com/Pocket/web-client/compare/v1.14.49...v1.14.50) (2021-06-10)
 
 
