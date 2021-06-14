@@ -1,3 +1,10 @@
+## [1.14.52](https://github.com/Pocket/web-client/compare/v1.14.51...v1.14.52) (2021-06-14)
+
+
+### Bug Fixes
+
+* **home:** switch topics to slates ([19b5675](https://github.com/Pocket/web-client/commit/19b5675038a044d1866e0d41479874e90b12b04b))
+
 ## [1.14.51](https://github.com/Pocket/web-client/compare/v1.14.50...v1.14.51) (2021-06-10)
 
 
