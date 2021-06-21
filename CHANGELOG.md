@@ -1,3 +1,11 @@
+## [1.14.55](https://github.com/Pocket/web-client/compare/v1.14.54...v1.14.55) (2021-06-21)
+
+
+### Bug Fixes
+
+* **release-notes:** release notes for june 21, 2021 ([c6703f1](https://github.com/Pocket/web-client/commit/c6703f1ab6227925fda4c2aa2ab7b64b34e38373))
+* **release-notes:** release notes for june 21, 2021 ([81a6146](https://github.com/Pocket/web-client/commit/81a61468dd8af711afa66e59900176a07237c1ad))
+
 ## [1.14.54](https://github.com/Pocket/web-client/compare/v1.14.53...v1.14.54) (2021-06-21)
 
 
