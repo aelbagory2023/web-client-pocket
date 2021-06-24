@@ -1,3 +1,10 @@
+## [1.15.1](https://github.com/Pocket/web-client/compare/v1.15.0...v1.15.1) (2021-06-24)
+
+
+### Bug Fixes
+
+* **collections:** update item data passed to snowplow ([e8ffa89](https://github.com/Pocket/web-client/commit/e8ffa890bc7f6321242cbd853f9dbd74b440ed63))
+
 # [1.15.0](https://github.com/Pocket/web-client/compare/v1.14.58...v1.15.0) (2021-06-23)
 
 
