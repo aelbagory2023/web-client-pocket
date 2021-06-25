@@ -1,3 +1,10 @@
+## [1.15.8](https://github.com/Pocket/web-client/compare/v1.15.7...v1.15.8) (2021-06-25)
+
+
+### Bug Fixes
+
+* **home:** update collection subheading ([93f4c38](https://github.com/Pocket/web-client/commit/93f4c38f00d408f0011257bf5ac73092cdd818e8))
+
 ## [1.15.7](https://github.com/Pocket/web-client/compare/v1.15.6...v1.15.7) (2021-06-25)
 
 
