@@ -1,3 +1,10 @@
+## [1.15.6](https://github.com/Pocket/web-client/compare/v1.15.5...v1.15.6) (2021-06-25)
+
+
+### Bug Fixes
+
+* **release-notes:** update date for home and collections release notes ([df93bcd](https://github.com/Pocket/web-client/commit/df93bcd9d0231e2257dd5c03c44b445dfd0550d6))
+
 ## [1.15.5](https://github.com/Pocket/web-client/compare/v1.15.4...v1.15.5) (2021-06-24)
 
 
