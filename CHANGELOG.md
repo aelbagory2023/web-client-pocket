@@ -1,3 +1,11 @@
+## [1.15.9](https://github.com/Pocket/web-client/compare/v1.15.8...v1.15.9) (2021-07-06)
+
+
+### Bug Fixes
+
+* **localization:** bumping localization package to include home and release notes ([207310b](https://github.com/Pocket/web-client/commit/207310bd97da2d0280dd138fc0a3df654087965b))
+* **package-lock:** installed updated localization directory ([033b45d](https://github.com/Pocket/web-client/commit/033b45d841b07145b1b818fba14fcfc7908d9e77))
+
 ## [1.15.8](https://github.com/Pocket/web-client/compare/v1.15.7...v1.15.8) (2021-06-25)
 
 
