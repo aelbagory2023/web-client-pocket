@@ -1,3 +1,10 @@
+## [1.15.10](https://github.com/Pocket/web-client/compare/v1.15.9...v1.15.10) (2021-07-06)
+
+
+### Bug Fixes
+
+* **localization:** adding headers to common locale const ([ad46056](https://github.com/Pocket/web-client/commit/ad4605663b78981396b813d573114d81aae20c3e))
+
 ## [1.15.9](https://github.com/Pocket/web-client/compare/v1.15.8...v1.15.9) (2021-07-06)
 
 
