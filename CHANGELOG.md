@@ -1,3 +1,14 @@
+## [1.15.16](https://github.com/Pocket/web-client/compare/v1.15.15...v1.15.16) (2021-07-07)
+
+
+### Bug Fixes
+
+* **item:** don’t open in new tab ([1b2c93e](https://github.com/Pocket/web-client/commit/1b2c93ef47f9752fcae942ec093caacbd765be86))
+* **item:** use open external where required ([be5677c](https://github.com/Pocket/web-client/commit/be5677c528244a567e0ca95a1819b5e0e7c33ecb))
+* **redirects:** no newtab/redirect for links (save profile) ([4a3c7c7](https://github.com/Pocket/web-client/commit/4a3c7c7eddbe233d73f4b7527177cfecda3069ed))
+* **replaceUTM:** exception for craigslist ([e477245](https://github.com/Pocket/web-client/commit/e47724596397fcd75ba19fd44642ba0f8e1c777f))
+* **utilities:** adding replaceUTM function ([7416c42](https://github.com/Pocket/web-client/commit/7416c423d40cab2b0ac8458770ed8787aac4c5fc))
+
 ## [1.15.15](https://github.com/Pocket/web-client/compare/v1.15.14...v1.15.15) (2021-07-07)
 
 
