@@ -1,3 +1,10 @@
+## [1.15.15](https://github.com/Pocket/web-client/compare/v1.15.14...v1.15.15) (2021-07-07)
+
+
+### Bug Fixes
+
+* **snowplow:** copy items to avoid mutation ([7eaa057](https://github.com/Pocket/web-client/commit/7eaa05703a5fbf52c2309aff852255af95641d33))
+
 ## [1.15.14](https://github.com/Pocket/web-client/compare/v1.15.13...v1.15.14) (2021-07-07)
 
 
