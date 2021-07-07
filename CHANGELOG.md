@@ -1,3 +1,10 @@
+## [1.15.13](https://github.com/Pocket/web-client/compare/v1.15.12...v1.15.13) (2021-07-07)
+
+
+### Bug Fixes
+
+* **search:** adding search lazy load ([4093df6](https://github.com/Pocket/web-client/commit/4093df6d81024f4c3b9d57c94f5fe5be94fc95ce))
+
 ## [1.15.12](https://github.com/Pocket/web-client/compare/v1.15.11...v1.15.12) (2021-07-06)
 
 
