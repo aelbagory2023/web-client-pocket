@@ -1,3 +1,10 @@
+## [1.15.14](https://github.com/Pocket/web-client/compare/v1.15.13...v1.15.14) (2021-07-07)
+
+
+### Bug Fixes
+
+* **cypress:** adding data-cy attributes for publisher, save popup, and unpin tags ([f84d8db](https://github.com/Pocket/web-client/commit/f84d8dbf1d394b886b121a19978038e6bc034661))
+
 ## [1.15.13](https://github.com/Pocket/web-client/compare/v1.15.12...v1.15.13) (2021-07-07)
 
 
