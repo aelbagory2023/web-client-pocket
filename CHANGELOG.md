@@ -1,3 +1,11 @@
+## [1.15.17](https://github.com/Pocket/web-client/compare/v1.15.16...v1.15.17) (2021-07-14)
+
+
+### Bug Fixes
+
+* **document:** move progressive meta to app ([c6bb7ab](https://github.com/Pocket/web-client/commit/c6bb7abeceab77490485bb69cf53b236d6df6faf))
+* **layout:** add social metaData as req for PWA ([0743a9f](https://github.com/Pocket/web-client/commit/0743a9f843ae103a2fbd034366ec8949aa07f22b))
+
 ## [1.15.16](https://github.com/Pocket/web-client/compare/v1.15.15...v1.15.16) (2021-07-07)
 
 
