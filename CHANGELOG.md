@@ -1,3 +1,10 @@
+## [1.15.18](https://github.com/Pocket/web-client/compare/v1.15.17...v1.15.18) (2021-07-14)
+
+
+### Bug Fixes
+
+* **search:** update search total for free users ([f1f30e4](https://github.com/Pocket/web-client/commit/f1f30e423ae04b9627b81b1422cef38055c4ed50))
+
 ## [1.15.17](https://github.com/Pocket/web-client/compare/v1.15.16...v1.15.17) (2021-07-14)
 
 
