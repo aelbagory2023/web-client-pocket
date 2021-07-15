@@ -1,3 +1,15 @@
+## [1.15.19](https://github.com/Pocket/web-client/compare/v1.15.18...v1.15.19) (2021-07-15)
+
+
+### Bug Fixes
+
+* **bookmark:** refactor css to avoid compile errors ([df87fff](https://github.com/Pocket/web-client/commit/df87fffd8bc8650f6fcb9a64fae140fda23a9063))
+* **dependencies:** update nextJS ([07033f7](https://github.com/Pocket/web-client/commit/07033f7286bdc23a298219f47780c83ecc72c5c4))
+* **dependency:** update web-utilities sendBeacon ([3656029](https://github.com/Pocket/web-client/commit/36560297284956054f66efeb6301ff55c82fa2e4))
+* **lint:** update lint errors ([4a509fc](https://github.com/Pocket/web-client/commit/4a509fc1b378bacf56d4ef5f9e5ebbb23709e991))
+* **next:** updating sentry/linaria config ([4f2eaaf](https://github.com/Pocket/web-client/commit/4f2eaafbccd183dc043ce86ae78388de4a5431ab))
+* **scroll tracker:** refactor to hook ([7e8f83e](https://github.com/Pocket/web-client/commit/7e8f83ecdb44fc8196c4bef5be43e9bf334cea42))
+
 ## [1.15.18](https://github.com/Pocket/web-client/compare/v1.15.17...v1.15.18) (2021-07-14)
 
 
