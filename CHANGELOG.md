@@ -1,3 +1,10 @@
+## [1.15.20](https://github.com/Pocket/web-client/compare/v1.15.19...v1.15.20) (2021-07-15)
+
+
+### Bug Fixes
+
+* **sentry:** add some filtering client side ([82378df](https://github.com/Pocket/web-client/commit/82378df6e2d75c2b3471aa119855b674fe67a939))
+
 ## [1.15.19](https://github.com/Pocket/web-client/compare/v1.15.18...v1.15.19) (2021-07-15)
 
 
