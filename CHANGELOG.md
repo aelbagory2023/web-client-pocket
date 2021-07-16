@@ -1,3 +1,13 @@
+## [1.15.22](https://github.com/Pocket/web-client/compare/v1.15.21...v1.15.22) (2021-07-16)
+
+
+### Bug Fixes
+
+* **GlobalNavSearch:** fix GlobalNavSearch story to show closeIcon correctly ([cf689f5](https://github.com/Pocket/web-client/commit/cf689f5c6658825da2f3ef076a675bae0b959f1b))
+* **PublisherRecs:** fix PublisherRecs import so story renders properly ([7ec82f3](https://github.com/Pocket/web-client/commit/7ec82f3263f64b87a06fc1abc72df19aee53c008))
+* **ShortCutsView:** fix ShortCutsView story not rendering ([d452a95](https://github.com/Pocket/web-client/commit/d452a959307121a2918e30aaebc8adab8ef31b68))
+* **tagging stories:** fix tagging stories ([7be1348](https://github.com/Pocket/web-client/commit/7be13489e3ca49e26288bb96fa72fb0492410fb0))
+
 ## [1.15.21](https://github.com/Pocket/web-client/compare/v1.15.20...v1.15.21) (2021-07-16)
 
 
