@@ -1,3 +1,13 @@
+## [1.15.23](https://github.com/Pocket/web-client/compare/v1.15.22...v1.15.23) (2021-07-16)
+
+
+### Bug Fixes
+
+* **sentry:** only accept 50% of errors ([33484f7](https://github.com/Pocket/web-client/commit/33484f787e3586c599c13fb9ebb5466fbe591f81))
+* **sentry:** re-add sentry deployment in ci ([20703a3](https://github.com/Pocket/web-client/commit/20703a3a1fa4cae3b58679ec873ef7f55bbaabd6))
+* **sentry:** trace sampling to 0.5 / whitelist url ([534a4a1](https://github.com/Pocket/web-client/commit/534a4a18fa1b35ab347f7164574890d8f68f708d))
+* **syndicated article:** return on no page ([99e9516](https://github.com/Pocket/web-client/commit/99e951658c82d3b7f3ed18ca10a30d6f276d3e55))
+
 ## [1.15.22](https://github.com/Pocket/web-client/compare/v1.15.21...v1.15.22) (2021-07-16)
 
 
