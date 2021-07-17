@@ -1,3 +1,10 @@
+## [1.15.24](https://github.com/Pocket/web-client/compare/v1.15.23...v1.15.24) (2021-07-17)
+
+
+### Bug Fixes
+
+* **sentry:** third party errors ([94145e5](https://github.com/Pocket/web-client/commit/94145e51a2a8c22ad2c814f8fda0f39f769663d0))
+
 ## [1.15.23](https://github.com/Pocket/web-client/compare/v1.15.22...v1.15.23) (2021-07-16)
 
 
