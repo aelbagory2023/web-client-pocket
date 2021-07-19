@@ -1,3 +1,10 @@
+## [1.15.26](https://github.com/Pocket/web-client/compare/v1.15.25...v1.15.26) (2021-07-19)
+
+
+### Bug Fixes
+
+* **ads:** adding some try/catch/scope to errors ([c0b6dcf](https://github.com/Pocket/web-client/commit/c0b6dcfff8cf7f05cab1ed30e6aa044658fdecd3))
+
 ## [1.15.25](https://github.com/Pocket/web-client/compare/v1.15.24...v1.15.25) (2021-07-19)
 
 
