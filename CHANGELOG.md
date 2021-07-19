@@ -1,3 +1,11 @@
+## [1.15.25](https://github.com/Pocket/web-client/compare/v1.15.24...v1.15.25) (2021-07-19)
+
+
+### Bug Fixes
+
+* **build:** adding start local with https ([d8f86f8](https://github.com/Pocket/web-client/commit/d8f86f8f01a54d8ad1389be5f49b1caa7e8a6487))
+* **pwa:** move meta back to document ([5cbac1f](https://github.com/Pocket/web-client/commit/5cbac1ff4962c788b9fc7ebfa0365308042b333e))
+
 ## [1.15.24](https://github.com/Pocket/web-client/compare/v1.15.23...v1.15.24) (2021-07-17)
 
 
