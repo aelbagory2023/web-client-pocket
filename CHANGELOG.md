@@ -1,3 +1,10 @@
+## [1.15.29](https://github.com/Pocket/web-client/compare/v1.15.28...v1.15.29) (2021-07-20)
+
+
+### Bug Fixes
+
+* **sentry:** ignore ios injection errors ([ed47b0f](https://github.com/Pocket/web-client/commit/ed47b0f8fc0e210f72dcf3dd5aa50d3ba3a50b48))
+
 ## [1.15.28](https://github.com/Pocket/web-client/compare/v1.15.27...v1.15.28) (2021-07-20)
 
 
