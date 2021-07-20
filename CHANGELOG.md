@@ -1,3 +1,10 @@
+## [1.15.27](https://github.com/Pocket/web-client/compare/v1.15.26...v1.15.27) (2021-07-20)
+
+
+### Bug Fixes
+
+* **collections:** validate collection stories ([6f171af](https://github.com/Pocket/web-client/commit/6f171af307d8303e13c8a6ac30774194341713ea))
+
 ## [1.15.26](https://github.com/Pocket/web-client/compare/v1.15.25...v1.15.26) (2021-07-19)
 
 
