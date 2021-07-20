@@ -1,3 +1,10 @@
+## [1.15.31](https://github.com/Pocket/web-client/compare/v1.15.30...v1.15.31) (2021-07-20)
+
+
+### Bug Fixes
+
+* **sentry:** typo in conditon ([3f12003](https://github.com/Pocket/web-client/commit/3f1200311664c042dac25f8a8fd181b2900910ca))
+
 ## [1.15.30](https://github.com/Pocket/web-client/compare/v1.15.29...v1.15.30) (2021-07-20)
 
 
