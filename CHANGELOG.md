@@ -1,3 +1,10 @@
+## [1.15.28](https://github.com/Pocket/web-client/compare/v1.15.27...v1.15.28) (2021-07-20)
+
+
+### Bug Fixes
+
+* **setry:** limit pubads errors ([df68a29](https://github.com/Pocket/web-client/commit/df68a2954c9cc4ebc856b7975b704f0c35e5f9f1))
+
 ## [1.15.27](https://github.com/Pocket/web-client/compare/v1.15.26...v1.15.27) (2021-07-20)
 
 
