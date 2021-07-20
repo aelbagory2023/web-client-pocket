@@ -1,3 +1,10 @@
+## [1.15.30](https://github.com/Pocket/web-client/compare/v1.15.29...v1.15.30) (2021-07-20)
+
+
+### Bug Fixes
+
+* **sentry:** group mobile webview errors ([cdbeaed](https://github.com/Pocket/web-client/commit/cdbeaed5f6d0389a96991f18228b0f2bb51349a6))
+
 ## [1.15.29](https://github.com/Pocket/web-client/compare/v1.15.28...v1.15.29) (2021-07-20)
 
 
