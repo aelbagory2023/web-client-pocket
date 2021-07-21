@@ -1,3 +1,11 @@
+## [1.15.32](https://github.com/Pocket/web-client/compare/v1.15.31...v1.15.32) (2021-07-21)
+
+
+### Bug Fixes
+
+* **sentry:** improve ignoring for unrelated errors ([86b78ea](https://github.com/Pocket/web-client/commit/86b78eae9cf2ef57686f8d6f8bffc936cc5b4831))
+* **sentry:** one more major offender of sentry ([a6cc1e2](https://github.com/Pocket/web-client/commit/a6cc1e2e37d6bac06c86bc1fa27efa6e034029e8))
+
 ## [1.15.31](https://github.com/Pocket/web-client/compare/v1.15.30...v1.15.31) (2021-07-20)
 
 
