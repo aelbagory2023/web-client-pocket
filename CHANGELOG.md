@@ -1,3 +1,10 @@
+## [1.15.34](https://github.com/Pocket/web-client/compare/v1.15.33...v1.15.34) (2021-07-22)
+
+
+### Bug Fixes
+
+* **dependency:** update to latest ([c6230c5](https://github.com/Pocket/web-client/commit/c6230c57bbbdb46d74a45ac680762b456ec38ade))
+
 ## [1.15.33](https://github.com/Pocket/web-client/compare/v1.15.32...v1.15.33) (2021-07-22)
 
 
