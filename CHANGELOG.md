@@ -1,3 +1,14 @@
+## [1.15.33](https://github.com/Pocket/web-client/compare/v1.15.32...v1.15.33) (2021-07-22)
+
+
+### Bug Fixes
+
+* **app:** only get settings on valid users ([19f1885](https://github.com/Pocket/web-client/commit/19f18850f4813fed7ca0038cd24a583fd9e51902))
+* **discover:** stop throwing 503 item render ([9183b11](https://github.com/Pocket/web-client/commit/9183b11fd47223bbfe451b9386c42077349e0139))
+* **next:** rewrite should be async ([41675f9](https://github.com/Pocket/web-client/commit/41675f93deaf1424d6cc6c42dc8413e7ed8eb935))
+* **next:** webpack4 for until image issues are sorted ([b9314dd](https://github.com/Pocket/web-client/commit/b9314ddb5ab5bec6a3c9ffa1208da66c1af633c3))
+* **sentry:** update sentry node error ([281b133](https://github.com/Pocket/web-client/commit/281b133c5c9716c31ee3fddd2d9b86eb6924ef0e))
+
 ## [1.15.32](https://github.com/Pocket/web-client/compare/v1.15.31...v1.15.32) (2021-07-21)
 
 
