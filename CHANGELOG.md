@@ -1,3 +1,10 @@
+## [1.16.2](https://github.com/Pocket/web-client/compare/v1.16.1...v1.16.2) (2021-07-27)
+
+
+### Bug Fixes
+
+* **home:** update hydration to run when topics settings are updated ([88111f3](https://github.com/Pocket/web-client/commit/88111f353db4daf47a1eaad2e935798a5ee5c456))
+
 ## [1.16.1](https://github.com/Pocket/web-client/compare/v1.16.0...v1.16.1) (2021-07-27)
 
 
