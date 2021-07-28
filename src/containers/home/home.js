@@ -9,7 +9,7 @@ import { getTopicList } from 'connectors/topic-list/topic-list.state'
 import { getCollections } from 'containers/home/home.state'
 
 import { HomeGreeting } from 'containers/home/homeGreeting'
-import { TopicSelector } from 'containers/home/topicSelector'
+import { HomeTopicSelector } from 'containers/home/topicSelector'
 import { HomeTopicsList } from 'containers/home/listTopics'
 import { HomeCollectionList } from 'containers/home/listCollection'
 
@@ -49,7 +49,7 @@ export default function Collection(props) {
         <main className="main">
           <HomeGreeting />
 
-          <TopicSelector />
+          <HomeTopicSelector />
 
           <HomeTopicsList />
 
