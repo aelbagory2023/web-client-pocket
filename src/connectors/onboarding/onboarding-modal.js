@@ -2,7 +2,7 @@ import { Button } from '@pocket/web-ui'
 import { Modal, ModalBody, ModalFooter } from 'components/modal/modal'
 import { useDispatch, useSelector } from 'react-redux'
 import { useTranslation, Trans } from 'next-i18next'
-import { TopicSelector } from 'containers/home/topicSelector'
+import { TopicSelector } from 'connectors/topic-list/topic-selector'
 import { onboardingCloseTopicSelectionModal } from './onboarding.state'
 
 
