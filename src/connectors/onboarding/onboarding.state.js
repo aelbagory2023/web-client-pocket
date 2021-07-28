@@ -1,10 +1,13 @@
 import { SETTINGS_FETCH_SUCCESS } from 'actions'
+import { ONBOARDING_RESET } from 'actions'
 import { filterSettings } from 'common/utilities'
 
 const initialState = {}
 
 /** ACTIONS
  --------------------------------------------------------------- */
+
+export const resetOnboarding = () => ({ type: ONBOARDING_RESET })
 
 /** REDUCERS
  --------------------------------------------------------------- */
@@ -18,6 +21,8 @@ export const onboardingReducers = (state = initialState, action) => {
         ...state,
         ...filterSettings(settings?.onboarding, initialState)
       }
+    case ONBOARDING_RESET:
+      return initialState
 
     default:
       return state
