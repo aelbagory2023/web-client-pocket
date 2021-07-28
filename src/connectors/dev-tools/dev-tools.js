@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { devModeToggle } from 'connectors/app/app.state'
 import { Features } from 'connectors/dev-tools/features'
 import { localStore } from 'common/utilities/browser-storage/browser-storage'
+import { resetOnboarding } from 'connectors/onboarding/onboarding.state'
 
 import { css } from 'linaria'
 import { headingSansSerif } from '@pocket/web-ui'
@@ -48,6 +49,7 @@ export function DevTools() {
     localStore.getItem('showPocketDevTools') === 'true' || isDevBuild
   const devMode = useSelector((state) => state.app.devMode)
   const handleKeyCombo = () => dispatch(devModeToggle())
+  const onboardingReset = () => dispatch(resetOnboarding())
 
   useEffect(() => {
     Mousetrap.bind('q a', handleKeyCombo) // Enter dev mode
@@ -59,6 +61,7 @@ export function DevTools() {
       <h6>Dev Settings</h6>
       <Features />
       <Languages />
+      <button onClick={onboardingReset}>Reset Onboarding</button>
     </div>
   ) : null
 }
