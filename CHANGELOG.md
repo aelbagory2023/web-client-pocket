@@ -1,3 +1,13 @@
+## [1.16.4](https://github.com/Pocket/web-client/compare/v1.16.3...v1.16.4) (2021-07-28)
+
+
+### Bug Fixes
+
+* **filterSettiings:** add param comment for initial state ([5b6b8fe](https://github.com/Pocket/web-client/commit/5b6b8feb938bfec833379e1d78b7bf6155268443))
+* **filterSettings:** move filterSettings function to utilities ([97f707a](https://github.com/Pocket/web-client/commit/97f707a4c71626b4445a60ef97d47c8c1174ad04))
+* **onboarding:** add onboarding connector ([3e3a44b](https://github.com/Pocket/web-client/commit/3e3a44bcb48de423e57dde854ad84ff81fa7ace8))
+* **onboarding:** fetch onboarding settings ([1bd057f](https://github.com/Pocket/web-client/commit/1bd057f96361301c13d18f910dd292dcc2a10957))
+
 ## [1.16.3](https://github.com/Pocket/web-client/compare/v1.16.2...v1.16.3) (2021-07-28)
 
 
