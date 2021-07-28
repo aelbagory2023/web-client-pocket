@@ -23,7 +23,8 @@ import { CACHE_KEY_HOME_STORED_TOPICS } from 'common/constants'
 
 const initialState = {
   pinnedTags: [],
-  pinnedTopics: []
+  pinnedTopics: [],
+  settingsFetched: false,
 }
 
 /** ACTIONS
@@ -39,7 +40,8 @@ export const settingsReducers = (state = initialState, action) => {
       const { settings } = action
       return {
         ...state,
-        ...filterSettings(settings, initialState)
+        ...filterSettings(settings, initialState),
+        settingsFetched: true,
       }
     }
 

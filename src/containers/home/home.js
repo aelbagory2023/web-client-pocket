@@ -20,6 +20,7 @@ import { DeleteModal } from 'connectors/confirm-delete/confirm-delete'
 import { ShareModal } from 'connectors/confirm-share/confirm-share'
 import { ArchiveModal } from 'connectors/confirm-archive/confirm-archive'
 import { FavoriteModal } from 'connectors/confirm-favorite/confirm-favorite'
+import { OnboardingModal } from 'connectors/onboarding/onboarding-modal'
 import { Toasts } from 'connectors/toasts/toast-list'
 
 export default function Collection(props) {
@@ -60,6 +61,7 @@ export default function Collection(props) {
       <ShareModal />
       <ArchiveModal />
       <FavoriteModal />
+      <OnboardingModal />
       <Toasts />
     </Layout>
   )
