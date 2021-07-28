@@ -80,6 +80,8 @@ export function chunk(array, size = 1) {
  * @param {object} initialState Initial state of settings to compare to
  */
 export const filterSettings = (settings, initialState) => {
+  if (!settings) return {}
+
   return Object.keys(settings)
     .filter(key => Object.keys(initialState).includes(key))
     .reduce((newObj, key) => {
