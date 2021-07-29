@@ -3,6 +3,7 @@ import { css } from 'linaria'
 import { HomeJourneyHeader } from 'components/headers/home-header'
 import { useSelector } from 'react-redux'
 import { TopicSelector } from 'connectors/topic-list/topic-selector'
+import { breakpointLargeHandset } from '@pocket/web-ui'
 
 const selectionStyles = css`
   padding: 2rem 0;
@@ -10,6 +11,10 @@ const selectionStyles = css`
 
 export const pillboxStyle = css`
   padding: 0 3rem 1.5rem;
+
+  ${breakpointLargeHandset} {
+    padding: 0 0 1.5rem;
+  }
 `
 
 export const HomeTopicSelector = () => {

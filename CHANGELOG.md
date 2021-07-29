@@ -1,3 +1,17 @@
+## [1.16.6](https://github.com/Pocket/web-client/compare/v1.16.5...v1.16.6) (2021-07-29)
+
+
+### Bug Fixes
+
+* **home:** remove padding on topic selector for mobile ([60ebd6d](https://github.com/Pocket/web-client/commit/60ebd6d1dcd6ac89bd60c9a4eb536b8a5f6c24c4))
+
+## [1.16.5](https://github.com/Pocket/web-client/compare/v1.16.4...v1.16.5) (2021-07-28)
+
+
+### Bug Fixes
+
+* **syndicated:** pass article title to layout component ([5783e87](https://github.com/Pocket/web-client/commit/5783e8700856d4298f49a43911d392e8483408da))
+
 ## [1.16.4](https://github.com/Pocket/web-client/compare/v1.16.3...v1.16.4) (2021-07-28)
 
 
