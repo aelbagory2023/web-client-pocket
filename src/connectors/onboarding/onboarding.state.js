@@ -27,7 +27,7 @@ export const onboardingReducers = (state = initialState, action) => {
         ...state,
         ...filterSettings(settings?.onboarding, initialState)
       }
-    
+
     case ONBOARDING_CLOSE_TOPICS_MODAL:
       return {
         ...state,
@@ -46,8 +46,8 @@ export const onboardingReducers = (state = initialState, action) => {
  --------------------------------------------------------------- */
 
 export const onboardingSagas = [
+  takeLatest(ONBOARDING_RESET, saveSettings),
   takeLatest(ONBOARDING_CLOSE_TOPICS_MODAL, saveSettings),
-
 ]
 
 
