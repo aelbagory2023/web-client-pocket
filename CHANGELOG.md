@@ -1,3 +1,10 @@
+## [1.16.7](https://github.com/Pocket/web-client/compare/v1.16.6...v1.16.7) (2021-07-29)
+
+
+### Bug Fixes
+
+* **home:** display two latest collections ([37322e7](https://github.com/Pocket/web-client/commit/37322e716084c2c55cf1369819e3d5453a8fcf56))
+
 ## [1.16.6](https://github.com/Pocket/web-client/compare/v1.16.5...v1.16.6) (2021-07-29)
 
 
