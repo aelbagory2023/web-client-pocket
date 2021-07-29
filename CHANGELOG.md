@@ -1,3 +1,10 @@
+## [1.16.6](https://github.com/Pocket/web-client/compare/v1.16.5...v1.16.6) (2021-07-29)
+
+
+### Bug Fixes
+
+* **home:** remove padding on topic selector for mobile ([60ebd6d](https://github.com/Pocket/web-client/commit/60ebd6d1dcd6ac89bd60c9a4eb536b8a5f6c24c4))
+
 ## [1.16.5](https://github.com/Pocket/web-client/compare/v1.16.4...v1.16.5) (2021-07-28)
 
 
