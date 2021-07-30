@@ -20,5 +20,13 @@ export const onboardingActions = {
       component: 'ui',
       uiType: 'dialog'
     }
+  },
+  'onboarding.topic.toggle': {
+    eventType: 'engagement',
+    entityTypes: ['ui'],
+    eventData: {
+      uiType: 'button'
+    },
+    expects: ['label']
   }
 }
