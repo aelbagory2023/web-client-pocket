@@ -5,7 +5,6 @@ import { darkMode } from '@pocket/web-ui'
 import { useDispatch, useSelector } from 'react-redux'
 import { setTopicSection } from 'containers/home/home.state'
 import { unsetTopicSection } from 'containers/home/home.state'
-import { sendSnowplowEvent } from 'connectors/snowplow/snowplow.state'
 import { topicHeadings } from './topic-headings'
 
 export const pillboxStyle = css`
@@ -45,7 +44,9 @@ const TopicPill = ({ topic, handleTopicClick, active }) => {
   )
 }
 
-export const TopicSelector = () => {
+export const TopicSelector = ({
+  toggleCallback = () => {}
+}) => {
   const dispatch = useDispatch()
 
   // Get topicList for sections that require it
@@ -63,7 +64,7 @@ export const TopicSelector = () => {
       : setTopicSection
 
     dispatch(topicAction(topic))
-    dispatch(sendSnowplowEvent('home.topic.toggle', { label: topicHeadings[topic.topic]?.title }))
+    toggleCallback(topicHeadings[topic.topic]?.title)
   }
 
   return (
