@@ -9,7 +9,7 @@ import { getTopicList } from 'connectors/topic-list/topic-list.state'
 import { getCollections } from 'containers/home/home.state'
 
 import { HomeGreeting } from 'containers/home/homeGreeting'
-import { TopicSelector } from 'containers/home/topicSelector'
+import { HomeTopicSelector } from 'containers/home/topicSelector'
 import { HomeTopicsList } from 'containers/home/listTopics'
 import { HomeCollectionList } from 'containers/home/listCollection'
 
@@ -20,7 +20,9 @@ import { DeleteModal } from 'connectors/confirm-delete/confirm-delete'
 import { ShareModal } from 'connectors/confirm-share/confirm-share'
 import { ArchiveModal } from 'connectors/confirm-archive/confirm-archive'
 import { FavoriteModal } from 'connectors/confirm-favorite/confirm-favorite'
+import { OnboardingModal } from 'connectors/onboarding/onboarding-modal'
 import { Toasts } from 'connectors/toasts/toast-list'
+import { featureFlagActive } from 'connectors/feature-flags/feature-flags'
 
 export default function Collection(props) {
   const { metaData = {} } = props
@@ -30,6 +32,9 @@ export default function Collection(props) {
   const userStatus = useSelector((state) => state.user.user_status)
   const selectedTopics = useSelector((state) => state.settings.pinnedTopics)
   const shouldRender = userStatus !== 'pending'
+
+  const featureState = useSelector((state) => state.features)
+  const onboardingDev = featureFlagActive({ flag: 'onboarding.dev', featureState })
 
   // Initialize data
   useEffect(() => {
@@ -48,9 +53,9 @@ export default function Collection(props) {
         <main className="main">
           <HomeGreeting />
 
-          <TopicSelector />
-
           <HomeTopicsList />
+
+          <HomeTopicSelector />
 
           <HomeCollectionList />
         </main>
@@ -60,6 +65,7 @@ export default function Collection(props) {
       <ShareModal />
       <ArchiveModal />
       <FavoriteModal />
+      { onboardingDev ? <OnboardingModal /> : null }
       <Toasts />
     </Layout>
   )

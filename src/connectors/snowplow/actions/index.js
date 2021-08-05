@@ -4,6 +4,7 @@ import { globalNavActions } from './global-nav'
 import { homeActions } from './home'
 import { modalActions } from './modals'
 import { myListActions } from './my-list'
+import { onboardingActions } from './onboarding'
 import { profileActions } from './profile'
 import { readerActions } from './reader'
 import { sideNavActions } from './side-nav'
@@ -16,6 +17,7 @@ export const analyticsActions = {
   ...homeActions,
   ...modalActions,
   ...myListActions,
+  ...onboardingActions,
   ...profileActions,
   ...readerActions,
   ...sideNavActions,

@@ -1,10 +1,19 @@
+import { put, takeLatest } from 'redux-saga/effects'
 import { SETTINGS_FETCH_SUCCESS } from 'actions'
+import { SETTINGS_UPDATE } from 'actions'
+import { ONBOARDING_CLOSE_TOPICS_MODAL } from 'actions'
+import { ONBOARDING_RESET } from 'actions'
 import { filterSettings } from 'common/utilities'
 
-const initialState = {}
+const initialState = {
+  topicSelectionModal: true
+}
 
 /** ACTIONS
  --------------------------------------------------------------- */
+
+export const onboardingCloseTopicSelectionModal = () => ({ type: ONBOARDING_CLOSE_TOPICS_MODAL })
+export const resetOnboarding = () => ({ type: ONBOARDING_RESET })
 
 /** REDUCERS
  --------------------------------------------------------------- */
@@ -19,6 +28,15 @@ export const onboardingReducers = (state = initialState, action) => {
         ...filterSettings(settings?.onboarding, initialState)
       }
 
+    case ONBOARDING_CLOSE_TOPICS_MODAL:
+      return {
+        ...state,
+        topicSelectionModal: false
+      }
+
+    case ONBOARDING_RESET:
+      return initialState
+
     default:
       return state
   }
@@ -28,9 +46,14 @@ export const onboardingReducers = (state = initialState, action) => {
  --------------------------------------------------------------- */
 
 export const onboardingSagas = [
-
+  takeLatest(ONBOARDING_RESET, saveSettings),
+  takeLatest(ONBOARDING_CLOSE_TOPICS_MODAL, saveSettings),
 ]
 
 
 /** SAGA :: RESPONDERS
  --------------------------------------------------------------- */
+
+function* saveSettings() {
+  yield put({ type: SETTINGS_UPDATE })
+}
