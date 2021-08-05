@@ -1,3 +1,17 @@
+## [1.16.8](https://github.com/Pocket/web-client/compare/v1.16.7...v1.16.8) (2021-08-02)
+
+
+### Bug Fixes
+
+* **collections:** add signup callout to collections for logged out users ([c66765b](https://github.com/Pocket/web-client/commit/c66765b5438dd790e423a00e25dcabc1ad0245d0))
+
+## [1.16.7](https://github.com/Pocket/web-client/compare/v1.16.6...v1.16.7) (2021-07-29)
+
+
+### Bug Fixes
+
+* **home:** display two latest collections ([37322e7](https://github.com/Pocket/web-client/commit/37322e716084c2c55cf1369819e3d5453a8fcf56))
+
 ## [1.16.6](https://github.com/Pocket/web-client/compare/v1.16.5...v1.16.6) (2021-07-29)
 
 
