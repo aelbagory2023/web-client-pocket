@@ -12,6 +12,10 @@ const selectionStyles = css`
 
 export const pillboxStyle = css`
   padding: 0 3rem 1.5rem;
+
+  ${breakpointLargeHandset} {
+    padding: 0 0 1.5rem;
+  }
 `
 
 export const HomeTopicSelector = () => {
