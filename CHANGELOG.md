@@ -1,3 +1,36 @@
+## [1.16.9](https://github.com/Pocket/web-client/compare/v1.16.8...v1.16.9) (2021-08-05)
+
+
+### Bug Fixes
+
+* **filterSettings:** return empty object if no settings ([fd2cf58](https://github.com/Pocket/web-client/commit/fd2cf586536c76f69ed64337ea3a06a02d7a7618))
+* **filterSettings:** return empty object if no settings ([63dccc1](https://github.com/Pocket/web-client/commit/63dccc192463a15c326abb687b09c7fb49f19031))
+* **home:** check for onboardingDev feature flag & then show onboarding modal ([77fcfd2](https://github.com/Pocket/web-client/commit/77fcfd2e34226d6794033a2c67d5416d9b261922))
+* **home:** check for onboardingDev feature flag & then show onboarding modal ([478ee84](https://github.com/Pocket/web-client/commit/478ee84beea251e7fbd8468f6154d71138b9da04))
+* **home:** update padding on mobile sizes for topic selector ([4849590](https://github.com/Pocket/web-client/commit/4849590eeba48de8184e664026c3198a8f83aacc))
+* **home:** update page headings and topic selector placement ([ec6606c](https://github.com/Pocket/web-client/commit/ec6606c18ceb975eb3dbf7c92e02c7db970c6602))
+* **home:** update page headings and topic selector placement ([3b4c6ff](https://github.com/Pocket/web-client/commit/3b4c6ff5f171f7d86c248bfebd0b2366c0be5c81))
+* **onboarding:** add topic toggle events for onboarding ([db8da4d](https://github.com/Pocket/web-client/commit/db8da4df38676706f13df0df6fd94cce273ac51f))
+* **onboarding:** add topic toggle events for onboarding ([cf72375](https://github.com/Pocket/web-client/commit/cf72375d5068ce2b12049c49c606161f4eabc1ac))
+* **onboarding:** adding snowplow events for onboarding welcome modal ([65a265b](https://github.com/Pocket/web-client/commit/65a265b321d5c825f8185321569d2dba58dbe71c))
+* **onboarding:** adding snowplow events for onboarding welcome modal ([3e498e9](https://github.com/Pocket/web-client/commit/3e498e91455d2cc780b41d48e59d90ccf2d7eff5))
+* **onboarding:** allow devs to reset onboarding via dev tools panel ([eae3cf6](https://github.com/Pocket/web-client/commit/eae3cf6c7467864d94039fb550ea00318b95ae08))
+* **onboarding:** allow devs to reset onboarding via dev tools panel ([03dae6e](https://github.com/Pocket/web-client/commit/03dae6e453fce9011ce3d349972af8e8d555db39))
+* **onboarding:** change modal button type based on if topics are selected ([9ea7083](https://github.com/Pocket/web-client/commit/9ea708356ed055d23d4be22cda8310676a613cfc))
+* **onboarding:** change modal button type based on if topics are selected ([ecb8cd1](https://github.com/Pocket/web-client/commit/ecb8cd197dfc2bdfb8d8c42e5d9221d94d649285))
+* **onboarding:** show onboarding topics modal on home ([d0210a2](https://github.com/Pocket/web-client/commit/d0210a26c2e35ebb8b131c5240a9439a0fee3783))
+* **onboarding:** show onboarding topics modal on home ([8a6fdf7](https://github.com/Pocket/web-client/commit/8a6fdf72a721b104eb82c23d2007258a8777b156))
+* **onboarding:** update background color for dark theme ([11ab339](https://github.com/Pocket/web-client/commit/11ab3392aa98f46bb7bd06c1810e6a316afb98a2))
+* **onboarding:** update background color for dark theme ([f8bad3b](https://github.com/Pocket/web-client/commit/f8bad3b6f7011eee63b76eba6863963964cd5416))
+* **onboarding:** update modal styles with proper graphics ([24c3878](https://github.com/Pocket/web-client/commit/24c38789bfcd137d5b0595a3d3e2471eeb3ed3c1))
+* **onboarding:** update modal styles with proper graphics ([a213ecf](https://github.com/Pocket/web-client/commit/a213ecf86c301ec11c3d483d4155d3538afd4843))
+* **onboarding modal:** add copy ([7e81d4e](https://github.com/Pocket/web-client/commit/7e81d4e77450e54eb0135b074f3a57ec92dccff0))
+* **onboarding modal:** add copy ([91d332c](https://github.com/Pocket/web-client/commit/91d332c70d81a94b59b75ae80117ce23c1f9eab7))
+* **svg:** fix rainbow-reader-transparent.svg to not have top swoop ([abbf4c4](https://github.com/Pocket/web-client/commit/abbf4c45ca7085e468b5d7585ae9720861111f73))
+* **svg:** fix rainbow-reader-transparent.svg to not have top swoop ([f022151](https://github.com/Pocket/web-client/commit/f022151cdbdbb3caba076666eae8df2e920be473))
+* **topicSelector:** pull topicSelector into separate connector ([933f403](https://github.com/Pocket/web-client/commit/933f403a36a2c2602e82c6847f1dbd9e02ae8d5c))
+* **topicSelector:** pull topicSelector into separate connector ([164c00c](https://github.com/Pocket/web-client/commit/164c00c312f1eade3af00a57e37936967e02860d))
+
 ## [1.16.8](https://github.com/Pocket/web-client/compare/v1.16.7...v1.16.8) (2021-08-02)
 
 
