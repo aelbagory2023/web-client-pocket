@@ -1,3 +1,10 @@
+## [1.16.10](https://github.com/Pocket/web-client/compare/v1.16.9...v1.16.10) (2021-08-06)
+
+
+### Bug Fixes
+
+* **onboarding:** add snowplow event for skipping onboarding modal ([fde0b9b](https://github.com/Pocket/web-client/commit/fde0b9b02ba74be71d42a437402469d0f4d3b7bf))
+
 ## [1.16.9](https://github.com/Pocket/web-client/compare/v1.16.8...v1.16.9) (2021-08-05)
 
 
