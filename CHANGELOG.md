@@ -1,3 +1,16 @@
+# [1.17.0](https://github.com/Pocket/web-client/compare/v1.16.10...v1.17.0) (2021-08-09)
+
+
+### Bug Fixes
+
+* **collections:** omit topics on non en ([bc94017](https://github.com/Pocket/web-client/commit/bc94017687d62c6276dc0d29d1b0f2801e8d54f5))
+
+
+### Features
+
+* **collections:** add locale to request ([beb20b7](https://github.com/Pocket/web-client/commit/beb20b73353c35f94e9fc95b1a46e9481655a1ca))
+* **collections:** pass locale from fetch ([c429c03](https://github.com/Pocket/web-client/commit/c429c03597648916010614f2b1878b772ffc6efe))
+
 ## [1.16.10](https://github.com/Pocket/web-client/compare/v1.16.9...v1.16.10) (2021-08-06)
 
 
