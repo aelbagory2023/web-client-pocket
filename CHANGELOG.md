@@ -1,3 +1,11 @@
+## [1.17.1](https://github.com/Pocket/web-client/compare/v1.17.0...v1.17.1) (2021-08-09)
+
+
+### Bug Fixes
+
+* **feature:** add fallback hydration on bad data ([fdb3e9e](https://github.com/Pocket/web-client/commit/fdb3e9e210615cc9f86d048434276fd895c2b5bd))
+* **nav:** remove reliance on flags for nav render ([cc134c3](https://github.com/Pocket/web-client/commit/cc134c3f48c2195121c0d034741c95dc9fdb711d))
+
 # [1.17.0](https://github.com/Pocket/web-client/compare/v1.16.10...v1.17.0) (2021-08-09)
 
 
