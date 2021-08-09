@@ -1,3 +1,10 @@
+## [1.17.4](https://github.com/Pocket/web-client/compare/v1.17.3...v1.17.4) (2021-08-09)
+
+
+### Bug Fixes
+
+* **devtools:** add devtools on production for labs users ([d547dfd](https://github.com/Pocket/web-client/commit/d547dfd5acfd4df8d3986141830196490b21c4ee))
+
 ## [1.17.3](https://github.com/Pocket/web-client/compare/v1.17.2...v1.17.3) (2021-08-09)
 
 
