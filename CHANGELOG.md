@@ -1,3 +1,10 @@
+## [1.17.6](https://github.com/Pocket/web-client/compare/v1.17.5...v1.17.6) (2021-08-10)
+
+
+### Bug Fixes
+
+* **collections:** update revalidation config ([84c8959](https://github.com/Pocket/web-client/commit/84c89592e505a7ed13f4c120703e0f2107ce4f01))
+
 ## [1.17.5](https://github.com/Pocket/web-client/compare/v1.17.4...v1.17.5) (2021-08-10)
 
 
