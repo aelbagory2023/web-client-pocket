@@ -1,3 +1,11 @@
+## [1.17.5](https://github.com/Pocket/web-client/compare/v1.17.4...v1.17.5) (2021-08-10)
+
+
+### Bug Fixes
+
+* **home:** rename home function back to home after random renaming ([235d0b3](https://github.com/Pocket/web-client/commit/235d0b3519ac7b31859a0b656c004452d93cb8ce))
+* **waypoint:** detect browser language and send to mylist if not en ([fbace2b](https://github.com/Pocket/web-client/commit/fbace2b38860db24b387a60c7ed3abbe99f19444))
+
 ## [1.17.4](https://github.com/Pocket/web-client/compare/v1.17.3...v1.17.4) (2021-08-09)
 
 
