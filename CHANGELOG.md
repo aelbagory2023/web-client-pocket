@@ -1,3 +1,11 @@
+## [1.17.7](https://github.com/Pocket/web-client/compare/v1.17.6...v1.17.7) (2021-08-11)
+
+
+### Bug Fixes
+
+* **onboarding:** amend comment to document the issue is occurring on smaller devices ([f8146af](https://github.com/Pocket/web-client/commit/f8146af12ca163dcb9926cd7096b8f968b7ade77))
+* **onboarding:** fix onboarding modal being too tall and getting cut off on mobile chrome/safari ([08b31eb](https://github.com/Pocket/web-client/commit/08b31ebe12ad56d414aebb7f05e48f66df7592dd))
+
 ## [1.17.6](https://github.com/Pocket/web-client/compare/v1.17.5...v1.17.6) (2021-08-10)
 
 
