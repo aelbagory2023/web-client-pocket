@@ -1,3 +1,12 @@
+## [1.17.8](https://github.com/Pocket/web-client/compare/v1.17.7...v1.17.8) (2021-08-16)
+
+
+### Bug Fixes
+
+* **dev tools:** adjust toggle and state ([eb64005](https://github.com/Pocket/web-client/commit/eb64005035d659a514b59f797b89a723f4896de0))
+* **dev tools:** language selector ([b8a9450](https://github.com/Pocket/web-client/commit/b8a945011db14d781716c431c68f104cbf23e597))
+* **dev tools:** suppress snowplow dev messaging ([d2a1179](https://github.com/Pocket/web-client/commit/d2a11790bd53488e38a9c8f831422889c26926b4))
+
 ## [1.17.7](https://github.com/Pocket/web-client/compare/v1.17.6...v1.17.7) (2021-08-11)
 
 
