@@ -1,3 +1,22 @@
+# [1.18.0](https://github.com/Pocket/web-client/compare/v1.17.9...v1.18.0) (2021-08-18)
+
+
+### Bug Fixes
+
+* **cards:** cards/layouts/headers for lineups ([b848e00](https://github.com/Pocket/web-client/commit/b848e00118381179562d550f113bb0ab91157343))
+* **greeting:** revert greeting to an addendum ([b02106a](https://github.com/Pocket/web-client/commit/b02106a6e550fcd184c77ac3630bac62cb3084a3))
+* **home:** add lineup snowplow action ([55560ee](https://github.com/Pocket/web-client/commit/55560ee2b96d4b4a71d6dacb4a9cbbfd2df4621c))
+* **home:** passing proper lineup data to analytics ([31f9387](https://github.com/Pocket/web-client/commit/31f9387ba6ae7b49bf5d47a272fa7586f0b71c74))
+* **home:** split classic from profile driven ([c894ff5](https://github.com/Pocket/web-client/commit/c894ff505b9794f99895309c60c86bbd4672bbe3))
+* **offset list:** pass through showExcerpt ([4e3135c](https://github.com/Pocket/web-client/commit/4e3135cad19b503e971b6ff3ea10ef8de2030add))
+
+
+### Features
+
+* **home:** adding lineup cards/actions ([59cf346](https://github.com/Pocket/web-client/commit/59cf34694f150add38d01fa8dbb239617c425eb2))
+* **home:** adding lineup state ([cdac7d8](https://github.com/Pocket/web-client/commit/cdac7d82c1858572d209310492de438e88afeb63))
+* **home:** better separation of files ([353fc1b](https://github.com/Pocket/web-client/commit/353fc1b2579807699b88b7cb343b184d434c2dbe))
+
 ## [1.17.9](https://github.com/Pocket/web-client/compare/v1.17.8...v1.17.9) (2021-08-18)
 
 
