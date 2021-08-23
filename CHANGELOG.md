@@ -1,3 +1,11 @@
+## [1.18.5](https://github.com/Pocket/web-client/compare/v1.18.4...v1.18.5) (2021-08-23)
+
+
+### Bug Fixes
+
+* **onetrust:** add comment on global function ([a74d464](https://github.com/Pocket/web-client/commit/a74d46430b08639dff99949aec465d5efdac38af))
+* **onetrust:** only init snowplow after onetrust is ready ([53abf61](https://github.com/Pocket/web-client/commit/53abf61a33db061a88ce9759c7fd30a9c3ec4b20))
+
 ## [1.18.4](https://github.com/Pocket/web-client/compare/v1.18.3...v1.18.4) (2021-08-23)
 
 
