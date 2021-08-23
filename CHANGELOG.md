@@ -1,3 +1,10 @@
+## [1.18.4](https://github.com/Pocket/web-client/compare/v1.18.3...v1.18.4) (2021-08-23)
+
+
+### Bug Fixes
+
+* **mylist:** update my list when navigating from other area of app ([d73823e](https://github.com/Pocket/web-client/commit/d73823ec9060ebb7a9d04ad72aa3fac0cda82fcd))
+
 ## [1.18.3](https://github.com/Pocket/web-client/compare/v1.18.2...v1.18.3) (2021-08-23)
 
 
