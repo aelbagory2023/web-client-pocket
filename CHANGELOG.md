@@ -1,3 +1,10 @@
+## [1.19.2](https://github.com/Pocket/web-client/compare/v1.19.1...v1.19.2) (2021-08-24)
+
+
+### Bug Fixes
+
+* **home:** adjust similar recs shape ([3463985](https://github.com/Pocket/web-client/commit/3463985d055c8c3374754d0ffe4f561e4dca3462))
+
 ## [1.19.1](https://github.com/Pocket/web-client/compare/v1.19.0...v1.19.1) (2021-08-24)
 
 
