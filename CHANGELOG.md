@@ -1,3 +1,11 @@
+## [1.19.1](https://github.com/Pocket/web-client/compare/v1.19.0...v1.19.1) (2021-08-24)
+
+
+### Bug Fixes
+
+* **collections:** display collections card excerpt on mobile screen sizes ([509a46d](https://github.com/Pocket/web-client/commit/509a46d97da158868a2f05b14e28ca53f0faef87))
+* **collections:** update card style to be grid style on mobile ([6e3d031](https://github.com/Pocket/web-client/commit/6e3d031a99479534574988d02f00d42d71d72da1))
+
 # [1.19.0](https://github.com/Pocket/web-client/compare/v1.18.5...v1.19.0) (2021-08-24)
 
 
