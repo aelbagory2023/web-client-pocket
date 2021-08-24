@@ -1,3 +1,17 @@
+# [1.19.0](https://github.com/Pocket/web-client/compare/v1.18.5...v1.19.0) (2021-08-24)
+
+
+### Bug Fixes
+
+* **card:** add `display` type ([ffa83b6](https://github.com/Pocket/web-client/commit/ffa83b6c07dbd9cefde84533299e684493a62878))
+* **home:** filter bad data from similar recs ([0db273b](https://github.com/Pocket/web-client/commit/0db273bd47abe95ee40e0afc9e11e618cb4be432))
+* **home:** seperate layouts / better experiments ([1adb891](https://github.com/Pocket/web-client/commit/1adb8911b94059dfafb1e3541c6049ea80e7bc12))
+
+
+### Features
+
+* **home:** recent saves/similar content modules ([a9137bd](https://github.com/Pocket/web-client/commit/a9137bd8cb6c185fff3b12241244500274a74c85))
+
 ## [1.18.5](https://github.com/Pocket/web-client/compare/v1.18.4...v1.18.5) (2021-08-23)
 
 
