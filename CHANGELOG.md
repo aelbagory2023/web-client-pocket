@@ -1,3 +1,10 @@
+## [1.19.5](https://github.com/Pocket/web-client/compare/v1.19.4...v1.19.5) (2021-08-25)
+
+
+### Bug Fixes
+
+* **collections:** update localization file for german translation of collections ([1fbc633](https://github.com/Pocket/web-client/commit/1fbc6335c58e685c0b017fd91b5a86a9d63ea469))
+
 ## [1.19.4](https://github.com/Pocket/web-client/compare/v1.19.3...v1.19.4) (2021-08-25)
 
 
