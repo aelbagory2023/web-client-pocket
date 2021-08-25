@@ -1,3 +1,12 @@
+## [1.19.7](https://github.com/Pocket/web-client/compare/v1.19.6...v1.19.7) (2021-08-25)
+
+
+### Bug Fixes
+
+* **flyaway:** add default data-cy string ([91c3ec2](https://github.com/Pocket/web-client/commit/91c3ec21efe7c606cfa3cde37288488256164e8f))
+* **flyaway:** fix pointer events conflict ([314b56e](https://github.com/Pocket/web-client/commit/314b56e217947f9dbde8f510f540ab41d7606c03))
+* **flyaways:** add data-cy elements to all flyaways ([76ae268](https://github.com/Pocket/web-client/commit/76ae268b28a9a9737aeceaf746654662989a88a0))
+
 ## [1.19.6](https://github.com/Pocket/web-client/compare/v1.19.5...v1.19.6) (2021-08-25)
 
 
