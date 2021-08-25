@@ -1,3 +1,10 @@
+## [1.19.4](https://github.com/Pocket/web-client/compare/v1.19.3...v1.19.4) (2021-08-25)
+
+
+### Bug Fixes
+
+* **partner:** styling fixes for dark and sepia modes ([0c78921](https://github.com/Pocket/web-client/commit/0c7892104a2066af3365f92f2c5a6e7d2918e872))
+
 ## [1.19.3](https://github.com/Pocket/web-client/compare/v1.19.2...v1.19.3) (2021-08-25)
 
 
