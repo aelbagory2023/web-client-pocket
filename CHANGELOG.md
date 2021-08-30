@@ -1,3 +1,11 @@
+## [1.19.9](https://github.com/Pocket/web-client/compare/v1.19.8...v1.19.9) (2021-08-30)
+
+
+### Bug Fixes
+
+* **home:** wrap all home text with translation function ([527bace](https://github.com/Pocket/web-client/commit/527baceccad4dc43e57b2fdbcbf1ca366bdf640e))
+* **localization:** bump localization in package and update consts and wrapper on flyaway ([5abed8f](https://github.com/Pocket/web-client/commit/5abed8fcb8444866a233fd274175a2735a69fe21))
+
 ## [1.19.8](https://github.com/Pocket/web-client/compare/v1.19.7...v1.19.8) (2021-08-30)
 
 
