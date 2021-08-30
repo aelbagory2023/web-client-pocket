@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/Pocket/web-client/compare/v1.20.0...v1.20.1) (2021-08-30)
+
+
+### Bug Fixes
+
+* **sidebar:** encode tags link in sidebar ([8c95d84](https://github.com/Pocket/web-client/commit/8c95d84879f50b126e902e1d36977d3d872539e8))
+
 # [1.20.0](https://github.com/Pocket/web-client/compare/v1.19.9...v1.20.0) (2021-08-30)
 
 
