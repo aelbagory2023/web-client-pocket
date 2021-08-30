@@ -1,3 +1,10 @@
+## [1.20.2](https://github.com/Pocket/web-client/compare/v1.20.1...v1.20.2) (2021-08-30)
+
+
+### Bug Fixes
+
+* **search:** encode search term ([a581091](https://github.com/Pocket/web-client/commit/a581091180d5820922ebf676da7cee760e2386c1))
+
 ## [1.20.1](https://github.com/Pocket/web-client/compare/v1.20.0...v1.20.1) (2021-08-30)
 
 
