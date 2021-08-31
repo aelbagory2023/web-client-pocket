@@ -1,3 +1,11 @@
+## [1.20.3](https://github.com/Pocket/web-client/compare/v1.20.2...v1.20.3) (2021-08-31)
+
+
+### Bug Fixes
+
+* **reader:** hide sidebar until content is loaded to prevent flash ([29896ea](https://github.com/Pocket/web-client/commit/29896ea92c2804bfcda801b226825aea2cb4ea1d))
+* **reader:** remove opacity on sidebar ([a5dace0](https://github.com/Pocket/web-client/commit/a5dace060f00d66c9e80b332f78fa5094b314aeb))
+
 ## [1.20.2](https://github.com/Pocket/web-client/compare/v1.20.1...v1.20.2) (2021-08-30)
 
 
