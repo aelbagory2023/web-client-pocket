@@ -1,3 +1,10 @@
+## [1.20.4](https://github.com/Pocket/web-client/compare/v1.20.3...v1.20.4) (2021-09-01)
+
+
+### Bug Fixes
+
+* **localization:** bump localization for missing flyaway translation ([a45ec43](https://github.com/Pocket/web-client/commit/a45ec433c820bfedd06de412439c832486192362))
+
 ## [1.20.3](https://github.com/Pocket/web-client/compare/v1.20.2...v1.20.3) (2021-08-31)
 
 
