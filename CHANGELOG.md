@@ -1,3 +1,10 @@
+## [1.20.7](https://github.com/Pocket/web-client/compare/v1.20.6...v1.20.7) (2021-09-02)
+
+
+### Bug Fixes
+
+* **snowplow:** update snowplow post path for dev enviroments ([a181b80](https://github.com/Pocket/web-client/commit/a181b804219104812a92ed23b385c8cfd96ed18b))
+
 ## [1.20.6](https://github.com/Pocket/web-client/compare/v1.20.5...v1.20.6) (2021-09-02)
 
 
