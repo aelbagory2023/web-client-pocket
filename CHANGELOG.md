@@ -1,3 +1,12 @@
+## [1.20.6](https://github.com/Pocket/web-client/compare/v1.20.5...v1.20.6) (2021-09-02)
+
+
+### Bug Fixes
+
+* **flyaway:** update extension flyaway for mobile view ([a070567](https://github.com/Pocket/web-client/commit/a0705677206c31b9abd153116d476cd93860c921))
+* **onboarding:** adding extensions flyaway ([7f07fa4](https://github.com/Pocket/web-client/commit/7f07fa4da212fd7db7645c4581f883028d7b36ca))
+* **onboarding:** update edge extension link ([732815a](https://github.com/Pocket/web-client/commit/732815a6c6e53456f35648c6ee5447595a1af4b8))
+
 ## [1.20.5](https://github.com/Pocket/web-client/compare/v1.20.4...v1.20.5) (2021-09-02)
 
 
