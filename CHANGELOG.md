@@ -1,3 +1,10 @@
+## [1.20.9](https://github.com/Pocket/web-client/compare/v1.20.8...v1.20.9) (2021-09-08)
+
+
+### Bug Fixes
+
+* **qa:** adding data-cy element to qa panel ([40350dd](https://github.com/Pocket/web-client/commit/40350dd38fe3a416043cddc4a1be2eb1e0144f93))
+
 ## [1.20.8](https://github.com/Pocket/web-client/compare/v1.20.7...v1.20.8) (2021-09-07)
 
 
