@@ -1,3 +1,10 @@
+## [1.20.10](https://github.com/Pocket/web-client/compare/v1.20.9...v1.20.10) (2021-09-09)
+
+
+### Bug Fixes
+
+* **footer:** add language selector for all users ([3dc4100](https://github.com/Pocket/web-client/commit/3dc4100837477adeeadcd5f26fd9d56444cf0967))
+
 ## [1.20.9](https://github.com/Pocket/web-client/compare/v1.20.8...v1.20.9) (2021-09-08)
 
 
