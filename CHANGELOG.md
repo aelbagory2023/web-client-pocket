@@ -1,3 +1,10 @@
+## [1.20.11](https://github.com/Pocket/web-client/compare/v1.20.10...v1.20.11) (2021-09-09)
+
+
+### Bug Fixes
+
+* **localization:** updating localization package for onboarding messages ([5ee79a6](https://github.com/Pocket/web-client/commit/5ee79a6f77ee46bd39a9aeb6eec4f108a73dc8f6))
+
 ## [1.20.10](https://github.com/Pocket/web-client/compare/v1.20.9...v1.20.10) (2021-09-09)
 
 
