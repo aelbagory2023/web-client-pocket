@@ -1,3 +1,25 @@
+## [1.20.12](https://github.com/Pocket/web-client/compare/v1.20.11...v1.20.12) (2021-09-13)
+
+
+### Bug Fixes
+
+* **package:** bump web-ui package to latest ([3de503b](https://github.com/Pocket/web-client/commit/3de503bc30fef51e5403cad59512c68e208358ca))
+* **search:** add APP_SORT_ORDER_RELEVANCE to state and update my list ([0ebab28](https://github.com/Pocket/web-client/commit/0ebab28a9533413e6ead98e76298e45c7ae6264a))
+* **search:** add back sortIcon ([1366975](https://github.com/Pocket/web-client/commit/1366975fc63e03ed6f25eb8f512e960f715b0895))
+* **search:** add empty array to useEffect hook ([3408ca0](https://github.com/Pocket/web-client/commit/3408ca0208d754f22a3a21ea62670d850eb48d06))
+* **search:** add keyboard support for SearchSortPremium ([f29273b](https://github.com/Pocket/web-client/commit/f29273b3d21eeb75b58318ef49f2f3817e937cb0))
+* **search:** add SearchSortPremium component ([eae945b](https://github.com/Pocket/web-client/commit/eae945b6a5ad81e4c6c46e6f0288880f0067b30f))
+* **search:** focus on search input immediately ([2c25862](https://github.com/Pocket/web-client/commit/2c2586251eb34b00bebdcb08b278cbfa40621e0b))
+* **search:** pass isPremium ([ec17e81](https://github.com/Pocket/web-client/commit/ec17e817b500ddd1254b5586c9fd514f4f3b1a89))
+* **search:** remove SearchSortPremium ([a67a038](https://github.com/Pocket/web-client/commit/a67a038a61212ef47955ea4244eb4ea610a7f8fd))
+* **search:** use ListSort component, use isPremium to determine showRelevance ([1aaf04e](https://github.com/Pocket/web-client/commit/1aaf04e126253d2497497731b1873f6f929d6244))
+* **sorting:** dispatch actions from containers, pass events to list-sort component ([0d2456e](https://github.com/Pocket/web-client/commit/0d2456eba6c56f8484662235ee8b306ddb6b1c38))
+* **sorting:** remove APP_SORT_ORDER_TOGGLE, using only explicit sorting actions now ([0e34e88](https://github.com/Pocket/web-client/commit/0e34e8837f8dc0ed9e430b2a2d10fbdad82b8732))
+* **sorting:** remove superfluous sortIconWithRelevance, console.log ([94f249a](https://github.com/Pocket/web-client/commit/94f249a494e7110ff128174ff68fd419bd62148a))
+* **sorting:** remove toggleSortOrder - no longer used by ListSort ([09d14ac](https://github.com/Pocket/web-client/commit/09d14ace9ccb578325d3790cd05d8881d0bd02c2))
+* **sorting:** update ListSort to use PopupMenu for displaying options ([66ae008](https://github.com/Pocket/web-client/commit/66ae008fb4ca577be7e98afb78abd81a36e65c42))
+* **sorting:** update translation keys ([3f17e2c](https://github.com/Pocket/web-client/commit/3f17e2c41f6b2eb677c2f9757ed90e36789ca541))
+
 ## [1.20.11](https://github.com/Pocket/web-client/compare/v1.20.10...v1.20.11) (2021-09-09)
 
 
