@@ -1,3 +1,11 @@
+## [1.20.13](https://github.com/Pocket/web-client/compare/v1.20.12...v1.20.13) (2021-09-14)
+
+
+### Bug Fixes
+
+* **extensions flyaway:** reorder browsers ([4802bab](https://github.com/Pocket/web-client/commit/4802bab8a89a972b1001475e0f7aa73fd4d122aa))
+* **image:** update firefox icon to new version ([20525eb](https://github.com/Pocket/web-client/commit/20525eb1f490e7c32331b00db9c6f291aab8e3ba))
+
 ## [1.20.12](https://github.com/Pocket/web-client/compare/v1.20.11...v1.20.12) (2021-09-13)
 
 
