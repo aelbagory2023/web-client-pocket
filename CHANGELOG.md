@@ -1,3 +1,10 @@
+## [1.20.15](https://github.com/Pocket/web-client/compare/v1.20.14...v1.20.15) (2021-09-15)
+
+
+### Bug Fixes
+
+* **report:** disable submit button until options are selected ([17c2df4](https://github.com/Pocket/web-client/commit/17c2df4bffc0e5beae7edab205723e00233020e3))
+
 ## [1.20.14](https://github.com/Pocket/web-client/compare/v1.20.13...v1.20.14) (2021-09-15)
 
 
