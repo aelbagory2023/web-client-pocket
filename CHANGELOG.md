@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/Pocket/web-client/compare/v1.20.17...v1.21.0) (2021-09-16)
+
+
+### Features
+
+* **account:** adding account page /w sidenav ([7754a8c](https://github.com/Pocket/web-client/commit/7754a8cf5223c827301560cf16319f4d58f02647))
+
 ## [1.20.17](https://github.com/Pocket/web-client/compare/v1.20.16...v1.20.17) (2021-09-16)
 
 
