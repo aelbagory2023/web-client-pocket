@@ -1,3 +1,11 @@
+## [1.21.1](https://github.com/Pocket/web-client/compare/v1.21.0...v1.21.1) (2021-09-16)
+
+
+### Bug Fixes
+
+* **account:** add component scaffold and stories ([3df70a6](https://github.com/Pocket/web-client/commit/3df70a672522070bd489e194694e9d7d59b95080))
+* **account:** remove extraneous divs / cleanup ([120bbf5](https://github.com/Pocket/web-client/commit/120bbf588479d9aae90591391e11e5af399416fb))
+
 # [1.21.0](https://github.com/Pocket/web-client/compare/v1.20.17...v1.21.0) (2021-09-16)
 
 
