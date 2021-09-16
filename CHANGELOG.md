@@ -1,3 +1,10 @@
+## [1.20.17](https://github.com/Pocket/web-client/compare/v1.20.16...v1.20.17) (2021-09-16)
+
+
+### Bug Fixes
+
+* **list-sort:** add data-cy ([3e6a06d](https://github.com/Pocket/web-client/commit/3e6a06da1ad8c94f37985c73b5484a145beb6a31))
+
 ## [1.20.16](https://github.com/Pocket/web-client/compare/v1.20.15...v1.20.16) (2021-09-16)
 
 
