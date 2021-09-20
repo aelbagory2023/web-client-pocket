@@ -1,3 +1,15 @@
+## [1.21.5](https://github.com/Pocket/web-client/compare/v1.21.4...v1.21.5) (2021-09-20)
+
+
+### Bug Fixes
+
+* **card:** update display layout ([ffb014f](https://github.com/Pocket/web-client/commit/ffb014f8d1c75d961cb5ff4b30458c779d008b25))
+* **home:** add collection snowplow detail ([f6d84be](https://github.com/Pocket/web-client/commit/f6d84be23beccad3bdba7e6d442d402dfde33d26))
+* **home:** add slate meta (temporary) ([cffd05a](https://github.com/Pocket/web-client/commit/cffd05a318753262801e64ee9055bfa21d898f6b))
+* **home:** similar remove lineup - add to recent ([73d537b](https://github.com/Pocket/web-client/commit/73d537bee82790570e1d4cd2f5e00d7b1943ea5b))
+* **home:** update headers to use slate meta ([7940320](https://github.com/Pocket/web-client/commit/794032092a9592e1190e0047b6ca01bbbab15100))
+* **show similar:** add copy options ([f20ff97](https://github.com/Pocket/web-client/commit/f20ff97d0b01f7d3e3ea0aff0972663eda3c71cd))
+
 ## [1.21.4](https://github.com/Pocket/web-client/compare/v1.21.3...v1.21.4) (2021-09-20)
 
 
