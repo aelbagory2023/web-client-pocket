@@ -1,3 +1,11 @@
+## [1.21.4](https://github.com/Pocket/web-client/compare/v1.21.3...v1.21.4) (2021-09-20)
+
+
+### Bug Fixes
+
+* **display settings:** remove chevron icon on mobile ([f8135d5](https://github.com/Pocket/web-client/commit/f8135d51a6c139e262fae79070cb822ae8429419))
+* **reader:** adjust size of icons in toolbar on mobile ([a673fc3](https://github.com/Pocket/web-client/commit/a673fc3e774d5903695df02a723a979dc36572d6))
+
 ## [1.21.3](https://github.com/Pocket/web-client/compare/v1.21.2...v1.21.3) (2021-09-20)
 
 
