@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/Pocket/web-client/compare/v1.21.5...v1.22.0) (2021-09-21)
+
+
+### Features
+
+* **account:** adding notification settings ([46e29b6](https://github.com/Pocket/web-client/commit/46e29b6cf90582732393edc1b448790071500ba1))
+
 ## [1.21.5](https://github.com/Pocket/web-client/compare/v1.21.4...v1.21.5) (2021-09-20)
 
 
