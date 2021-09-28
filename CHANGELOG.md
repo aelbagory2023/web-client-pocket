@@ -1,3 +1,15 @@
+# [1.23.0](https://github.com/Pocket/web-client/compare/v1.22.1...v1.23.0) (2021-09-28)
+
+
+### Bug Fixes
+
+* **account:** add connections ([ecbd0ad](https://github.com/Pocket/web-client/commit/ecbd0ad7538ee2b50609af8cb023fc277c73556f))
+
+
+### Features
+
+* **account:** add connected services ([f59c761](https://github.com/Pocket/web-client/commit/f59c761991c5ae30c6b29f76d2b7f35f099d2052))
+
 ## [1.22.1](https://github.com/Pocket/web-client/compare/v1.22.0...v1.22.1) (2021-09-28)
 
 
