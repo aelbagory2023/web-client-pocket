@@ -1,3 +1,10 @@
+## [1.22.1](https://github.com/Pocket/web-client/compare/v1.22.0...v1.22.1) (2021-09-28)
+
+
+### Bug Fixes
+
+* **account:** add rss feed section ([e5c5cd6](https://github.com/Pocket/web-client/commit/e5c5cd639642179e7a748a4f9102453ee4b63df7))
+
 # [1.22.0](https://github.com/Pocket/web-client/compare/v1.21.5...v1.22.0) (2021-09-21)
 
 
