@@ -1,3 +1,12 @@
+## [1.23.2](https://github.com/Pocket/web-client/compare/v1.23.1...v1.23.2) (2021-09-29)
+
+
+### Bug Fixes
+
+* **graphql:** adding slate count ([f57f3ea](https://github.com/Pocket/web-client/commit/f57f3ea4710501af5b4acc9c192bd5cfff7739aa))
+* **home:** split topics from general slates ([f755338](https://github.com/Pocket/web-client/commit/f75533809061b1ba2aefe759b6645d9cd5dfce60))
+* **layout:** adding padding to uncontained ([c9b87d4](https://github.com/Pocket/web-client/commit/c9b87d41234d072d3e0e9bcaea3e0618c5f91aa7))
+
 ## [1.23.1](https://github.com/Pocket/web-client/compare/v1.23.0...v1.23.1) (2021-09-29)
 
 
