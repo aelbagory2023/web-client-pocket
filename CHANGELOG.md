@@ -1,3 +1,10 @@
+## [1.23.1](https://github.com/Pocket/web-client/compare/v1.23.0...v1.23.1) (2021-09-29)
+
+
+### Bug Fixes
+
+* **home:** force unpersonalized home ([7a11433](https://github.com/Pocket/web-client/commit/7a114333e6d84be77884ddcf12d44993965e046a))
+
 # [1.23.0](https://github.com/Pocket/web-client/compare/v1.22.1...v1.23.0) (2021-09-28)
 
 
