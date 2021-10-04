@@ -1,3 +1,10 @@
+## [1.23.3](https://github.com/Pocket/web-client/compare/v1.23.2...v1.23.3) (2021-10-04)
+
+
+### Bug Fixes
+
+* **account:** add privacy module ([95ff381](https://github.com/Pocket/web-client/commit/95ff381196efe1ab8bdac8cf1d9f549b63984ae6))
+
 ## [1.23.2](https://github.com/Pocket/web-client/compare/v1.23.1...v1.23.2) (2021-09-29)
 
 
