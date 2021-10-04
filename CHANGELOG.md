@@ -1,3 +1,11 @@
+## [1.23.5](https://github.com/Pocket/web-client/compare/v1.23.4...v1.23.5) (2021-10-04)
+
+
+### Bug Fixes
+
+* **account:** clear email fields on cancel/confirm ([21fb9d7](https://github.com/Pocket/web-client/commit/21fb9d7bd7cd25a9e6ec67f3ec38c425ded22281))
+* **account:** warn on profile images above 2mb ([dcb8f24](https://github.com/Pocket/web-client/commit/dcb8f24e784ea60842ba224faf5a119a9db06ee1))
+
 ## [1.23.4](https://github.com/Pocket/web-client/compare/v1.23.3...v1.23.4) (2021-10-04)
 
 
