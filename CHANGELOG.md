@@ -1,3 +1,10 @@
+## [1.23.4](https://github.com/Pocket/web-client/compare/v1.23.3...v1.23.4) (2021-10-04)
+
+
+### Bug Fixes
+
+* **account:** premium state/component updates ([cccfb98](https://github.com/Pocket/web-client/commit/cccfb98504c876a62ece672b06889c7bc5ed3aa6))
+
 ## [1.23.3](https://github.com/Pocket/web-client/compare/v1.23.2...v1.23.3) (2021-10-04)
 
 
