@@ -1,3 +1,13 @@
+## [1.23.6](https://github.com/Pocket/web-client/compare/v1.23.5...v1.23.6) (2021-10-05)
+
+
+### Bug Fixes
+
+* **app:** build locale friendly canonical ([e932a70](https://github.com/Pocket/web-client/commit/e932a702f4e090199e10e1706c58c366094230fb))
+* **app:** centralized head over specific meta ([47764ca](https://github.com/Pocket/web-client/commit/47764caf8005faa14123e55d9ac786ecfb843441))
+* **app:** make sure locale is an available prop ([53b8a44](https://github.com/Pocket/web-client/commit/53b8a44d9309b13d879406308477b7de3c60a388))
+* **meta:** set a default metadata ([f325371](https://github.com/Pocket/web-client/commit/f3253716932ee58aaec5216d74cc727123132365))
+
 ## [1.23.5](https://github.com/Pocket/web-client/compare/v1.23.4...v1.23.5) (2021-10-04)
 
 
