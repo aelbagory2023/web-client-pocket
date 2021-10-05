@@ -1,3 +1,11 @@
+## [1.23.7](https://github.com/Pocket/web-client/compare/v1.23.6...v1.23.7) (2021-10-05)
+
+
+### Bug Fixes
+
+* **home:** make rec save more specific ([7a92e17](https://github.com/Pocket/web-client/commit/7a92e1774050bd09ba5fd665efc4d77453f70620))
+* **home:** show save status on similar items ([87cec63](https://github.com/Pocket/web-client/commit/87cec638fa931f033278deb9e34d0929a46a9855))
+
 ## [1.23.6](https://github.com/Pocket/web-client/compare/v1.23.5...v1.23.6) (2021-10-05)
 
 
