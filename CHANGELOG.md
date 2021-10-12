@@ -1,3 +1,16 @@
+## [1.23.8](https://github.com/Pocket/web-client/compare/v1.23.7...v1.23.8) (2021-10-12)
+
+
+### Bug Fixes
+
+* **chyron:**  make imports test-safe ([ef25ba1](https://github.com/Pocket/web-client/commit/ef25ba13ab53fcbd1375faccd0de977c2b7799ad))
+* **chyron:** image loading direct ([8ec8617](https://github.com/Pocket/web-client/commit/8ec8617f2180f10e357bcc28f0ed058cb7ce9671))
+* **dependency:** node-fetch ([ed39a9f](https://github.com/Pocket/web-client/commit/ed39a9f60a9cfdbad45e45fea361fa44edb11450))
+* **dependency:** react-markdown/webpack5 ([84b51ba](https://github.com/Pocket/web-client/commit/84b51ba574e919f450eb7608c1de464c081ed923))
+* **dependency:** remove @pocket/web-utilites ([77080bd](https://github.com/Pocket/web-client/commit/77080bd9d4c9e197c7bf5bb167254200b38fddec))
+* **lint:** adjust to use next config ([cee73db](https://github.com/Pocket/web-client/commit/cee73db3a876d9cf91421e80ba0eef24139cdfdc))
+* **storybook:** working storybooks ([c4a64a9](https://github.com/Pocket/web-client/commit/c4a64a9581c0e50c92ec21886d9ce11021f558bc))
+
 ## [1.23.7](https://github.com/Pocket/web-client/compare/v1.23.6...v1.23.7) (2021-10-05)
 
 
