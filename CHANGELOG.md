@@ -1,3 +1,10 @@
+## [1.23.11](https://github.com/Pocket/web-client/compare/v1.23.10...v1.23.11) (2021-10-12)
+
+
+### Reverts
+
+* Revert "fix(syndicated): fix bottm ad breaking layout of page" ([1373765](https://github.com/Pocket/web-client/commit/1373765042ecb2247941e92250f8b451f4d40d9c))
+
 ## [1.23.10](https://github.com/Pocket/web-client/compare/v1.23.9...v1.23.10) (2021-10-12)
 
 
