@@ -1,3 +1,10 @@
+## [1.23.10](https://github.com/Pocket/web-client/compare/v1.23.9...v1.23.10) (2021-10-12)
+
+
+### Bug Fixes
+
+* **syndicated:** fix bottm ad breaking layout of page ([458ac70](https://github.com/Pocket/web-client/commit/458ac7057368e20f32bc9052b9d5fd373bfc5e6c))
+
 ## [1.23.9](https://github.com/Pocket/web-client/compare/v1.23.8...v1.23.9) (2021-10-12)
 
 
