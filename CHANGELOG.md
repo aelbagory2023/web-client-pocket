@@ -1,3 +1,14 @@
+## [1.23.12](https://github.com/Pocket/web-client/compare/v1.23.11...v1.23.12) (2021-10-12)
+
+
+### Bug Fixes
+
+* **home:** add empty result state for similar recs ([d87f056](https://github.com/Pocket/web-client/commit/d87f056a91ef38a76d842a1cfcf3328b5cc69c54))
+* **home:** add onboarding for personalized home ([dbf2f8d](https://github.com/Pocket/web-client/commit/dbf2f8d414fb2775bce4033a6ac0bc38828df388))
+* **home:** mobile friendly similar/recent ([9076e45](https://github.com/Pocket/web-client/commit/9076e45c5da2cab4a25b7085523ca6eb60922c88))
+* **home:** remove personalized onboarding ([dcc6f22](https://github.com/Pocket/web-client/commit/dcc6f228e393c46cc4c0b6e25679017fa3de328c))
+* **home:** remove topic squash in deriver ([901ce2e](https://github.com/Pocket/web-client/commit/901ce2e98e9e5c72f7843bf64c9816e45aa58f33))
+
 ## [1.23.11](https://github.com/Pocket/web-client/compare/v1.23.10...v1.23.11) (2021-10-12)
 
 
