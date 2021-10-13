@@ -1,3 +1,10 @@
+## [1.23.13](https://github.com/Pocket/web-client/compare/v1.23.12...v1.23.13) (2021-10-13)
+
+
+### Bug Fixes
+
+* **syndicated:** wrap bottom ad in its own section tag ([a7f0df1](https://github.com/Pocket/web-client/commit/a7f0df13fc5d9fe20580882f824c2967208ae894))
+
 ## [1.23.12](https://github.com/Pocket/web-client/compare/v1.23.11...v1.23.12) (2021-10-12)
 
 
