@@ -1,3 +1,11 @@
+## [1.23.14](https://github.com/Pocket/web-client/compare/v1.23.13...v1.23.14) (2021-10-13)
+
+
+### Bug Fixes
+
+* **home:** snowplow add domain actions and missing ([a4c7279](https://github.com/Pocket/web-client/commit/a4c727913dc6f687b97a4ca6401bdd081e0cf782))
+* **home:** update snowplow for home ([0a62601](https://github.com/Pocket/web-client/commit/0a626015d0faeecc64155819eb02f89f2246fa8a))
+
 ## [1.23.13](https://github.com/Pocket/web-client/compare/v1.23.12...v1.23.13) (2021-10-13)
 
 
