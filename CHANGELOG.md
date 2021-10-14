@@ -1,3 +1,11 @@
+## [1.23.15](https://github.com/Pocket/web-client/compare/v1.23.14...v1.23.15) (2021-10-14)
+
+
+### Bug Fixes
+
+* **home:** adjust ipad breakpoint for display card ([67e8513](https://github.com/Pocket/web-client/commit/67e85132383f6c483512011d75a27e3a02171d23))
+* **home:** analytics for similar footer actions ([530b4b2](https://github.com/Pocket/web-client/commit/530b4b2b506a33a42b80eaf74f5c2b124c714529))
+
 ## [1.23.14](https://github.com/Pocket/web-client/compare/v1.23.13...v1.23.14) (2021-10-13)
 
 
