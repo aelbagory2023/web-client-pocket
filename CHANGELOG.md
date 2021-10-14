@@ -1,3 +1,10 @@
+## [1.23.16](https://github.com/Pocket/web-client/compare/v1.23.15...v1.23.16) (2021-10-14)
+
+
+### Bug Fixes
+
+* **cards:** allow for unclamped titles ([38bbc9a](https://github.com/Pocket/web-client/commit/38bbc9aca4bdeec207f23340c80408b724b704b0))
+
 ## [1.23.15](https://github.com/Pocket/web-client/compare/v1.23.14...v1.23.15) (2021-10-14)
 
 
