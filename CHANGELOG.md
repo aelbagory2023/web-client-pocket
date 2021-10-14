@@ -1,3 +1,11 @@
+## [1.24.1](https://github.com/Pocket/web-client/compare/v1.24.0...v1.24.1) (2021-10-14)
+
+
+### Bug Fixes
+
+* **footer:** add instagram icon & link to footer ([aad6ad6](https://github.com/Pocket/web-client/commit/aad6ad6767773e906d11a014cc53248fe3e785ad))
+* **package:** bump web-ui to 2.36.4 ([c12ed2b](https://github.com/Pocket/web-client/commit/c12ed2b30068354e29b40ac0b52b412f9425105c))
+
 # [1.24.0](https://github.com/Pocket/web-client/compare/v1.23.16...v1.24.0) (2021-10-14)
 
 
