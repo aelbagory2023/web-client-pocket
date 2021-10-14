@@ -1,3 +1,15 @@
+# [1.24.0](https://github.com/Pocket/web-client/compare/v1.23.16...v1.24.0) (2021-10-14)
+
+
+### Bug Fixes
+
+* **home:** update greeting ([44b5233](https://github.com/Pocket/web-client/commit/44b52333a2dba0356bdc2ad3373a4e846aa016f8))
+
+
+### Features
+
+* **home:** make personalized home the default ([6a6de8e](https://github.com/Pocket/web-client/commit/6a6de8e7f9724022b8a3cb1464af6aae79d2dfea))
+
 ## [1.23.16](https://github.com/Pocket/web-client/compare/v1.23.15...v1.23.16) (2021-10-14)
 
 
