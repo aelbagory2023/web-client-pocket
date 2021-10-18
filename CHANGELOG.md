@@ -1,3 +1,10 @@
+## [1.24.3](https://github.com/Pocket/web-client/compare/v1.24.2...v1.24.3) (2021-10-18)
+
+
+### Bug Fixes
+
+* **optinmonster:** omit during dev ([1eee678](https://github.com/Pocket/web-client/commit/1eee6785447c8fb89a03a954607068ed9075701a))
+
 ## [1.24.2](https://github.com/Pocket/web-client/compare/v1.24.1...v1.24.2) (2021-10-18)
 
 
