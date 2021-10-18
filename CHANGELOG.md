@@ -1,3 +1,11 @@
+## [1.24.2](https://github.com/Pocket/web-client/compare/v1.24.1...v1.24.2) (2021-10-18)
+
+
+### Bug Fixes
+
+* **HomeSimilarHeader:** align close icon to top of title ([e54067a](https://github.com/Pocket/web-client/commit/e54067a59b254c02b5034741262b3c0848e93317))
+* **HomeSimilarRecs:** fix NoResults on mobile ([4775d2e](https://github.com/Pocket/web-client/commit/4775d2eeef9fd65f1fed519a4202ce7242bae010))
+
 ## [1.24.1](https://github.com/Pocket/web-client/compare/v1.24.0...v1.24.1) (2021-10-14)
 
 
