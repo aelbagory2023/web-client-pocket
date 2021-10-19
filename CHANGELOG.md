@@ -1,3 +1,14 @@
+## [1.24.7](https://github.com/Pocket/web-client/compare/v1.24.6...v1.24.7) (2021-10-19)
+
+
+### Bug Fixes
+
+* **account:** explicit checkbox styles ([90f65cb](https://github.com/Pocket/web-client/commit/90f65cb7a0da6f3cc23864560fa15f4f97429a56))
+* **account:** premium image on safari ([150e82e](https://github.com/Pocket/web-client/commit/150e82e911ebe94904d0133b17430fe3a637ffe5))
+* **account:** remove extra set ([b90b356](https://github.com/Pocket/web-client/commit/b90b3560a9e1fa7355f9b428012d8d00607b9e32))
+* **account:** safe fallback images ([54755ea](https://github.com/Pocket/web-client/commit/54755eaddffa46df59d08df476383f6ff1b25677))
+* **dev-tools:** update dev tools format ([762b0e7](https://github.com/Pocket/web-client/commit/762b0e76843a67a0312915a477b0acf5c1f9ecce))
+
 ## [1.24.6](https://github.com/Pocket/web-client/compare/v1.24.5...v1.24.6) (2021-10-19)
 
 
