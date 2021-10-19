@@ -1,3 +1,10 @@
+## [1.24.6](https://github.com/Pocket/web-client/compare/v1.24.5...v1.24.6) (2021-10-19)
+
+
+### Bug Fixes
+
+* **account:** switch link to new account page ([97b7a69](https://github.com/Pocket/web-client/commit/97b7a69711b4d4e7390827a9efd06ae2f09152c6))
+
 ## [1.24.5](https://github.com/Pocket/web-client/compare/v1.24.4...v1.24.5) (2021-10-19)
 
 
