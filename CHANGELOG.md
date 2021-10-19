@@ -1,3 +1,10 @@
+## [1.24.5](https://github.com/Pocket/web-client/compare/v1.24.4...v1.24.5) (2021-10-19)
+
+
+### Bug Fixes
+
+* **home:** remove similar on navigation ([e941f89](https://github.com/Pocket/web-client/commit/e941f891188daa7a3f7bb2e8f623beef9f921984))
+
 ## [1.24.4](https://github.com/Pocket/web-client/compare/v1.24.3...v1.24.4) (2021-10-19)
 
 
