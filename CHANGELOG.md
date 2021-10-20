@@ -1,3 +1,11 @@
+## [1.24.8](https://github.com/Pocket/web-client/compare/v1.24.7...v1.24.8) (2021-10-20)
+
+
+### Bug Fixes
+
+* **home:** cleanup legacy cards ([18efac1](https://github.com/Pocket/web-client/commit/18efac1bf461576fafc8b4d15661fc1c7eb5b6c1))
+* **home:** cleanup old home files ([57e7fcf](https://github.com/Pocket/web-client/commit/57e7fcf82c991b1427a3fac901c649d8d04903da))
+
 ## [1.24.7](https://github.com/Pocket/web-client/compare/v1.24.6...v1.24.7) (2021-10-19)
 
 
