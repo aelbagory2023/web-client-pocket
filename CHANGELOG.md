@@ -1,3 +1,10 @@
+## [1.24.11](https://github.com/Pocket/web-client/compare/v1.24.10...v1.24.11) (2021-10-26)
+
+
+### Bug Fixes
+
+* **collections:** updating data request and story page to display targeted ads ([bbeffa1](https://github.com/Pocket/web-client/commit/bbeffa1c7189d202de695a2e988bd511f11c4753))
+
 ## [1.24.10](https://github.com/Pocket/web-client/compare/v1.24.9...v1.24.10) (2021-10-26)
 
 
