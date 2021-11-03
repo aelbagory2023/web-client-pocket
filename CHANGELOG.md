@@ -1,3 +1,12 @@
+## [1.25.1](https://github.com/Pocket/web-client/compare/v1.25.0...v1.25.1) (2021-11-03)
+
+
+### Bug Fixes
+
+* **snowplow:** updating snowplow postpath for test env ([3fc95be](https://github.com/Pocket/web-client/commit/3fc95bec17bd8bfba0bcfd771d7e813d6fd40f5a))
+* **test:** adding environment variable to next config ([aa36728](https://github.com/Pocket/web-client/commit/aa367288ec7962ccdfe3210613108d1038b6ba87))
+* **test:** adding script to point snowplow events to dev url ([2070b55](https://github.com/Pocket/web-client/commit/2070b55fccfbf885e9afa60f5065b2a1323ece9c))
+
 # [1.25.0](https://github.com/Pocket/web-client/compare/v1.24.13...v1.25.0) (2021-11-01)
 
 
