@@ -1,3 +1,10 @@
+## [1.25.3](https://github.com/Pocket/web-client/compare/v1.25.2...v1.25.3) (2021-11-09)
+
+
+### Bug Fixes
+
+* **collections:** resolved_url for deriving open ([46fad0d](https://github.com/Pocket/web-client/commit/46fad0dd59e73a3860e8b9b96848fee2bfab915b))
+
 ## [1.25.2](https://github.com/Pocket/web-client/compare/v1.25.1...v1.25.2) (2021-11-09)
 
 
