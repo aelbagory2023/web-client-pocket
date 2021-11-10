@@ -1,3 +1,10 @@
+## [1.25.6](https://github.com/Pocket/web-client/compare/v1.25.5...v1.25.6) (2021-11-10)
+
+
+### Bug Fixes
+
+* **ads:** adding adds.txt file ([e1a5e56](https://github.com/Pocket/web-client/commit/e1a5e567ff158e5c30cc3645a45ae44a37ded9da))
+
 ## [1.25.5](https://github.com/Pocket/web-client/compare/v1.25.4...v1.25.5) (2021-11-10)
 
 
