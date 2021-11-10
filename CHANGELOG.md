@@ -1,3 +1,10 @@
+## [1.25.4](https://github.com/Pocket/web-client/compare/v1.25.3...v1.25.4) (2021-11-10)
+
+
+### Bug Fixes
+
+* **collection:** match deriver updates ([9d0c0b7](https://github.com/Pocket/web-client/commit/9d0c0b7192da4b793cc9549e1d6c6faec8279cbc))
+
 ## [1.25.3](https://github.com/Pocket/web-client/compare/v1.25.2...v1.25.3) (2021-11-09)
 
 
