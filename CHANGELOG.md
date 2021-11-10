@@ -1,3 +1,23 @@
+## [1.25.5](https://github.com/Pocket/web-client/compare/v1.25.4...v1.25.5) (2021-11-10)
+
+
+### Bug Fixes
+
+* **apps flyaway:** remove styleOverrides ([86eb037](https://github.com/Pocket/web-client/commit/86eb037ef0148fe8238e281b255914abfdd8086a))
+* **extensions flyaway:** remove safari and edge extension links and analytic events ([efb5e35](https://github.com/Pocket/web-client/commit/efb5e3567e980cedb07ae96eceab24746958029c))
+* **extensions flyaway:** update title translation keys for desktop vs mobile ([713271e](https://github.com/Pocket/web-client/commit/713271e47716378f94324d62eaa40bcb890e77e3))
+* **extensions flyaway:** update titles, remove description text ([14d0110](https://github.com/Pocket/web-client/commit/14d01101cf6eed5d07a6de9e75e808dd4b2db52b))
+* **flyaway:** layout and styling fixes ([0f1d2ca](https://github.com/Pocket/web-client/commit/0f1d2ca2013e88e9a9127ddb2feebaaab1f2a675))
+* **flyaways on my list:** fix flyaways sitting too high on my list page ([3b389b5](https://github.com/Pocket/web-client/commit/3b389b5608c178e4afb66aef10d7956874b83c15))
+* **flyaways:** add styleOverrides to flyaways that are on My List ([8dedb18](https://github.com/Pocket/web-client/commit/8dedb18cd20cf795c4559156819d6433a1745829))
+* **flyaways:** updating copy ([1a4a8ee](https://github.com/Pocket/web-client/commit/1a4a8ee7ed6023597709f69cd6ddab182634b2d3))
+* **home:** add onboarding flyaways back to home ([049a96e](https://github.com/Pocket/web-client/commit/049a96e0bf9178771fbfddec7518b59d7e74e9c2))
+* **mobile menu:** remove onboarding highlight from My List item in mobile menu ([3186fb7](https://github.com/Pocket/web-client/commit/3186fb7baf5e0b7bf7784a09df1e24a383fe0d49))
+* **my list flyaway:** update highlight to be on top nav item ([d276ebd](https://github.com/Pocket/web-client/commit/d276ebd8d4ca8013288f62ad4231a1dee3aded4f))
+* **onboarding:** showOnboarding if enrolled in onboarding.dev feature flag ([07b19b9](https://github.com/Pocket/web-client/commit/07b19b984ae6bd632d8db6b7175bc68bd3c6a6a5))
+* **save flyaway:** change save button highlight when on tiny tablet and below ([8e151f6](https://github.com/Pocket/web-client/commit/8e151f66bc629279d505d4b8c3ff4afcb230f5ec))
+* **save flyaway:** update highlighted element, update flyawayReady to not be dependent on welcome modal ([368d4e0](https://github.com/Pocket/web-client/commit/368d4e0226978628a67983110759ef71249a816a))
+
 ## [1.25.4](https://github.com/Pocket/web-client/compare/v1.25.3...v1.25.4) (2021-11-10)
 
 
