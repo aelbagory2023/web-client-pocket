@@ -1,3 +1,10 @@
+## [1.25.7](https://github.com/Pocket/web-client/compare/v1.25.6...v1.25.7) (2021-11-15)
+
+
+### Bug Fixes
+
+* **ads:** removing ads.txt file in favor of hosting it in dotcom-gateway ([4e04781](https://github.com/Pocket/web-client/commit/4e047818c8c462e7ef15150209fad27311eba65a))
+
 ## [1.25.6](https://github.com/Pocket/web-client/compare/v1.25.5...v1.25.6) (2021-11-10)
 
 
