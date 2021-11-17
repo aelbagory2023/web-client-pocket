@@ -1,3 +1,10 @@
+## [1.25.8](https://github.com/Pocket/web-client/compare/v1.25.7...v1.25.8) (2021-11-17)
+
+
+### Bug Fixes
+
+* **waypoint:** update waypoint to use 'home.release' instead of 'onboarding.release' feature flag ([b942d2f](https://github.com/Pocket/web-client/commit/b942d2faafac2ff174b2c2b769d557b0233db95e))
+
 ## [1.25.7](https://github.com/Pocket/web-client/compare/v1.25.6...v1.25.7) (2021-11-15)
 
 
