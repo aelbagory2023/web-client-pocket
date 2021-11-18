@@ -1,3 +1,17 @@
+## [1.25.9](https://github.com/Pocket/web-client/compare/v1.25.8...v1.25.9) (2021-11-18)
+
+
+### Bug Fixes
+
+* **flyaway:** adjust placement of flyaway if cookie consent banner is showing ([81b3428](https://github.com/Pocket/web-client/commit/81b3428fe7be419b2e7ac076f39853a0d1117d37))
+* **flyaway:** remove useEffect hook ([4f73aa7](https://github.com/Pocket/web-client/commit/4f73aa74c6dd9ad81815798880bacb9782414271))
+* **flyaway:** useEffect to update bannerHeight on window resize ([937830a](https://github.com/Pocket/web-client/commit/937830abfb38d3bc9b96abca9ee2f8a16a27629d))
+* **home:** don't load onboarding flyaways until after slates have loaded ([83ce73c](https://github.com/Pocket/web-client/commit/83ce73cafe7aac85c8b93a68151e9488c256c9b1))
+* **onboarding:** remove locale check, add onboardingRelease check ([b0bb5a3](https://github.com/Pocket/web-client/commit/b0bb5a3aaee16305de9b0ce6311d1db937380acd))
+* **onboarding:** remove onboarding.release feature flag check ([fb3498b](https://github.com/Pocket/web-client/commit/fb3498b8c7f601d14c399ef82d48916f3e45d025))
+* **packages:** bump web-localization to grab new translations ([ae83d9c](https://github.com/Pocket/web-client/commit/ae83d9cec40783ed04c2a21e028e7de758de67ed))
+* **section wrapper:** pass rest of props in order to set inline style ([f09787e](https://github.com/Pocket/web-client/commit/f09787e768b67480150a2c6212d0ffe47942fb72))
+
 ## [1.25.8](https://github.com/Pocket/web-client/compare/v1.25.7...v1.25.8) (2021-11-17)
 
 
