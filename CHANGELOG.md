@@ -1,3 +1,10 @@
+## [1.28.1](https://github.com/Pocket/web-client/compare/v1.28.0...v1.28.1) (2021-11-29)
+
+
+### Bug Fixes
+
+* **collections:** offset should fully propegate ([7f14192](https://github.com/Pocket/web-client/commit/7f14192317c32db3eb1420891a33436969c37e58))
+
 # [1.28.0](https://github.com/Pocket/web-client/compare/v1.27.3...v1.28.0) (2021-11-29)
 
 
