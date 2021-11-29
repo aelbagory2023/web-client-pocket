@@ -1,3 +1,12 @@
+# [1.28.0](https://github.com/Pocket/web-client/compare/v1.27.3...v1.28.0) (2021-11-29)
+
+
+### Features
+
+* **feature-flags:** add locale to call ([57c39da](https://github.com/Pocket/web-client/commit/57c39da779456b3defe3e66e5bebfd3ba51f02f2))
+* **onboarding:** add onboarding experiment feature flag check ([7ebc81c](https://github.com/Pocket/web-client/commit/7ebc81cfe6ff23fb8960d55625e2cc196c425798))
+* **onboarding:** remove console.log ([0159eba](https://github.com/Pocket/web-client/commit/0159eba6d2cffb23a404eee8bbf7dc0434b47de6))
+
 ## [1.27.3](https://github.com/Pocket/web-client/compare/v1.27.2...v1.27.3) (2021-11-29)
 
 
