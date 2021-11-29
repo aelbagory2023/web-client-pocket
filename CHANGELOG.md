@@ -1,3 +1,11 @@
+## [1.27.3](https://github.com/Pocket/web-client/compare/v1.27.2...v1.27.3) (2021-11-29)
+
+
+### Bug Fixes
+
+* **collections:** exclude `de` from eoy takeover ([55e3cb6](https://github.com/Pocket/web-client/commit/55e3cb695812202a4471fd042048c287e3b07ee0))
+* **collections:** update last story in eoy takeover ([c8797e6](https://github.com/Pocket/web-client/commit/c8797e65d8d2f577ffa03ec907d56f5a7c406e3b))
+
 ## [1.27.2](https://github.com/Pocket/web-client/compare/v1.27.1...v1.27.2) (2021-11-29)
 
 
