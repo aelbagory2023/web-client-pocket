@@ -1,3 +1,11 @@
+## [1.28.6](https://github.com/Pocket/web-client/compare/v1.28.5...v1.28.6) (2021-12-01)
+
+
+### Bug Fixes
+
+* **eoy:** only fire impression for en and de locales ([96f50f5](https://github.com/Pocket/web-client/commit/96f50f59bff8b2671757e19e4f9dff7791823501))
+* **eoy:** remove feature flag wrapper ([dea1c5d](https://github.com/Pocket/web-client/commit/dea1c5dcdbff54d460a88e08c843f115baf8a152))
+
 ## [1.28.5](https://github.com/Pocket/web-client/compare/v1.28.4...v1.28.5) (2021-12-01)
 
 
