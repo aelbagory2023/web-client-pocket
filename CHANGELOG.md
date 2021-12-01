@@ -1,3 +1,10 @@
+## [1.28.3](https://github.com/Pocket/web-client/compare/v1.28.2...v1.28.3) (2021-12-01)
+
+
+### Bug Fixes
+
+* **collections:** remove eoy feature flag ([02c7469](https://github.com/Pocket/web-client/commit/02c74697c6c0517d015a77b9bbe6138f4506569b))
+
 ## [1.28.2](https://github.com/Pocket/web-client/compare/v1.28.1...v1.28.2) (2021-12-01)
 
 
