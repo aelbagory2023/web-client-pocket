@@ -1,3 +1,10 @@
+## [1.28.5](https://github.com/Pocket/web-client/compare/v1.28.4...v1.28.5) (2021-12-01)
+
+
+### Bug Fixes
+
+* **home:** use collection image if it exists ([7ec6552](https://github.com/Pocket/web-client/commit/7ec65529bc9c3d1a5ead8cb66c5978272a309bf1))
+
 ## [1.28.4](https://github.com/Pocket/web-client/compare/v1.28.3...v1.28.4) (2021-12-01)
 
 
