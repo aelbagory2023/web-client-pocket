@@ -1,3 +1,11 @@
+## [1.28.7](https://github.com/Pocket/web-client/compare/v1.28.6...v1.28.7) (2021-12-01)
+
+
+### Bug Fixes
+
+* **eoy:** adding eoy specific sign up module on collections page for en users ([723ee6e](https://github.com/Pocket/web-client/commit/723ee6e35e951bc034f0314ba2045f371d0490a9))
+* **eoy:** adding non breaking hyphen to best-of ([19eb95f](https://github.com/Pocket/web-client/commit/19eb95f5ec85180147be3be48eb7ce0dab575627))
+
 ## [1.28.6](https://github.com/Pocket/web-client/compare/v1.28.5...v1.28.6) (2021-12-01)
 
 
