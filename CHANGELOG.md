@@ -1,3 +1,10 @@
+## [1.28.4](https://github.com/Pocket/web-client/compare/v1.28.3...v1.28.4) (2021-12-01)
+
+
+### Bug Fixes
+
+* **heros:** show heros at top of page for all locales ([58eede4](https://github.com/Pocket/web-client/commit/58eede421c4c3b4f7833e00f9e8ff1804378d1e4))
+
 ## [1.28.3](https://github.com/Pocket/web-client/compare/v1.28.2...v1.28.3) (2021-12-01)
 
 
