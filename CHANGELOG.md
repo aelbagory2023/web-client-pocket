@@ -1,3 +1,11 @@
+## [1.28.9](https://github.com/Pocket/web-client/compare/v1.28.8...v1.28.9) (2021-12-06)
+
+
+### Bug Fixes
+
+* **sentry:** disable transactions for now ([7920404](https://github.com/Pocket/web-client/commit/79204044febccae4b4fbe17e560cbd5e72304981))
+* **sentry:** disable transactions for now on the server ([90dc455](https://github.com/Pocket/web-client/commit/90dc4550bd2637bf1e643d5735efd275e11ec1a4))
+
 ## [1.28.8](https://github.com/Pocket/web-client/compare/v1.28.7...v1.28.8) (2021-12-06)
 
 
