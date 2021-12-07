@@ -1,3 +1,10 @@
+## [1.28.10](https://github.com/Pocket/web-client/compare/v1.28.9...v1.28.10) (2021-12-07)
+
+
+### Bug Fixes
+
+* **sentry:** turn back on sentry ([3e0860b](https://github.com/Pocket/web-client/commit/3e0860b5a77f85b286817809d6e232db09234d48))
+
 ## [1.28.9](https://github.com/Pocket/web-client/compare/v1.28.8...v1.28.9) (2021-12-06)
 
 
