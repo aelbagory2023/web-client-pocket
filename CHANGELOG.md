@@ -1,3 +1,11 @@
+## [1.28.11](https://github.com/Pocket/web-client/compare/v1.28.10...v1.28.11) (2021-12-08)
+
+
+### Bug Fixes
+
+* **urls:** add and update tests and snapshots ([da46e16](https://github.com/Pocket/web-client/commit/da46e168c6df8d5beda12b8d51e4b948483dd433))
+* **urls:** don't re-encode images if they've already been encoded ([d01ebd8](https://github.com/Pocket/web-client/commit/d01ebd859a459ab9ca949af3d3dd3fa9692a2378))
+
 ## [1.28.10](https://github.com/Pocket/web-client/compare/v1.28.9...v1.28.10) (2021-12-07)
 
 
