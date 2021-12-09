@@ -1,3 +1,10 @@
+## [1.28.12](https://github.com/Pocket/web-client/compare/v1.28.11...v1.28.12) (2021-12-09)
+
+
+### Bug Fixes
+
+* **account:** add resend confirmations ([6051575](https://github.com/Pocket/web-client/commit/60515759eb64bc95676bf87a75f32057f88966dc))
+
 ## [1.28.11](https://github.com/Pocket/web-client/compare/v1.28.10...v1.28.11) (2021-12-08)
 
 
