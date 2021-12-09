@@ -1,3 +1,11 @@
+## [1.28.14](https://github.com/Pocket/web-client/compare/v1.28.13...v1.28.14) (2021-12-09)
+
+
+### Bug Fixes
+
+* **image url:** add some comments and regex ref ([929a809](https://github.com/Pocket/web-client/commit/929a80962bcc67bc1440bba885c27cc57c4cc696))
+* **image url:** dont make dimensions additive ([f71de6e](https://github.com/Pocket/web-client/commit/f71de6e4e2bcf74b7b2450e6d3436b9da31bfb11))
+
 ## [1.28.13](https://github.com/Pocket/web-client/compare/v1.28.12...v1.28.13) (2021-12-09)
 
 
