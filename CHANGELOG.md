@@ -1,3 +1,10 @@
+## [1.30.2](https://github.com/Pocket/web-client/compare/v1.30.1...v1.30.2) (2021-12-15)
+
+
+### Bug Fixes
+
+* **syndicated:** ensure query params are passed to page ([4a39d66](https://github.com/Pocket/web-client/commit/4a39d6606640b920e819cf6e5864a1e29814317c))
+
 ## [1.30.1](https://github.com/Pocket/web-client/compare/v1.30.0...v1.30.1) (2021-12-15)
 
 
