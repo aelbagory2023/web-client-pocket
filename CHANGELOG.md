@@ -1,3 +1,15 @@
+## [1.30.1](https://github.com/Pocket/web-client/compare/v1.30.0...v1.30.1) (2021-12-15)
+
+
+### Bug Fixes
+
+* **collection:** remove externalId as itemId ([b453156](https://github.com/Pocket/web-client/commit/b4531564fa9ecdd8aa6a9f7d00941f76de8d9df7))
+* **discover:** future forward response variables ([6689d9c](https://github.com/Pocket/web-client/commit/6689d9c36b222d5298fa8f7af13dd9701a6ffc56))
+* **item:** update analytics data ([66ab288](https://github.com/Pocket/web-client/commit/66ab2884fabc6d7d3461eb2951ad508b6279419a))
+* **snowplow:** create validator with warnings ([0db2d62](https://github.com/Pocket/web-client/commit/0db2d622ed8452a485877e4d768a9561af51ea7b))
+* **snowplow:** sane defaults for validation ([abb9851](https://github.com/Pocket/web-client/commit/abb985147a5d8bc585f28fd6e9eb820daa33a072))
+* **snowplow:** validate expected has value ([c5d4a94](https://github.com/Pocket/web-client/commit/c5d4a94230d2bfe1ea30d6de4a2f457feabe2bef))
+
 # [1.30.0](https://github.com/Pocket/web-client/compare/v1.29.2...v1.30.0) (2021-12-14)
 
 
