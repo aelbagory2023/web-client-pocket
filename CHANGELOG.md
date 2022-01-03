@@ -1,3 +1,11 @@
+## [1.30.3](https://github.com/Pocket/web-client/compare/v1.30.2...v1.30.3) (2022-01-03)
+
+
+### Bug Fixes
+
+* **collections:** no need to destructure response ([59089a2](https://github.com/Pocket/web-client/commit/59089a259d580e2f4e22bb2d500be1cf2b5fe444))
+* **eoy:** remove eoy banners, callouts, and pinned articles ([c9f8c65](https://github.com/Pocket/web-client/commit/c9f8c65771e91416f95eadd55f723b138a93db3e))
+
 ## [1.30.2](https://github.com/Pocket/web-client/compare/v1.30.1...v1.30.2) (2021-12-15)
 
 
