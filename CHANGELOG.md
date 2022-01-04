@@ -1,3 +1,15 @@
+# [1.32.0](https://github.com/Pocket/web-client/compare/v1.31.1...v1.32.0) (2022-01-04)
+
+
+### Bug Fixes
+
+* **unleash:** adding a default for user models ([f2a812e](https://github.com/Pocket/web-client/commit/f2a812e6ce834a124a85e344f85d7dd356a9cbc1))
+
+
+### Features
+
+* **unleash:** recit user models ([c939d22](https://github.com/Pocket/web-client/commit/c939d22c4052e131526a7bcc4e09afbed49081f0))
+
 ## [1.31.1](https://github.com/Pocket/web-client/compare/v1.31.0...v1.31.1) (2022-01-04)
 
 
