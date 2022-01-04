@@ -1,3 +1,19 @@
+# [1.31.0](https://github.com/Pocket/web-client/compare/v1.30.3...v1.31.0) (2022-01-04)
+
+
+### Bug Fixes
+
+* **home:** remove personalized marker ([0602d0d](https://github.com/Pocket/web-client/commit/0602d0d03b58338f1fd06ac20f4808d8e1870d90))
+* **unleash:** recit query shape ([28ae677](https://github.com/Pocket/web-client/commit/28ae677164f15947ced64cbf0fc9ed8813f8b2d6))
+* **unleash:** user model shape ([a568c3e](https://github.com/Pocket/web-client/commit/a568c3e830f7c589a5dab75aa72b1883013924a6))
+
+
+### Features
+
+* **home:** get lineup ids from feature flags ([0011f8a](https://github.com/Pocket/web-client/commit/0011f8a9a6535f8e7b700277a47db144dcf6d28e))
+* **user:** add reccit profile call for user models ([77dde28](https://github.com/Pocket/web-client/commit/77dde28d723a2822ca26f0e26698e4c0b6f71960))
+* **user:** include reccit profile in feature flags ([8d838d1](https://github.com/Pocket/web-client/commit/8d838d1456b1c8a964d00789f75799fc1671bbc6))
+
 ## [1.30.3](https://github.com/Pocket/web-client/compare/v1.30.2...v1.30.3) (2022-01-03)
 
 
