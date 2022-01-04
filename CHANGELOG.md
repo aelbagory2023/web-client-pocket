@@ -1,3 +1,16 @@
+## [1.31.1](https://github.com/Pocket/web-client/compare/v1.31.0...v1.31.1) (2022-01-04)
+
+
+### Reverts
+
+* Revert "feat(home): get lineup ids from feature flags" ([5a0a745](https://github.com/Pocket/web-client/commit/5a0a7450ca342701fb65d94019a7d35449804179))
+* Revert "fix(home): remove personalized marker" ([66c8bfe](https://github.com/Pocket/web-client/commit/66c8bfed03111bea6cd0b07d9b3cede5e06e8b2a))
+* Revert "feat(user): add reccit profile call for user models" ([289d771](https://github.com/Pocket/web-client/commit/289d771cc52463e5c7a5ac40cd6afb0f0e11117b))
+* Revert "feat(user): include reccit profile in feature flags" ([cba47df](https://github.com/Pocket/web-client/commit/cba47df6da6f70ea374af2a380e3ef72eacca40b))
+* Revert "fix(unleash): user model shape" ([0d19a7f](https://github.com/Pocket/web-client/commit/0d19a7f730b0a0ce96b8f530424b42321c724fa5))
+* Revert "fix(unleash): recit query shape" ([3af3b72](https://github.com/Pocket/web-client/commit/3af3b720e2bbbb9824f33da56305caf54508db12))
+* Revert "chore(home): code format" ([08710de](https://github.com/Pocket/web-client/commit/08710de2475da4568c20075b107e0f3c8ccc3f0d))
+
 # [1.31.0](https://github.com/Pocket/web-client/compare/v1.30.3...v1.31.0) (2022-01-04)
 
 
