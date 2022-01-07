@@ -1,3 +1,10 @@
+# [1.34.0](https://github.com/Pocket/web-client/compare/v1.33.1...v1.34.0) (2022-01-07)
+
+
+### Features
+
+* **dependency:** update nextjs to 12 ([ca91333](https://github.com/Pocket/web-client/commit/ca913335578eeb6609864f1da99125d919722cb3))
+
 ## [1.33.1](https://github.com/Pocket/web-client/compare/v1.33.0...v1.33.1) (2022-01-06)
 
 
