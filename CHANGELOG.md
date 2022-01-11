@@ -1,3 +1,10 @@
+## [1.34.3](https://github.com/Pocket/web-client/compare/v1.34.2...v1.34.3) (2022-01-11)
+
+
+### Bug Fixes
+
+* **item:** remove itemEnrichment url from analytics ([bffa768](https://github.com/Pocket/web-client/commit/bffa76878e2e031e004fde3da3f25fcc89e2340d))
+
 ## [1.34.2](https://github.com/Pocket/web-client/compare/v1.34.1...v1.34.2) (2022-01-10)
 
 
