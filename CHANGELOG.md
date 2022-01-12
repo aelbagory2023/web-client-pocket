@@ -1,3 +1,16 @@
+## [1.34.4](https://github.com/Pocket/web-client/compare/v1.34.3...v1.34.4) (2022-01-12)
+
+
+### Bug Fixes
+
+* **ArrowLink:** pass id and data-cy attributes through ([dfa6f9e](https://github.com/Pocket/web-client/commit/dfa6f9e42be4242714bcf092d5f9b5ba962040f7))
+* **constants:** add new premium url ([df29d69](https://github.com/Pocket/web-client/commit/df29d69bb963591fc7d953ecf9d92a2b9c19614c))
+* **constants:** update PREMIUM_URL link ([1cd4106](https://github.com/Pocket/web-client/commit/1cd4106b17176409fcc100f476be6ac03d907da6))
+* **data-cy:** pass data-cy info to ArrowLink ([ffc4eeb](https://github.com/Pocket/web-client/commit/ffc4eeb3b7e0a6486f911311c3b5d0cfc9e8d05f))
+* **global nav:** add utm params to premium link ([6681918](https://github.com/Pocket/web-client/commit/6681918417bbae38cfca8a306a353a4e3558b3e1))
+* **premium links:** add utm params to premium links ([98b82b9](https://github.com/Pocket/web-client/commit/98b82b92bf9e2360dc4dd3d1bd0877bf793639fd))
+* **TagUpsell:** add new utm params, pass data-cy through to ArrowLink ([1fbd1a9](https://github.com/Pocket/web-client/commit/1fbd1a92931697f3a97d7bb63927a95e7847698b))
+
 ## [1.34.3](https://github.com/Pocket/web-client/compare/v1.34.2...v1.34.3) (2022-01-11)
 
 
