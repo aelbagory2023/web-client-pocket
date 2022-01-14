@@ -1,3 +1,10 @@
+## [1.34.5](https://github.com/Pocket/web-client/compare/v1.34.4...v1.34.5) (2022-01-14)
+
+
+### Bug Fixes
+
+* **sentry:** more explicit opt-out of tracing ([927d9a3](https://github.com/Pocket/web-client/commit/927d9a3647433da5e709c51a6d744f5bdb617196))
+
 ## [1.34.4](https://github.com/Pocket/web-client/compare/v1.34.3...v1.34.4) (2022-01-12)
 
 
