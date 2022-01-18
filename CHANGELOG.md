@@ -1,3 +1,10 @@
+## [1.34.6](https://github.com/Pocket/web-client/compare/v1.34.5...v1.34.6) (2022-01-18)
+
+
+### Bug Fixes
+
+* **sentry:** remove traceSampling settings ([0fcc424](https://github.com/Pocket/web-client/commit/0fcc424f8827b6b436b19af0c503250f313b33a3))
+
 ## [1.34.5](https://github.com/Pocket/web-client/compare/v1.34.4...v1.34.5) (2022-01-14)
 
 
