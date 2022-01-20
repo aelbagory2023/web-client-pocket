@@ -1,3 +1,10 @@
+## [1.34.7](https://github.com/Pocket/web-client/compare/v1.34.6...v1.34.7) (2022-01-20)
+
+
+### Bug Fixes
+
+* **reader:** missing itemId in annotation actions ([aa9829a](https://github.com/Pocket/web-client/commit/aa9829a6838a3b981a768925108f3e23f7ca64a8))
+
 ## [1.34.6](https://github.com/Pocket/web-client/compare/v1.34.5...v1.34.6) (2022-01-18)
 
 
