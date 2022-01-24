@@ -1,3 +1,12 @@
+## [1.34.8](https://github.com/Pocket/web-client/compare/v1.34.7...v1.34.8) (2022-01-24)
+
+
+### Bug Fixes
+
+* **dependency:** clean package ([fc782de](https://github.com/Pocket/web-client/commit/fc782de17d00fabd7c222ddfdb2541d31aa37b67))
+* **dependency:** update to latest ([51eb110](https://github.com/Pocket/web-client/commit/51eb1105bee03da8099a345ac591e43d437cc36a))
+* **npm:** change to version 8> ([e99c5ce](https://github.com/Pocket/web-client/commit/e99c5ce18c75bdeeb53056152abf40f7ea2c9197))
+
 ## [1.34.7](https://github.com/Pocket/web-client/compare/v1.34.6...v1.34.7) (2022-01-20)
 
 
