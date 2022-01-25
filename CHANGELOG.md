@@ -1,3 +1,10 @@
+## [1.34.9](https://github.com/Pocket/web-client/compare/v1.34.8...v1.34.9) (2022-01-25)
+
+
+### Bug Fixes
+
+* **deriveReccit:** include sort_id when we modernize item ([4cab153](https://github.com/Pocket/web-client/commit/4cab1530e077da628309b9875a5e6eb514d577de))
+
 ## [1.34.8](https://github.com/Pocket/web-client/compare/v1.34.7...v1.34.8) (2022-01-24)
 
 
