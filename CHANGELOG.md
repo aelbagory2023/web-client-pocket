@@ -1,3 +1,10 @@
+# [1.35.0](https://github.com/Pocket/web-client/compare/v1.34.9...v1.35.0) (2022-01-27)
+
+
+### Features
+
+* **onboarding:** add check for new rollout feature flag ([5a2ac98](https://github.com/Pocket/web-client/commit/5a2ac988b2d3b15fc9fb5e99061bc0279c544b68))
+
 ## [1.34.9](https://github.com/Pocket/web-client/compare/v1.34.8...v1.34.9) (2022-01-25)
 
 
