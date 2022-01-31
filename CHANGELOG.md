@@ -1,3 +1,10 @@
+## [1.35.1](https://github.com/Pocket/web-client/compare/v1.35.0...v1.35.1) (2022-01-31)
+
+
+### Bug Fixes
+
+* **waypoint:** add check for supportedLocale ([5a8a0f9](https://github.com/Pocket/web-client/commit/5a8a0f9a50df5b29147eb86e7970c81815369831))
+
 # [1.35.0](https://github.com/Pocket/web-client/compare/v1.34.9...v1.35.0) (2022-01-27)
 
 
