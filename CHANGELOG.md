@@ -1,3 +1,10 @@
+## [1.35.2](https://github.com/Pocket/web-client/compare/v1.35.1...v1.35.2) (2022-02-08)
+
+
+### Bug Fixes
+
+* **shorcuts:** update open_url to externalUrl per new item store ([eedb498](https://github.com/Pocket/web-client/commit/eedb498585a461e6624b8fa531bb4265215bea1c))
+
 ## [1.35.1](https://github.com/Pocket/web-client/compare/v1.35.0...v1.35.1) (2022-01-31)
 
 
