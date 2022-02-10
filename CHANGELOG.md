@@ -1,3 +1,17 @@
+# [1.36.0](https://github.com/Pocket/web-client/compare/v1.35.3...v1.36.0) (2022-02-10)
+
+
+### Bug Fixes
+
+* **card:** update proptypes for new deriver ([a7f3682](https://github.com/Pocket/web-client/commit/a7f3682987876ef515f7fa9d90bfb09ef3831215))
+* **my-list:** re-add onboarding ([d638406](https://github.com/Pocket/web-client/commit/d6384061a3adf6b59b8bca6aa6dc83dc6ce32703))
+
+
+### Features
+
+* **list:** boilerplate for api next driven list ([4105583](https://github.com/Pocket/web-client/commit/4105583ceb31a1c3963a61f7abd52168daf40ced))
+* **list:** create list container for flags ([a8df410](https://github.com/Pocket/web-client/commit/a8df41063d2bfe5207e2315d1999777357eca3c9))
+
 ## [1.35.3](https://github.com/Pocket/web-client/compare/v1.35.2...v1.35.3) (2022-02-10)
 
 
