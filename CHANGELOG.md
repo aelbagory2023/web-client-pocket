@@ -1,3 +1,11 @@
+## [1.36.3](https://github.com/Pocket/web-client/compare/v1.36.2...v1.36.3) (2022-02-10)
+
+
+### Bug Fixes
+
+* **card:** update analytics data for cards on home ([6d0afad](https://github.com/Pocket/web-client/commit/6d0afadd99f65488a5e4eae3892772eeb289b30d))
+* **modal:** bump web-ui and update modal to check for ref before enabling body scroll ([3230c25](https://github.com/Pocket/web-client/commit/3230c2531dd97a627f789cd1943450dabfa2a6ea))
+
 ## [1.36.2](https://github.com/Pocket/web-client/compare/v1.36.1...v1.36.2) (2022-02-10)
 
 
