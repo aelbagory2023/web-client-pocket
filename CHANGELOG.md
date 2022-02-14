@@ -1,3 +1,11 @@
+## [1.36.4](https://github.com/Pocket/web-client/compare/v1.36.3...v1.36.4) (2022-02-14)
+
+
+### Bug Fixes
+
+* **language:** fix path sent to language selector function ([f7e7f73](https://github.com/Pocket/web-client/commit/f7e7f73afb17f1bae9f015ec41543907b5d5f2f7))
+* **report:** pass correct item data to snowplow event ([299f5b7](https://github.com/Pocket/web-client/commit/299f5b79fd634b83031c081b9919ad11513dc5a2))
+
 ## [1.36.3](https://github.com/Pocket/web-client/compare/v1.36.2...v1.36.3) (2022-02-10)
 
 
