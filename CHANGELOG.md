@@ -1,3 +1,10 @@
+# [1.37.0](https://github.com/Pocket/web-client/compare/v1.36.7...v1.37.0) (2022-02-22)
+
+
+### Features
+
+* **api next:** add mutations/queries for list ([91fe27c](https://github.com/Pocket/web-client/commit/91fe27cdb33738656fc5d958e71730d062eb9c62))
+
 ## [1.36.7](https://github.com/Pocket/web-client/compare/v1.36.6...v1.36.7) (2022-02-22)
 
 
