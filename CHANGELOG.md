@@ -1,3 +1,11 @@
+# [1.38.0](https://github.com/Pocket/web-client/compare/v1.37.0...v1.38.0) (2022-02-22)
+
+
+### Features
+
+* **deriver:** deriveSavedItem ([d8893b1](https://github.com/Pocket/web-client/commit/d8893b10761b966b4fc348c1ae204c4aa58d5f5a))
+* **items:** item / list-saved state and actions ([5252345](https://github.com/Pocket/web-client/commit/5252345ecbfb6f09b29a81f637f5013009cbf258))
+
 # [1.37.0](https://github.com/Pocket/web-client/compare/v1.36.7...v1.37.0) (2022-02-22)
 
 
