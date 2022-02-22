@@ -1,3 +1,10 @@
+## [1.36.6](https://github.com/Pocket/web-client/compare/v1.36.5...v1.36.6) (2022-02-22)
+
+
+### Bug Fixes
+
+* **snowplow:** pass display name and description to slate entities ([4fd1600](https://github.com/Pocket/web-client/commit/4fd16009c43f3e082545d9462da1bf1ef47d457d))
+
 ## [1.36.5](https://github.com/Pocket/web-client/compare/v1.36.4...v1.36.5) (2022-02-22)
 
 
