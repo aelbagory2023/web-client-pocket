@@ -1,3 +1,11 @@
+## [1.38.1](https://github.com/Pocket/web-client/compare/v1.38.0...v1.38.1) (2022-02-23)
+
+
+### Bug Fixes
+
+* **list:** update list to allow search to be tested ([a0f1187](https://github.com/Pocket/web-client/commit/a0f118727edd69d7dbfd07ac93442f714a899e34))
+* **search:** make sure search is subset ([188b81c](https://github.com/Pocket/web-client/commit/188b81cea6f52673a36e625ef6bdcb67d5c1c668))
+
 # [1.38.0](https://github.com/Pocket/web-client/compare/v1.37.0...v1.38.0) (2022-02-22)
 
 
