@@ -1,3 +1,10 @@
+## [1.38.3](https://github.com/Pocket/web-client/compare/v1.38.2...v1.38.3) (2022-02-24)
+
+
+### Bug Fixes
+
+* **snowplow:** add engagement event for updating list display view ([fc2f6ff](https://github.com/Pocket/web-client/commit/fc2f6ff16dbb82066a3c5c5cab5bff73279549f1))
+
 ## [1.38.2](https://github.com/Pocket/web-client/compare/v1.38.1...v1.38.2) (2022-02-24)
 
 
