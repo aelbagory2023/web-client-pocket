@@ -1,3 +1,10 @@
+## [1.38.5](https://github.com/Pocket/web-client/compare/v1.38.4...v1.38.5) (2022-02-28)
+
+
+### Bug Fixes
+
+* **snowplow:** add engagement event for updating sort order ([403d60b](https://github.com/Pocket/web-client/commit/403d60b99795e3df1473f01bfb421aa4baae147e))
+
 ## [1.38.4](https://github.com/Pocket/web-client/compare/v1.38.3...v1.38.4) (2022-02-25)
 
 
