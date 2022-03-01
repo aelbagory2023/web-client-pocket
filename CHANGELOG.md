@@ -1,3 +1,10 @@
+## [1.38.8](https://github.com/Pocket/web-client/compare/v1.38.7...v1.38.8) (2022-03-01)
+
+
+### Bug Fixes
+
+* **reader:** content getting cut off on mobile ([71742c4](https://github.com/Pocket/web-client/commit/71742c4fa910d1c6dc475b4cb9eb835476bd0f94))
+
 ## [1.38.7](https://github.com/Pocket/web-client/compare/v1.38.6...v1.38.7) (2022-03-01)
 
 
