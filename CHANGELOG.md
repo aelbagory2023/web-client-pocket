@@ -1,3 +1,10 @@
+## [1.38.10](https://github.com/Pocket/web-client/compare/v1.38.9...v1.38.10) (2022-03-02)
+
+
+### Bug Fixes
+
+* **list:** limit updates if since doesn’t exist ([a7773f0](https://github.com/Pocket/web-client/commit/a7773f0b27a85507db24b75385bb5c2674a7633c))
+
 ## [1.38.9](https://github.com/Pocket/web-client/compare/v1.38.8...v1.38.9) (2022-03-02)
 
 
