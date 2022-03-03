@@ -1,3 +1,11 @@
+## [1.38.11](https://github.com/Pocket/web-client/compare/v1.38.10...v1.38.11) (2022-03-03)
+
+
+### Bug Fixes
+
+* **snowplow:** add snowplow event for go back button ([5e20b74](https://github.com/Pocket/web-client/commit/5e20b7435284644d20b78deac8d6e2075cfef520))
+* **snowplow:** fix reader back shortcut ([2b2926f](https://github.com/Pocket/web-client/commit/2b2926fd82c433b19789e6fcc1c78cc9e9af8a47))
+
 ## [1.38.10](https://github.com/Pocket/web-client/compare/v1.38.9...v1.38.10) (2022-03-02)
 
 
