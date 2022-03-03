@@ -1,3 +1,12 @@
+## [1.38.12](https://github.com/Pocket/web-client/compare/v1.38.11...v1.38.12) (2022-03-03)
+
+
+### Bug Fixes
+
+* **api:** adding a request for getting a saved item by id ([a4e1e94](https://github.com/Pocket/web-client/commit/a4e1e94fd6d735296880d901a2594d202ce63e3b))
+* **api:** remove sneaky console log ([2331445](https://github.com/Pocket/web-client/commit/23314452d854b76dbab63c2358635408d82bd8a7))
+* **api:** update get saved item by id graphql call ([49c6db8](https://github.com/Pocket/web-client/commit/49c6db80d6741273b70fddeee38c8bc747ae6c3c))
+
 ## [1.38.11](https://github.com/Pocket/web-client/compare/v1.38.10...v1.38.11) (2022-03-03)
 
 
