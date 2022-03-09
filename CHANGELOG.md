@@ -1,3 +1,16 @@
+# [1.40.0](https://github.com/Pocket/web-client/compare/v1.39.0...v1.40.0) (2022-03-09)
+
+
+### Bug Fixes
+
+* **list:** update and store filters ([999a62a](https://github.com/Pocket/web-client/commit/999a62a6f2d3fc2fe5c01fa394bcecc74b31fb19))
+
+
+### Features
+
+* **list:** add super basic layout ([df38361](https://github.com/Pocket/web-client/commit/df38361ac3e6cbe9ee1986e85fde65265492666c))
+* **saved-items:** basic list render for dev ([d03a242](https://github.com/Pocket/web-client/commit/d03a242d9cb7dcac59b6c631ca38f945ed51cfd5))
+
 # [1.39.0](https://github.com/Pocket/web-client/compare/v1.38.15...v1.39.0) (2022-03-09)
 
 
