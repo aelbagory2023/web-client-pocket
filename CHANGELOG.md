@@ -1,3 +1,12 @@
+## [1.41.2](https://github.com/Pocket/web-client/compare/v1.41.1...v1.41.2) (2022-03-16)
+
+
+### Bug Fixes
+
+* **explore:** adjust code whitespace ([a82848a](https://github.com/Pocket/web-client/commit/a82848a346e63ab82f5c8aa3ba523defef96ce69))
+* **snowplow:** add a language filter to the newsletter subscriber entity ([08c1598](https://github.com/Pocket/web-client/commit/08c159878583d18c628ae06a827afb54cfa066e5))
+* **snowplow:** add object update event to pocket hits signup ([72694c6](https://github.com/Pocket/web-client/commit/72694c65a16cbec6adf6381c9605bf96028d6883))
+
 ## [1.41.1](https://github.com/Pocket/web-client/compare/v1.41.0...v1.41.1) (2022-03-15)
 
 
