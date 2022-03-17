@@ -1,3 +1,11 @@
+## [1.41.3](https://github.com/Pocket/web-client/compare/v1.41.2...v1.41.3) (2022-03-17)
+
+
+### Bug Fixes
+
+* **filters:** remove double negative ([3ef6600](https://github.com/Pocket/web-client/commit/3ef660090b8f830f983ea22ac250b7eec6d1ee3f))
+* **mutations:** mutations to use content type ([6e94800](https://github.com/Pocket/web-client/commit/6e9480080a779bcc31b39e30b08bb3da55f7bd30))
+
 ## [1.41.2](https://github.com/Pocket/web-client/compare/v1.41.1...v1.41.2) (2022-03-16)
 
 
