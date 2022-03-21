@@ -1,3 +1,10 @@
+## [1.41.4](https://github.com/Pocket/web-client/compare/v1.41.3...v1.41.4) (2022-03-21)
+
+
+### Bug Fixes
+
+* **snowplow:** remove invalid keys from newsletter_subscriber entity ([310bdff](https://github.com/Pocket/web-client/commit/310bdffbc65c2f2b3680650c4a8e7af2b548eae9))
+
 ## [1.41.3](https://github.com/Pocket/web-client/compare/v1.41.2...v1.41.3) (2022-03-17)
 
 
