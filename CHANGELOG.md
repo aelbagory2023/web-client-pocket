@@ -1,3 +1,11 @@
+## [1.42.2](https://github.com/Pocket/web-client/compare/v1.42.1...v1.42.2) (2022-03-28)
+
+
+### Bug Fixes
+
+* **package:** bump package version for web-localization ([b41c9a2](https://github.com/Pocket/web-client/commit/b41c9a2ca71f50d0ce55841b0488ba7f47a0c0e9))
+* **translate:** update save to my list button and call outs ([35646fe](https://github.com/Pocket/web-client/commit/35646fe323793ef19fe8ebb4f0fdb865a7c6d3c9))
+
 ## [1.42.1](https://github.com/Pocket/web-client/compare/v1.42.0...v1.42.1) (2022-03-28)
 
 
