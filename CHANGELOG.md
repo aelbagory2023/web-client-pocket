@@ -1,3 +1,10 @@
+## [1.42.1](https://github.com/Pocket/web-client/compare/v1.42.0...v1.42.1) (2022-03-28)
+
+
+### Bug Fixes
+
+* **highlights:** create and delete highlights correctly ([950c04d](https://github.com/Pocket/web-client/commit/950c04df4f075bc1ac03267ae830119515d6d737))
+
 # [1.42.0](https://github.com/Pocket/web-client/compare/v1.41.5...v1.42.0) (2022-03-28)
 
 
