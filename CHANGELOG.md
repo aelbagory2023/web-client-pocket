@@ -1,3 +1,10 @@
+## [1.42.3](https://github.com/Pocket/web-client/compare/v1.42.2...v1.42.3) (2022-04-12)
+
+
+### Bug Fixes
+
+* **account:** hide pocket hits frequency dropdown when feature flag is active ([f7c0f1b](https://github.com/Pocket/web-client/commit/f7c0f1b5ca1b5f00304f4ca6a875198e30298ef9))
+
 ## [1.42.2](https://github.com/Pocket/web-client/compare/v1.42.1...v1.42.2) (2022-03-28)
 
 
