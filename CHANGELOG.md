@@ -1,3 +1,10 @@
+## [1.42.4](https://github.com/Pocket/web-client/compare/v1.42.3...v1.42.4) (2022-04-18)
+
+
+### Bug Fixes
+
+* **home:** no longer include the recommendation entity with similar item events ([e5630ed](https://github.com/Pocket/web-client/commit/e5630ed9a2bc3aa4fd6222f8854c5d8ae7dc7be3))
+
 ## [1.42.3](https://github.com/Pocket/web-client/compare/v1.42.2...v1.42.3) (2022-04-12)
 
 
