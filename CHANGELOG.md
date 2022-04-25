@@ -1,3 +1,11 @@
+# [1.44.0](https://github.com/Pocket/web-client/compare/v1.43.0...v1.44.0) (2022-04-25)
+
+
+### Features
+
+* **mutations:** adding sagas/reducers ([c44f2ce](https://github.com/Pocket/web-client/commit/c44f2ce1d9d837ef62978a63c8bce80d365bec7f))
+* **mutations:** wire up the confirmations and nav ([2049ea9](https://github.com/Pocket/web-client/commit/2049ea95df33a5a223ef58a5fcf933b479661894))
+
 # [1.43.0](https://github.com/Pocket/web-client/compare/v1.42.5...v1.43.0) (2022-04-25)
 
 
