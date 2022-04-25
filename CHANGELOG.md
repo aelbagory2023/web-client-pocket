@@ -1,3 +1,12 @@
+## [1.42.5](https://github.com/Pocket/web-client/compare/v1.42.4...v1.42.5) (2022-04-25)
+
+
+### Bug Fixes
+
+* **confirm favorite:** doubled up copy ([b732e42](https://github.com/Pocket/web-client/commit/b732e4225c45f3d0d374915b610b4e244b83aedc))
+* **mutations:** remove deleted items from list ([66d5c2d](https://github.com/Pocket/web-client/commit/66d5c2df3cbd60256a00f2e7ad5e813f09e2ab3d))
+* **nav:** use proper upsert action ([a056901](https://github.com/Pocket/web-client/commit/a05690124b444709c88f4a8c56a994ec6ab4e8d9))
+
 ## [1.42.4](https://github.com/Pocket/web-client/compare/v1.42.3...v1.42.4) (2022-04-18)
 
 
