@@ -1,3 +1,17 @@
+# [1.45.0](https://github.com/Pocket/web-client/compare/v1.44.0...v1.45.0) (2022-04-26)
+
+
+### Bug Fixes
+
+* **card:** don’t test width on 1 column layout ([6803e73](https://github.com/Pocket/web-client/commit/6803e730b8dde4ab710ee486a85434e0f96747ef))
+* **filters:** adjust to exclude deleted ([4e1d0aa](https://github.com/Pocket/web-client/commit/4e1d0aa20cb4203bea57b93c898f2d200a81fca6))
+* **layout:** use dimensions from old list ([e042b7f](https://github.com/Pocket/web-client/commit/e042b7f7f9136dbae97aea57001b168365bb4c65))
+
+
+### Features
+
+* **list:** add pagination / list virtualization ([9cf617b](https://github.com/Pocket/web-client/commit/9cf617b64fc9c61746f195a1b2eba2d1a7e495fc))
+
 # [1.44.0](https://github.com/Pocket/web-client/compare/v1.43.0...v1.44.0) (2022-04-25)
 
 
