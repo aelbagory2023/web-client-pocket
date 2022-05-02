@@ -1,3 +1,10 @@
+## [1.45.1](https://github.com/Pocket/web-client/compare/v1.45.0...v1.45.1) (2022-05-02)
+
+
+### Bug Fixes
+
+* **schema:** update and add script for future ([0cfdafa](https://github.com/Pocket/web-client/commit/0cfdafa8164e46aa74ee5a9d020dde1f82319599))
+
 # [1.45.0](https://github.com/Pocket/web-client/compare/v1.44.0...v1.45.0) (2022-04-26)
 
 
