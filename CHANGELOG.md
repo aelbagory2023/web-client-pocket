@@ -1,3 +1,10 @@
+## [1.45.2](https://github.com/Pocket/web-client/compare/v1.45.1...v1.45.2) (2022-05-03)
+
+
+### Bug Fixes
+
+* **one trust:** remove auto block ([14747d3](https://github.com/Pocket/web-client/commit/14747d3b3e185adf0d8943ad1be21c8fa2385134))
+
 ## [1.45.1](https://github.com/Pocket/web-client/compare/v1.45.0...v1.45.1) (2022-05-02)
 
 
