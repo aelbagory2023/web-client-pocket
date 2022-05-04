@@ -1,3 +1,17 @@
+# [1.46.0](https://github.com/Pocket/web-client/compare/v1.45.3...v1.46.0) (2022-05-04)
+
+
+### Bug Fixes
+
+* **card:** get tags from item-saved ([c1ab02d](https://github.com/Pocket/web-client/commit/c1ab02d3866840eb9e8587ab62cb194d6e2cbab0))
+* **tagging:** change function order ([3c98602](https://github.com/Pocket/web-client/commit/3c98602bf9bfd64b5b0b8479fb5074e045aab38e))
+
+
+### Features
+
+* **tagging:** adding bulk tagging ([2264027](https://github.com/Pocket/web-client/commit/22640272e352a75d6060f1baa4c2b489dc60f017))
+* **tagging:** adding single item tagging ([0283198](https://github.com/Pocket/web-client/commit/02831983b590ba022c49a72bcac439e1cacf8015))
+
 ## [1.45.3](https://github.com/Pocket/web-client/compare/v1.45.2...v1.45.3) (2022-05-04)
 
 
