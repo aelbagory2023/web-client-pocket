@@ -1,3 +1,16 @@
+## [1.46.1](https://github.com/Pocket/web-client/compare/v1.46.0...v1.46.1) (2022-05-05)
+
+
+### Bug Fixes
+
+* **annotations:** fix created date for client api ([bb8133f](https://github.com/Pocket/web-client/commit/bb8133ffc35a181b37a73859a7b60777df65c4a7))
+* **annotations:** fix sidebar toggle for client api implementation ([4463dbb](https://github.com/Pocket/web-client/commit/4463dbbd607f5bb3d6234333d7776b274eac303c))
+* **highlights:** update position of hover highlight menu ([0d600cf](https://github.com/Pocket/web-client/commit/0d600cf61a2584715776715b14b02c6a23bd6caa))
+* **highlights:** updating if/else in functions to be early returns ([7811710](https://github.com/Pocket/web-client/commit/781171076c087cc6c6a8d94d70b2ac4c7a9477d1))
+* **reader:** cleanup unnecessry constants and functions ([3a6b6be](https://github.com/Pocket/web-client/commit/3a6b6be16d625226c466702cb566e9666d868fb5))
+* **reader:** hooking up client-api to the reader ([c747707](https://github.com/Pocket/web-client/commit/c7477075c952690e8d8e8a09067990278b89781e))
+* **sidebar:** remove test function ([86cd169](https://github.com/Pocket/web-client/commit/86cd169cb24d2ac20e1601a208deb8c058af45a8))
+
 # [1.46.0](https://github.com/Pocket/web-client/compare/v1.45.3...v1.46.0) (2022-05-04)
 
 
