@@ -1,3 +1,10 @@
+## [1.46.2](https://github.com/Pocket/web-client/compare/v1.46.1...v1.46.2) (2022-05-09)
+
+
+### Bug Fixes
+
+* **reader:** hooking up tagging events ([f8b6afa](https://github.com/Pocket/web-client/commit/f8b6afaf7d64c31f11f38f4355c0254538d4211b))
+
 ## [1.46.1](https://github.com/Pocket/web-client/compare/v1.46.0...v1.46.1) (2022-05-05)
 
 
