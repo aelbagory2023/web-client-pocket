@@ -1,3 +1,10 @@
+## [1.46.3](https://github.com/Pocket/web-client/compare/v1.46.2...v1.46.3) (2022-05-09)
+
+
+### Bug Fixes
+
+* **analytics:** raw GA load and events ([9d78678](https://github.com/Pocket/web-client/commit/9d786787f8eb8b9987b5a24ea4a4ebfd698fdf26))
+
 ## [1.46.2](https://github.com/Pocket/web-client/compare/v1.46.1...v1.46.2) (2022-05-09)
 
 
