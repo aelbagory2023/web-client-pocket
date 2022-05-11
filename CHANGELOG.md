@@ -1,3 +1,10 @@
+## [1.46.8](https://github.com/Pocket/web-client/compare/v1.46.7...v1.46.8) (2022-05-11)
+
+
+### Bug Fixes
+
+* **reader:** add published date to header ([d5dd264](https://github.com/Pocket/web-client/commit/d5dd264ad1577fb6b99286486abf5c36cbb6721d))
+
 ## [1.46.7](https://github.com/Pocket/web-client/compare/v1.46.6...v1.46.7) (2022-05-11)
 
 
