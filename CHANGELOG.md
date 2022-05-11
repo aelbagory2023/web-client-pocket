@@ -1,3 +1,11 @@
+## [1.46.5](https://github.com/Pocket/web-client/compare/v1.46.4...v1.46.5) (2022-05-11)
+
+
+### Bug Fixes
+
+* **card:** allow local syndicated url ([f481f21](https://github.com/Pocket/web-client/commit/f481f21a09216c2c91043fac243ab3b4e1743b3f))
+* **share:** update social icons to no longer user react-share ([74a469c](https://github.com/Pocket/web-client/commit/74a469ce26bfd9f0cc6488ee1cc5392c067ea6cb))
+
 ## [1.46.4](https://github.com/Pocket/web-client/compare/v1.46.3...v1.46.4) (2022-05-10)
 
 
