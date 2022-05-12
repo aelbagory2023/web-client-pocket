@@ -1,3 +1,11 @@
+## [1.46.9](https://github.com/Pocket/web-client/compare/v1.46.8...v1.46.9) (2022-05-12)
+
+
+### Bug Fixes
+
+* **article-actions:** tweak spacing on email button for different breakpoints ([2a9b1a2](https://github.com/Pocket/web-client/commit/2a9b1a2fc06d92494332f75958f51d6f120eba63))
+* **collections:** add snowplow events for sharing to social platforms ([f9713bf](https://github.com/Pocket/web-client/commit/f9713bf3efd2f5299f34377d541a28489c5426bd))
+
 ## [1.46.8](https://github.com/Pocket/web-client/compare/v1.46.7...v1.46.8) (2022-05-11)
 
 
