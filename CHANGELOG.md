@@ -1,3 +1,10 @@
+## [1.46.12](https://github.com/Pocket/web-client/compare/v1.46.11...v1.46.12) (2022-05-16)
+
+
+### Bug Fixes
+
+* **one trust:** don’t pass an empty action ([23427dc](https://github.com/Pocket/web-client/commit/23427dcc41e1fce1d1be393e041c77acac7371e4))
+
 ## [1.46.11](https://github.com/Pocket/web-client/compare/v1.46.10...v1.46.11) (2022-05-16)
 
 
