@@ -1,3 +1,11 @@
+## [1.46.11](https://github.com/Pocket/web-client/compare/v1.46.10...v1.46.11) (2022-05-16)
+
+
+### Bug Fixes
+
+* **footer:** remove unused darkmode variable ([908c492](https://github.com/Pocket/web-client/commit/908c49251af5eaa2ff1123874a6c4babca2a7f37))
+* **footer:** update cookie preferences link color in dark mode ([d47aba8](https://github.com/Pocket/web-client/commit/d47aba8eb53987c11bbf6c0a6104859a48190b7f))
+
 ## [1.46.10](https://github.com/Pocket/web-client/compare/v1.46.9...v1.46.10) (2022-05-16)
 
 
