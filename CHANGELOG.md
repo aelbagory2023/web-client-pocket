@@ -1,3 +1,10 @@
+## [1.46.13](https://github.com/Pocket/web-client/compare/v1.46.12...v1.46.13) (2022-05-17)
+
+
+### Bug Fixes
+
+* **header:** add apollo client headers ([1646fb0](https://github.com/Pocket/web-client/commit/1646fb0d177c63562090423ff7adae68d7576dfb))
+
 ## [1.46.12](https://github.com/Pocket/web-client/compare/v1.46.11...v1.46.12) (2022-05-16)
 
 
