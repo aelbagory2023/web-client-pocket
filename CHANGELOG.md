@@ -1,3 +1,19 @@
+# [1.47.0](https://github.com/Pocket/web-client/compare/v1.46.13...v1.47.0) (2022-05-18)
+
+
+### Features
+
+* **braze:** add braze package ([934c4f9](https://github.com/Pocket/web-client/commit/934c4f96ce6765fadd75abfdca9a8091cca58962))
+* **braze:** add braze reset to dev tools panel ([3d68c46](https://github.com/Pocket/web-client/commit/3d68c4608151f8dd8d294a6c5fbbc051ed4d0e2c))
+* **braze:** add constants for API keys and SDK endpoint ([d739c09](https://github.com/Pocket/web-client/commit/d739c09d68b46ce6b8afb11b3d03ed37433dffd1))
+* **braze:** import and initialize braze ([f3c48ee](https://github.com/Pocket/web-client/commit/f3c48eef1a0257f20c0073e9627b6431c341b35f))
+* **braze:** initialize SDK in dev only ([88dcca8](https://github.com/Pocket/web-client/commit/88dcca80308f94659e6ecfd7ef238aad93e3582b))
+* **braze:** move braze init into ThirdPartyInit ([bf24146](https://github.com/Pocket/web-client/commit/bf2414643c77afb1baeef169d0fe4d1eddfc20d7))
+* **braze:** only show braze reset in QA tools when in dev ([e5d76e6](https://github.com/Pocket/web-client/commit/e5d76e6abed4b6a92112f0a01516ab2a8e90f2b6))
+* **braze:** remove isDev check on braze reset in QA tools ([1757ed0](https://github.com/Pocket/web-client/commit/1757ed0da9cd73233f98b9447c800962d5109286))
+* **braze:** rename one-trust to be third-party ([f4e0a6b](https://github.com/Pocket/web-client/commit/f4e0a6b4c35fec65f497a014210f32a2413a8978))
+* **braze:** update some comments ([2907bd0](https://github.com/Pocket/web-client/commit/2907bd031aa295a78e9d75d855770b0fb4064312))
+
 ## [1.46.13](https://github.com/Pocket/web-client/compare/v1.46.12...v1.46.13) (2022-05-17)
 
 
