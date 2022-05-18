@@ -1,3 +1,10 @@
+## [1.47.2](https://github.com/Pocket/web-client/compare/v1.47.1...v1.47.2) (2022-05-18)
+
+
+### Bug Fixes
+
+* **home:** remove beta tag ([76e72c0](https://github.com/Pocket/web-client/commit/76e72c0aac8533e223977cba90600ccae004c85f))
+
 ## [1.47.1](https://github.com/Pocket/web-client/compare/v1.47.0...v1.47.1) (2022-05-18)
 
 
