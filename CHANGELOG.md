@@ -1,3 +1,14 @@
+## [1.47.1](https://github.com/Pocket/web-client/compare/v1.47.0...v1.47.1) (2022-05-18)
+
+
+### Bug Fixes
+
+* **card:** no non-cleanup return on useEffect ([d8296d9](https://github.com/Pocket/web-client/commit/d8296d956ff827e5900241bc7e18e46d51c22e11))
+* **react testing:** rollback for react17 supoport ([465210a](https://github.com/Pocket/web-client/commit/465210ae98a55d898bba83d1189bb87db002ccaf))
+* **react:** revert to react 17 for now ([b5532f7](https://github.com/Pocket/web-client/commit/b5532f7b435dc2936177e73b51a60e9c51858513))
+* **tag input:** custom autosize input ([b35c473](https://github.com/Pocket/web-client/commit/b35c47392d34ab082aad7d0311a2f6d95dbd5023))
+* **use effect:** only return destroyers ([b2b7cc4](https://github.com/Pocket/web-client/commit/b2b7cc424038aa2efbc259e3720b2ca527e2c669))
+
 # [1.47.0](https://github.com/Pocket/web-client/compare/v1.46.13...v1.47.0) (2022-05-18)
 
 
