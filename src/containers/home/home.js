@@ -106,10 +106,6 @@ export const Slate = ({ slateId, pagePosition, offset }) => {
   const cardShapes = [undefined, 'wide', 'block']
   const cardShape = cardShapes[position]
 
-  const displaysFull = [2]
-  const displayFull = displaysFull.includes(position)
-  const wrapperClass = displayFull ? 'highlight' : ''
-
   const headerTypes = {
     collection: HomeCollectionHeader,
     topic: HomeTopicHeader
@@ -122,7 +118,7 @@ export const Slate = ({ slateId, pagePosition, offset }) => {
   const onClickEvent = type === 'collection' ? collectionClickEvent : topicClickEvent
 
   return (
-    <SectionWrapper className={wrapperClass}>
+    <SectionWrapper>
       <HomeHeader
         sectionTitle={displayName}
         sectionDescription={description}
