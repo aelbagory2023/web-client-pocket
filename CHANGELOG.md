@@ -1,3 +1,10 @@
+## [1.47.6](https://github.com/Pocket/web-client/compare/v1.47.5...v1.47.6) (2022-05-24)
+
+
+### Bug Fixes
+
+* **home:** remove background color from collections slate ([a784220](https://github.com/Pocket/web-client/commit/a7842206f47ee3b344398102bfc440ab61317e0b))
+
 ## [1.47.5](https://github.com/Pocket/web-client/compare/v1.47.4...v1.47.5) (2022-05-24)
 
 
