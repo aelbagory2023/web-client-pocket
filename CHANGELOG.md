@@ -1,3 +1,10 @@
+## [1.47.5](https://github.com/Pocket/web-client/compare/v1.47.4...v1.47.5) (2022-05-24)
+
+
+### Bug Fixes
+
+* **save:** updating color of save button to branded red ([8fc04d2](https://github.com/Pocket/web-client/commit/8fc04d25a748b15e04086ef45a7e31da3cdd2ef5))
+
 ## [1.47.4](https://github.com/Pocket/web-client/compare/v1.47.3...v1.47.4) (2022-05-24)
 
 
