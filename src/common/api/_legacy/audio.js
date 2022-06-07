@@ -6,8 +6,7 @@ export const getItemAudio = ({ itemId }) => {
     path: 'v3/getItemAudio',
     params: {
       version: 2,
-      itemId,
-      // accent_locale
+      itemId
     },
     auth: true
   })

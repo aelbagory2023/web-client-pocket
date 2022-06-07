@@ -17,7 +17,7 @@ export const listenReducers = (state = initialState, action) => {
   switch (action.type) {
     case LISTEN_SUCCESS: {
       const { file, itemId } = action
-      return { ...state, ...file, [itemId]: file }
+      return { ...state, [itemId]: file }
     }
 
     default:
