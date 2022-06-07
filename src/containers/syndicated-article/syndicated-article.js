@@ -35,6 +35,7 @@ import { trackScrollDepth } from './syndicated-article.analytics'
 
 import { CardTopicsNav as TopicsBubbles } from 'connectors/topic-list/topic-list'
 import { Toasts } from 'connectors/toasts/toast-list'
+import { Listen } from 'connectors/listen/listen'
 
 // Possible query params passed via url
 const validParams = {
@@ -154,6 +155,7 @@ export function SyndicatedArticle({ queryParams = validParams, locale }) {
                 saveStatus={saveStatus}
                 url={url}
               />
+              <Listen itemId={itemId} />
             </header>
           </section>
 

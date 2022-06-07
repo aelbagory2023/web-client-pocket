@@ -96,6 +96,9 @@ import { onboardingSagas } from 'connectors/onboarding/onboarding.state'
 
 import { shareModalReducers } from 'connectors/share-modal/share-modal.state'
 
+import { listenReducers } from 'connectors/listen/listen.state'
+import { listenSagas } from 'connectors/listen/listen.state'
+
 //Items (From the graph)
 import { itemsReducers } from 'connectors/items/items.state'
 import { itemsSavedReducers } from 'connectors/items/items-saved.state'
@@ -131,7 +134,8 @@ const itemReducers = {
   mutationFavorite: mutationFavoriteReducers,
   mutationArchive: mutationArchiveReducers,
   mutationDelete: mutationDeleteReducers,
-  mutationTagging: mutationTaggingReducers
+  mutationTagging: mutationTaggingReducers,
+  listen: listenReducers
 }
 
 const listReducers = {
@@ -255,7 +259,8 @@ function* rootSaga() {
     ...mutationFavoriteSagas,
     ...mutationUpsertSagas,
     ...mutationBulkSagas,
-    ...mutationTaggingSagas
+    ...mutationTaggingSagas,
+    ...listenSagas
   ])
 }
 
