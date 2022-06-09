@@ -1,3 +1,10 @@
+## [1.48.2](https://github.com/Pocket/web-client/compare/v1.48.1...v1.48.2) (2022-06-09)
+
+
+### Bug Fixes
+
+* **snowplow:** fix race condition when parsing item id for content entity ([59cdd9f](https://github.com/Pocket/web-client/commit/59cdd9f221902e719724f29df85a59c4c794c0e5))
+
 ## [1.48.1](https://github.com/Pocket/web-client/compare/v1.48.0...v1.48.1) (2022-06-02)
 
 
