@@ -1,3 +1,10 @@
+## [1.49.1](https://github.com/Pocket/web-client/compare/v1.49.0...v1.49.1) (2022-06-10)
+
+
+### Bug Fixes
+
+* **topic-selection:** make the topic selectors keyboard selectable and navigable ([f1d6302](https://github.com/Pocket/web-client/commit/f1d63022242ac6aa0844accf88f64262e9eb29cf))
+
 # [1.49.0](https://github.com/Pocket/web-client/compare/v1.48.2...v1.49.0) (2022-06-10)
 
 
