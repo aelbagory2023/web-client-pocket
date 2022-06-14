@@ -1,3 +1,11 @@
+## [1.49.11](https://github.com/Pocket/web-client/compare/v1.49.10...v1.49.11) (2022-06-14)
+
+
+### Bug Fixes
+
+* **get-started:** remove anchor from footer and add save state to article selection ([9f4eb3c](https://github.com/Pocket/web-client/commit/9f4eb3c3fcff786374c054358e18d41f6ee14c27))
+* **get-started:** update save status state management and skip button color ([6f86a07](https://github.com/Pocket/web-client/commit/6f86a0704e8099b0a0fdfcca1f105ad20a5c14d8))
+
 ## [1.49.10](https://github.com/Pocket/web-client/compare/v1.49.9...v1.49.10) (2022-06-14)
 
 
