@@ -1,3 +1,10 @@
+## [1.49.7](https://github.com/Pocket/web-client/compare/v1.49.6...v1.49.7) (2022-06-14)
+
+
+### Bug Fixes
+
+* **get started:** add ability to update topic pref ([a81d0b3](https://github.com/Pocket/web-client/commit/a81d0b320dd32bca4822b0732c4faed811dcdf98))
+
 ## [1.49.6](https://github.com/Pocket/web-client/compare/v1.49.5...v1.49.6) (2022-06-14)
 
 
