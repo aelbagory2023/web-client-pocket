@@ -1,3 +1,11 @@
+## [1.49.9](https://github.com/Pocket/web-client/compare/v1.49.8...v1.49.9) (2022-06-14)
+
+
+### Bug Fixes
+
+* **get-started:** go to home on archive or delete actions in reader ([c441f18](https://github.com/Pocket/web-client/commit/c441f185628a18cbbd4c71db6e8bad3364549e0a))
+* **reader:** only redirect to home when on reader ([a614148](https://github.com/Pocket/web-client/commit/a61414809b5c53dcb835973a06786fd462af7b25))
+
 ## [1.49.8](https://github.com/Pocket/web-client/compare/v1.49.7...v1.49.8) (2022-06-14)
 
 
