@@ -1,3 +1,10 @@
+## [1.49.8](https://github.com/Pocket/web-client/compare/v1.49.7...v1.49.8) (2022-06-14)
+
+
+### Bug Fixes
+
+* **global nav:** make logo hide/show work in all cases ([6065897](https://github.com/Pocket/web-client/commit/6065897a1580234793357590146c7001fece4ed9))
+
 ## [1.49.7](https://github.com/Pocket/web-client/compare/v1.49.6...v1.49.7) (2022-06-14)
 
 
