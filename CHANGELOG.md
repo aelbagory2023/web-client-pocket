@@ -1,3 +1,10 @@
+## [1.49.15](https://github.com/Pocket/web-client/compare/v1.49.14...v1.49.15) (2022-06-15)
+
+
+### Bug Fixes
+
+* **get-started:** deleting an article will remove reader from browser history ([790e07c](https://github.com/Pocket/web-client/commit/790e07c18ef8e5d9d4fc752971564fe4a9663708))
+
 ## [1.49.14](https://github.com/Pocket/web-client/compare/v1.49.13...v1.49.14) (2022-06-15)
 
 
