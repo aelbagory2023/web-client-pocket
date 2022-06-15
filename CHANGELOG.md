@@ -1,3 +1,10 @@
+## [1.49.16](https://github.com/Pocket/web-client/compare/v1.49.15...v1.49.16) (2022-06-15)
+
+
+### Bug Fixes
+
+* **get-started:** fix save confirm modal to prevent scroll lock ([96790b4](https://github.com/Pocket/web-client/commit/96790b4c5edee5a74f2e0f1500920bc000fbe1e6))
+
 ## [1.49.15](https://github.com/Pocket/web-client/compare/v1.49.14...v1.49.15) (2022-06-15)
 
 
