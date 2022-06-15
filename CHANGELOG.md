@@ -1,3 +1,10 @@
+## [1.49.12](https://github.com/Pocket/web-client/compare/v1.49.11...v1.49.12) (2022-06-15)
+
+
+### Bug Fixes
+
+* **get-started:** make sure to pass id from upsert response ([644bf2d](https://github.com/Pocket/web-client/commit/644bf2dc160988df97799db48a0422bcedd9be00))
+
 ## [1.49.11](https://github.com/Pocket/web-client/compare/v1.49.10...v1.49.11) (2022-06-14)
 
 
