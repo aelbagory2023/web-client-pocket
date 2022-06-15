@@ -1,3 +1,12 @@
+## [1.49.14](https://github.com/Pocket/web-client/compare/v1.49.13...v1.49.14) (2022-06-15)
+
+
+### Bug Fixes
+
+* **get-started:** pixel pushing that checkbox ([fad58a0](https://github.com/Pocket/web-client/commit/fad58a05cd7da49c8d86e972cdadba21723bd119))
+* **get-started:** update styles of checkbox to have smaller checkmark ([525707d](https://github.com/Pocket/web-client/commit/525707da74fa191b8573128f5983f2ee3a705198))
+* **get-started:** update styles of checkbox to have thicker checkmark ([2bccff9](https://github.com/Pocket/web-client/commit/2bccff926838559f6718d27b9c473facd45bb1d4))
+
 ## [1.49.13](https://github.com/Pocket/web-client/compare/v1.49.12...v1.49.13) (2022-06-15)
 
 
