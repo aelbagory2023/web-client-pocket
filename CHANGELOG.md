@@ -1,3 +1,11 @@
+## [1.50.1](https://github.com/Pocket/web-client/compare/v1.50.0...v1.50.1) (2022-06-16)
+
+
+### Bug Fixes
+
+* **waypoint:** direct non english users to my list ([20f62ff](https://github.com/Pocket/web-client/commit/20f62ffcce4c3fe3fdc59b7040fedd819e14ad81))
+* **waypoint:** should only go to get-started if not english ([697f3d6](https://github.com/Pocket/web-client/commit/697f3d606be32cb9030b20b8ea4fbccaa48c3edd))
+
 # [1.50.0](https://github.com/Pocket/web-client/compare/v1.49.18...v1.50.0) (2022-06-16)
 
 
