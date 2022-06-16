@@ -1,3 +1,10 @@
+## [1.49.18](https://github.com/Pocket/web-client/compare/v1.49.17...v1.49.18) (2022-06-16)
+
+
+### Bug Fixes
+
+* **home:** add snowplow events for topic rec cards ([bf50e93](https://github.com/Pocket/web-client/commit/bf50e93eaa79d105562c5c4d7b0d8d720c2dd594))
+
 ## [1.49.17](https://github.com/Pocket/web-client/compare/v1.49.16...v1.49.17) (2022-06-16)
 
 
