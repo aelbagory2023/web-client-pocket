@@ -1,3 +1,10 @@
+# [1.50.0](https://github.com/Pocket/web-client/compare/v1.49.18...v1.50.0) (2022-06-16)
+
+
+### Features
+
+* **get-started:** send new users to /get-started on sign up ([51bf6a2](https://github.com/Pocket/web-client/commit/51bf6a293bf7e2a16ffe9a8d22ac46b68c17732f))
+
 ## [1.49.18](https://github.com/Pocket/web-client/compare/v1.49.17...v1.49.18) (2022-06-16)
 
 
