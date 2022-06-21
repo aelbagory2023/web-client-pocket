@@ -1,3 +1,10 @@
+# [1.51.0](https://github.com/Pocket/web-client/compare/v1.50.1...v1.51.0) (2022-06-21)
+
+
+### Features
+
+* **collections:** use hero image full time ([fdf50a2](https://github.com/Pocket/web-client/commit/fdf50a2c2270b4a10470b5edb57de90efc3ac1ef))
+
 ## [1.50.1](https://github.com/Pocket/web-client/compare/v1.50.0...v1.50.1) (2022-06-16)
 
 
