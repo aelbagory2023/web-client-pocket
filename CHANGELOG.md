@@ -1,3 +1,10 @@
+## [1.51.3](https://github.com/Pocket/web-client/compare/v1.51.2...v1.51.3) (2022-06-22)
+
+
+### Bug Fixes
+
+* **home:** derive readurl on item save ([33c5b9f](https://github.com/Pocket/web-client/commit/33c5b9f20bcc41e2251c55eef5142841390fc633))
+
 ## [1.51.2](https://github.com/Pocket/web-client/compare/v1.51.1...v1.51.2) (2022-06-22)
 
 
