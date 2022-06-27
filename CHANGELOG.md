@@ -1,3 +1,10 @@
+## [1.51.7](https://github.com/Pocket/web-client/compare/v1.51.6...v1.51.7) (2022-06-27)
+
+
+### Bug Fixes
+
+* **recs by topic:** refresh recs by topic when topic selection changes ([e599bb9](https://github.com/Pocket/web-client/commit/e599bb9a77f213ed225b57ee353dcb76a972c1ca))
+
 ## [1.51.6](https://github.com/Pocket/web-client/compare/v1.51.5...v1.51.6) (2022-06-27)
 
 
