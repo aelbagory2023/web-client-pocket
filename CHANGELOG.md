@@ -1,3 +1,11 @@
+## [1.51.6](https://github.com/Pocket/web-client/compare/v1.51.5...v1.51.6) (2022-06-27)
+
+
+### Bug Fixes
+
+* **global-nav:** adjust icon colors to be compatible with all themes ([09185df](https://github.com/Pocket/web-client/commit/09185dfccc45da504607b6c06618919745ea0910))
+* **item-overflow:** adjust text color on hover to be compatible with all themes ([3a7f6e5](https://github.com/Pocket/web-client/commit/3a7f6e594285b70c827eac7842323e82d45ea68b))
+
 ## [1.51.5](https://github.com/Pocket/web-client/compare/v1.51.4...v1.51.5) (2022-06-27)
 
 
