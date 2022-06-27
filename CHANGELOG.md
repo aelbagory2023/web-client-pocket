@@ -1,3 +1,10 @@
+## [1.51.8](https://github.com/Pocket/web-client/compare/v1.51.7...v1.51.8) (2022-06-27)
+
+
+### Bug Fixes
+
+* **card:** make text overflow really work, add overflow-wrap to break words when needed ([25fd783](https://github.com/Pocket/web-client/commit/25fd7839a0e372204afdd814f74a8544fbb482f0))
+
 ## [1.51.7](https://github.com/Pocket/web-client/compare/v1.51.6...v1.51.7) (2022-06-27)
 
 
