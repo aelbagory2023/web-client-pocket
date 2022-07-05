@@ -1,3 +1,11 @@
+## [1.51.14](https://github.com/Pocket/web-client/compare/v1.51.13...v1.51.14) (2022-07-05)
+
+
+### Bug Fixes
+
+* **ads:** update ads initialization to use the originalItemId prop ([fd31326](https://github.com/Pocket/web-client/commit/fd31326925e8c1bdbd56723d79a58c5d8bc205a8))
+* **syndicated:** add correct path and article id to ads initialization ([70f5326](https://github.com/Pocket/web-client/commit/70f53263872c0b6329deccbfbf2ac7a6fb835fb8))
+
 ## [1.51.13](https://github.com/Pocket/web-client/compare/v1.51.12...v1.51.13) (2022-07-05)
 
 
