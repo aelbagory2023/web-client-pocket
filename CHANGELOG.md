@@ -1,3 +1,16 @@
+# [1.52.0](https://github.com/Pocket/web-client/compare/v1.51.14...v1.52.0) (2022-07-06)
+
+
+### Bug Fixes
+
+* **report:** update report form for radio ([3ffb957](https://github.com/Pocket/web-client/commit/3ffb957603fb749b3d4e1ab002ac16b00c66e52f))
+* **theme:** use new radio wrap ([31fdb67](https://github.com/Pocket/web-client/commit/31fdb673561597eb4fb5e88ab674b9414c38397c))
+
+
+### Features
+
+* **style:** allow us to build baseline styles ([54de6c4](https://github.com/Pocket/web-client/commit/54de6c4505fc7a536ffd574a1e2dc330aa2e2f33))
+
 ## [1.51.14](https://github.com/Pocket/web-client/compare/v1.51.13...v1.51.14) (2022-07-05)
 
 
