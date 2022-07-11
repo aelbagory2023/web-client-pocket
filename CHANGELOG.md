@@ -1,3 +1,11 @@
+## [1.53.2](https://github.com/Pocket/web-client/compare/v1.53.1...v1.53.2) (2022-07-11)
+
+
+### Bug Fixes
+
+* **braze:** add push notifications request to dev panel ([48879c9](https://github.com/Pocket/web-client/commit/48879c94f8c3530be9959d14b969b6e6a92b6d51))
+* **braze:** add service worker to support push notifications ([9f30ddf](https://github.com/Pocket/web-client/commit/9f30ddfc060e497cab2a42ad475f85805dafc7bd))
+
 ## [1.53.1](https://github.com/Pocket/web-client/compare/v1.53.0...v1.53.1) (2022-07-11)
 
 
