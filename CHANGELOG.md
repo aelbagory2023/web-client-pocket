@@ -1,3 +1,10 @@
+## [1.53.3](https://github.com/Pocket/web-client/compare/v1.53.2...v1.53.3) (2022-07-12)
+
+
+### Bug Fixes
+
+* **braze:** initialize braze on production for labs users ([ae34d69](https://github.com/Pocket/web-client/commit/ae34d69d09da4fec0ce146034106b848cdcf8808))
+
 ## [1.53.2](https://github.com/Pocket/web-client/compare/v1.53.1...v1.53.2) (2022-07-11)
 
 
