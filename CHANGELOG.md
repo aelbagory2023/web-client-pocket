@@ -1,3 +1,10 @@
+## [1.54.2](https://github.com/Pocket/web-client/compare/v1.54.1...v1.54.2) (2022-07-13)
+
+
+### Bug Fixes
+
+* **feedback:** adding feedback page ([46b04d9](https://github.com/Pocket/web-client/commit/46b04d972c60611b1f556e6620cbda2cbd119d5a))
+
 ## [1.54.1](https://github.com/Pocket/web-client/compare/v1.54.0...v1.54.1) (2022-07-13)
 
 
