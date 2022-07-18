@@ -1,3 +1,10 @@
+## [1.54.4](https://github.com/Pocket/web-client/compare/v1.54.3...v1.54.4) (2022-07-18)
+
+
+### Bug Fixes
+
+* **flags:** update how we are tracking and initializing ([a221c94](https://github.com/Pocket/web-client/commit/a221c94c435e6210caf215c409b839675b10cdeb))
+
 ## [1.54.3](https://github.com/Pocket/web-client/compare/v1.54.2...v1.54.3) (2022-07-18)
 
 
