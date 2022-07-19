@@ -1,3 +1,10 @@
+## [1.54.5](https://github.com/Pocket/web-client/compare/v1.54.4...v1.54.5) (2022-07-19)
+
+
+### Bug Fixes
+
+* **terraform:** adding in missing codepipeline ([86a69cb](https://github.com/Pocket/web-client/commit/86a69cbfbf311d706890bcab64babc0ba4e4dde6))
+
 ## [1.54.4](https://github.com/Pocket/web-client/compare/v1.54.3...v1.54.4) (2022-07-18)
 
 
