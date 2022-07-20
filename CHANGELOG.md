@@ -1,3 +1,17 @@
+## [1.54.7](https://github.com/Pocket/web-client/compare/v1.54.6...v1.54.7) (2022-07-20)
+
+
+### Bug Fixes
+
+* **reader:** adjust tooltip placement for go back & display settings buttons ([418cfde](https://github.com/Pocket/web-client/commit/418cfdec8c8b1bb2c8a9435c1a0696dc4b083576))
+* **reader:** update button classes to be a bit more explicit ([e7f85b8](https://github.com/Pocket/web-client/commit/e7f85b88787fa1b55850103c2555a8e81cd8c787))
+* **snapshots:** update snapshots ([f7e4f66](https://github.com/Pocket/web-client/commit/f7e4f66c37da23f859477e93239d23dafee6641d))
+* **tooltip story:** made title case the same ([6f1dc9e](https://github.com/Pocket/web-client/commit/6f1dc9e894136b9942dad6d07b41099661bd8f79))
+* **tooltips:** add left/right tooltip placement ([f16fdcd](https://github.com/Pocket/web-client/commit/f16fdcd77a509020df9027779986b281590e5fd1))
+* **tooltips:** add story ([7712d6b](https://github.com/Pocket/web-client/commit/7712d6b87775760439ca9a009d03d913230bc270))
+* **tooltips:** adjust animation so it doesn't disappear when element is still hovered ([fa21b11](https://github.com/Pocket/web-client/commit/fa21b118848f45ddaf1d8ee0a2d36d736c3b2116))
+* **tooltips:** refactor styles and story ([0f698a5](https://github.com/Pocket/web-client/commit/0f698a555a3307026fefc77e181aecdaa2f1197e))
+
 ## [1.54.6](https://github.com/Pocket/web-client/compare/v1.54.5...v1.54.6) (2022-07-20)
 
 
