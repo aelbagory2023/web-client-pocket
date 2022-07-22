@@ -16,7 +16,7 @@ import { userEmailReducers, userEmailSagas } from 'containers/account/email/emai
 import { userNotificationReducers, userNotificationSagas } from 'containers/account/notifications/notfications.state' // prettier-ignore
 import { userConnectedServicesReducers, userConnectedServicesSagas } from 'containers/account/connections/connections.state' // prettier-ignore
 import { userPrivacyReducers, userPrivacySagas } from 'containers/account/privacy/privacy.state'
-import { userBrazeReducers } from 'containers/account/braze/braze.state'
+import { userBrazeReducers, userBrazeSagas } from 'containers/account/braze/braze.state'
 
 const initialState = {
   auth: false,
@@ -83,7 +83,8 @@ export const userSagas = [
   ...userEmailSagas,
   ...userNotificationSagas,
   ...userConnectedServicesSagas,
-  ...userPrivacySagas
+  ...userPrivacySagas,
+  ...userBrazeSagas
 ]
 
 /** SAGA :: RESPONDERS

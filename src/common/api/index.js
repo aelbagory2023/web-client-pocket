@@ -51,3 +51,6 @@ export { getSlate } from './queries/get-slate'
 export { getSetupSlate } from './queries/get-setup-slate'
 export { getTopicMix } from './queries/get-topic-mix'
 export { setTopicPreferences } from './mutations/setTopicPreferences'
+
+// Braze
+export { getBrazeToken } from './internal/braze'

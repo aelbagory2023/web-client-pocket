@@ -87,7 +87,7 @@ export const settingsSagas = [
  --------------------------------------------------------------- */
 const getSettings = (state) => state.settings
 const getOnboarding = (state) => state.onboarding
-const getBraze = (state) => state.userBraze
+const getBraze = (state) => state.userBraze?.brazeSubscribed
 
 function* fetchSettings() {
   try {
@@ -104,8 +104,8 @@ function* saveSettings() {
   try {
     const storedSettings = yield select(getSettings)
     const onboarding = yield select(getOnboarding)
-    const braze = yield select(getBraze)
-    const settings = { ...storedSettings, onboarding, braze }
+    const brazeSubscribed = yield select(getBraze)
+    const settings = { ...storedSettings, onboarding, brazeSubscribed }
     const { error, status } = yield putAppSettings(settings)
     if (status !== 1) throw new Error(`Unable to save settings: ${error}`)
 
