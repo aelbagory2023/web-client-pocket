@@ -71,8 +71,7 @@ export function SyndicatedArticle({ queryParams = validParams, locale }) {
     slug,
     iabTopCategory,
     iabSubCategory,
-    curationCategory,
-    legacyId,
+    topic,
     showAds
   } = articleData || {}
 
@@ -83,9 +82,9 @@ export function SyndicatedArticle({ queryParams = validParams, locale }) {
   const allowAds = userStatus === 'pending' || isPremiumUser ? false : showAds
 
   // Initialize Ads on the page
-  const { pathname: urlPath } = router
+  const { asPath: urlPath } = router
   const showLog = isDev
-  const adsReady = useAdsOnPage({ allowAds, urlPath, iabTopCategory, iabSubCategory, legacyId, showLog }) //prettier-ignore
+  const adsReady = useAdsOnPage({ allowAds, urlPath, iabTopCategory, iabSubCategory, originalItemId, showLog }) //prettier-ignore
 
   // If there is no article data, turn back until it's loaded
   if (!articleData) return
@@ -118,6 +117,8 @@ export function SyndicatedArticle({ queryParams = validParams, locale }) {
     dispatch(sendSnowplowEvent(`syndicated.share.${platform}`, analyticsData))
   }
 
+  const showAuthors = authorNames?.length > 0
+
   return (
     <>
       <ArticleLayout
@@ -132,8 +133,8 @@ export function SyndicatedArticle({ queryParams = validParams, locale }) {
               allowAds={allowAds}
               iabTopCategory={iabTopCategory}
               iabSubCategory={iabSubCategory}
-              curationCategory={curationCategory}
-              legacyId={legacyId}
+              curationCategory={topic}
+              legacyId={originalItemId}
             />
           </section>
           {/* Content header information */}
@@ -145,7 +146,7 @@ export function SyndicatedArticle({ queryParams = validParams, locale }) {
                 <AuthorByline
                   url={publisher?.url}
                   name={publisher?.name}
-                  showAuthors={publisher?.showAuthors}
+                  showAuthors={showAuthors}
                   authorNames={authorNames}
                 />
               ) : null}
@@ -184,17 +185,17 @@ export function SyndicatedArticle({ queryParams = validParams, locale }) {
                 adsReady={adsReady}
                 iabTopCategory={iabTopCategory}
                 iabSubCategory={iabSubCategory}
-                curationCategory={curationCategory}
-                legacyId={legacyId}
+                curationCategory={topic}
+                legacyId={originalItemId}
               />
-              <PublisherRecs itemId={originalItemId} publisher={publisher} legacyId={legacyId} />
+              <PublisherRecs itemId={originalItemId} publisher={publisher} legacyId={originalItemId} />
               <AdRailBottom allowAds={allowAds} adsReady={adsReady} />
             </aside>
 
             <div className="content-body">
               {/* Parsed Content */}
               <ContentParsed
-                content={content?.content}
+                content={content}
                 trackScrollDepth={trackScrollDepth}
                 isMobileWebView={isMobileWebView}
               />
@@ -224,15 +225,15 @@ export function SyndicatedArticle({ queryParams = validParams, locale }) {
               adsReady={adsReady}
               iabTopCategory={iabTopCategory}
               iabSubCategory={iabSubCategory}
-              curationCategory={curationCategory}
-              legacyId={legacyId}
+              curationCategory={topic}
+              legacyId={originalItemId}
             />
           </section>
 
           {!isMobileWebView ? (
             <section className="content-section">
               <footer>
-                <PocketRecs itemId={originalItemId} legacyId={legacyId} />
+                <PocketRecs itemId={originalItemId} legacyId={originalItemId} />
                 <TopicsBubbles topics={topics} className="no-border" />
               </footer>
             </section>

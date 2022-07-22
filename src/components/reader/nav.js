@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import { css, cx } from 'linaria'
+import { HomeIcon } from 'components/icons/HomeIcon'
 import { ArrowLeftIcon } from 'components/icons/ArrowLeftIcon'
 import { HighlightIcon } from 'components/icons/HighlightIcon'
 import { IosShareIcon } from 'components/icons/IosShareIcon'
@@ -10,11 +11,15 @@ import { FavoriteFilledIcon } from 'components/icons/FavoriteFilledIcon'
 import { ArchiveIcon } from 'components/icons/ArchiveIcon'
 import { AddCircledIcon } from 'components/icons/AddCircledIcon'
 import { DeleteIcon } from 'components/icons/DeleteIcon'
-
-import { breakpointLargeTablet, breakpointMediumHandset } from 'common/constants'
+import { useRouter } from 'next/router'
+import {
+  breakpointLargeTablet,
+  breakpointMediumHandset,
+  breakpointLargeHandset
+} from 'common/constants'
 import { DisplaySettings } from 'components/display-settings/display-settings'
 import { buttonReset } from 'components/buttons/button-reset'
-import { bottomTooltip } from 'components/tooltip/tooltip'
+import { bottomTooltip, rightTooltip } from 'components/tooltip/tooltip'
 import {
   updateLineHeight,
   updateColumnWidth,
@@ -58,6 +63,23 @@ const navStyle = css`
     justify-content: space-between;
     align-items: center;
     align-content: center;
+
+    &.get-started {
+      margin-left: -3rem;
+
+      ${breakpointLargeHandset} {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .home-label {
+    font-family: var(--fontSansSerif);
+    padding-left: 0.5rem;
+
+    ${breakpointLargeHandset} {
+      display: none;
+    }
   }
 
   ${breakpointLargeTablet} {
@@ -128,22 +150,27 @@ export const ReaderNav = ({
   setColorMode
 }) => {
   const dispatch = useDispatch()
+  const router = useRouter()
   const { t } = useTranslation()
 
   const setFontFamily = (val) => dispatch(updateFontType(val))
   const setFontSize = (val) => dispatch(updateFontSize(val))
   const setLineHeight = (val) => dispatch(updateLineHeight(val))
   const setColumnWidth = (val) => dispatch(updateColumnWidth(val))
+  const { getStarted } = router.query
+
   const goBack = () => {
+    if (getStarted) return router.push('/home')
     if (window.history.length > 1) return window.history.go(-1)
     document.location.href = '/my-list'
   }
   const clickGoBack = () => {
-    dispatch(sendSnowplowEvent('reader.goback'))
+    const identifier = getStarted ? 'get-started.reader.gohome' : 'reader.goback'
+    dispatch(sendSnowplowEvent(identifier))
     goBack()
   }
 
-  const buttonClass = cx(buttonReset, buttonStyles, bottomTooltip)
+  const buttonClass = cx(buttonReset, buttonStyles)
 
   useEffect(() => {
     const shortcutGoBack = () => {
@@ -156,20 +183,30 @@ export const ReaderNav = ({
     return () => Mousetrap.unbind('b')
   }, [dispatch])
 
+  const returnCopy = getStarted
+    ? t('nav:back-to-home', 'Back to Home')
+    : t('nav:back-to-my-list', 'Back to My List')
   return (
     <header className={headerStyle} data-cy="reader-nav">
       <div className="global-nav-container">
         <nav className={navStyle}>
           <button
             onClick={clickGoBack}
-            aria-label={t('nav:back-to-my-list', 'Back to My List')}
-            data-tooltip={t('nav:back-to-my-list', 'Back to My List')}
+            aria-label={returnCopy}
+            data-tooltip={returnCopy}
             data-cy="reader-nav-go-back"
-            className={cx(buttonClass, 'go-back')}>
-            <ArrowLeftIcon />
+            className={cx(buttonClass, rightTooltip, 'go-back')}>
+            {getStarted ? (
+              <>
+                <HomeIcon />
+                <span className="home-label">Home</span>
+              </>
+            ) : (
+              <ArrowLeftIcon />
+            )}
           </button>
 
-          <div className="nav-actions">
+          <div className={cx(getStarted && 'get-started', 'nav-actions')}>
             <button
               onClick={toggleSidebar}
               aria-label={
@@ -183,7 +220,7 @@ export const ReaderNav = ({
                   : t('nav:open-highlights-menu', 'Open Highlights Menu')
               }
               data-cy="reader-nav-highlights"
-              className={buttonClass}>
+              className={cx(buttonClass, bottomTooltip)}>
               <HighlightIcon />
             </button>
 
@@ -192,7 +229,7 @@ export const ReaderNav = ({
               aria-label={t('nav:tag-article', 'Tag Article')}
               data-tooltip={t('nav:tag-article', 'Tag Article')}
               data-cy="reader-nav-tag"
-              className={buttonClass}>
+              className={cx(buttonClass, bottomTooltip)}>
               <TagIcon />
             </button>
 
@@ -209,7 +246,7 @@ export const ReaderNav = ({
                   : t('nav:favorite-article', 'Favorite Article')
               }
               data-cy="reader-nav-favorite"
-              className={cx(buttonClass, favorite && 'favorite')}>
+              className={cx(buttonClass, bottomTooltip, favorite && 'favorite')}>
               {favorite ? <FavoriteFilledIcon /> : <FavoriteIcon />}
             </button>
 
@@ -226,7 +263,7 @@ export const ReaderNav = ({
                   : t('nav:archive-article', 'Archive Article')
               }
               data-cy="reader-nav-archive"
-              className={buttonClass}>
+              className={cx(buttonClass, bottomTooltip)}>
               {archive ? <AddCircledIcon /> : <ArchiveIcon />}
             </button>
 
@@ -235,7 +272,7 @@ export const ReaderNav = ({
               aria-label={t('nav:delete-from-library', 'Delete from Library')}
               data-tooltip={t('nav:delete-from-library', 'Delete from Library')}
               data-cy="reader-nav-delete"
-              className={buttonClass}>
+              className={cx(buttonClass, bottomTooltip)}>
               <DeleteIcon />
             </button>
 
@@ -244,7 +281,7 @@ export const ReaderNav = ({
               aria-label={t('nav:share-article', 'Share Article')}
               data-tooltip={t('nav:share-article', 'Share Article')}
               data-cy="reader-nav-share"
-              className={buttonClass}>
+              className={cx(buttonClass, bottomTooltip)}>
               <IosShareIcon />
             </button>
           </div>

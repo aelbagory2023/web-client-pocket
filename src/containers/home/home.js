@@ -1,5 +1,6 @@
 import Layout from 'layouts/main'
 import { useEffect } from 'react'
+import { parseCookies } from 'nookies'
 import { useDispatch, useSelector } from 'react-redux'
 import { HomeGreeting } from 'containers/home/home-greeting'
 import { HomeRecentSaves } from 'containers/home/home-recent-saves'
@@ -11,6 +12,7 @@ import { HomeCollectionHeader } from 'components/headers/home-header'
 import { HomeLineupHeader } from 'components/headers/home-header'
 import { HomeTopicHeader } from 'components/headers/home-header'
 
+import { HomeRecsByTopic } from 'containers/home/home-recs-by-topic'
 import { Lockup } from 'components/items-layout/list-lockup'
 import { OffsetList } from 'components/items-layout/list-offset'
 
@@ -26,18 +28,36 @@ import { Onboarding } from 'connectors/onboarding/onboarding'
 import { SectionWrapper } from 'components/section-wrapper/section-wrapper'
 
 import { sendSnowplowEvent } from 'connectors/snowplow/snowplow.state'
+import { featureFlagActive } from 'connectors/feature-flags/feature-flags'
+import { CardTopicsNav } from 'connectors/topic-list/topic-list'
 
 export const Home = ({ metaData }) => {
   const dispatch = useDispatch()
 
   const userStatus = useSelector((state) => state.user.user_status)
   const featureState = useSelector((state) => state.features) || {}
-  const generalSlates = useSelector((state) => state.home.generalSlates)
+  const generalSlates = useSelector((state) => state.home.generalSlates) || []
   const topicSlates = useSelector((state) => state.home.topicSlates)
+  const recsByTopic = useSelector((state) => state.home.recsByTopic) || []
+  const topics = useSelector((state) => state.topicList?.topicsByName)
+
   const fallback = '249850f0-61c0-46f9-a16a-f0553c222800'
 
   const lineupFlag = featureState['home.lineup']
   const lineupId = lineupFlag?.payload?.slateLineupId || fallback
+
+  const { getStartedUserTopics } = parseCookies()
+  const userTopics = getStartedUserTopics ? JSON.parse(getStartedUserTopics) : []
+
+  // Hacky way to get personalized indicator.  This will go away when we harden the lineup and remove
+  // the topicMix hack
+  const isPersonalized = generalSlates[0] === '631d8077-1462-4397-ad0a-aa340c27570a'
+
+  const getStartedV1 = featureFlagActive({ flag: 'getstarted', featureState })
+  const getStartedV2 = featureFlagActive({ flag: 'getstarted-v2', featureState })
+  const inGetStartedTest = getStartedV1 || getStartedV2
+  const shouldRenderTopicMix = inGetStartedTest && userTopics.length && !isPersonalized
+  const renderLineup = shouldRenderTopicMix ? recsByTopic.length : true
 
   useEffect(() => {
     if (userStatus !== 'valid' || !lineupFlag) return
@@ -58,13 +78,21 @@ export const Home = ({ metaData }) => {
         <HomeRecentSaves />
       </SectionWrapper>
 
-      {generalSlates?.map((slateId, index) => (
-        <Slate key={slateId} slateId={slateId} pagePosition={index} offset={0} />
-      ))}
+      {shouldRenderTopicMix ? <HomeRecsByTopic /> : null}
 
-      {topicSlates?.map((slateId, index) => (
-        <Slate key={slateId} slateId={slateId} pagePosition={index} offset={offset} />
-      ))}
+      {renderLineup
+        ? generalSlates?.map((slateId, index) => (
+            <Slate key={slateId} slateId={slateId} pagePosition={index} offset={0} />
+          ))
+        : null}
+
+      {renderLineup
+        ? topicSlates?.map((slateId, index) => (
+            <Slate key={slateId} slateId={slateId} pagePosition={index} offset={offset} />
+          ))
+        : null}
+
+      <CardTopicsNav topics={topics} className="no-border" />
 
       <DeleteModal />
       <TaggingModal />
@@ -100,7 +128,7 @@ export const Slate = ({ slateId, pagePosition, offset }) => {
   const layoutTypes = [Lockup, OffsetList, OffsetList, Lockup]
   const LayoutType = layoutTypes[position] || OffsetList
 
-  const heroPositions = ['center', '', 'left', 'right']
+  const heroPositions = ['left', '', 'left', 'left']
   const heroPosition = heroPositions[position]
 
   const cardShapes = [undefined, 'wide', 'block']

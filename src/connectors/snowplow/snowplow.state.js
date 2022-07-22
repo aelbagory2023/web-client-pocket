@@ -11,6 +11,7 @@ import { createContentEntity } from 'connectors/snowplow/entities'
 import { createNewsletterSubscriberEntity } from 'connectors/snowplow/entities'
 import { createUiEntity } from 'connectors/snowplow/entities'
 import { createRecommendationEntity } from 'connectors/snowplow/entities'
+import { createCorpusRecommendationEntity } from 'connectors/snowplow/entities'
 import { createReportEntity } from 'connectors/snowplow/entities'
 import { createSlateEntity } from 'connectors/snowplow/entities'
 import { createSlateLineupEntity } from 'connectors/snowplow/entities'
@@ -101,11 +102,10 @@ function* fireFeatureEnroll({ hydrate }) {
   yield call(waitForInitialization)
   for (let flag in hydrate) {
     const { test: testName, variant, assigned } = hydrate[flag]
-    const hasVariant = variant !== 'disabled' && !!variant
-    if (hasVariant) {
-      const entityVariant = assigned ? variant : `control.${variant}`
+    const shouldBeTracked = variant !== 'disabled' && !!variant && assigned
+    if (shouldBeTracked) {
       const variantEnrollEvent = createVariantEnrollEvent()
-      const featureFlagEntity = createFeatureFlagEntity(testName, entityVariant)
+      const featureFlagEntity = createFeatureFlagEntity(testName, variant)
 
       yield call(sendCustomSnowplowEvent, variantEnrollEvent, [featureFlagEntity])
     }
@@ -124,6 +124,7 @@ const entityBuilders = {
   content: createContentEntity,
   newsletterSubscriber: createNewsletterSubscriberEntity,
   recommendation: createRecommendationEntity,
+  corpusRecommendation: createCorpusRecommendationEntity,
   report: createReportEntity,
   slate: createSlateEntity,
   slateLineup: createSlateLineupEntity
@@ -174,11 +175,10 @@ export function buildSnowplowCustomEvent({ identifier, data }) {
 
   // Build entities
   const singleEntities = entityTypes
-    ? entityTypes
-        .map((entity) => {
-          const entityFunction = entityBuilders[entity]
-          return entityFunction({ ...eventData, ...data, identifier })
-        })
+    ? entityTypes.map((entity) => {
+        const entityFunction = entityBuilders[entity]
+        return entityFunction({ ...eventData, ...data, identifier })
+      })
     : []
 
   // Build bulk entities if they exist, limit to BATCH_SIZE

@@ -1,0 +1,21 @@
+{
+  "name": "styles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compile-styles.js",
+  "scripts": {
+    "compile:styles": "node ./compile-styles.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cssnano": "^5.1.12",
+    "hasha": "^5.2.2",
+    "postcss": "^8.4.14",
+    "postcss-import": "^14.1.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-url": "^10.1.3"
+  }
+}

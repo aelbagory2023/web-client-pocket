@@ -95,7 +95,13 @@ public/locales/
 .scripts/localization/config.json
 
 # Icon files — We build these from raw svgs (in case they need adjustment)
+.asset-cache
 src/components/icons
+
+# Styles - Some styles are generated ... we don't want to commit those
+ui/styles/fonts.pcss
+ui/styles/fonts-reader.pcss
+ui/styles/global-variables.pcss
 
 # TS Terraform build 
 .terraform/

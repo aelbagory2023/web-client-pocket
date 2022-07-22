@@ -4,7 +4,6 @@ import { cx } from 'linaria'
 import { SyndicatedIcon } from 'components/icons/SyndicatedIcon'
 
 import { CardMedia } from 'components/items-media/card-media'
-import { FeatureFlag } from 'connectors/feature-flags/feature-flags'
 import { ItemTags } from 'components/item-tags/item-tags'
 import { PartnerOverline } from 'components/content-partner/partner'
 import { cardStyles } from './card-base'
@@ -79,6 +78,7 @@ export const Card = (props) => {
     useMarkdown,
     partnerType,
     titleFlow = false,
+    topicName = false,
     style,
     // Tracking
     onItemInView,
@@ -148,13 +148,10 @@ export const Card = (props) => {
       onClick={selectBulk}>
       <div className="selectedBack" />
 
-      <FeatureFlag flag="item_id_overlay" dev={true}>
-        <span className="idOverlay">{itemId}</span>
-      </FeatureFlag>
-
       <div className="cardWrap" ref={viewRef}>
         {showMedia ? (
           <CardMedia
+            topicName={topicName}
             image_src={itemImage}
             title={title}
             id={itemId}
@@ -258,7 +255,16 @@ Card.propTypes = {
   shortcutSelected: PropTypes.bool,
   openUrl: PropTypes.string,
   // UI
-  cardShape: PropTypes.oneOf(['grid', 'block', 'display', 'wide', 'full', 'detail', 'list']),
+  cardShape: PropTypes.oneOf([
+    'grid',
+    'block',
+    'display',
+    'wide',
+    'full',
+    'detail',
+    'list',
+    'flex'
+  ]),
   className: PropTypes.string,
   showExcerpt: PropTypes.bool,
   showMedia: PropTypes.bool,

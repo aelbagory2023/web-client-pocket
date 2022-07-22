@@ -12,6 +12,9 @@ import { useRouter } from 'next/router'
 import { updateOnetrustData } from './one-trust.state'
 import { BRAZE_API_KEY_DEV, BRAZE_API_KEY_PROD, BRAZE_SDK_ENDPOINT } from 'common/constants'
 
+import { featureFlagActive } from 'connectors/feature-flags/feature-flags'
+import { usePrevious } from 'common/utilities/hooks/has-changed'
+
 /**
  * Initialization file. We are using this because of the way the _app file
  * is wrapped in this version. This problem will not exist when we move
@@ -24,14 +27,26 @@ export function ThirdPartyInit() {
 
   const path = router.asPath
   const [analyticsInit, analyticsInitSet] = useState(false)
+
   const { user_status, user_id, sess_guid } = useSelector((state) => state.user)
   const oneTrustReady = useSelector((state) => state.oneTrust?.trustReady)
-  const analytics = useSelector((state) => state.oneTrust?.analytics) //prettier-ignore
+  const analytics = useSelector((state) => state.oneTrust?.analytics)
+  const settingsFetched = useSelector((state) => state.settings?.settingsFetched)
+  const brazeSubscribed = useSelector((state) => state.userBraze?.brazeSubscribed)
+
+  const enableBraze = settingsFetched && brazeSubscribed
+  const prevBraze = usePrevious(enableBraze)
+
   const analyticsCookie = analytics?.enabled
   const isProduction = process.env.NODE_ENV === 'production'
 
+  // Remove when Braze launches
+  const featureState = useSelector((state) => state.features)
+  const labUser = featureFlagActive({ flag: 'lab', featureState })
+
   useEffect(() => {
-    if (!user_id) return // this will change when we do anonymous user tracking
+    if (!labUser) return // Remove when Braze launches
+    if (!user_id || !enableBraze) return // not logged in or opted out
 
     const version = process.env.RELEASE_VERSION || 'v.0.0.0'
 
@@ -41,20 +56,40 @@ export function ThirdPartyInit() {
 
     // lazy load braze SDK and then initialize it and call necessary functions
     // see https://github.com/braze-inc/braze-web-sdk/issues/117 for more details on why we need to lazy load
-    if (!isProduction) {
-      import('common/utilities/braze/braze-lazy-load').then(
-        ({ initialize, automaticallyShowInAppMessages, changeUser, openSession }) => {
-          initialize(APIKey, {
-            baseUrl: BRAZE_SDK_ENDPOINT,
-            appVersion: version,
-            enableLogging: !isProduction // enable logging in development only
-          })
-          automaticallyShowInAppMessages(), changeUser(user_id), openSession()
-        }
+    import('common/utilities/braze/braze-lazy-load').then(
+      ({ initialize, automaticallyShowInAppMessages, changeUser, openSession, isDisabled, enableSDK }) => {
+        if (isDisabled()) enableSDK() // Was previously disabled, need to re-enable
+        initialize(APIKey, {
+          baseUrl: BRAZE_SDK_ENDPOINT,
+          appVersion: version,
+          enableLogging: !isProduction, // enable logging in development only
+          openCardsInNewTab: true,
+          enableSdkAuthentication: true
+        })
+        automaticallyShowInAppMessages(), changeUser(user_id), openSession()
+      }
+    )
+  }, [user_id, enableBraze, isProduction, labUser])
+
+  useEffect(() => {
+    if (!labUser) return // Remove when Braze launches
+
+    // Braze is off, and was previously on, so disable Braze
+    if (!enableBraze && prevBraze) {
+      import('common/utilities/braze/braze-lazy-load').then(({ disableSDK }) => disableSDK())
+    }
+  }, [enableBraze, prevBraze, labUser])
+
+  useEffect(() => {
+    if (labUser && 'serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js').then(
+        (registration) => console.log('Service Worker registration successful with scope: ', registration.scope),
+        (err) => console.log('Service Worker registration failed: ', err)
       )
     }
-  }, [user_id, isProduction])
+  }, [labUser])
 
+  // Get OneTrust settings
   useEffect(() => {
     function checkCookies() {
       if (global.OptanonActiveGroups && global.OptanonActiveGroups !== ONETRUST_EMPTY_DEFAULT) {
@@ -69,11 +104,11 @@ export function ThirdPartyInit() {
     return () => clearTimeout(timer)
   }, [dispatch])
 
+  // Initialize Snowplow after OneTrust is ready
   useEffect(() => {
     if (analyticsInit || !oneTrustReady) return
     if (user_status === 'pending' || !sess_guid) return
 
-    // Set up Snowplow
     const finalizeInit = () => dispatch(finalizeSnowplow())
     initializeSnowplow(user_id, sess_guid, analyticsCookie, finalizeInit)
 
@@ -82,8 +117,8 @@ export function ThirdPartyInit() {
     analyticsInitSet(true)
   }, [oneTrustReady, analyticsCookie, analyticsInit, dispatch, user_status, sess_guid, user_id])
 
+  // Load Opt In Monster for marketing/conversion adventurers ... but not during dev
   useEffect(() => {
-    // Load Opt In Monster for marketing/conversion adventurers ... but not during dev
     if (!isProduction) return
     loadOptinMonster()
   }, [isProduction])
