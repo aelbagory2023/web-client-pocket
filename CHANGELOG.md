@@ -1,3 +1,13 @@
+## [1.55.1](https://github.com/Pocket/web-client/compare/v1.55.0...v1.55.1) (2022-07-25)
+
+
+### Bug Fixes
+
+* **braze:** initial commit of token auth for braze ([18431e5](https://github.com/Pocket/web-client/commit/18431e59e0c2390c8e0b9c180910b793e57d46ff))
+* **braze:** remove production related comment ([4db51f0](https://github.com/Pocket/web-client/commit/4db51f0356aa5a1ed7b843571c3dd67d5c05a8ec))
+* **braze:** update comment about braze logging ([b2d0f38](https://github.com/Pocket/web-client/commit/b2d0f38234e37d575d2fdb7d1a523c63d17f60b6))
+* **braze:** update feature flag to lab.braze ([89ea617](https://github.com/Pocket/web-client/commit/89ea6178a421e29c9ce262f0cd9bed49aaa5a346))
+
 # [1.55.0](https://github.com/Pocket/web-client/compare/v1.54.9...v1.55.0) (2022-07-25)
 
 
