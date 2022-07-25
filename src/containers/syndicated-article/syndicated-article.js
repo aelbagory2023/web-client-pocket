@@ -156,7 +156,7 @@ export function SyndicatedArticle({ queryParams = validParams, locale }) {
                 saveStatus={saveStatus}
                 url={url}
               />
-              <Listen itemId={itemId} />
+              <Listen itemId={itemId} path={url} />
             </header>
           </section>
 

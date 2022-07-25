@@ -5,7 +5,7 @@ import { Audio } from 'components/audio/audio'
 import { featureFlagActive } from 'connectors/feature-flags/feature-flags'
 import { sendSnowplowEvent } from 'connectors/snowplow/snowplow.state'
 
-export const Listen = ({ itemId }) => {
+export const Listen = ({ itemId, path }) => {
   const dispatch = useDispatch()
 
   const isAuthenticated = useSelector((state) => state.user?.auth)
@@ -23,11 +23,16 @@ export const Listen = ({ itemId }) => {
   const { status, url } = file
   const available = status === 'available'
 
+  const analyticsData = {
+    id: itemId,
+    url: path
+  }
+
   // Snowplow Events
-  const playEvent = () => console.log('onPlay')
-  const pauseEvent = () => console.log('onPause')
-  const rateChangeEvent = (rate) => console.log('onRateChange', rate)
-  const endEvent = () => console.log('onEnded')
+  const playEvent = () => dispatch(sendSnowplowEvent('listen.play', analyticsData))
+  const pauseEvent = () => dispatch(sendSnowplowEvent('listen.pause', analyticsData))
+  const rateChangeEvent = (rate) => dispatch(sendSnowplowEvent('listen.pause', { ...analyticsData, value: rate }))
+  const endEvent = () => dispatch(sendSnowplowEvent('listen.end', analyticsData))
 
   return (url && available) ? (
     <Audio
