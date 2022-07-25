@@ -1,3 +1,21 @@
+# [1.55.0](https://github.com/Pocket/web-client/compare/v1.54.9...v1.55.0) (2022-07-25)
+
+
+### Bug Fixes
+
+* **item:** use node id in reader url ([2611dd3](https://github.com/Pocket/web-client/commit/2611dd30a77d856002f6e4b90db8cd00f4398ed9))
+* **reader:** add back in delete action to read ([c836626](https://github.com/Pocket/web-client/commit/c8366266ad2af2b7a445c4bd77dc265b3a158528))
+* **reader:** add optional chaining to authorList ([f6b48e4](https://github.com/Pocket/web-client/commit/f6b48e49369458cf1b3102e6b523104e3bec35c1))
+* **reader:** make sure we aren’t flashing legacy ([fa45bbc](https://github.com/Pocket/web-client/commit/fa45bbc68acb073454788192b5fdb6e6ec5a33bc))
+* **reader:** update sidebar highlights ([49f1265](https://github.com/Pocket/web-client/commit/49f1265cbcc16000b710bde639c2ed8d7be119f2))
+* **saved item:** add authors and date published to standard ([69e8e67](https://github.com/Pocket/web-client/commit/69e8e673d016d78b0b119ce33d99f04474fa8dcb))
+* **tags:** don’t make v3 request when in api.next ([3d7c79c](https://github.com/Pocket/web-client/commit/3d7c79c244529cd8e144b74f528ddf0ae8b61dc9))
+
+
+### Features
+
+* **highlights:** move to a common mutation ([c411e0e](https://github.com/Pocket/web-client/commit/c411e0e39ffbb077a608c86971be9776a45b67c2))
+
 ## [1.54.9](https://github.com/Pocket/web-client/compare/v1.54.8...v1.54.9) (2022-07-25)
 
 
