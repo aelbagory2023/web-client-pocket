@@ -31,5 +31,11 @@ export const listenActions = {
     },
     expects: ['id', 'url']
   },
-
+  'listen.signup': {
+    eventType: 'engagement',
+    entityTypes: ['ui'],
+    eventData: {
+      uiType: 'button'
+    }
+  }
 }
