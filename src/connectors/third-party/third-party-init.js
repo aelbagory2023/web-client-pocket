@@ -55,7 +55,7 @@ export function ThirdPartyInit() {
     if (!brazeToken) return dispatch(fetchBrazeToken(user_id))
 
     const version = process.env.RELEASE_VERSION || 'v.0.0.0'
-    const APIKey = isProduction ? BRAZE_API_KEY_PROD : BRAZE_API_KEY_DEV // uncomment this when we are ready for production
+    const APIKey = isProduction ? BRAZE_API_KEY_PROD : BRAZE_API_KEY_DEV
 
     // lazy load braze SDK and then initialize it and call necessary functions
     // see https://github.com/braze-inc/braze-web-sdk/issues/117 for more details on why we need to lazy load
