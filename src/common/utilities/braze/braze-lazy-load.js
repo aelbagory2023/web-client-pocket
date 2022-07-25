@@ -12,5 +12,7 @@ export {
   isDisabled,
   disableSDK,
   enableSDK,
-  destroy
+  destroy,
+  setSdkAuthenticationSignature,
+  subscribeToSdkAuthenticationFailures
 } from '@braze/web-sdk'

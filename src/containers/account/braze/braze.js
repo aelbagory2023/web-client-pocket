@@ -9,7 +9,7 @@ export const Braze = () => {
 
   // Remove when Braze launches
   const featureState = useSelector((state) => state.features)
-  const showBraze = featureFlagActive({ flag: 'lab', featureState })
+  const showBraze = featureFlagActive({ flag: 'lab.braze', featureState })
 
   const onBrazeToggle = () => dispatch(toggleBraze())
 

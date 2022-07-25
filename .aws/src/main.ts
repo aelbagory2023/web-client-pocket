@@ -123,8 +123,8 @@ private getSecretsManagerKmsAlias() {
     }): PocketALBApplication {
       const { pagerDuty, region, caller, secretsManagerKmsAlias, snsTopic, vpc } =
         dependencies;
-  
-  
+
+
       return new PocketALBApplication(this, 'application', {
         prefix: config.prefix,
         alb6CharacterPrefix: config.shortName,
@@ -165,6 +165,10 @@ private getSecretsManagerKmsAlias() {
               {
                 name: 'SENTRY_DSN',
                 valueFrom: `arn:aws:ssm:${region.name}:${caller.accountId}:parameter/${config.name}/${config.environment}/SENTRY_DSN`
+              },
+              {
+                name: 'BRAZE_PRIVATE_KEY',
+                valueFrom: `arn:aws:ssm:${region.name}:${caller.accountId}:parameter/${config.name}/${config.environment}/BRAZE_PRIVATE_KEY`
               }
             ]
           },
@@ -237,7 +241,7 @@ private getSecretsManagerKmsAlias() {
           taskExecutionDefaultAttachmentArn:
             'arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy'
         },
-  
+
         autoscalingConfig: {
           targetMinCapacity: 5,
           targetMaxCapacity: 30

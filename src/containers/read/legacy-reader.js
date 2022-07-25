@@ -14,7 +14,7 @@ import { compileAnnotations } from 'components/annotations/utilities'
 import { requestAnnotationPatch } from 'components/annotations/utilities'
 import { GoogleFonts, FONT_TYPES } from 'components/fonts/fonts'
 import { ReaderFonts } from 'components/reader/fonts'
-import { Recommendations } from 'containers/read/recommendations'
+import { Recommendations } from 'connectors/reader/recommendations'
 
 import { HighlightInlineMenu } from 'components/annotations/annotations.inline'
 import { ModalLimitNotice as AnnotationsLimitModal } from 'components/annotations/annotations.limit'
@@ -43,6 +43,11 @@ import { Onboarding } from 'connectors/onboarding/onboarding'
 import { selectShortcutItem } from 'connectors/shortcuts/shortcuts.state'
 
 import { sendSnowplowEvent } from 'connectors/snowplow/snowplow.state'
+
+import { updateLineHeight } from 'containers/read/reader-settings.state'
+import { updateColumnWidth } from 'containers/read/reader-settings.state'
+import { updateFontSize } from 'containers/read/reader-settings.state'
+import { updateFontType } from 'containers/read/reader-settings.state'
 
 export const COLUMN_WIDTH_RANGE = [531, 574, 632, 718, 826, 933, 1041]
 export const LINE_HEIGHT_RANGE = [1.2, 1.3, 1.4, 1.5, 1.65, 1.9, 2.5]
@@ -247,6 +252,10 @@ export default function LegacyReader() {
         sideBarOpen={sideBarOpen}
         colorMode={colorMode}
         setColorMode={setAppColorMode}
+        updateLineHeight={updateLineHeight}
+        updateColumnWidth={updateColumnWidth}
+        updateFontSize={updateFontSize}
+        updateFontType={updateFontType}
       />
 
       <main className={articleWrapperStyles}>
