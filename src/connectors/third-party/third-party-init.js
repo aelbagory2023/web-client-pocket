@@ -65,7 +65,7 @@ export function ThirdPartyInit() {
         initialize(APIKey, {
           baseUrl: BRAZE_SDK_ENDPOINT,
           appVersion: version,
-          enableLogging: !isProduction || brazeLabUser, // enable logging in development only
+          enableLogging: !isProduction || brazeLabUser, // enable logging in development or flagged users only
           openCardsInNewTab: true,
           enableSdkAuthentication: true,
           doNotLoadFontAwesome: true
