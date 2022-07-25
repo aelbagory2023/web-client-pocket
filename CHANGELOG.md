@@ -1,3 +1,11 @@
+## [1.54.8](https://github.com/Pocket/web-client/compare/v1.54.7...v1.54.8) (2022-07-21)
+
+
+### Bug Fixes
+
+* **delete:** check for active reader item on delete ([0b3abf8](https://github.com/Pocket/web-client/commit/0b3abf8fc3cf669650cf2c547327ecb7bce66169))
+* **dev tools:** don’t assume lab user on braze ([e110daf](https://github.com/Pocket/web-client/commit/e110daf22025cb0dc53d63647606e36a8c2c9a00))
+
 ## [1.54.7](https://github.com/Pocket/web-client/compare/v1.54.6...v1.54.7) (2022-07-20)
 
 
