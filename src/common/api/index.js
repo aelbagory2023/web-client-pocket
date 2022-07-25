@@ -54,3 +54,5 @@ export { setTopicPreferences } from './mutations/setTopicPreferences'
 
 // Braze
 export { getBrazeToken } from './internal/braze'
+
+export { getUserTags } from './queries/get-user-tags'

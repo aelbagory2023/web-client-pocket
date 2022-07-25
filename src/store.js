@@ -99,7 +99,13 @@ import { onboardingSagas } from 'connectors/onboarding/onboarding.state'
 
 import { shareModalReducers } from 'connectors/share-modal/share-modal.state'
 
+import { readerSettingsReducers } from 'containers/read/reader-settings.state'
+import { readerSettingsSagas } from 'containers/read/reader-settings.state'
+
 //Items (From the graph)
+import { readerReducers } from 'containers/read/reader.state'
+import { readerSagas } from 'containers/read/reader.state'
+
 import { itemsReducers } from 'connectors/items/items.state'
 import { itemsSavedReducers } from 'connectors/items/items-saved.state'
 import { itemsSavedSagas } from 'connectors/items/items-saved.state'
@@ -118,6 +124,9 @@ import { mutationTaggingSagas } from 'connectors/items/mutation-tagging.state'
 
 import { mutationUpsertSagas } from 'connectors/items/mutation-upsert.state'
 
+import { mutationHighlightReducers } from 'connectors/items/mutation-highlight.state'
+import { mutationHighlightSagas } from 'connectors/items/mutation-highlight.state'
+
 import { mutationBulkReducers } from 'connectors/items/mutations-bulk.state'
 import { mutationBulkSagas } from 'connectors/items/mutations-bulk.state'
 
@@ -134,7 +143,8 @@ const itemReducers = {
   mutationFavorite: mutationFavoriteReducers,
   mutationArchive: mutationArchiveReducers,
   mutationDelete: mutationDeleteReducers,
-  mutationTagging: mutationTaggingReducers
+  mutationTagging: mutationTaggingReducers,
+  mutationHighlight: mutationHighlightReducers
 }
 
 const listReducers = {
@@ -178,8 +188,10 @@ const libraryReducers = {
   profileItemsByIds: profileItemsReducers
 }
 
-const readerReducers = {
-  reader: readReducers
+const readerViewReducers = {
+  reader: readReducers,
+  readerSettings: readerSettingsReducers,
+  readerGraph: readerReducers
 }
 
 const marketingReducers = {
@@ -212,7 +224,7 @@ export const rootReducer = combineReducers({
   ...discoverReducers,
   ...collectionReducer,
   ...libraryReducers,
-  ...readerReducers,
+  ...readerViewReducers,
   ...userAccountReducers,
   home: homeReducers,
   homeItemsById: homeItemsReducers,
@@ -245,6 +257,8 @@ function* rootSaga() {
     ...itemShareSagas,
     ...itemReportSagas,
     ...readSagas,
+    ...readerSettingsSagas,
+    ...readerSagas, //graph
     ...homeSagas,
     ...homeItemsSagas,
     ...userMessageSagas,
@@ -260,7 +274,8 @@ function* rootSaga() {
     ...mutationFavoriteSagas,
     ...mutationUpsertSagas,
     ...mutationBulkSagas,
-    ...mutationTaggingSagas
+    ...mutationTaggingSagas,
+    ...mutationHighlightSagas
   ])
 }
 
