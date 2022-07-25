@@ -177,7 +177,7 @@ const GlobalNavAccount = ({
 
   // Remove when Braze launches
   const featureState = useSelector((state) => state.features)
-  const labUser = featureFlagActive({ flag: 'lab', featureState })
+  const brazeLabUser = featureFlagActive({ flag: 'lab.braze', featureState })
 
   const accountMenuTriggerRef = useRef(null)
   const menuRef = useRef(null)
@@ -213,7 +213,7 @@ const GlobalNavAccount = ({
   const handleLogoutCase = () => {
     onLinkClick('logout')
     // Fire for all users when Braze launches
-    if (labUser) import('common/utilities/braze/braze-lazy-load').then(({ destroy }) => destroy())
+    if (brazeLabUser) import('common/utilities/braze/braze-lazy-load').then(({ destroy }) => destroy())
   }
 
   function handleVisible() {

@@ -45,21 +45,17 @@ export function ThirdPartyInit() {
   const analyticsCookie = analytics?.enabled
   const isProduction = process.env.NODE_ENV === 'production'
 
-  // Remove when Braze launches
   const featureState = useSelector((state) => state.features)
-  const labUser = featureFlagActive({ flag: 'lab', featureState })
+  const brazeLabUser = featureFlagActive({ flag: 'lab.braze', featureState })
 
   useEffect(() => {
-    if (!labUser) return // Remove when Braze launches
+    if (!brazeLabUser) return // Remove when Braze launches
     if (!user_id || !enableBraze) return // not logged in or opted out
     if (brazeInitialized) return // braze already initialized
     if (!brazeToken) return dispatch(fetchBrazeToken(user_id))
 
     const version = process.env.RELEASE_VERSION || 'v.0.0.0'
-
-    // ONLY DEV FOR NOW
-    // const APIKey = isProduction ? BRAZE_API_KEY_PROD : BRAZE_API_KEY_DEV // uncomment this when we are ready for production
-    const APIKey = BRAZE_API_KEY_DEV
+    const APIKey = isProduction ? BRAZE_API_KEY_PROD : BRAZE_API_KEY_DEV // uncomment this when we are ready for production
 
     // lazy load braze SDK and then initialize it and call necessary functions
     // see https://github.com/braze-inc/braze-web-sdk/issues/117 for more details on why we need to lazy load
@@ -69,9 +65,10 @@ export function ThirdPartyInit() {
         initialize(APIKey, {
           baseUrl: BRAZE_SDK_ENDPOINT,
           appVersion: version,
-          enableLogging: !isProduction, // enable logging in development only
+          enableLogging: !isProduction || brazeLabUser, // enable logging in development only
           openCardsInNewTab: true,
-          enableSdkAuthentication: true
+          enableSdkAuthentication: true,
+          doNotLoadFontAwesome: true
         })
         automaticallyShowInAppMessages()
         changeUser(user_id, brazeToken)
@@ -81,35 +78,35 @@ export function ThirdPartyInit() {
     )
 
     dispatch(initializeBraze())
-  }, [user_id, brazeToken, brazeInitialized, enableBraze, isProduction, labUser, dispatch])
+  }, [user_id, brazeToken, brazeInitialized, enableBraze, isProduction, brazeLabUser, dispatch])
 
   useEffect(() => {
-    if (!labUser) return // Remove when Braze launches
+    if (!brazeLabUser) return // Remove when Braze launches
 
     // Braze turned off, and was previously on, so disable Braze
     if (!enableBraze && prevBraze) {
       import('common/utilities/braze/braze-lazy-load').then(({ disableSDK }) => disableSDK())
     }
-  }, [enableBraze, prevBraze, labUser])
+  }, [enableBraze, prevBraze, brazeLabUser])
 
   useEffect(() => {
-    if (!labUser) return // Remove when Braze launches
+    if (!brazeLabUser) return // Remove when Braze launches
     if (!brazeInitialized) return // braze not initialized
 
     // tokens don't match! update braze SDK
     if (brazeToken !== prevBrazeToken) {
       import('common/utilities/braze/braze-lazy-load').then(({ setSdkAuthenticationSignature }) => setSdkAuthenticationSignature(brazeToken))
     }
-  }, [brazeToken, prevBrazeToken, brazeInitialized, labUser])
+  }, [brazeToken, prevBrazeToken, brazeInitialized, brazeLabUser])
 
   useEffect(() => {
-    if (labUser && 'serviceWorker' in navigator) {
+    if (brazeLabUser && 'serviceWorker' in navigator) {
       navigator.serviceWorker.register('/service-worker.js').then(
         (registration) => console.log('Service Worker registration successful with scope: ', registration.scope),
         (err) => console.log('Service Worker registration failed: ', err)
       )
     }
-  }, [labUser])
+  }, [brazeLabUser])
 
   // Get OneTrust settings
   useEffect(() => {
