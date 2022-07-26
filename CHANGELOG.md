@@ -1,3 +1,11 @@
+## [1.55.6](https://github.com/Pocket/web-client/compare/v1.55.5...v1.55.6) (2022-07-26)
+
+
+### Bug Fixes
+
+* **braze:** message styling ([9d3df64](https://github.com/Pocket/web-client/commit/9d3df64bd590e0f089201efb0156d67b9e4754eb))
+* **dev-tools:** generic devtools wrapper with qa modal ([18af813](https://github.com/Pocket/web-client/commit/18af813aa72736f28aa82de60e5c6a36e62f8044))
+
 ## [1.55.5](https://github.com/Pocket/web-client/compare/v1.55.4...v1.55.5) (2022-07-26)
 
 
