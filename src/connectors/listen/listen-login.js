@@ -4,16 +4,17 @@ import { Listen } from 'connectors/listen/listen'
 import { featureFlagActive } from 'connectors/feature-flags/feature-flags'
 import { SIGNUP_URL } from 'common/constants'
 import { sendSnowplowEvent } from 'connectors/snowplow/snowplow.state'
+import { ListenIcon } from 'components/icons/ListenIcon'
 
 const loggedOutStyle = css`
-  color: var(--color-textPrimary);
+  color: var(--color-textSecondary);
   font-family: var(--fontSansSerif);
   font-weight: 300;
   font-size: 1.25em;
   line-height: 140%;
 `
 
-export const ListenLab = ({ itemId, path }) => {
+export const ListenLogin = ({ itemId, path }) => {
   const dispatch = useDispatch()
 
   const userStatus = useSelector((state) => state.user.user_status)
@@ -22,7 +23,7 @@ export const ListenLab = ({ itemId, path }) => {
 
   const signUpEvent = () => dispatch(sendSnowplowEvent('listen.signup'))
 
-  const loggedIn = userStatus === 'valid'
+  const loggedIn = userStatus === 'valids'
 
   return listenLab ? (
     loggedIn ? <Listen itemId={itemId} path={path} /> : <LoggedOut path={path} clickEvent={signUpEvent} />
@@ -31,7 +32,7 @@ export const ListenLab = ({ itemId, path }) => {
 
 const LoggedOut = ({ clickEvent, path = '' }) => (
   <p className={loggedOutStyle}>
-    Want to listen to this article?{' '}
+    <ListenIcon /> Want to listen to this article?{' '}
     <a href={`${SIGNUP_URL}?route=${path}`} onClick={clickEvent}>Sign up</a> to check it out!
   </p>
 )

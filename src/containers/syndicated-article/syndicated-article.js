@@ -35,7 +35,7 @@ import { trackScrollDepth } from './syndicated-article.analytics'
 
 import { CardTopicsNav as TopicsBubbles } from 'connectors/topic-list/topic-list'
 import { Toasts } from 'connectors/toasts/toast-list'
-import { ListenLab as Listen } from 'connectors/listen/listen-lab'
+import { ListenLogin as Listen } from 'connectors/listen/listen-login'
 
 // Possible query params passed via url
 const validParams = {
