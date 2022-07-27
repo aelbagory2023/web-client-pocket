@@ -23,7 +23,7 @@ export const ListenLogin = ({ itemId, path }) => {
 
   const signUpEvent = () => dispatch(sendSnowplowEvent('listen.signup'))
 
-  const loggedIn = userStatus === 'valids'
+  const loggedIn = userStatus === 'valid'
 
   return listenLab ? (
     loggedIn ? <Listen itemId={itemId} path={path} /> : <LoggedOut path={path} clickEvent={signUpEvent} />

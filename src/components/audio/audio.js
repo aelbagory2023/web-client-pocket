@@ -1,10 +1,18 @@
 import { useRef, useState } from 'react'
 import { css } from 'linaria'
 import { LISTEN_SPEEDS } from 'common/constants'
+import { ListenIcon } from 'components/icons/ListenIcon'
 
 const audioStyles = css`
   display: flex;
   margin-bottom: 1rem;
+
+  .icon {
+    margin-right: 0.5rem;
+    line-height: 2.5rem;
+    height: 1.5rem;
+    color: var(--color-textSecondary);
+  }
 
   audio {
     display: inline-block;
@@ -44,6 +52,7 @@ export const Audio = ({
 
   return (
     <div className={audioStyles}>
+      <ListenIcon />
       <audio
         ref={ref}
         src={url}
