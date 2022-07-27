@@ -1,3 +1,10 @@
+## [1.55.9](https://github.com/Pocket/web-client/compare/v1.55.8...v1.55.9) (2022-07-27)
+
+
+### Bug Fixes
+
+* **braze:** add default message to braze tools when not subscribed ([d0d1d77](https://github.com/Pocket/web-client/commit/d0d1d77e6e73c3e1b6327824f781be354dfb40da))
+
 ## [1.55.8](https://github.com/Pocket/web-client/compare/v1.55.7...v1.55.8) (2022-07-27)
 
 
