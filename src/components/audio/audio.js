@@ -18,6 +18,7 @@ const audioStyles = css`
     display: inline-block;
     width: 100%;
     border-radius: 20px;
+    border: 1px solid var(--color-textSecondary);
   }
 
   select {
