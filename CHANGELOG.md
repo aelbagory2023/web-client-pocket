@@ -1,3 +1,10 @@
+## [1.55.10](https://github.com/Pocket/web-client/compare/v1.55.9...v1.55.10) (2022-07-28)
+
+
+### Bug Fixes
+
+* **highlights:** do not save empty highlight string ([1f3dbda](https://github.com/Pocket/web-client/commit/1f3dbdafde9f92eacb1b175611b7f7b75701648f))
+
 ## [1.55.9](https://github.com/Pocket/web-client/compare/v1.55.8...v1.55.9) (2022-07-27)
 
 
