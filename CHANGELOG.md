@@ -1,3 +1,18 @@
+# [1.56.0](https://github.com/Pocket/web-client/compare/v1.55.10...v1.56.0) (2022-07-28)
+
+
+### Bug Fixes
+
+* **account:** remove pocket hits flag ([37a002d](https://github.com/Pocket/web-client/commit/37a002d8169a63ce7954f3632c33fb196dd47786))
+* **braze:** use Link to account in off message ([ae9b894](https://github.com/Pocket/web-client/commit/ae9b89415408bad190ef341ef6443a1ba034896c))
+* **onboarding:** remove flag / set eligibility by date ([ef91e33](https://github.com/Pocket/web-client/commit/ef91e3345bed5834190835d47a2bf63bbca31e8f))
+* **waypoint:** remove home flag / eligibility by date ([64e806a](https://github.com/Pocket/web-client/commit/64e806a41b267a03f17407d7803a318ca2a6b9bb))
+
+
+### Features
+
+* **eligibility:** set up constants for launch dates ([60e0dac](https://github.com/Pocket/web-client/commit/60e0dac7b844a093271340db994602b0a45a3bc2))
+
 ## [1.55.10](https://github.com/Pocket/web-client/compare/v1.55.9...v1.55.10) (2022-07-28)
 
 
