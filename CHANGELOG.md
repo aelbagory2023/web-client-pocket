@@ -1,3 +1,10 @@
+## [1.56.1](https://github.com/Pocket/web-client/compare/v1.56.0...v1.56.1) (2022-07-28)
+
+
+### Bug Fixes
+
+* **home:** adding getstarted state to store for home ([4c6a60b](https://github.com/Pocket/web-client/commit/4c6a60bcd1c91d698f4d7816471ae83d19d4d6a8))
+
 # [1.56.0](https://github.com/Pocket/web-client/compare/v1.55.10...v1.56.0) (2022-07-28)
 
 
