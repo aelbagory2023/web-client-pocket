@@ -1,3 +1,18 @@
+# [1.57.0](https://github.com/Pocket/web-client/compare/v1.56.4...v1.57.0) (2022-08-02)
+
+
+### Bug Fixes
+
+* **audit:** auto fix security warnings ([02bb868](https://github.com/Pocket/web-client/commit/02bb86867db6e477d98e0a68a3460a1f702b1600))
+* **buttons:** links should have transparent backgrounds ([295a379](https://github.com/Pocket/web-client/commit/295a379f3ffd60b66d8ee7e5283a8cd499eb6d09))
+
+
+### Features
+
+* **features:** allow for a `phantom` test ([811c80d](https://github.com/Pocket/web-client/commit/811c80d578ea5b836a377d02060f87560f0fc688))
+* **features:** allow for one time sticky assigns ([855825c](https://github.com/Pocket/web-client/commit/855825cba8b17024cb6cdacc7e19933aa839f1bd))
+* **flags:** link into feature flags ([31233a8](https://github.com/Pocket/web-client/commit/31233a852f449e889ebf085cb7e5d26d8cf783b3))
+
 ## [1.56.4](https://github.com/Pocket/web-client/compare/v1.56.3...v1.56.4) (2022-08-02)
 
 
