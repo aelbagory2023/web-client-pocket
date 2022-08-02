@@ -1,3 +1,12 @@
+## [1.56.4](https://github.com/Pocket/web-client/compare/v1.56.3...v1.56.4) (2022-08-02)
+
+
+### Bug Fixes
+
+* **card:** add non-link for publisher, fixes it getting underline on hover when view only ([406e30b](https://github.com/Pocket/web-client/commit/406e30b328add5465f6b278c8bf539c2a7a94b29))
+* **card:** publisher needs className ([ff9ee14](https://github.com/Pocket/web-client/commit/ff9ee1492e468624fefadcefec00e37129c6ea12))
+* **shareModal:** don't pass openUrl or externalUrl to card to make it view only ([04c6785](https://github.com/Pocket/web-client/commit/04c6785bd552546b516995f6d21e22a800c36102))
+
 ## [1.56.3](https://github.com/Pocket/web-client/compare/v1.56.2...v1.56.3) (2022-08-01)
 
 
