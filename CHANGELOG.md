@@ -1,3 +1,10 @@
+## [1.58.1](https://github.com/Pocket/web-client/compare/v1.58.0...v1.58.1) (2022-08-04)
+
+
+### Bug Fixes
+
+* **syndicated:** last item in article if video should display block ([286a9ae](https://github.com/Pocket/web-client/commit/286a9aed8e25e91393d0d8de37b3b9100b005632))
+
 # [1.58.0](https://github.com/Pocket/web-client/compare/v1.57.1...v1.58.0) (2022-08-04)
 
 
