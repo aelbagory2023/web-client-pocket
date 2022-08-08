@@ -1,3 +1,12 @@
+## [1.58.2](https://github.com/Pocket/web-client/compare/v1.58.1...v1.58.2) (2022-08-08)
+
+
+### Bug Fixes
+
+* **flyaways:** update flyaways; home points to reader, remove my-list and my-list to reader ([75f05bd](https://github.com/Pocket/web-client/commit/75f05bd305db35d1e820352c86bf8f7e9b9958b7))
+* **flyaways:** update go to reader outline to work on all screens ([7d07bcf](https://github.com/Pocket/web-client/commit/7d07bcfea6cd4508eed522149ebc66082e14df26))
+* **onboarding:** remove unused state param ([29d78a2](https://github.com/Pocket/web-client/commit/29d78a2a7d3539d4838faab252c481ab1d8a99f0))
+
 ## [1.58.1](https://github.com/Pocket/web-client/compare/v1.58.0...v1.58.1) (2022-08-04)
 
 
