@@ -1,3 +1,22 @@
+## [1.58.3](https://github.com/Pocket/web-client/compare/v1.58.2...v1.58.3) (2022-08-15)
+
+
+### Bug Fixes
+
+* **card media:** Add View Original indicator, link target ([986686b](https://github.com/Pocket/web-client/commit/986686b1aa6db1fc09e47825ee2591f438e9d8b9))
+* **card:** add check for view-original feature test ([9e01e19](https://github.com/Pocket/web-client/commit/9e01e197a6533529f1a3ff5bafd557a503aa5208))
+* **card:** add NewViewIcon after title when openInNewTab, update links targets ([8e0c1e2](https://github.com/Pocket/web-client/commit/8e0c1e2130be9f7f1129d03c7069e0893f96fc65))
+* **card:** make view original styles work for detail and list card shapes ([54a3287](https://github.com/Pocket/web-client/commit/54a32870e23cc2889125353ae7ed559cc97c58bf))
+* **cards:** get isInternalItem and pass it through to Card ([2f7bbe5](https://github.com/Pocket/web-client/commit/2f7bbe5cad47d93ee16ba9aefc85f7f0c050eb79))
+* **comment:** remove comment ([c318b72](https://github.com/Pocket/web-client/commit/c318b72632ecaf017cafd0077f90133446987825))
+* **confirm share:** remove isInternalItem - not needed here ([01afc05](https://github.com/Pocket/web-client/commit/01afc05aa2406f12925c8097ca5de12b6df95db6))
+* **item deriver:** add check for isInternalItem ([54f6452](https://github.com/Pocket/web-client/commit/54f64522b713d4b4c01d19d6edd9b5c97a0248a8))
+* **reader:** add NewViewIcon to View Original link in reader header ([987623d](https://github.com/Pocket/web-client/commit/987623d44c47bd1e2b9ee5eeff4afb0b3e69783b))
+* **snapshots:** update snapshots ([0201868](https://github.com/Pocket/web-client/commit/020186850b375a7cc377ab5b6e3dc8dcae0404a5))
+* **snapshots:** update snapshots after adding feature test check ([477c57f](https://github.com/Pocket/web-client/commit/477c57fc447893aef5ae587d897dc3a8764c9ff1))
+* **specs:** add deriver tests for isInternalItem ([18bc580](https://github.com/Pocket/web-client/commit/18bc58053ac673bf0357d86835945c007fdbb445))
+* **stories:** update card stories to include isInternalItem ([509489c](https://github.com/Pocket/web-client/commit/509489cb9e26a7039d55ed997cdd5ac19e351b71))
+
 ## [1.58.2](https://github.com/Pocket/web-client/compare/v1.58.1...v1.58.2) (2022-08-08)
 
 
