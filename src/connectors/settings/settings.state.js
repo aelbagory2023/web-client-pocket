@@ -4,7 +4,6 @@ import { putAppSettings } from 'common/api/_legacy/settings'
 
 import { localStore } from 'common/utilities'
 import { getObjectWithValidKeysOnly } from 'common/utilities'
-import { filterSettings } from 'common/utilities'
 
 import { SETTINGS_FETCH_REQUEST } from 'actions'
 import { SETTINGS_FETCH_SUCCESS } from 'actions'
@@ -42,7 +41,7 @@ export const settingsReducers = (state = initialState, action) => {
       const { settings } = action
       return {
         ...state,
-        ...filterSettings(settings, initialState),
+        ...settings,
         settingsFetched: true
       }
     }
@@ -87,7 +86,7 @@ export const settingsSagas = [
  --------------------------------------------------------------- */
 const getSettings = (state) => state.settings
 const getOnboarding = (state) => state.onboarding
-const getBraze = (state) => state.userBraze?.brazeSubscribed
+const getBraze = (state) => state.braze?.brazeSubscribed
 
 function* fetchSettings() {
   try {

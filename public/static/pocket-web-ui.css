@@ -143,8 +143,8 @@ a.button.secondary,button.secondary,input[type=button].secondary,input[type=rese
 a.button.secondary:hover,button.secondary:hover,input[type=button].secondary:hover,input[type=reset].secondary:hover,input[type=submit].secondary:hover{background-color:var(--color-actionSecondaryHover);color:var(--color-actionSecondaryHoverText)}
 a.button.brand,button.brand,input[type=button].brand,input[type=reset].brand,input[type=submit].brand{background-color:var(--color-actionBrand);color:var(--color-actionBrandText)}
 a.button.brand:hover,button.brand:hover,input[type=button].brand:hover,input[type=reset].brand:hover,input[type=submit].brand:hover{background-color:var(--color-actionBrandHover)}
-a.button.text,button.text,input[type=button].text,input[type=reset].text,input[type=submit].text{background-color:var(--color-canvas);color:var(--color-textPrimary)}
-a.button.text:hover,button.text:hover,input[type=button].text:hover,input[type=reset].text:hover,input[type=submit].text:hover{background-color:var(--color-canvas);color:var(--color-textLinkHover)}
+a.button.text,button.text,input[type=button].text,input[type=reset].text,input[type=submit].text{background-color:transparent;color:var(--color-textPrimary)}
+a.button.text:hover,button.text:hover,input[type=button].text:hover,input[type=reset].text:hover,input[type=submit].text:hover{background-color:transparent;color:var(--color-textLinkHover);text-decoration:underline}
 a.button+a.button,a.button+button,a.button+input[type=button],a.button+input[type=reset],a.button+input[type=submit],button+a.button,button+button,button+input[type=button],button+input[type=reset],button+input[type=submit],input[type=button]+a.button,input[type=button]+button,input[type=button]+input[type=button],input[type=button]+input[type=reset],input[type=button]+input[type=submit],input[type=reset]+a.button,input[type=reset]+button,input[type=reset]+input[type=button],input[type=reset]+input[type=reset],input[type=reset]+input[type=submit],input[type=submit]+a.button,input[type=submit]+button,input[type=submit]+input[type=button],input[type=submit]+input[type=reset],input[type=submit]+input[type=submit]{margin-right:1rem}
 #ot-sdk-btn.optanon-show-settings,#ot-sdk-btn.ot-sdk-show-settings{align-items:center;background-color:transparent;border:none;cursor:pointer;display:inline-flex;font-family:inherit;font-size:1rem;font-weight:400;justify-content:center;line-height:1.5;padding:0}
 @media screen and (-ms-high-contrast:active){#ot-sdk-btn.optanon-show-settings,#ot-sdk-btn.ot-sdk-show-settings{border:2px solid}}
@@ -199,3 +199,8 @@ a.button+a.button,a.button+button,a.button+input[type=button],a.button+input[typ
 @font-face{font-family:Whitney;font-weight:700;src:url(https://assets.getpocket.com/web-ui/assets/Whitney-BookItal_Web.80efdde5b097eda872e1754487ce68fc.woff2)}
 @font-face{font-family:Whitney;font-style:italic;src:url(https://assets.getpocket.com/web-ui/assets/Whitney-Semibld_Web.de2dee03c81082edf5341031656ea505.woff2)}
 @font-face{font-family:Whitney;font-style:italic;font-weight:700;src:url(https://assets.getpocket.com/web-ui/assets/Whitney-SemibldItal_Web.fdd7d75fa8fa59d56cc3c402c5bccb55.woff2)}
+/* BRAZE STYLES --------------------------------------------- */
+.ab-iam-root .ab-in-app-message.ab-background{background-color:var(--color-canvas)!important;border:1px solid rgba(0,0,0,.12)!important;border-radius:var(--borderRadius)!important;box-shadow:0 8px 24px rgba(0,0,0,.12)!important}
+.ab-iam-root .ab-message-text{color:var(--color-textPrimary)!important;font-family:var(--fontSansSerif)!important;font-weight:400!important}
+.ab-iam-root .ab-close-button svg path{fill:var(--color-textPrimary)!important}
+.ab-iam-root .ab-close-button:hover svg path{fill:var(--color-textLinkHover)!important}

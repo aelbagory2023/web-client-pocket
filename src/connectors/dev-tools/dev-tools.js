@@ -1,49 +1,51 @@
-import React, { useEffect } from 'react'
-import { Modal, ModalBody } from 'components/modal/modal'
-
-import Mousetrap from 'mousetrap'
-import { useSelector, useDispatch } from 'react-redux'
-import { devModeToggle } from 'connectors/app/app.state'
-import { Features } from 'connectors/dev-tools/features'
-import { Links } from 'connectors/dev-tools/links'
-import { Resets } from 'connectors/dev-tools/resets'
-import { BrazeTools } from 'connectors/dev-tools/braze'
-
-import { featureFlagActive } from 'connectors/feature-flags/feature-flags'
+import { useEffect } from 'react'
+import { QaModal } from 'connectors/dev-tools/qa-modal'
+import { BrazeModal } from 'connectors/dev-tools/braze-modal'
+import { useRouter } from 'next/router'
+import { useDispatch, useSelector } from 'react-redux'
+import { featuresAssign } from 'connectors/feature-flags/feature-flags.state'
+import { parseCookies, destroyCookie } from 'nookies'
+import queryString from 'query-string'
 
 export function DevTools() {
+  const router = useRouter()
   const dispatch = useDispatch()
-  const isDevBuild = process.env.SHOW_DEV === 'included'
+  const flagsReady = useSelector((state) => state.features.flagsReady)
+  const { query, isReady, replace, route } = router
 
-  const featureState = useSelector((state) => state.features)
-  const labUser = featureFlagActive({ flag: 'lab', featureState })
-  const showDevTools = labUser || isDevBuild
+  // Set up passed in assignments
+  useEffect(() => {
+    if (!isReady || !flagsReady) return
 
-  const devMode = useSelector((state) => state.app.devMode)
+    if (!query['assign']) return
+    const assignments = Array.isArray(query['assign']) ? query['assign'] : [query['assign']]
 
-  const toggleDevMode = () => dispatch(devModeToggle())
+    const isSticky = query['sticky'] === 'true'
+    dispatch(featuresAssign(assignments, isSticky))
+  }, [query, isReady, dispatch, flagsReady])
 
   useEffect(() => {
-    Mousetrap.bind('q a', toggleDevMode) // Enter dev mode
-    return () => Mousetrap.unbind('q a') // Clean up
-  }, []) //eslint-disable-line
+    if (query['assign']) return // We don't want to do this if we are explicitly setting a test
+    const { query_assignments } = parseCookies()
 
-  const appRootSelector = '#__next'
-  const showModal = showDevTools && devMode
+    if (!query_assignments) return // No cookies? No problem, we good.
 
+    // Get the assignments from the cookies
+    const assignments = JSON.parse(query_assignments)
+    const assign = Object.keys(assignments)
+
+    // Build a url with the assignments and replace our current url (which triggers the above effect)
+    const urlWithAssign = queryString.stringifyUrl({ url: route, query: { ...query, assign } })
+    replace(urlWithAssign)
+
+    // Destroy the cookies!  We could eventually make things even more persistant but
+    // that can be a project for another day
+    destroyCookie(null, 'query_assignments')
+  }, [query, route, replace, isReady, dispatch, flagsReady])
   return (
-    <Modal
-      title="QA Tools"
-      appRootSelector={appRootSelector}
-      isOpen={showModal}
-      screenReaderLabel="QA Tools"
-      handleClose={toggleDevMode}>
-      <ModalBody>
-        <Features />
-        {labUser ? <BrazeTools /> : null}
-        <Links toggleDevMode={toggleDevMode} />
-        <Resets />
-      </ModalBody>
-    </Modal>
+    <>
+      <QaModal />
+      <BrazeModal />
+    </>
   )
 }

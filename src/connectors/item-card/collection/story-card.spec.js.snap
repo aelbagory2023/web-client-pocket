@@ -17,7 +17,9 @@ exports[`ItemCard renders a story 1`] = `
       <a
         data-cy="image-link"
         href="https://www.nytimes.com/2017/05/06/business/inside-vws-campaign-of-trickery.html?utm_source=pocket_collection_story"
+        rel=""
         tabindex="-1"
+        target=""
       >
         <img
           alt=""
@@ -55,7 +57,9 @@ exports[`ItemCard renders a story 1`] = `
           class="publisher"
           data-cy="publisher-link"
           href="https://www.nytimes.com/2017/05/06/business/inside-vws-campaign-of-trickery.html?utm_source=pocket_collection_story"
+          rel="noopener noreferrer"
           tabindex="0"
+          target="_blank"
         >
           New York Times
         </a>

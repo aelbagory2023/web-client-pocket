@@ -2,13 +2,13 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { useTranslation } from 'next-i18next'
 import { css } from 'linaria'
-import { breakpointLargeTablet, breakpointLargeHandset } from 'common/constants'
+import { breakpointSmallTablet } from 'common/constants'
 import { Flyaway } from 'components/flyaway/flyaway'
 import { sendSnowplowEvent } from 'connectors/snowplow/snowplow.state'
 import { onboardingCloseReaderFlyaway } from '../onboarding.state'
 import { onboardingHighlight } from './onboarding-animations'
 
-const myListCardStyles = css`
+const recentCardStyles = css`
   &:after {
     ${onboardingHighlight}
     position: absolute;
@@ -20,40 +20,31 @@ const myListCardStyles = css`
     border-radius: 1.5rem;
     pointer-events: none;
     animation: onboardingPulse 1.7s linear infinite;
+
+    ${breakpointSmallTablet} {
+      height: 100%;
+    }
   }
 `
 
-// negative margin here to account for the padding added by
-// sectionWrapper, makes flyaway alignment match the content
-const styleOverrides = css`
-  margin-right: -2.5rem;
+const recentCardQuery = '[data-cy="recent-saves"] article[data-cy^="article-card"]'
 
-  ${breakpointLargeTablet} {
-    margin: auto -1.5rem;
-  }
-
-  ${breakpointLargeHandset} {
-    margin: auto -1rem;
-  }
-`
-
-const myListCardQuery = 'article[data-cy^="article-card"]'
-
-export const MyListFlyawayReader = () => {
+export const HomeFlyawayReader = () => {
   const dispatch = useDispatch()
   const { t } = useTranslation()
 
-  const myListFlyawayDismissed =
-    useSelector((state) => state.onboarding.homeFlyawayMyList) === false
-  const readerFlyawayReady = useSelector((state) => state.onboarding.myListFlyawayReader)
-  const showFlyaway = myListFlyawayDismissed && readerFlyawayReady
+  const homeFlyawayDismissed =
+    useSelector((state) => state.onboarding.homeFlyawaySave) === false
+  const readerFlyawayReady = useSelector((state) => state.onboarding.homeFlyawayReader)
+  const recentSaves = useSelector((state) => state.home.recentSaves)
+  const showFlyaway = homeFlyawayDismissed && readerFlyawayReady && recentSaves.length
 
   useEffect(() => {
     let timer
     let element
     const highlightElement = () => {
-      element = document.querySelector(myListCardQuery)
-      if (element) element.classList.add(myListCardStyles)
+      element = document.querySelector(recentCardQuery)
+      if (element) element.classList.add(recentCardStyles)
     }
 
     if (showFlyaway) {
@@ -63,7 +54,7 @@ export const MyListFlyawayReader = () => {
 
     return () => {
       clearTimeout(timer)
-      element?.classList.remove(myListCardStyles)
+      element?.classList.remove(recentCardStyles)
     }
   }, [showFlyaway])
 
@@ -76,11 +67,10 @@ export const MyListFlyawayReader = () => {
 
   return (
     <Flyaway
-      dataCy="mylist-flyaway-reader"
+      dataCy="home-flyaway-reader"
       title={title}
       handleClose={handleClose}
       show={showFlyaway}
-      styleOverrides={styleOverrides}
     />
   )
 }

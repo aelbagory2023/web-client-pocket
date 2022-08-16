@@ -17,7 +17,9 @@ exports[`ItemCard renders a discover item 1`] = `
       <a
         data-cy="image-link"
         href="http://theverge.com/22734645/apple-macbook-pro-2021-ports-magsafe-touch-bar-usb-c-future?utm_source=pocket_discover"
+        rel=""
         tabindex="-1"
+        target=""
       >
         <img
           alt=""
@@ -48,7 +50,9 @@ exports[`ItemCard renders a discover item 1`] = `
           class="publisher"
           data-cy="publisher-link"
           href="http://theverge.com/22734645/apple-macbook-pro-2021-ports-magsafe-touch-bar-usb-c-future?utm_source=pocket_discover"
+          rel="noopener noreferrer"
           tabindex="0"
+          target="_blank"
         >
           The Verge
         </a>

@@ -37,6 +37,13 @@ export const cardStyles = css`
     grid-column-gap: var(--size150);
     padding-bottom: 0;
 
+    &:hover {
+      .view-original {
+        opacity: 1;
+        transition: opacity 300ms ease-in-out;
+      }
+    }
+
     a {
       text-decoration: none;
       &:focus {
@@ -73,6 +80,26 @@ export const cardStyles = css`
     }
   }
 
+  .view-original {
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+    background: rgba(26, 26, 26, 0.8);
+    color: var(--color-white100);
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    padding: 0.25rem 0.825rem;
+    border-radius: 4px;
+
+    ${breakpointSmallTablet} {
+      display: none;
+    }
+
+    .view-original-text + .icon {
+      margin-left: 0.25rem;
+    }
+  }
+
   .content {
     width: 100%;
     grid-column: var(--content-column-span);
@@ -95,6 +122,21 @@ export const cardStyles = css`
     &.flow {
       max-height: initial;
       display: block;
+    }
+
+    &.open-external {
+      a {
+        margin-right: 0;
+        ${breakpointSmallTablet} {
+          margin-right: 0.5rem;
+        }
+      }
+      .mobile-view-original {
+        display: none;
+        ${breakpointSmallTablet} {
+          display: inline-block;
+        }
+      }
     }
   }
 
@@ -419,6 +461,15 @@ export const cardStyles = css`
       padding-bottom: 0;
       margin-bottom: 0;
     }
+
+    .view-original .icon {
+      margin-left: 0;
+    }
+
+    .view-original-text {
+      display: none;
+    }
+
     .content {
       grid-column: span 11;
     }
@@ -497,6 +548,14 @@ export const cardStyles = css`
 
     .media {
       grid-column: span 2;
+    }
+
+    .view-original .icon {
+      margin-left: 0;
+    }
+
+    .view-original-text {
+      display: none;
     }
 
     .content {

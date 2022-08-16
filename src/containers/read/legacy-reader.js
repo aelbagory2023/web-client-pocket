@@ -66,10 +66,10 @@ export default function LegacyReader() {
   const tags = useSelector((state) => state.reader.tags)
   const favorite = useSelector((state) => state.reader.favorite)
 
-  const lineHeight = useSelector((state) => state.reader.lineHeight)
-  const columnWidth = useSelector((state) => state.reader.columnWidth)
-  const fontSize = useSelector((state) => state.reader.fontSize)
-  const fontFamily = useSelector((state) => state.reader.fontFamily)
+  const lineHeight = useSelector((state) => state.readerSettings.lineHeight)
+  const columnWidth = useSelector((state) => state.readerSettings.columnWidth)
+  const fontSize = useSelector((state) => state.readerSettings.fontSize)
+  const fontFamily = useSelector((state) => state.readerSettings.fontFamily)
   const colorMode = useSelector((state) => state?.app?.colorMode)
 
   const [sideBarOpen, setSideBar] = useState(false)
@@ -167,18 +167,17 @@ export default function LegacyReader() {
   const analyticsInfo = { ...analyticsData, id: itemId }
 
   const addAnnotation = () => {
-    if (annotations.length === 3 && !isPremium) {
-      setAnnotationLimitModal(true)
-    } else {
-      dispatch(sendSnowplowEvent('reader.add-highlight', analyticsInfo))
-      dispatch(
-        saveAnnotation({
-          itemId,
-          patch: requestAnnotationPatch(highlight),
-          quote: highlight.toString()
-        })
-      )
-    }
+    if (!highlight.toString()) return
+    if (annotations.length === 3 && !isPremium) return setAnnotationLimitModal(true)
+
+    dispatch(sendSnowplowEvent('reader.add-highlight', analyticsInfo))
+    dispatch(
+      saveAnnotation({
+        itemId,
+        patch: requestAnnotationPatch(highlight),
+        quote: highlight.toString()
+      })
+    )
   }
 
   const removeAnnotation = (annotation_id) => {

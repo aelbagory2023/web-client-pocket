@@ -1,3 +1,199 @@
+## [1.58.3](https://github.com/Pocket/web-client/compare/v1.58.2...v1.58.3) (2022-08-15)
+
+
+### Bug Fixes
+
+* **card media:** Add View Original indicator, link target ([986686b](https://github.com/Pocket/web-client/commit/986686b1aa6db1fc09e47825ee2591f438e9d8b9))
+* **card:** add check for view-original feature test ([9e01e19](https://github.com/Pocket/web-client/commit/9e01e197a6533529f1a3ff5bafd557a503aa5208))
+* **card:** add NewViewIcon after title when openInNewTab, update links targets ([8e0c1e2](https://github.com/Pocket/web-client/commit/8e0c1e2130be9f7f1129d03c7069e0893f96fc65))
+* **card:** make view original styles work for detail and list card shapes ([54a3287](https://github.com/Pocket/web-client/commit/54a32870e23cc2889125353ae7ed559cc97c58bf))
+* **cards:** get isInternalItem and pass it through to Card ([2f7bbe5](https://github.com/Pocket/web-client/commit/2f7bbe5cad47d93ee16ba9aefc85f7f0c050eb79))
+* **comment:** remove comment ([c318b72](https://github.com/Pocket/web-client/commit/c318b72632ecaf017cafd0077f90133446987825))
+* **confirm share:** remove isInternalItem - not needed here ([01afc05](https://github.com/Pocket/web-client/commit/01afc05aa2406f12925c8097ca5de12b6df95db6))
+* **item deriver:** add check for isInternalItem ([54f6452](https://github.com/Pocket/web-client/commit/54f64522b713d4b4c01d19d6edd9b5c97a0248a8))
+* **reader:** add NewViewIcon to View Original link in reader header ([987623d](https://github.com/Pocket/web-client/commit/987623d44c47bd1e2b9ee5eeff4afb0b3e69783b))
+* **snapshots:** update snapshots ([0201868](https://github.com/Pocket/web-client/commit/020186850b375a7cc377ab5b6e3dc8dcae0404a5))
+* **snapshots:** update snapshots after adding feature test check ([477c57f](https://github.com/Pocket/web-client/commit/477c57fc447893aef5ae587d897dc3a8764c9ff1))
+* **specs:** add deriver tests for isInternalItem ([18bc580](https://github.com/Pocket/web-client/commit/18bc58053ac673bf0357d86835945c007fdbb445))
+* **stories:** update card stories to include isInternalItem ([509489c](https://github.com/Pocket/web-client/commit/509489cb9e26a7039d55ed997cdd5ac19e351b71))
+
+## [1.58.2](https://github.com/Pocket/web-client/compare/v1.58.1...v1.58.2) (2022-08-08)
+
+
+### Bug Fixes
+
+* **flyaways:** update flyaways; home points to reader, remove my-list and my-list to reader ([75f05bd](https://github.com/Pocket/web-client/commit/75f05bd305db35d1e820352c86bf8f7e9b9958b7))
+* **flyaways:** update go to reader outline to work on all screens ([7d07bcf](https://github.com/Pocket/web-client/commit/7d07bcfea6cd4508eed522149ebc66082e14df26))
+* **onboarding:** remove unused state param ([29d78a2](https://github.com/Pocket/web-client/commit/29d78a2a7d3539d4838faab252c481ab1d8a99f0))
+
+## [1.58.1](https://github.com/Pocket/web-client/compare/v1.58.0...v1.58.1) (2022-08-04)
+
+
+### Bug Fixes
+
+* **syndicated:** last item in article if video should display block ([286a9ae](https://github.com/Pocket/web-client/commit/286a9aed8e25e91393d0d8de37b3b9100b005632))
+
+# [1.58.0](https://github.com/Pocket/web-client/compare/v1.57.1...v1.58.0) (2022-08-04)
+
+
+### Bug Fixes
+
+* **home setup:** adjust state to capture finalized better ([5466d85](https://github.com/Pocket/web-client/commit/5466d8535a05a5b1f71414a1a60dda982eb30171))
+* **home:** add home setup/remove conditional render ([92b95a8](https://github.com/Pocket/web-client/commit/92b95a84a4462fedd72d7ef1cc4b442ba72b68ab))
+* **home:** avoid multiple re-renders ([8fa1d44](https://github.com/Pocket/web-client/commit/8fa1d44d5e734bfc472e87df1fb65cb549d86e91))
+* **mutations:** correct user rec preferences shape ([4cf3785](https://github.com/Pocket/web-client/commit/4cf3785aad68a644271189cc2e53a02b47218f6a))
+* **onboarding:** exclude user from onboarding if they are in setupv3 ([78347dc](https://github.com/Pocket/web-client/commit/78347dc181150a8b8d5f3f444dd9430eeb372a8c))
+* **topic mix:** limit renders / allow redirects ([4a625e5](https://github.com/Pocket/web-client/commit/4a625e5f4fddcdc39ead702bc9cf5a2a20642266))
+
+
+### Features
+
+* **home setup:** add setup experience ([553569b](https://github.com/Pocket/web-client/commit/553569b9df1fea9269f9abcff3ff6188e294a015))
+* **home:** add specific topic mix header for reselect ([0122db0](https://github.com/Pocket/web-client/commit/0122db032724fec48e89e5f0a723e2a7f9cfb8c3))
+* **offset list:** allow explicirt skeletons ([a51235e](https://github.com/Pocket/web-client/commit/a51235e3ae42bc9861bab4a4e01dda5a18457745))
+
+## [1.57.1](https://github.com/Pocket/web-client/compare/v1.57.0...v1.57.1) (2022-08-03)
+
+
+### Bug Fixes
+
+* **home:** use homeSetup state in sagas ([b4912b1](https://github.com/Pocket/web-client/commit/b4912b1b00dddc204b8ba9fb82aa7befeb9ef22b))
+
+# [1.57.0](https://github.com/Pocket/web-client/compare/v1.56.4...v1.57.0) (2022-08-02)
+
+
+### Bug Fixes
+
+* **audit:** auto fix security warnings ([02bb868](https://github.com/Pocket/web-client/commit/02bb86867db6e477d98e0a68a3460a1f702b1600))
+* **buttons:** links should have transparent backgrounds ([295a379](https://github.com/Pocket/web-client/commit/295a379f3ffd60b66d8ee7e5283a8cd499eb6d09))
+
+
+### Features
+
+* **features:** allow for a `phantom` test ([811c80d](https://github.com/Pocket/web-client/commit/811c80d578ea5b836a377d02060f87560f0fc688))
+* **features:** allow for one time sticky assigns ([855825c](https://github.com/Pocket/web-client/commit/855825cba8b17024cb6cdacc7e19933aa839f1bd))
+* **flags:** link into feature flags ([31233a8](https://github.com/Pocket/web-client/commit/31233a852f449e889ebf085cb7e5d26d8cf783b3))
+
+## [1.56.4](https://github.com/Pocket/web-client/compare/v1.56.3...v1.56.4) (2022-08-02)
+
+
+### Bug Fixes
+
+* **card:** add non-link for publisher, fixes it getting underline on hover when view only ([406e30b](https://github.com/Pocket/web-client/commit/406e30b328add5465f6b278c8bf539c2a7a94b29))
+* **card:** publisher needs className ([ff9ee14](https://github.com/Pocket/web-client/commit/ff9ee1492e468624fefadcefec00e37129c6ea12))
+* **shareModal:** don't pass openUrl or externalUrl to card to make it view only ([04c6785](https://github.com/Pocket/web-client/commit/04c6785bd552546b516995f6d21e22a800c36102))
+
+## [1.56.3](https://github.com/Pocket/web-client/compare/v1.56.2...v1.56.3) (2022-08-01)
+
+
+### Bug Fixes
+
+* **share:** adding quote to sharing on twitter ([92c2cf8](https://github.com/Pocket/web-client/commit/92c2cf873d09bd36a99fbaf00f9e8e28e63c87ec))
+
+## [1.56.2](https://github.com/Pocket/web-client/compare/v1.56.1...v1.56.2) (2022-08-01)
+
+
+### Bug Fixes
+
+* **braze:** bump localization package for translations ([52eaffd](https://github.com/Pocket/web-client/commit/52eaffdd2c1e007e00981d8ac023b106d6a3d276))
+
+## [1.56.1](https://github.com/Pocket/web-client/compare/v1.56.0...v1.56.1) (2022-07-28)
+
+
+### Bug Fixes
+
+* **home:** adding getstarted state to store for home ([4c6a60b](https://github.com/Pocket/web-client/commit/4c6a60bcd1c91d698f4d7816471ae83d19d4d6a8))
+
+# [1.56.0](https://github.com/Pocket/web-client/compare/v1.55.10...v1.56.0) (2022-07-28)
+
+
+### Bug Fixes
+
+* **account:** remove pocket hits flag ([37a002d](https://github.com/Pocket/web-client/commit/37a002d8169a63ce7954f3632c33fb196dd47786))
+* **braze:** use Link to account in off message ([ae9b894](https://github.com/Pocket/web-client/commit/ae9b89415408bad190ef341ef6443a1ba034896c))
+* **onboarding:** remove flag / set eligibility by date ([ef91e33](https://github.com/Pocket/web-client/commit/ef91e3345bed5834190835d47a2bf63bbca31e8f))
+* **waypoint:** remove home flag / eligibility by date ([64e806a](https://github.com/Pocket/web-client/commit/64e806a41b267a03f17407d7803a318ca2a6b9bb))
+
+
+### Features
+
+* **eligibility:** set up constants for launch dates ([60e0dac](https://github.com/Pocket/web-client/commit/60e0dac7b844a093271340db994602b0a45a3bc2))
+
+## [1.55.10](https://github.com/Pocket/web-client/compare/v1.55.9...v1.55.10) (2022-07-28)
+
+
+### Bug Fixes
+
+* **highlights:** do not save empty highlight string ([1f3dbda](https://github.com/Pocket/web-client/commit/1f3dbdafde9f92eacb1b175611b7f7b75701648f))
+
+## [1.55.9](https://github.com/Pocket/web-client/compare/v1.55.8...v1.55.9) (2022-07-27)
+
+
+### Bug Fixes
+
+* **braze:** add default message to braze tools when not subscribed ([d0d1d77](https://github.com/Pocket/web-client/commit/d0d1d77e6e73c3e1b6327824f781be354dfb40da))
+
+## [1.55.8](https://github.com/Pocket/web-client/compare/v1.55.7...v1.55.8) (2022-07-27)
+
+
+### Bug Fixes
+
+* **CardTopicsNav:** move snowplow events into containers ([ca31180](https://github.com/Pocket/web-client/commit/ca31180e6f89736957f0d888ec0164a5ad259bb4))
+* **snowplow:** add new topic.click events for all the different surfaces ([768ce23](https://github.com/Pocket/web-client/commit/768ce23c7614f2c49691e5e61e043c605b695cca))
+* **topic click events:** adjust args to fix test ([3a74b0e](https://github.com/Pocket/web-client/commit/3a74b0e751bf475ab3c167485ec6771af6b80bb2))
+* **topic-pillbox spec:** use wrappedRender instead of render ([304b83c](https://github.com/Pocket/web-client/commit/304b83c5372f8907512bf8021fd6570b2c1ab1d1))
+* **topics-pillbox:** dispatch snowplow event on click ([305e53c](https://github.com/Pocket/web-client/commit/305e53c9fd074e0c575ff44d032ffd8a801ba618))
+* **topics:** pass surface through to CardTopicsNav so it can be used by TopicsPillbox ([985a96e](https://github.com/Pocket/web-client/commit/985a96ec25b03b507dd151066f1096bc05e4d78b))
+
+## [1.55.7](https://github.com/Pocket/web-client/compare/v1.55.6...v1.55.7) (2022-07-27)
+
+
+### Bug Fixes
+
+* **braze:** add in missing state from merge ([3c86bc1](https://github.com/Pocket/web-client/commit/3c86bc1f28fee22e28669f53acfc8f194362c8eb))
+* **braze:** enabling braze for all users on production ([57e5a1e](https://github.com/Pocket/web-client/commit/57e5a1e1bb94953b993c098c3d40aa74d872175d))
+* **braze:** fix account settings bug ([75d2a50](https://github.com/Pocket/web-client/commit/75d2a5024b370e6f27d49ca81d92a0c9a027eb97))
+* **braze:** only fire braze methods after it has been initialized ([0395614](https://github.com/Pocket/web-client/commit/0395614fc06678c5ae44e2f174082288f462b15c))
+* **braze:** remove unneeded variables from useeffect ([9c031af](https://github.com/Pocket/web-client/commit/9c031af29d1e65d1911f7dd4a3ad523bdc515e3c))
+* **braze:** updating braze state management ([7caffb1](https://github.com/Pocket/web-client/commit/7caffb161154d3db8673471c49f53009c9d2ece7))
+* **braze:** updating check to display braze dev tools ([ac480da](https://github.com/Pocket/web-client/commit/ac480dad15e2326fbf79c52f96d0d8743a0e62b3))
+
+## [1.55.6](https://github.com/Pocket/web-client/compare/v1.55.5...v1.55.6) (2022-07-26)
+
+
+### Bug Fixes
+
+* **braze:** message styling ([9d3df64](https://github.com/Pocket/web-client/commit/9d3df64bd590e0f089201efb0156d67b9e4754eb))
+* **dev-tools:** generic devtools wrapper with qa modal ([18af813](https://github.com/Pocket/web-client/commit/18af813aa72736f28aa82de60e5c6a36e62f8044))
+
+## [1.55.5](https://github.com/Pocket/web-client/compare/v1.55.4...v1.55.5) (2022-07-26)
+
+
+### Bug Fixes
+
+* **account:** adding correct copy and wrapping in translation ([f387141](https://github.com/Pocket/web-client/commit/f387141e753500cd570fd210cb7cc364d059e7d7))
+
+## [1.55.4](https://github.com/Pocket/web-client/compare/v1.55.3...v1.55.4) (2022-07-26)
+
+
+### Bug Fixes
+
+* **home:** remove space taken by phantom onboarding ([5a4ccf7](https://github.com/Pocket/web-client/commit/5a4ccf7d4b98171214a77e22446da8732e9a27ca))
+
+## [1.55.3](https://github.com/Pocket/web-client/compare/v1.55.2...v1.55.3) (2022-07-26)
+
+
+### Bug Fixes
+
+* **item:** collection data should take prescedence ([3289c88](https://github.com/Pocket/web-client/commit/3289c8864c14dae27fc12b52b88c610be750ce59))
+
+## [1.55.2](https://github.com/Pocket/web-client/compare/v1.55.1...v1.55.2) (2022-07-26)
+
+
+### Bug Fixes
+
+* **reader:** use reader-settings for state ([849546b](https://github.com/Pocket/web-client/commit/849546b18eee93819fc8083f8e925fec98fc8a43))
+
 ## [1.55.1](https://github.com/Pocket/web-client/compare/v1.55.0...v1.55.1) (2022-07-25)
 
 

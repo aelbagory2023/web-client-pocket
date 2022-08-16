@@ -5,11 +5,13 @@ import { all } from 'redux-saga/effects'
 
 /* IMPORT CONTAINER STATES
  --------------------------------------------------------------- */
-import { getStartedReducers } from 'containers/get-started/get-started.state'
-import { getStartedSagas } from 'containers/get-started/get-started.state'
+import { homeSetupReducers } from 'containers/home/home-setup.state'
+import { homeSetupSagas } from 'containers/home/home-setup.state'
 
 import { appReducers, appSagas } from 'connectors/app/app.state'
 import { oneTrustReducers } from 'connectors/third-party/one-trust.state'
+import { brazeReducers } from 'connectors/third-party/braze.state'
+import { brazeSagas } from 'connectors/third-party/braze.state'
 
 import { userReducers, userSagas, accountReducers } from 'containers/account/account.state'
 
@@ -204,7 +206,7 @@ const marketingReducers = {
 
 const globalReducers = {
   app: appReducers, // App wide (mostly example at this time)
-  getStarted: getStartedReducers, // Gettin
+  homeSetup: homeSetupReducers,
   oneTrust: oneTrustReducers, // One Trust Readiness
   settings: settingsReducers, // User defined settings
   features: featureReducers, // Feature flags (very basic start)
@@ -214,7 +216,8 @@ const globalReducers = {
   shortcuts: shortcutReducers, // Keyboard shortcuts,
   analytics: snowplowReducers, //Analytics
   onboarding: onboardingReducers, // Onboarding
-  share: shareModalReducers // Share
+  share: shareModalReducers, // Share
+  braze: brazeReducers // Braze
 }
 
 const userAccountReducers = {
@@ -241,7 +244,7 @@ export const rootReducer = combineReducers({
  --------------------------------------------------------------- */
 function* rootSaga() {
   yield all([
-    ...getStartedSagas,
+    ...homeSetupSagas,
     ...appSagas,
     ...userSagas,
     ...settingsSagas,
@@ -271,6 +274,7 @@ function* rootSaga() {
     ...profileItemsSagas,
     ...shortcutSagas,
     ...onboardingSagas,
+    ...brazeSagas,
     ...listSavedSagas,
     ...itemsSavedSagas,
     ...mutationArchiveSagas,

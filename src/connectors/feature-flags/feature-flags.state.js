@@ -1,6 +1,8 @@
+import { put, takeEvery, select } from 'redux-saga/effects'
 import { getUnleashAssignments } from 'common/api'
 import { arrayToObject } from 'common/utilities'
-import { FEATURES_HYDRATE, FEATURES_TOGGLE, HYDRATE } from 'actions'
+import { FEATURES_HYDRATE, FEATURES_TOGGLE, FEATURES_ASSIGN, FEATURES_SET, HYDRATE } from 'actions'
+import { setCookie } from 'nookies'
 
 const initialState = {}
 
@@ -8,6 +10,7 @@ const initialState = {}
  --------------------------------------------------------------- */
 export const featuresHydrate = (hydrate) => ({ type: FEATURES_HYDRATE, hydrate }) //prettier-ignore
 export const featuresToggle = (flag) => ({ type: FEATURES_TOGGLE, flag })
+export const featuresAssign = (assignments, sticky) => ({ type: FEATURES_ASSIGN, assignments, sticky }) //prettier-ignore
 
 /** REDUCERS
  --------------------------------------------------------------- */
@@ -16,6 +19,11 @@ export const featureReducers = (state = initialState, action) => {
     case FEATURES_HYDRATE: {
       const { hydrate } = action
       return { ...state, ...hydrate, flagsReady: true }
+    }
+
+    case FEATURES_SET: {
+      const { assignmentState } = action
+      return { ...state, ...assignmentState }
     }
 
     case FEATURES_TOGGLE: {
@@ -39,10 +47,41 @@ export const featureReducers = (state = initialState, action) => {
 /** SAGAS :: WATCHERS
  --------------------------------------------------------------- */
 
-export const featureSagas = []
+export const featureSagas = [takeEvery(FEATURES_ASSIGN, processAssignments)]
+
+/** SAGA :: SELECTORS
+ --------------------------------------------------------------- */
+const getFeatures = (state) => state.features
 
 /** SAGA :: RESPONDERS
 ---------------------------------------------------------------- */
+function* processAssignments({ assignments, sticky }) {
+  const featureState = yield select(getFeatures)
+  const assignmentState = assignments.reduce((previous, flag) => {
+    const currentFlagState = featureState[flag]
+    if (currentFlagState) return { ...previous, [flag]: { ...currentFlagState, active: true } }
+    return {
+      ...previous,
+      [flag]: {
+        assigned: false,
+        active: true,
+        variant: null,
+        test: `phantom.web.client.${flag}`,
+        payload: null,
+        name: flag
+      }
+    }
+  }, {})
+
+  if (sticky) {
+    setCookie(null, 'query_assignments', JSON.stringify(assignmentState), {
+      samesite: 'lax',
+      path: '/'
+    })
+  }
+
+  yield put({ type: FEATURES_SET, assignmentState })
+}
 
 /** ASYNC Functions
 ---------------------------------------------------------------- */

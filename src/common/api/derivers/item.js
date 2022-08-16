@@ -225,6 +225,7 @@ export function deriveItemData({
     isSyndicated: syndicated({ item }),
     isReadable: isReadable({ item }),
     isCollection: isCollection({ item }),
+    isInternalItem: isInternalItem({ item, node, itemEnrichment, status: node?.status }),
     timeToRead: readTime({ item }),
     fromPartner: fromPartner({ itemEnrichment }),
     analyticsData: {
@@ -248,6 +249,7 @@ function title({ item, itemEnrichment }) {
   const fileName = file ? file.replace(/\.[^/.]+$/, '') : false
   return (
     itemEnrichment?.title ||
+    item?.collection?.title ||
     item?.title ||
     item?.resolvedTitle ||
     item?.givenTitle ||
@@ -300,7 +302,7 @@ function publisher({ item, itemEnrichment, passedPublisher }) {
  * @returns {string} The most appropriate excerpt to show
  */
 function excerpt({ item, itemEnrichment }) {
-  return itemEnrichment?.excerpt || item?.excerpt || null
+  return itemEnrichment?.excerpt || item?.collection?.excerpt || item?.excerpt || null
 }
 
 /**
@@ -426,6 +428,20 @@ function isCollection({ item }) {
 
   const pattern = /.+?getpocket\.com\/(?:[a-z]{2}(?:-[a-zA-Z]{2})?\/)?collections\/(?!\?).+/gi
   return !!urlToTest.match(pattern)
+}
+
+function isInternalItem({ item, node, itemEnrichment, status }) {
+  const itemIsCollection = isCollection({ item })
+  const itemIsSyndicated = syndicated({ item })
+  const itemReadUrl = readUrl({ item, node, itemEnrichment, status })
+
+  if (itemIsCollection || itemIsSyndicated) return true
+
+  if (!itemReadUrl) return false
+
+  // https://regexr.com/6qm61 <- test regex pattern
+  const pattern = /^\/read\/\d+/gim
+  return !!itemReadUrl?.match(pattern)
 }
 
 function collectionSlug({ item }) {
