@@ -1,3 +1,10 @@
+## [1.59.4](https://github.com/Pocket/web-client/compare/v1.59.3...v1.59.4) (2022-08-23)
+
+
+### Bug Fixes
+
+* **get-started:** updating get started flow based on vqa ([5da6430](https://github.com/Pocket/web-client/commit/5da643090f5e9b93c299260644351eced6e8197c))
+
 ## [1.59.3](https://github.com/Pocket/web-client/compare/v1.59.2...v1.59.3) (2022-08-23)
 
 
