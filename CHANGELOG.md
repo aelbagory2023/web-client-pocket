@@ -1,3 +1,22 @@
+## [1.59.3](https://github.com/Pocket/web-client/compare/v1.59.2...v1.59.3) (2022-08-23)
+
+
+### Bug Fixes
+
+* **get-started:** adding dev tool to re-add topics to cookie for testing ([d78e0c5](https://github.com/Pocket/web-client/commit/d78e0c58246172e7e37ec9f46638cfb9eea2f444))
+* **get-started:** adding mobile styles for skipped minimized panel ([e0dce76](https://github.com/Pocket/web-client/commit/e0dce76418e7b112369e8a8159f89aa1853d476d))
+* **get-started:** adding placeholder funciton to clear user topics cookie ([9a5ba4e](https://github.com/Pocket/web-client/commit/9a5ba4e35166433295ef1e5878fad87133bcb11b))
+* **get-started:** store usertopics to settings ([77d9ab1](https://github.com/Pocket/web-client/commit/77d9ab1f019e45bf8c188baf8f8b956dc3060682))
+* **settings:** do not save settings until they are retreived ([729b35f](https://github.com/Pocket/web-client/commit/729b35f1a3afbe1fb38c88fb2c40c0e92ee81ab2))
+* **settings:** undo check for settings fetch ([5614ad5](https://github.com/Pocket/web-client/commit/5614ad538a1f268c37cd12470db8fc0b4b743976))
+* **setup-moment:** adding defaults to settings fetch confirmation ([fe72ccd](https://github.com/Pocket/web-client/commit/fe72ccd08c6752301e69c19e026ce10ae4728c68))
+* **setup-moment:** adding styles for all themes ([de214db](https://github.com/Pocket/web-client/commit/de214dbc8d2407c833c82af6b4f8b22f1fb9415f))
+* **setup-moment:** minimize topic selector on home save ([dae766d](https://github.com/Pocket/web-client/commit/dae766d90dfbcb3b6e6ab2bf3da230847724cf9b))
+* **setup-moment:** show flyaways after setup moment is complete ([34abbd0](https://github.com/Pocket/web-client/commit/34abbd0adf66c9e54f8d81e34f44b3c06ad23a5b))
+* **setup-moment:** storing setup status to settings ([828fcd6](https://github.com/Pocket/web-client/commit/828fcd6151740fd94da1abd51d1f50f33067ba98))
+* **setup-moment:** styling for setup moment v3 ([1b0f172](https://github.com/Pocket/web-client/commit/1b0f17267d50d3ee703401e4853a269682b8a0e6))
+* **setup-moment:** update variable names for flyaway ([0306254](https://github.com/Pocket/web-client/commit/03062548ae912e194299f45742e5d8b9c6cc91be))
+
 ## [1.59.2](https://github.com/Pocket/web-client/compare/v1.59.1...v1.59.2) (2022-08-22)
 
 
