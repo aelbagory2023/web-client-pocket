@@ -1,3 +1,10 @@
+## [1.59.7](https://github.com/Pocket/web-client/compare/v1.59.6...v1.59.7) (2022-08-25)
+
+
+### Bug Fixes
+
+* **syndicated:** adding attribution snowplow events and cleaning up ga events ([68455f9](https://github.com/Pocket/web-client/commit/68455f9722321c3e953ed95874d62c072550fa15))
+
 ## [1.59.6](https://github.com/Pocket/web-client/compare/v1.59.5...v1.59.6) (2022-08-24)
 
 
