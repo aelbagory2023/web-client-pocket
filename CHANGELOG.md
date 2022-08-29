@@ -1,3 +1,10 @@
+## [1.59.8](https://github.com/Pocket/web-client/compare/v1.59.7...v1.59.8) (2022-08-29)
+
+
+### Bug Fixes
+
+* **snowplow:** update impression event for publisher cta ([735af53](https://github.com/Pocket/web-client/commit/735af539215bbe0d0498a6c32eb24b2eef08dc0e))
+
 ## [1.59.7](https://github.com/Pocket/web-client/compare/v1.59.6...v1.59.7) (2022-08-25)
 
 
