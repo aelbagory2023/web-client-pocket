@@ -1,3 +1,12 @@
+## [1.59.10](https://github.com/Pocket/web-client/compare/v1.59.9...v1.59.10) (2022-08-30)
+
+
+### Bug Fixes
+
+* **card-actions:** grabbing analytics data from item instead of itemsaved ([36211a2](https://github.com/Pocket/web-client/commit/36211a2471f3cc78ee32301302147a008d1b6c16))
+* **share:** adding recommend to the pocket-graph implementation of share ([5d63122](https://github.com/Pocket/web-client/commit/5d631225b41e2ce3ee59954662680ef7b1cb6b08))
+* **share:** changing item id does not equal false to double apostrophe itemid ([0edad41](https://github.com/Pocket/web-client/commit/0edad41d2ff07993ccdcce10c82191ab5138ade5))
+
 ## [1.59.9](https://github.com/Pocket/web-client/compare/v1.59.8...v1.59.9) (2022-08-29)
 
 
