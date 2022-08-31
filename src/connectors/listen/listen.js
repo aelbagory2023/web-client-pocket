@@ -2,21 +2,17 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useEffect } from 'react'
 import { getAudioFile } from 'connectors/listen/listen.state'
 import { Audio } from 'components/audio/audio'
-import { featureFlagActive } from 'connectors/feature-flags/feature-flags'
 import { sendSnowplowEvent } from 'connectors/snowplow/snowplow.state'
 
 export const Listen = ({ itemId, path }) => {
   const dispatch = useDispatch()
 
   const isAuthenticated = useSelector((state) => state.user?.auth)
-  const flagsReady = useSelector((state) => state.features.flagsReady)
-  const featureState = useSelector((state) => state.features)
-  const isLab = flagsReady && featureFlagActive({ flag: 'lab', featureState })
   const file = useSelector((state) => state.listen[itemId])
 
   useEffect(() => {
-    if (isLab && isAuthenticated && itemId) dispatch(getAudioFile(itemId))
-  }, [dispatch, isLab, isAuthenticated, itemId ])
+    if (isAuthenticated && itemId) dispatch(getAudioFile(itemId))
+  }, [dispatch, isAuthenticated, itemId ])
 
   if (!file) return null
 

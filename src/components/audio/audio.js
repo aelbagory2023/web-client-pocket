@@ -8,22 +8,22 @@ const audioStyles = css`
   margin-bottom: 1rem;
 
   .icon {
-    margin-right: 0.5rem;
-    line-height: 2.5rem;
+    margin-right: 14px;
+    line-height: 2.8rem;
     height: 1.5rem;
-    color: var(--color-textSecondary);
+    color: var(--color-textPrimary);
   }
 
   audio {
     display: inline-block;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 4px;
     border: 1px solid var(--color-textSecondary);
   }
 
   select {
     cursor: pointer;
-    margin-left: 1rem;
+    margin: 1px 0 1px 10px; // 1px margins make up for accent border on audio element
     width: 80px;
     min-width: 80px;
     height: 2.5rem;
