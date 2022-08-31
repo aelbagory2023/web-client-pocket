@@ -100,6 +100,7 @@ import { onboardingReducers } from 'connectors/onboarding/onboarding.state'
 import { onboardingSagas } from 'connectors/onboarding/onboarding.state'
 
 import { shareModalReducers } from 'connectors/share-modal/share-modal.state'
+import { shareModalSagas } from 'connectors/share-modal/share-modal.state'
 
 import { listenReducers } from 'connectors/listen/listen.state'
 import { listenSagas } from 'connectors/listen/listen.state'
@@ -277,6 +278,7 @@ function* rootSaga() {
     ...brazeSagas,
     ...listSavedSagas,
     ...itemsSavedSagas,
+    ...shareModalSagas,
     ...mutationArchiveSagas,
     ...mutationDeleteSagas,
     ...mutationFavoriteSagas,

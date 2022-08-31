@@ -1,3 +1,120 @@
+## [1.59.11](https://github.com/Pocket/web-client/compare/v1.59.10...v1.59.11) (2022-08-31)
+
+
+### Bug Fixes
+
+* **home:** fix recent saves sort order ([59951aa](https://github.com/Pocket/web-client/commit/59951aa17af12eb6fb323325a8ed8101fa23b1d0))
+
+## [1.59.10](https://github.com/Pocket/web-client/compare/v1.59.9...v1.59.10) (2022-08-30)
+
+
+### Bug Fixes
+
+* **card-actions:** grabbing analytics data from item instead of itemsaved ([36211a2](https://github.com/Pocket/web-client/commit/36211a2471f3cc78ee32301302147a008d1b6c16))
+* **share:** adding recommend to the pocket-graph implementation of share ([5d63122](https://github.com/Pocket/web-client/commit/5d631225b41e2ce3ee59954662680ef7b1cb6b08))
+* **share:** changing item id does not equal false to double apostrophe itemid ([0edad41](https://github.com/Pocket/web-client/commit/0edad41d2ff07993ccdcce10c82191ab5138ade5))
+
+## [1.59.9](https://github.com/Pocket/web-client/compare/v1.59.8...v1.59.9) (2022-08-29)
+
+
+### Bug Fixes
+
+* **sort order:** fix error post list request overhaul ([fafc9c4](https://github.com/Pocket/web-client/commit/fafc9c498e47e6db3a588e99e887b9f641e94421))
+
+## [1.59.8](https://github.com/Pocket/web-client/compare/v1.59.7...v1.59.8) (2022-08-29)
+
+
+### Bug Fixes
+
+* **snowplow:** update impression event for publisher cta ([735af53](https://github.com/Pocket/web-client/commit/735af539215bbe0d0498a6c32eb24b2eef08dc0e))
+
+## [1.59.7](https://github.com/Pocket/web-client/compare/v1.59.6...v1.59.7) (2022-08-25)
+
+
+### Bug Fixes
+
+* **syndicated:** adding attribution snowplow events and cleaning up ga events ([68455f9](https://github.com/Pocket/web-client/commit/68455f9722321c3e953ed95874d62c072550fa15))
+
+## [1.59.6](https://github.com/Pocket/web-client/compare/v1.59.5...v1.59.6) (2022-08-24)
+
+
+### Bug Fixes
+
+* **delete:** update form factor to more concise ([b404a3e](https://github.com/Pocket/web-client/commit/b404a3e059324ed9e17386829824fb157902df8b))
+* **item actions:** wire up bulk delete ([0d265d7](https://github.com/Pocket/web-client/commit/0d265d751dac1d5535df3a55728da282d5d245f2))
+
+## [1.59.5](https://github.com/Pocket/web-client/compare/v1.59.4...v1.59.5) (2022-08-24)
+
+
+### Bug Fixes
+
+* **home:** update link for recs header ([d1d437a](https://github.com/Pocket/web-client/commit/d1d437a3eea12192410b6a9c7142272542d4e42c))
+
+## [1.59.4](https://github.com/Pocket/web-client/compare/v1.59.3...v1.59.4) (2022-08-23)
+
+
+### Bug Fixes
+
+* **get-started:** updating get started flow based on vqa ([5da6430](https://github.com/Pocket/web-client/commit/5da643090f5e9b93c299260644351eced6e8197c))
+
+## [1.59.3](https://github.com/Pocket/web-client/compare/v1.59.2...v1.59.3) (2022-08-23)
+
+
+### Bug Fixes
+
+* **get-started:** adding dev tool to re-add topics to cookie for testing ([d78e0c5](https://github.com/Pocket/web-client/commit/d78e0c58246172e7e37ec9f46638cfb9eea2f444))
+* **get-started:** adding mobile styles for skipped minimized panel ([e0dce76](https://github.com/Pocket/web-client/commit/e0dce76418e7b112369e8a8159f89aa1853d476d))
+* **get-started:** adding placeholder funciton to clear user topics cookie ([9a5ba4e](https://github.com/Pocket/web-client/commit/9a5ba4e35166433295ef1e5878fad87133bcb11b))
+* **get-started:** store usertopics to settings ([77d9ab1](https://github.com/Pocket/web-client/commit/77d9ab1f019e45bf8c188baf8f8b956dc3060682))
+* **settings:** do not save settings until they are retreived ([729b35f](https://github.com/Pocket/web-client/commit/729b35f1a3afbe1fb38c88fb2c40c0e92ee81ab2))
+* **settings:** undo check for settings fetch ([5614ad5](https://github.com/Pocket/web-client/commit/5614ad538a1f268c37cd12470db8fc0b4b743976))
+* **setup-moment:** adding defaults to settings fetch confirmation ([fe72ccd](https://github.com/Pocket/web-client/commit/fe72ccd08c6752301e69c19e026ce10ae4728c68))
+* **setup-moment:** adding styles for all themes ([de214db](https://github.com/Pocket/web-client/commit/de214dbc8d2407c833c82af6b4f8b22f1fb9415f))
+* **setup-moment:** minimize topic selector on home save ([dae766d](https://github.com/Pocket/web-client/commit/dae766d90dfbcb3b6e6ab2bf3da230847724cf9b))
+* **setup-moment:** show flyaways after setup moment is complete ([34abbd0](https://github.com/Pocket/web-client/commit/34abbd0adf66c9e54f8d81e34f44b3c06ad23a5b))
+* **setup-moment:** storing setup status to settings ([828fcd6](https://github.com/Pocket/web-client/commit/828fcd6151740fd94da1abd51d1f50f33067ba98))
+* **setup-moment:** styling for setup moment v3 ([1b0f172](https://github.com/Pocket/web-client/commit/1b0f17267d50d3ee703401e4853a269682b8a0e6))
+* **setup-moment:** update variable names for flyaway ([0306254](https://github.com/Pocket/web-client/commit/03062548ae912e194299f45742e5d8b9c6cc91be))
+
+## [1.59.2](https://github.com/Pocket/web-client/compare/v1.59.1...v1.59.2) (2022-08-22)
+
+
+### Bug Fixes
+
+* **item queries:** share the filters ([6484bc7](https://github.com/Pocket/web-client/commit/6484bc70178957a4ead38f01a5fb19f5f02a2a2d))
+* **queries:** update spelling for custom tagged error ([8780a26](https://github.com/Pocket/web-client/commit/8780a2659425fcb9731cea527a5ce23d421f39e2))
+* **search:** search doesn’t support statuses ([4de8ba0](https://github.com/Pocket/web-client/commit/4de8ba012e431d992cafc127312279074ee63885))
+* **search:** use proper count for graph searches ([73a09d2](https://github.com/Pocket/web-client/commit/73a09d272d52183e730d7792b5b93e1776759b3d))
+* **utilities:** add new line at the end of `strings` ([b2d4fe3](https://github.com/Pocket/web-client/commit/b2d4fe38e406363a26c2c06a656b0c5b6ab9df6d))
+
+## [1.59.1](https://github.com/Pocket/web-client/compare/v1.59.0...v1.59.1) (2022-08-18)
+
+
+### Bug Fixes
+
+* **recent saves:** adjust original view styling treatment for recent saves cards ([3d618cf](https://github.com/Pocket/web-client/commit/3d618cf4201f9472a56016a989d5b42ed175cbb6))
+
+# [1.59.0](https://github.com/Pocket/web-client/compare/v1.58.4...v1.59.0) (2022-08-17)
+
+
+### Bug Fixes
+
+* **api:** add operationName to all queries (helfup in testing) ([ab35a6c](https://github.com/Pocket/web-client/commit/ab35a6ca9ba2988fd3e810ca85f3b1514b9ea333))
+* **gitignore:** add qa config ([5fb9601](https://github.com/Pocket/web-client/commit/5fb9601cdaf6ee3d4b3f60cf45264acf02d88f01))
+
+
+### Features
+
+* **qa:** add e2e harness scripts ([f6ef8cc](https://github.com/Pocket/web-client/commit/f6ef8ccb7244c53b7735553a77911792fba854a3))
+
+## [1.58.4](https://github.com/Pocket/web-client/compare/v1.58.3...v1.58.4) (2022-08-16)
+
+
+### Bug Fixes
+
+* **localization:** wrong interpolation ([831bbd9](https://github.com/Pocket/web-client/commit/831bbd99cdc09b082e98d88764fc90914c939c5d))
+* **original view:** changing text and class names to match ([52f0a29](https://github.com/Pocket/web-client/commit/52f0a29daa3822ea3a1abbcb3d933d6a5f05745c))
+
 ## [1.58.3](https://github.com/Pocket/web-client/compare/v1.58.2...v1.58.3) (2022-08-15)
 
 

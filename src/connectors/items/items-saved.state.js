@@ -1,7 +1,7 @@
 import { put, takeEvery } from 'redux-saga/effects'
-import { getSavedItems } from 'common/api'
-import { getSavedItemsTagged } from 'common/api'
-import { searchSavedItems } from 'common/api'
+import { getSavedItems } from 'common/api/queries/get-saved-items'
+import { getSavedItemsTagged } from 'common/api/queries/get-saved-items-tagged'
+import { getSavedItemsSearch } from 'common/api/queries/get-saved-items-search'
 
 import { deriveSavedItem } from 'common/api/derivers/item'
 
@@ -38,9 +38,12 @@ export const itemsSavedReducers = (state = {}, action) => {
     }
 
     case MUTATION_DELETE_SUCCESS: {
-      const { id } = action
-      const current = state[id]
-      return { ...state, [id]: { ...current, status: 'DELETED' } }
+      const { ids } = action
+      const updatedItems = ids.reduce((previous, id) => {
+        return { ...previous, [id]: { ...state[id], status: 'DELETED' } }
+      }, {})
+
+      return { ...state, ...updatedItems }
     }
 
     case MUTATION_SUCCESS: {
@@ -70,8 +73,13 @@ export const itemsSavedSagas = [
 
 function* savedItemRequest(action) {
   try {
-    const { filters } = action
-    const { pageInfo, edges, totalCount } = yield getSavedItems(filters) || {}
+    const { actionType, sortOrder, pagination, count } = action
+    const { pageInfo, edges, totalCount } = yield getSavedItems({
+      actionType,
+      sortOrder,
+      count,
+      pagination
+    }) || {}
 
     if (!pageInfo) return yield put({ type: ITEMS_SAVED_PAGE_INFO_FAILURE })
     if (!edges) return yield put({ type: ITEMS_SAVED_FAILURE })
@@ -91,8 +99,13 @@ function* savedItemRequest(action) {
 
 function* savedItemTaggedRequest(action) {
   try {
-    const { filters } = action
-    const { pageInfo, edges, totalCount } = yield getSavedItemsTagged(filters) || {}
+    const { actionType, tagNames, sortOrder, pagination } = action
+    const { pageInfo, edges, totalCount } = yield getSavedItemsTagged({
+      actionType,
+      sortOrder,
+      tagNames,
+      pagination
+    }) || {}
 
     if (!pageInfo) return yield put({ type: ITEMS_SAVED_PAGE_INFO_FAILURE })
     if (!edges) return yield put({ type: ITEMS_SAVED_FAILURE })
@@ -111,9 +124,14 @@ function* savedItemTaggedRequest(action) {
 }
 
 function* savedItemSearchRequest(action) {
-  const { filters } = action
-  const { searchTerm } = filters
-  const { pageInfo, edges, totalCount } = yield searchSavedItems(filters) || {}
+  const { actionType, searchTerm, sortOrder, pagination, count } = action
+  const { pageInfo, edges, totalCount } = yield getSavedItemsSearch({
+    actionType,
+    sortOrder,
+    searchTerm,
+    count,
+    pagination
+  }) || {}
 
   if (!pageInfo) return yield put({ type: ITEMS_SAVED_PAGE_INFO_FAILURE })
   if (!edges) return yield put({ type: ITEMS_SAVED_SEARCH_FAILURE })

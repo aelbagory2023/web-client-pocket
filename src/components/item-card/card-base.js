@@ -1,4 +1,5 @@
 import { css } from 'linaria'
+import { breakpointSmallDesktop } from 'common/constants'
 import { breakpointLargeTablet } from 'common/constants'
 import { breakpointMediumTablet } from 'common/constants'
 import { breakpointSmallTablet } from 'common/constants'
@@ -38,7 +39,7 @@ export const cardStyles = css`
     padding-bottom: 0;
 
     &:hover {
-      .view-original {
+      .original-view {
         opacity: 1;
         transition: opacity 300ms ease-in-out;
       }
@@ -80,7 +81,7 @@ export const cardStyles = css`
     }
   }
 
-  .view-original {
+  .original-view {
     opacity: 0;
     transition: opacity 300ms ease-in-out;
     background: rgba(26, 26, 26, 0.8);
@@ -95,7 +96,7 @@ export const cardStyles = css`
       display: none;
     }
 
-    .view-original-text + .icon {
+    .original-view-text + .icon {
       margin-left: 0.25rem;
     }
   }
@@ -131,7 +132,7 @@ export const cardStyles = css`
           margin-right: 0.5rem;
         }
       }
-      .mobile-view-original {
+      .mobile-original-view {
         display: none;
         ${breakpointSmallTablet} {
           display: inline-block;
@@ -462,11 +463,11 @@ export const cardStyles = css`
       margin-bottom: 0;
     }
 
-    .view-original .icon {
+    .original-view .icon {
       margin-left: 0;
     }
 
-    .view-original-text {
+    .original-view-text {
       display: none;
     }
 
@@ -550,11 +551,11 @@ export const cardStyles = css`
       grid-column: span 2;
     }
 
-    .view-original .icon {
+    .original-view .icon {
       margin-left: 0;
     }
 
-    .view-original-text {
+    .original-view-text {
       display: none;
     }
 
@@ -698,9 +699,19 @@ export const cardStyles = css`
       }
     }
 
+    ${breakpointSmallDesktop} {
+      .original-view-text {
+        display: none;
+      }
+    }
+
     ${breakpointMediumTablet} {
       --media-column-span: span 12;
       --content-column-span: span 12;
+
+      .original-view-text {
+        display: inline;
+      }
     }
 
     ${breakpointSmallTablet} {
@@ -716,6 +727,10 @@ export const cardStyles = css`
     &:only-of-type {
       --media-column-span: span 3;
       --content-column-span: span 9;
+
+      .original-view-text {
+        display: inline;
+      }
 
       ${breakpointMediumTablet} {
         --media-column-span: span 4;
@@ -733,9 +748,17 @@ export const cardStyles = css`
     // https://css-tricks.com/solved-with-css-logical-styling-based-on-the-number-of-given-elements/
     &:first-child:nth-last-child(n + 3),
     &:first-child:nth-last-child(n + 3) ~ * {
+      .original-view-text {
+        display: none;
+      }
+
       ${breakpointLargeTablet} {
         --media-column-span: span 12;
         --content-column-span: span 12;
+
+        .original-view-text {
+          display: inline;
+        }
       }
 
       ${breakpointMediumTablet} {

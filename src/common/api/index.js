@@ -20,10 +20,6 @@ export { getHomeLineup } from './queries/get-home'
 export { getSyndicatedArticle } from './queries/get-syndicated-article'
 
 // MyList
-export { getSavedItems } from './queries/get-saved-items'
-export { getSavedItemsTagged } from './queries/get-saved-items-tagged'
-export { searchSavedItems } from './queries/search-saved-items'
-
 export { getSavedItemByItemId } from './queries/get-saved-item-by-id'
 
 // Item Mutations
@@ -39,6 +35,7 @@ export { bulkFavorite } from './mutations/favoriteItem'
 export { bulkUnFavorite } from './mutations/unfavoriteItem'
 export { bulkArchive } from './mutations/archiveItem'
 export { bulkUnArchive } from './mutations/unArchiveItem'
+export { bulkDelete } from './mutations/deleteItem'
 
 // Highlight Mutations
 export { createHighlight } from './mutations/savedItemHighlights'
