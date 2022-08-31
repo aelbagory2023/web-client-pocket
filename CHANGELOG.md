@@ -1,3 +1,10 @@
+## [1.59.11](https://github.com/Pocket/web-client/compare/v1.59.10...v1.59.11) (2022-08-31)
+
+
+### Bug Fixes
+
+* **home:** fix recent saves sort order ([59951aa](https://github.com/Pocket/web-client/commit/59951aa17af12eb6fb323325a8ed8101fa23b1d0))
+
 ## [1.59.10](https://github.com/Pocket/web-client/compare/v1.59.9...v1.59.10) (2022-08-30)
 
 
