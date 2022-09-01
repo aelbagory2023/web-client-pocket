@@ -1,3 +1,10 @@
+## [1.60.3](https://github.com/Pocket/web-client/compare/v1.60.2...v1.60.3) (2022-09-01)
+
+
+### Bug Fixes
+
+* **audio:** touching up audio element styles ([1def6ab](https://github.com/Pocket/web-client/commit/1def6abc83aff2af268f6bb1da89ef16235b141d))
+
 ## [1.60.2](https://github.com/Pocket/web-client/compare/v1.60.1...v1.60.2) (2022-09-01)
 
 
