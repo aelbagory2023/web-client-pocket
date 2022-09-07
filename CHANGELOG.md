@@ -1,3 +1,11 @@
+## [1.60.4](https://github.com/Pocket/web-client/compare/v1.60.3...v1.60.4) (2022-09-07)
+
+
+### Bug Fixes
+
+* **global nav spec:** fix test ([a96c245](https://github.com/Pocket/web-client/commit/a96c24500fac3ca8c07170453ed58e7379d69145))
+* **PopupMenuItem:** wrap <a> in <Link> to retain lang prefix ([5edca17](https://github.com/Pocket/web-client/commit/5edca17e77b9e29e212e5332166674ef350dbd61))
+
 ## [1.60.3](https://github.com/Pocket/web-client/compare/v1.60.2...v1.60.3) (2022-09-01)
 
 
