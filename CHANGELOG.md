@@ -1,3 +1,10 @@
+## [1.60.8](https://github.com/Pocket/web-client/compare/v1.60.7...v1.60.8) (2022-09-13)
+
+
+### Bug Fixes
+
+* **syndicated:** change perm redirect to temporary redirect ([cd6f4fa](https://github.com/Pocket/web-client/commit/cd6f4fae5835ef756eb06674166b319686c14118))
+
 ## [1.60.7](https://github.com/Pocket/web-client/compare/v1.60.6...v1.60.7) (2022-09-13)
 
 
