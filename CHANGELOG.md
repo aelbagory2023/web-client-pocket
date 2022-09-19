@@ -1,3 +1,13 @@
+## [1.60.12](https://github.com/Pocket/web-client/compare/v1.60.11...v1.60.12) (2022-09-19)
+
+
+### Bug Fixes
+
+* **global-nav:** fix unit tests for profile url ([420d7bf](https://github.com/Pocket/web-client/commit/420d7bf3cff5f11eb61fe417dd0f4958889f9beb))
+* **menu:** add extrenal props ([b4c5c19](https://github.com/Pocket/web-client/commit/b4c5c19762fe3e2de2e1d37ef3f5e3178d3cd762))
+* **popup-menu:** adding external prop to popupmenuitem ([14f6e32](https://github.com/Pocket/web-client/commit/14f6e3277dbb6dcd2edc3d9c6135d8f2b85e0409))
+* **popupmenuitem:** update documentation for external prop ([15ecd37](https://github.com/Pocket/web-client/commit/15ecd372cca8e9f946333aa64621ccace97d6dea))
+
 ## [1.60.11](https://github.com/Pocket/web-client/compare/v1.60.10...v1.60.11) (2022-09-19)
 
 
