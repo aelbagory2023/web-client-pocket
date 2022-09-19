@@ -1,3 +1,10 @@
+## [1.60.11](https://github.com/Pocket/web-client/compare/v1.60.10...v1.60.11) (2022-09-19)
+
+
+### Bug Fixes
+
+* **marketing:** show marketing banner if on german url ([106c90b](https://github.com/Pocket/web-client/commit/106c90b94f23221913036429e35863c2ae170c98))
+
 ## [1.60.10](https://github.com/Pocket/web-client/compare/v1.60.9...v1.60.10) (2022-09-19)
 
 
