@@ -1,3 +1,11 @@
+## [1.60.10](https://github.com/Pocket/web-client/compare/v1.60.9...v1.60.10) (2022-09-19)
+
+
+### Bug Fixes
+
+* **marketing:** adding german collection banner to my list ([b4fbbb8](https://github.com/Pocket/web-client/commit/b4fbbb8822eb8338f47d3f2d0775b256c3b4b75d))
+* **marketing:** replacing uri encoded svgs for base64 ([8be2c6b](https://github.com/Pocket/web-client/commit/8be2c6bca178ae98236b4a49a0838758ce39bda9))
+
 ## [1.60.9](https://github.com/Pocket/web-client/compare/v1.60.8...v1.60.9) (2022-09-15)
 
 
