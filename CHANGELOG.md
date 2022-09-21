@@ -1,3 +1,10 @@
+## [1.60.14](https://github.com/Pocket/web-client/compare/v1.60.13...v1.60.14) (2022-09-21)
+
+
+### Bug Fixes
+
+* **reader:** hide reader recs on starter articles ([2e2eede](https://github.com/Pocket/web-client/commit/2e2eedeec7bea00d64df9216b9f2dd015475b08c))
+
 ## [1.60.13](https://github.com/Pocket/web-client/compare/v1.60.12...v1.60.13) (2022-09-21)
 
 
