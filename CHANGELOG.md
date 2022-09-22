@@ -1,3 +1,10 @@
+## [1.61.3](https://github.com/Pocket/web-client/compare/v1.61.2...v1.61.3) (2022-09-22)
+
+
+### Bug Fixes
+
+* **account:** wrap notifications in feature flag for quick disabling ([bb4cf4c](https://github.com/Pocket/web-client/commit/bb4cf4c91374f8ed7a9782fa851d30ff735b5032))
+
 ## [1.61.2](https://github.com/Pocket/web-client/compare/v1.61.1...v1.61.2) (2022-09-22)
 
 
