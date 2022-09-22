@@ -1,3 +1,10 @@
+## [1.61.4](https://github.com/Pocket/web-client/compare/v1.61.3...v1.61.4) (2022-09-22)
+
+
+### Bug Fixes
+
+* **document:** add ios meta tag to document instead of head file ([109f886](https://github.com/Pocket/web-client/commit/109f886156f9316d93e283fc00616bb8d17b4c9c))
+
 ## [1.61.3](https://github.com/Pocket/web-client/compare/v1.61.2...v1.61.3) (2022-09-22)
 
 
