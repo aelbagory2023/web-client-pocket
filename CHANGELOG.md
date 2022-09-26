@@ -1,3 +1,10 @@
+## [1.62.1](https://github.com/Pocket/web-client/compare/v1.62.0...v1.62.1) (2022-09-26)
+
+
+### Bug Fixes
+
+* **home:** make card next responsive ([75b0603](https://github.com/Pocket/web-client/commit/75b060346d27d6f2f48ad239a779e306b195daaf))
+
 # [1.62.0](https://github.com/Pocket/web-client/compare/v1.61.4...v1.62.0) (2022-09-26)
 
 
