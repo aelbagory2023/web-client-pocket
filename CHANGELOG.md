@@ -1,3 +1,11 @@
+## [1.62.2](https://github.com/Pocket/web-client/compare/v1.62.1...v1.62.2) (2022-10-04)
+
+
+### Bug Fixes
+
+* **my-list:** adding card type to my list events as label ([84155f7](https://github.com/Pocket/web-client/commit/84155f76352d62ee922ac08e28e6a69ce060413f))
+* **my-list:** remove label from expects field as its not required and temporary ([efbfa6d](https://github.com/Pocket/web-client/commit/efbfa6d213b80e96cd9bbbcd79e1bd1c659538cd))
+
 ## [1.62.1](https://github.com/Pocket/web-client/compare/v1.62.0...v1.62.1) (2022-09-26)
 
 
