@@ -1,3 +1,16 @@
+## [1.62.3](https://github.com/Pocket/web-client/compare/v1.62.2...v1.62.3) (2022-10-04)
+
+
+### Bug Fixes
+
+* **card next:** code format ([766993f](https://github.com/Pocket/web-client/commit/766993fcf866584d873089023f268821b50cdceb))
+* **card next:** media radius units ([80066ad](https://github.com/Pocket/web-client/commit/80066ad1fdac7ecb9085c8cf72300fe1faef5b76))
+* **card next:** minor styling change for side by side ([71f043c](https://github.com/Pocket/web-client/commit/71f043cf070bcfda273fbb95dc92302efa73fdc0))
+* **home:** add snowplow ([cc8274a](https://github.com/Pocket/web-client/commit/cc8274a43fbd886ea73e54a597bba66945c2b092))
+* **home:** clamp the excerpt ([3c8d937](https://github.com/Pocket/web-client/commit/3c8d9378337cc78c391288d2745724450428ca65))
+* **home:** invalidate list on topic selection ([06ec052](https://github.com/Pocket/web-client/commit/06ec052c4c8cd211ffb57aeb339afa701acc9160))
+* **home:** snowplow adjustments ([e303ee6](https://github.com/Pocket/web-client/commit/e303ee6bfcf21dccd5e4116db74872e365ea9e0d))
+
 ## [1.62.2](https://github.com/Pocket/web-client/compare/v1.62.1...v1.62.2) (2022-10-04)
 
 
