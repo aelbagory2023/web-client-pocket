@@ -1,3 +1,10 @@
+## [1.62.4](https://github.com/Pocket/web-client/compare/v1.62.3...v1.62.4) (2022-10-05)
+
+
+### Bug Fixes
+
+* **home:** add responsive styles ([1aaa0c4](https://github.com/Pocket/web-client/commit/1aaa0c4f13c0361d3d7aa68541b9d4889479b78c))
+
 ## [1.62.3](https://github.com/Pocket/web-client/compare/v1.62.2...v1.62.3) (2022-10-04)
 
 
