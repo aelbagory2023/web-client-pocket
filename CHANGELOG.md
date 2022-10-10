@@ -1,3 +1,10 @@
+## [1.62.6](https://github.com/Pocket/web-client/compare/v1.62.5...v1.62.6) (2022-10-10)
+
+
+### Bug Fixes
+
+* **marketing:** remove german collection banner from my list ([98941c4](https://github.com/Pocket/web-client/commit/98941c4a31faaa22d4f3ba48dee501016d828c3e))
+
 ## [1.62.5](https://github.com/Pocket/web-client/compare/v1.62.4...v1.62.5) (2022-10-10)
 
 
