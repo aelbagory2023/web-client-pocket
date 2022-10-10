@@ -1,3 +1,18 @@
+## [1.62.5](https://github.com/Pocket/web-client/compare/v1.62.4...v1.62.5) (2022-10-10)
+
+
+### Bug Fixes
+
+* **home:** add elipsis to excerpt clamping ([9cf40f5](https://github.com/Pocket/web-client/commit/9cf40f575eef50414faebff546a45416ffd1b31b))
+* **home:** adjust title for topics ([e7ca23b](https://github.com/Pocket/web-client/commit/e7ca23b280bd60bd947f74ea4e905e50234773f4))
+* **home:** align recent saves (switch to grid) ([df5f009](https://github.com/Pocket/web-client/commit/df5f009cb097c41828b2514a32aa89f3a556595d))
+* **home:** header spacing and layout ([337bb93](https://github.com/Pocket/web-client/commit/337bb93f4162b4d09e002dcfe26a9bce017f1fe3))
+* **home:** omit authors from home cards ([a0d893d](https://github.com/Pocket/web-client/commit/a0d893d6d4cccae81ac370f1002e4ad7a4131a48))
+* **home:** responsive on recent saves ([72ead68](https://github.com/Pocket/web-client/commit/72ead68a97f652449b5ca168726776d6c929e73f))
+* **home:** use proper field for analytics/storage ([a370052](https://github.com/Pocket/web-client/commit/a370052f920d63951e3cdcefc3c1cda89fe341ec))
+* **topics:** normalize title for topic selector ([bdeef1b](https://github.com/Pocket/web-client/commit/bdeef1b429dd95ed48a284a870bbc0b2d50aee2e))
+* **ui:** align save icon on home ([f5b9cf4](https://github.com/Pocket/web-client/commit/f5b9cf4d848427683fc858de85d478b2357d8d60))
+
 ## [1.62.4](https://github.com/Pocket/web-client/compare/v1.62.3...v1.62.4) (2022-10-05)
 
 
