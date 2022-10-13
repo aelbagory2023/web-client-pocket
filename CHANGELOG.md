@@ -1,3 +1,10 @@
+## [1.62.9](https://github.com/Pocket/web-client/compare/v1.62.8...v1.62.9) (2022-10-13)
+
+
+### Bug Fixes
+
+* **home:** fix impression event to include component type ([53f1ef9](https://github.com/Pocket/web-client/commit/53f1ef9d68f55586a60fd39541d318f5b0f74cfb))
+
 ## [1.62.8](https://github.com/Pocket/web-client/compare/v1.62.7...v1.62.8) (2022-10-12)
 
 
