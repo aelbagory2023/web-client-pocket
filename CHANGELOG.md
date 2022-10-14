@@ -1,3 +1,12 @@
+## [1.62.10](https://github.com/Pocket/web-client/compare/v1.62.9...v1.62.10) (2022-10-14)
+
+
+### Bug Fixes
+
+* **home:** adjust classnames ([f8e953d](https://github.com/Pocket/web-client/commit/f8e953d5c477c23b06c3743cd5523f035aaf3b4b))
+* **home:** remove onboarding from reader ([486e235](https://github.com/Pocket/web-client/commit/486e2351910dd2647f5afb241b2a431b0aa58667))
+* **onboarding:** remove the last of the onboarding ([6e94fd8](https://github.com/Pocket/web-client/commit/6e94fd898c45228ec9ca9060d778c3be22802fbd))
+
 ## [1.62.9](https://github.com/Pocket/web-client/compare/v1.62.8...v1.62.9) (2022-10-13)
 
 
