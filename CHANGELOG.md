@@ -1,3 +1,10 @@
+## [1.62.11](https://github.com/Pocket/web-client/compare/v1.62.10...v1.62.11) (2022-10-14)
+
+
+### Bug Fixes
+
+* **collections:** restrict clamping to home for now ([3493479](https://github.com/Pocket/web-client/commit/3493479bd5c7e1efc325b3e6aeef963565f25d3a))
+
 ## [1.62.10](https://github.com/Pocket/web-client/compare/v1.62.9...v1.62.10) (2022-10-14)
 
 
