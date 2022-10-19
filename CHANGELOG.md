@@ -1,3 +1,16 @@
+# [1.63.0](https://github.com/Pocket/web-client/compare/v1.62.12...v1.63.0) (2022-10-19)
+
+
+### Bug Fixes
+
+* **item:** better ternary for overflow ([b14b331](https://github.com/Pocket/web-client/commit/b14b331e5608d0e577c63a879dabfc4af39ebe40))
+* **item:** improve information hierarchy ([121dc5e](https://github.com/Pocket/web-client/commit/121dc5ed352089b116cb8863fc96854b941d9868))
+
+
+### Features
+
+* **item:** add ubiquitous item/next ([ce9473b](https://github.com/Pocket/web-client/commit/ce9473b521e112dbd3244391aa3c68c66b7e9cd1))
+
 ## [1.62.12](https://github.com/Pocket/web-client/compare/v1.62.11...v1.62.12) (2022-10-18)
 
 
