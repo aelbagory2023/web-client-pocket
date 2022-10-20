@@ -1,3 +1,10 @@
+# [1.64.0](https://github.com/Pocket/web-client/compare/v1.63.0...v1.64.0) (2022-10-20)
+
+
+### Features
+
+* **home:** add small card layout (for hits) ([4b3b3a1](https://github.com/Pocket/web-client/commit/4b3b3a1103e92ceea1f306af30a6b6ac632a20cf))
+
 # [1.63.0](https://github.com/Pocket/web-client/compare/v1.62.12...v1.63.0) (2022-10-19)
 
 
