@@ -1,3 +1,10 @@
+## [1.64.1](https://github.com/Pocket/web-client/compare/v1.64.0...v1.64.1) (2022-10-25)
+
+
+### Bug Fixes
+
+* **home:** increase pocket hits count ([a35533e](https://github.com/Pocket/web-client/commit/a35533e367ac353bba4dca4611ea61b4406bf5d2))
+
 # [1.64.0](https://github.com/Pocket/web-client/compare/v1.63.0...v1.64.0) (2022-10-20)
 
 
