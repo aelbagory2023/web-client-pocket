@@ -1,3 +1,10 @@
+## [1.64.3](https://github.com/Pocket/web-client/compare/v1.64.2...v1.64.3) (2022-10-31)
+
+
+### Bug Fixes
+
+* **schema:** updating rover and generated schema ([f9b698b](https://github.com/Pocket/web-client/commit/f9b698bd0e7f10409d0c2e64d3af8d431ee937fd))
+
 ## [1.64.2](https://github.com/Pocket/web-client/compare/v1.64.1...v1.64.2) (2022-10-26)
 
 
