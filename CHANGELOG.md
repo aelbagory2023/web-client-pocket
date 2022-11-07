@@ -1,3 +1,17 @@
+# [1.65.0](https://github.com/Pocket/web-client/compare/v1.64.4...v1.65.0) (2022-11-07)
+
+
+### Bug Fixes
+
+* **next:** remove rewrite rule ([9aaba9b](https://github.com/Pocket/web-client/commit/9aaba9b08af9b8879d5c419daf4a872c6a13b200))
+* **package:** bump localization version ([0298517](https://github.com/Pocket/web-client/commit/02985176c6ba964c108f6f545ac90a795020a534))
+* **test:** updating snapshots ([271770a](https://github.com/Pocket/web-client/commit/271770a41d9dd38c293a16b20d2f1e4290042d8b))
+
+
+### Features
+
+* **list:** renaming my list to saves ([922cfd9](https://github.com/Pocket/web-client/commit/922cfd9ad93a9b9a6735584507559dce72be28f5))
+
 ## [1.64.4](https://github.com/Pocket/web-client/compare/v1.64.3...v1.64.4) (2022-11-07)
 
 
