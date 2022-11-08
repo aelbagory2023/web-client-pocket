@@ -1,3 +1,11 @@
+## [1.65.1](https://github.com/Pocket/web-client/compare/v1.65.0...v1.65.1) (2022-11-08)
+
+
+### Bug Fixes
+
+* **card media:** update aspect ratio when calling getImageCacheUrl ([1fe4260](https://github.com/Pocket/web-client/commit/1fe426065396d3a318aad5f376a73f6499a06bef))
+* **snapshots:** update snapshots ([93a72e6](https://github.com/Pocket/web-client/commit/93a72e6ed697a854daf8487ab3b6ec181c1be664))
+
 # [1.65.0](https://github.com/Pocket/web-client/compare/v1.64.4...v1.65.0) (2022-11-07)
 
 
