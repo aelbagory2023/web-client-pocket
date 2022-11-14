@@ -1,3 +1,10 @@
+## [1.65.3](https://github.com/Pocket/web-client/compare/v1.65.2...v1.65.3) (2022-11-14)
+
+
+### Bug Fixes
+
+* **marketing:** adding a banner for best of 2022 collection ([d7d68a7](https://github.com/Pocket/web-client/commit/d7d68a7aae99da4c6bf25e0a41bcf13341c18e50))
+
 ## [1.65.2](https://github.com/Pocket/web-client/compare/v1.65.1...v1.65.2) (2022-11-14)
 
 
