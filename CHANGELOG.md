@@ -1,3 +1,11 @@
+## [1.65.4](https://github.com/Pocket/web-client/compare/v1.65.3...v1.65.4) (2022-11-14)
+
+
+### Bug Fixes
+
+* **bestof2022:** fixes from vqa ([9958ae6](https://github.com/Pocket/web-client/commit/9958ae6fe7f9b00a3dacbdccabe570192e631ef0))
+* **bestof2022:** update background color ([0cd3dda](https://github.com/Pocket/web-client/commit/0cd3dda6fa921f2464fc86958c86b0f12463fd21))
+
 ## [1.65.3](https://github.com/Pocket/web-client/compare/v1.65.2...v1.65.3) (2022-11-14)
 
 
