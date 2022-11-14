@@ -1,3 +1,16 @@
+# [1.66.0](https://github.com/Pocket/web-client/compare/v1.65.4...v1.66.0) (2022-11-14)
+
+
+### Bug Fixes
+
+* **ui:** text buttons should not get outlined ([4fe4be1](https://github.com/Pocket/web-client/commit/4fe4be1f62bb66335909422195898a3cfe6117a9))
+
+
+### Features
+
+* **api:** add un-delete action/api ([a9dcc99](https://github.com/Pocket/web-client/commit/a9dcc99c1d006279e4770229741f44a2c1587060))
+* **toast:** add un-delete action to delete toast ([49087f1](https://github.com/Pocket/web-client/commit/49087f1b70c711433271cc0347b1cf6967e8b248))
+
 ## [1.65.4](https://github.com/Pocket/web-client/compare/v1.65.3...v1.65.4) (2022-11-14)
 
 
