@@ -1,3 +1,11 @@
+## [1.66.2](https://github.com/Pocket/web-client/compare/v1.66.1...v1.66.2) (2022-11-15)
+
+
+### Bug Fixes
+
+* **account:** add conditional button in rss section to create a username ([6bea1d9](https://github.com/Pocket/web-client/commit/6bea1d94ca38264d111ae8ca2bf7beb9c9b4919b))
+* **account:** bump localization package ([a17d243](https://github.com/Pocket/web-client/commit/a17d243e46db2306ddc709a5db1f1ebcc8fd5915))
+
 ## [1.66.1](https://github.com/Pocket/web-client/compare/v1.66.0...v1.66.1) (2022-11-15)
 
 
