@@ -1,3 +1,10 @@
+## [1.66.4](https://github.com/Pocket/web-client/compare/v1.66.3...v1.66.4) (2022-11-16)
+
+
+### Bug Fixes
+
+* **undelete:** restore itemSaved status after undo ([c0964e5](https://github.com/Pocket/web-client/commit/c0964e59746d4a3e0259e7e24ab6ec89b162ae3c))
+
 ## [1.66.3](https://github.com/Pocket/web-client/compare/v1.66.2...v1.66.3) (2022-11-16)
 
 
