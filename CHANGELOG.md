@@ -1,3 +1,13 @@
+## [1.66.3](https://github.com/Pocket/web-client/compare/v1.66.2...v1.66.3) (2022-11-16)
+
+
+### Bug Fixes
+
+* **bulk:** use proper checkmark for bulk selected ([6d41bc2](https://github.com/Pocket/web-client/commit/6d41bc277a75c9a8a45f6228ac4b2f9fd4c200e6))
+* **clear:** clear on sort order ([a9a783b](https://github.com/Pocket/web-client/commit/a9a783b00ca9e6883db604d3539e9fd99ac7fdbe))
+* **toast:** account for zero based delete position ([51f312f](https://github.com/Pocket/web-client/commit/51f312f925fb184eec1ba8a85ea51b3f6e82a102))
+* **toast:** only show undo on non-bulk deletions ([36b7238](https://github.com/Pocket/web-client/commit/36b72383c8296a3ee00e9ca58a7d888b0b87ea28))
+
 ## [1.66.2](https://github.com/Pocket/web-client/compare/v1.66.1...v1.66.2) (2022-11-15)
 
 
