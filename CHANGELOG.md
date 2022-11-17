@@ -1,3 +1,10 @@
+## [1.66.5](https://github.com/Pocket/web-client/compare/v1.66.4...v1.66.5) (2022-11-17)
+
+
+### Bug Fixes
+
+* **legacy reader:** redirect on deletion in legacy ([c2ce12c](https://github.com/Pocket/web-client/commit/c2ce12c6dc9b7914039ece90f2dde64fc04f9228))
+
 ## [1.66.4](https://github.com/Pocket/web-client/compare/v1.66.3...v1.66.4) (2022-11-16)
 
 
