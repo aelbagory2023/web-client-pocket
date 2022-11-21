@@ -1,3 +1,10 @@
+## [1.66.6](https://github.com/Pocket/web-client/compare/v1.66.5...v1.66.6) (2022-11-21)
+
+
+### Bug Fixes
+
+* **snowplow:** add custom errors and type checking ([1469c43](https://github.com/Pocket/web-client/commit/1469c438a54117a8a3393c5720055c8a6c061610))
+
 ## [1.66.5](https://github.com/Pocket/web-client/compare/v1.66.4...v1.66.5) (2022-11-17)
 
 
