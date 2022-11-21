@@ -1,3 +1,10 @@
+## [1.66.7](https://github.com/Pocket/web-client/compare/v1.66.6...v1.66.7) (2022-11-21)
+
+
+### Bug Fixes
+
+* **snowplow:** add corpusRecomendationId type ([d435603](https://github.com/Pocket/web-client/commit/d43560350f090af02e234565b14b6b28802edf69))
+
 ## [1.66.6](https://github.com/Pocket/web-client/compare/v1.66.5...v1.66.6) (2022-11-21)
 
 
