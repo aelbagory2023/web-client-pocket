@@ -67,8 +67,8 @@ export const List = (props) => {
   const ListHeader = searchTerm ? SearchPageHeader : SavesHeader
   const Header = tag ? TagPageHeader : ListHeader
 
-  //const showBanner = locale === 'de' || locale === 'de-DE' || locale === 'en' || locale === 'en-US'
-  const showBanner = featureFlagActive({ flag: 'bestof2022', featureState }) 
+  const bannerLanguages = ['de', 'de-DE', 'en', 'en-US']
+  const showBanner = bannerLanguages.includes(locale)
 
   // Actions
   const setNewest = useApiNext ? savedItemsSetSortOrder : sortOrderSetNew
