@@ -1,3 +1,10 @@
+## [1.66.9](https://github.com/Pocket/web-client/compare/v1.66.8...v1.66.9) (2022-11-29)
+
+
+### Bug Fixes
+
+* **bestof:** best of 2022 collections need to be marked as external ([2437b5d](https://github.com/Pocket/web-client/commit/2437b5d88ca19e6f7b3316d0942c45cbb66dab9a))
+
 ## [1.66.8](https://github.com/Pocket/web-client/compare/v1.66.7...v1.66.8) (2022-11-29)
 
 
