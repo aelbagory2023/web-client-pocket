@@ -1,3 +1,11 @@
+## [1.66.10](https://github.com/Pocket/web-client/compare/v1.66.9...v1.66.10) (2022-11-29)
+
+
+### Bug Fixes
+
+* **api:** log out api in use ([8ede150](https://github.com/Pocket/web-client/commit/8ede150c56685879afa4a22c2a930212a5d02cc3))
+* **sentry:** add assignment tags to global scope ([61d5196](https://github.com/Pocket/web-client/commit/61d5196ce7f839aa8e24628b80c3b02a337b339f))
+
 ## [1.66.9](https://github.com/Pocket/web-client/compare/v1.66.8...v1.66.9) (2022-11-29)
 
 
