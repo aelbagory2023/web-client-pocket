@@ -1,3 +1,10 @@
+## [1.66.11](https://github.com/Pocket/web-client/compare/v1.66.10...v1.66.11) (2022-11-30)
+
+
+### Bug Fixes
+
+* **bestof:** release best of 2022 banner ([281b140](https://github.com/Pocket/web-client/commit/281b1406caa5207cb1198481fa5de7cb0f5c8c91))
+
 ## [1.66.10](https://github.com/Pocket/web-client/compare/v1.66.9...v1.66.10) (2022-11-29)
 
 
