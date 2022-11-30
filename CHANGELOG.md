@@ -1,3 +1,11 @@
+## [1.66.12](https://github.com/Pocket/web-client/compare/v1.66.11...v1.66.12) (2022-11-30)
+
+
+### Bug Fixes
+
+* **bestOfImage:** update best of image link for metadata ([c93765f](https://github.com/Pocket/web-client/commit/c93765f2f1f364ffc361e2a751b209b30802640b))
+* **collections index:** update metadata for Best Of campaign ([60905e2](https://github.com/Pocket/web-client/commit/60905e2955b908c5d1b2393dc0ac638788b94e1a))
+
 ## [1.66.11](https://github.com/Pocket/web-client/compare/v1.66.10...v1.66.11) (2022-11-30)
 
 
