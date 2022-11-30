@@ -1,3 +1,10 @@
+## [1.66.14](https://github.com/Pocket/web-client/compare/v1.66.13...v1.66.14) (2022-11-30)
+
+
+### Bug Fixes
+
+* **collections index:** update German metadata title & description ([6cc4bea](https://github.com/Pocket/web-client/commit/6cc4bea43063dd02863fb969867ef88c816066b4))
+
 ## [1.66.13](https://github.com/Pocket/web-client/compare/v1.66.12...v1.66.13) (2022-11-30)
 
 
