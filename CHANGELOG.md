@@ -1,3 +1,10 @@
+## [1.66.13](https://github.com/Pocket/web-client/compare/v1.66.12...v1.66.13) (2022-11-30)
+
+
+### Bug Fixes
+
+* **collections index:** add German-specific metadata description & image ([a5137e3](https://github.com/Pocket/web-client/commit/a5137e389df7cb0284186967d2719895963f6fe4))
+
 ## [1.66.12](https://github.com/Pocket/web-client/compare/v1.66.11...v1.66.12) (2022-11-30)
 
 
