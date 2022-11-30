@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Layout from 'layouts/with-sidebar'
 import { useSelector, useDispatch } from 'react-redux'
 import { featureFlagActive } from 'connectors/feature-flags/feature-flags'
@@ -79,6 +79,12 @@ export const List = (props) => {
   const handleRelevance = () => dispatch(setRelevance('RELEVANCE'))
   const total = useApiNext ? graphTotal : v3Total
 
+  useEffect(() => {
+    if (!flagsReady) return
+    const apiInUse = useApiNext ? 'Graph' : 'v3'
+    console.info(`Pocket Web Client: ${apiInUse} API`)
+  }, [flagsReady, useApiNext])
+
   return (
     <>
       {showBanner ? <BestOf2022 locale={locale} /> : null}
@@ -116,7 +122,7 @@ export const List = (props) => {
         <ShareModalConnector />
 
         <Toasts />
-      </Layout>    
+      </Layout>
     </>
   )
 }

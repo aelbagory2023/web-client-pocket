@@ -1,3 +1,25 @@
+## [1.66.10](https://github.com/Pocket/web-client/compare/v1.66.9...v1.66.10) (2022-11-29)
+
+
+### Bug Fixes
+
+* **api:** log out api in use ([8ede150](https://github.com/Pocket/web-client/commit/8ede150c56685879afa4a22c2a930212a5d02cc3))
+* **sentry:** add assignment tags to global scope ([61d5196](https://github.com/Pocket/web-client/commit/61d5196ce7f839aa8e24628b80c3b02a337b339f))
+
+## [1.66.9](https://github.com/Pocket/web-client/compare/v1.66.8...v1.66.9) (2022-11-29)
+
+
+### Bug Fixes
+
+* **bestof:** best of 2022 collections need to be marked as external ([2437b5d](https://github.com/Pocket/web-client/commit/2437b5d88ca19e6f7b3316d0942c45cbb66dab9a))
+
+## [1.66.8](https://github.com/Pocket/web-client/compare/v1.66.7...v1.66.8) (2022-11-29)
+
+
+### Bug Fixes
+
+* **reader:** add commas between multiple authors ([9967aa7](https://github.com/Pocket/web-client/commit/9967aa707dedc3a74faebdb9956c67156202bcef))
+
 ## [1.66.7](https://github.com/Pocket/web-client/compare/v1.66.6...v1.66.7) (2022-11-21)
 
 
