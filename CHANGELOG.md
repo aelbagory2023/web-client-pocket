@@ -1,3 +1,11 @@
+## [1.66.15](https://github.com/Pocket/web-client/compare/v1.66.14...v1.66.15) (2022-11-30)
+
+
+### Bug Fixes
+
+* **snowplow:** add fallback to saved item id ([6b2383a](https://github.com/Pocket/web-client/commit/6b2383ab99476a161540e74e4da8ea78b5bb2949))
+* **snowplow:** avoid duplicate impressions ([e4c0759](https://github.com/Pocket/web-client/commit/e4c0759e089bda08e2f983e66167dd03ead5045f))
+
 ## [1.66.14](https://github.com/Pocket/web-client/compare/v1.66.13...v1.66.14) (2022-11-30)
 
 
