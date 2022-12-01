@@ -1,3 +1,10 @@
+## [1.66.17](https://github.com/Pocket/web-client/compare/v1.66.16...v1.66.17) (2022-12-01)
+
+
+### Bug Fixes
+
+* **tagging:** fetch user tags from the graph ([05f6e99](https://github.com/Pocket/web-client/commit/05f6e99acd4efc9283d121bc2ef54a866a57cc53))
+
 ## [1.66.16](https://github.com/Pocket/web-client/compare/v1.66.15...v1.66.16) (2022-12-01)
 
 
