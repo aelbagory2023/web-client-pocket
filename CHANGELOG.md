@@ -1,3 +1,11 @@
+## [1.66.16](https://github.com/Pocket/web-client/compare/v1.66.15...v1.66.16) (2022-12-01)
+
+
+### Bug Fixes
+
+* **snowplow:**  entityType in reader display ([5d4c6a4](https://github.com/Pocket/web-client/commit/5d4c6a4d746e5474e0f7746cc4465bd1de37bbe4))
+* **snowplow:** update validation for batch ([00b6046](https://github.com/Pocket/web-client/commit/00b6046d2ccd29f721524d5452be407d5d27604b))
+
 ## [1.66.15](https://github.com/Pocket/web-client/compare/v1.66.14...v1.66.15) (2022-11-30)
 
 
