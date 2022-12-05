@@ -1,3 +1,10 @@
+## [1.66.18](https://github.com/Pocket/web-client/compare/v1.66.17...v1.66.18) (2022-12-05)
+
+
+### Bug Fixes
+
+* **sort order:** disable current order ([6b43f99](https://github.com/Pocket/web-client/commit/6b43f99baf3c03591de0edb4b3e6698fc33eb431))
+
 ## [1.66.17](https://github.com/Pocket/web-client/compare/v1.66.16...v1.66.17) (2022-12-01)
 
 
