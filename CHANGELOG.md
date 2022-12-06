@@ -1,3 +1,10 @@
+## [1.67.2](https://github.com/Pocket/web-client/compare/v1.67.1...v1.67.2) (2022-12-06)
+
+
+### Bug Fixes
+
+* **saves:** grid layout responsive ([a6ee757](https://github.com/Pocket/web-client/commit/a6ee757ee9e71a5ef6abc5f67aeb59d2b2079dde))
+
 ## [1.67.1](https://github.com/Pocket/web-client/compare/v1.67.0...v1.67.1) (2022-12-06)
 
 
