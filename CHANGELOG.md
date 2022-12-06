@@ -1,3 +1,18 @@
+# [1.67.0](https://github.com/Pocket/web-client/compare/v1.66.20...v1.67.0) (2022-12-06)
+
+
+### Bug Fixes
+
+* **onboarding:** cleanup of files ([2bd5833](https://github.com/Pocket/web-client/commit/2bd58336fbd338e4da72901d162f20573c49801b))
+* **onboarding:** put onboarding behind feature flag ([490eed2](https://github.com/Pocket/web-client/commit/490eed2c313af887f08b2b37fc2cb71d40121d55))
+* **onboarding:** save status to server ([c569a0f](https://github.com/Pocket/web-client/commit/c569a0fc70fd9825ca399dd77ff6b1f659e2b449))
+* **onboarding:** update storybook to allow resetting of demo ([ec6d984](https://github.com/Pocket/web-client/commit/ec6d98421e3ad7ef5d1bca5dd8b89406f73ccd57))
+
+
+### Features
+
+* **setup:** adding setup moment v4 functionality ([9ac57b2](https://github.com/Pocket/web-client/commit/9ac57b2da5afe7b73c39575baca1cb342b7a329d))
+
 ## [1.66.20](https://github.com/Pocket/web-client/compare/v1.66.19...v1.66.20) (2022-12-05)
 
 
