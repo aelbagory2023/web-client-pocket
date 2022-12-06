@@ -1,3 +1,10 @@
+## [1.67.1](https://github.com/Pocket/web-client/compare/v1.67.0...v1.67.1) (2022-12-06)
+
+
+### Bug Fixes
+
+* **waypoint:** remove sess guid check ([bd94b66](https://github.com/Pocket/web-client/commit/bd94b6660f622ec93b898db19a39d96ad699df5d))
+
 # [1.67.0](https://github.com/Pocket/web-client/compare/v1.66.20...v1.67.0) (2022-12-06)
 
 
