@@ -1,3 +1,10 @@
+## [1.67.3](https://github.com/Pocket/web-client/compare/v1.67.2...v1.67.3) (2022-12-07)
+
+
+### Bug Fixes
+
+* **onboarding:** update highlight border styles ([d3d9e38](https://github.com/Pocket/web-client/commit/d3d9e384c35663131db4344c22c4612ca902f08b))
+
 ## [1.67.2](https://github.com/Pocket/web-client/compare/v1.67.1...v1.67.2) (2022-12-06)
 
 
