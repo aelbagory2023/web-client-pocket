@@ -1,3 +1,10 @@
+## [1.67.8](https://github.com/Pocket/web-client/compare/v1.67.7...v1.67.8) (2022-12-13)
+
+
+### Bug Fixes
+
+* **collections:** index the response ids ([405e6bc](https://github.com/Pocket/web-client/commit/405e6bc127ddf1f8dcd0e53925f308368a9f3cff))
+
 ## [1.67.7](https://github.com/Pocket/web-client/compare/v1.67.6...v1.67.7) (2022-12-13)
 
 
