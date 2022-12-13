@@ -1,3 +1,23 @@
+## [1.67.6](https://github.com/Pocket/web-client/compare/v1.67.5...v1.67.6) (2022-12-13)
+
+
+### Bug Fixes
+
+* **discover card snapshot:** added aria-label ([0f87d2a](https://github.com/Pocket/web-client/commit/0f87d2ac418ebf2e7a8b17856cfc01673ad5d270))
+* **item actions:** cleaning up unused components and styles ([0f61ce0](https://github.com/Pocket/web-client/commit/0f61ce0ade4ae34df62441197cb1b4fd3d1d24fd))
+* **item actions:** update SavedActions ([0034efa](https://github.com/Pocket/web-client/commit/0034efa5684aadb25dc6c1484341b0c587fc53fe))
+* **item story:** clean up controls, add isInternalItem ([2cc03ea](https://github.com/Pocket/web-client/commit/2cc03ea4d235325d1ff278e99fd0193dff9ad53d))
+* **item story:** remove ActionsSecondary, update layout, add control bools ([4f526a4](https://github.com/Pocket/web-client/commit/4f526a4116c21d324b94f2224ddf3515d59e3fbd))
+* **item-actions:** clean up CSS ([2231b38](https://github.com/Pocket/web-client/commit/2231b382a8db13d2c70a65b536e413154cc0ca46))
+* **item:** add view original icon to title and styles ([c7f70c3](https://github.com/Pocket/web-client/commit/c7f70c3ded3de1102533f3604ecca8a52a3fccb4))
+* **item:** adjust discovery actions, add save status to storybook ([4a49426](https://github.com/Pocket/web-client/commit/4a494264b28314b9e65ff58627cddfa864fd9625))
+* **item:** adjust item footer content & hierarchy ([477bc33](https://github.com/Pocket/web-client/commit/477bc33c40e24eeead2ffeebf8cb6b4d035ccbdb))
+* **item:** fix accessibility issues - color contrast and button element label ([4aae496](https://github.com/Pocket/web-client/commit/4aae496c456dc67473bf9e67872079c4004a6cc1))
+* **item:** remove styling for authors ([a187476](https://github.com/Pocket/web-client/commit/a187476e12c8231f95486d83c4a7110ef614631b))
+* **item:** update footerActions icon color & spacing ([284cffd](https://github.com/Pocket/web-client/commit/284cffd6a9295781ce78769bf1993d35e1d9070e))
+* **overflow menu:** add ability to hide a menu item ([bd55b02](https://github.com/Pocket/web-client/commit/bd55b02454df489e4f70f28873f9049f22f2af1d))
+* **savedItems mock:** add storybookContext and new items ([0f39c3f](https://github.com/Pocket/web-client/commit/0f39c3f4110fb27b17345386d3b2a105e1e00f0d))
+
 ## [1.67.5](https://github.com/Pocket/web-client/compare/v1.67.4...v1.67.5) (2022-12-13)
 
 
