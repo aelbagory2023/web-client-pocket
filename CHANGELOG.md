@@ -1,3 +1,10 @@
+## [1.67.7](https://github.com/Pocket/web-client/compare/v1.67.6...v1.67.7) (2022-12-13)
+
+
+### Bug Fixes
+
+* **account:** remove notifications and other feature flags ([812437d](https://github.com/Pocket/web-client/commit/812437dc2e56dc0c0a94d344316a3907e859b18d))
+
 ## [1.67.6](https://github.com/Pocket/web-client/compare/v1.67.5...v1.67.6) (2022-12-13)
 
 
