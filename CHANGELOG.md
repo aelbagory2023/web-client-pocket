@@ -1,3 +1,13 @@
+## [1.67.9](https://github.com/Pocket/web-client/compare/v1.67.8...v1.67.9) (2022-12-14)
+
+
+### Bug Fixes
+
+* **card:** update bulk selected style ([3878caa](https://github.com/Pocket/web-client/commit/3878caa8a5ec3754492bb608c47b7efa781be2ef))
+* **shortcuts:** sort order ([702c785](https://github.com/Pocket/web-client/commit/702c7857947ed515434bc2be038d190340dcc508))
+* **shortcuts:** update shortcuts to mutations ([626e50f](https://github.com/Pocket/web-client/commit/626e50fa3c80aeaa3318df3867b8eb5306ba9e75))
+* **shortcuts:** view original ([a6503c1](https://github.com/Pocket/web-client/commit/a6503c1028a3f105b189536f0fc2790f246a9dd2))
+
 ## [1.67.8](https://github.com/Pocket/web-client/compare/v1.67.7...v1.67.8) (2022-12-13)
 
 
