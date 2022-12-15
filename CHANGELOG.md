@@ -1,3 +1,12 @@
+## [1.67.10](https://github.com/Pocket/web-client/compare/v1.67.9...v1.67.10) (2022-12-15)
+
+
+### Bug Fixes
+
+* **item story:** add ability to show topic ([44fee40](https://github.com/Pocket/web-client/commit/44fee40974c96caebcd87a9da7afea1d7fc27584))
+* **item story:** cleanup, reorder controls ([fc926dc](https://github.com/Pocket/web-client/commit/fc926dcb87b691ca96ecd475e8cffa1bdde6b00f))
+* **savedItems mock:** add images array to response json ([635a2c9](https://github.com/Pocket/web-client/commit/635a2c93c25ba7bc31e33df4e89a16baf0134430))
+
 ## [1.67.9](https://github.com/Pocket/web-client/compare/v1.67.8...v1.67.9) (2022-12-14)
 
 
