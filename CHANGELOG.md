@@ -1,3 +1,12 @@
+## [1.68.3](https://github.com/Pocket/web-client/compare/v1.68.2...v1.68.3) (2023-01-05)
+
+
+### Reverts
+
+* Revert "Revert "feat(build image): update buildspec to work w/new pocket-build image"" ([e611ee0](https://github.com/Pocket/web-client/commit/e611ee09d8f99b481fa161e35e1fff461b22e197))
+* Revert "Revert "add linux user to buildspec & non-interactive setup for shims"" ([a92d971](https://github.com/Pocket/web-client/commit/a92d97166319e87fe4e113f0fd36dab03b87c763))
+* Revert "Revert "account for shell eq check changes moving off alpine"" ([35a072b](https://github.com/Pocket/web-client/commit/35a072b6dace4c45777499dd12c5ad6be8a4c877))
+
 ## [1.68.2](https://github.com/Pocket/web-client/compare/v1.68.1...v1.68.2) (2023-01-05)
 
 
