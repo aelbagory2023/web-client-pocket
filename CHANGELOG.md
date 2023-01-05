@@ -1,3 +1,10 @@
+## [1.68.2](https://github.com/Pocket/web-client/compare/v1.68.1...v1.68.2) (2023-01-05)
+
+
+### Bug Fixes
+
+* **ci:** Require production assets for prod codepipeline ([b04056f](https://github.com/Pocket/web-client/commit/b04056f04768fd8833515605ed793b89619108e6))
+
 ## [1.68.1](https://github.com/Pocket/web-client/compare/v1.68.0...v1.68.1) (2023-01-05)
 
 
