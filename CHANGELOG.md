@@ -1,3 +1,19 @@
+# [1.69.0](https://github.com/Pocket/web-client/compare/v1.68.3...v1.69.0) (2023-01-09)
+
+
+### Bug Fixes
+
+* **ads:** remove curation catagory ([3013571](https://github.com/Pocket/web-client/commit/3013571ab996217da68d60ba3b0ee12aa9c30123))
+* **ads:** update collection story page ([be75091](https://github.com/Pocket/web-client/commit/be7509110984be07738eaa3acf408fb5628e619f))
+* **gtag:** add back in analytics ID ([1a7291b](https://github.com/Pocket/web-client/commit/1a7291b27a62f7e578508e1a050292767506fec2))
+* **user:** invalidate on bad sess_guid ([cc9971b](https://github.com/Pocket/web-client/commit/cc9971b91c1ea422131343e6fce358bdf06c8f68))
+
+
+### Features
+
+* **ads:** installing freestar components ([46e32fd](https://github.com/Pocket/web-client/commit/46e32fdb14d29753ec5c9cee5918820b400d286f))
+* **ads:** switch content ads to use freestar ([2cd9d4e](https://github.com/Pocket/web-client/commit/2cd9d4e00d96c0e576db797fe96a2f42f6347e2a))
+
 ## [1.68.3](https://github.com/Pocket/web-client/compare/v1.68.2...v1.68.3) (2023-01-05)
 
 
