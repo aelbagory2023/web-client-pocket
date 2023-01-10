@@ -1,3 +1,11 @@
+## [1.69.1](https://github.com/Pocket/web-client/compare/v1.69.0...v1.69.1) (2023-01-10)
+
+
+### Bug Fixes
+
+* **document:** adding the google tags script back to main document file ([f83a901](https://github.com/Pocket/web-client/commit/f83a9019aee11c720ce3c449ea59c6ea5cf12822))
+* **document:** re adding gtag config function ([5bdf1c3](https://github.com/Pocket/web-client/commit/5bdf1c38172ea0f32142aa56d080132d69d067ef))
+
 # [1.69.0](https://github.com/Pocket/web-client/compare/v1.68.3...v1.69.0) (2023-01-09)
 
 
