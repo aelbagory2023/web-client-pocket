@@ -1,3 +1,10 @@
+## [1.69.2](https://github.com/Pocket/web-client/compare/v1.69.1...v1.69.2) (2023-01-13)
+
+
+### Bug Fixes
+
+* **actions:** build error on unused constants ([730ffbd](https://github.com/Pocket/web-client/commit/730ffbdf51fe731a789e57ee77a1a5be2a22d625))
+
 ## [1.69.1](https://github.com/Pocket/web-client/compare/v1.69.0...v1.69.1) (2023-01-10)
 
 
