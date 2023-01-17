@@ -1,3 +1,10 @@
+## [1.69.3](https://github.com/Pocket/web-client/compare/v1.69.2...v1.69.3) (2023-01-17)
+
+
+### Bug Fixes
+
+* **tagging:** switch encode func to encodeURIComponent ([00f9c31](https://github.com/Pocket/web-client/commit/00f9c314c765acb6e4e131fb1949226cff00553d))
+
 ## [1.69.2](https://github.com/Pocket/web-client/compare/v1.69.1...v1.69.2) (2023-01-13)
 
 
