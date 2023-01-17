@@ -1,3 +1,10 @@
+## [1.69.4](https://github.com/Pocket/web-client/compare/v1.69.3...v1.69.4) (2023-01-17)
+
+
+### Bug Fixes
+
+* **eslint:** adjust simple errors ([24db7f5](https://github.com/Pocket/web-client/commit/24db7f5f53257936c0be1c717d6baebe1554a240))
+
 ## [1.69.3](https://github.com/Pocket/web-client/compare/v1.69.2...v1.69.3) (2023-01-17)
 
 
