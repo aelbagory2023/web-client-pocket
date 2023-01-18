@@ -1,3 +1,10 @@
+# [1.71.0](https://github.com/Pocket/web-client/compare/v1.70.0...v1.71.0) (2023-01-18)
+
+
+### Features
+
+* **home:** set up locale for home content ([96bed81](https://github.com/Pocket/web-client/commit/96bed817ed924e13167c46c74f657e37c39fb166))
+
 # [1.70.0](https://github.com/Pocket/web-client/compare/v1.69.5...v1.70.0) (2023-01-18)
 
 
