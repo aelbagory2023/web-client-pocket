@@ -1,3 +1,12 @@
+## [1.69.5](https://github.com/Pocket/web-client/compare/v1.69.4...v1.69.5) (2023-01-18)
+
+
+### Bug Fixes
+
+* **tagging:** added character limit to editing tag on tag's page ([8a7b893](https://github.com/Pocket/web-client/commit/8a7b893d113f9092dac91d053fc5fd47c2998800))
+* **tagging:** fix character limit off-by-1 ([c3bb751](https://github.com/Pocket/web-client/commit/c3bb7512d52e7fc7d7ab147f219c22ffa2596e33))
+* **tagging:** Introduce shared variable ([7e85f0f](https://github.com/Pocket/web-client/commit/7e85f0f57df2a08b8e37b720527ba2f5608a3fa9))
+
 ## [1.69.4](https://github.com/Pocket/web-client/compare/v1.69.3...v1.69.4) (2023-01-17)
 
 
