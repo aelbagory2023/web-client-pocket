@@ -1,3 +1,10 @@
+## [1.71.1](https://github.com/Pocket/web-client/compare/v1.71.0...v1.71.1) (2023-01-19)
+
+
+### Bug Fixes
+
+* **tagging:** clear input upon selecting typeahead item ([56a6a7d](https://github.com/Pocket/web-client/commit/56a6a7d99d32f5e59013bb7ee38399d869d30053))
+
 # [1.71.0](https://github.com/Pocket/web-client/compare/v1.70.0...v1.71.0) (2023-01-18)
 
 
