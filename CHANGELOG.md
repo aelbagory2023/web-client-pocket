@@ -1,3 +1,10 @@
+## [1.71.3](https://github.com/Pocket/web-client/compare/v1.71.2...v1.71.3) (2023-01-23)
+
+
+### Bug Fixes
+
+* **aws:** removing old aws crud ([3cf8cd7](https://github.com/Pocket/web-client/commit/3cf8cd729d40c2f58a48508a933d6873cbc5f52f))
+
 ## [1.71.2](https://github.com/Pocket/web-client/compare/v1.71.1...v1.71.2) (2023-01-23)
 
 
