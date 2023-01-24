@@ -1,3 +1,10 @@
+## [1.72.4](https://github.com/Pocket/web-client/compare/v1.72.3...v1.72.4) (2023-01-24)
+
+
+### Bug Fixes
+
+* **toasts:** fix {{count}} is appearing on toasts in some languages ([1238cee](https://github.com/Pocket/web-client/commit/1238ceecf196af15dd0a220eeac69310912e9c92))
+
 ## [1.72.3](https://github.com/Pocket/web-client/compare/v1.72.2...v1.72.3) (2023-01-24)
 
 
