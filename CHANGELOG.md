@@ -1,3 +1,18 @@
+## [1.72.3](https://github.com/Pocket/web-client/compare/v1.72.2...v1.72.3) (2023-01-24)
+
+
+### Bug Fixes
+
+* **tagging:** add handling for white space input ([97cb387](https://github.com/Pocket/web-client/commit/97cb38718f17e4721486cd1ad2ab7a7e42b06610))
+* **tagging:** applied trim to submitted values in cases ([17becdc](https://github.com/Pocket/web-client/commit/17becdc91b7a1e06df9584198f3a58a4d9ce7b32))
+* **tagging:** cleaned up if-else case per PR comment ([03aad0c](https://github.com/Pocket/web-client/commit/03aad0c5306729daa74962d15b02eefba48aeaa3))
+* **tagging:** fixed Enter case broken from earlier commit cleanup, fixed Save button case ([ecfa385](https://github.com/Pocket/web-client/commit/ecfa38538d5b3bc07c7562351e071ab44725ee3b))
+* **tagging:** re-focus input on invalid submission attempt ([1c0e590](https://github.com/Pocket/web-client/commit/1c0e590909f569873e0b11a2234788b4fd8b40c1))
+* **tagging:** removed ; ([1452418](https://github.com/Pocket/web-client/commit/1452418900eff541e14d53aedb2fb990654df750))
+* **tagging:** removed prettier ignore ([4d404f5](https://github.com/Pocket/web-client/commit/4d404f5d00bd35daff99c6eac570522df1b239a2))
+* **tagging:** Undid changes to TagEditModal ([a0bbc44](https://github.com/Pocket/web-client/commit/a0bbc443ca5933c5a7e0da7b9311183dcb04b03a))
+* **tagging:** updated code comment and introduced trimmed value variable ([bb752f5](https://github.com/Pocket/web-client/commit/bb752f5426f3271fb2a42dbf2c79479ebfc41e38))
+
 ## [1.72.2](https://github.com/Pocket/web-client/compare/v1.72.1...v1.72.2) (2023-01-24)
 
 
