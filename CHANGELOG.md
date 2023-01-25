@@ -1,3 +1,20 @@
+# [1.73.0](https://github.com/Pocket/web-client/compare/v1.72.5...v1.73.0) (2023-01-25)
+
+
+### Bug Fixes
+
+* **pocket-recs:** add temporary dictionary of publisher images ([e52922a](https://github.com/Pocket/web-client/commit/e52922a45150a9b26a6c0f0a720cb942e806d592))
+* **pocket-recs:** removing commented out code for publisher image ([bc1806e](https://github.com/Pocket/web-client/commit/bc1806e4f420bee246cb4f4a571154d4e5d641b8))
+* **snowplow:** update actions to include content destination ([4894343](https://github.com/Pocket/web-client/commit/489434356de38be90c71feef46bead210f5f8d46))
+* **snowplow:** update to snowplow docs ([c62aa53](https://github.com/Pocket/web-client/commit/c62aa531f6eacf65bf033fce2b3f6cb81ffc448d))
+* **syndicated:** update analytics identifiers for recs ([c614862](https://github.com/Pocket/web-client/commit/c614862994bb620e704aa538e362563af6ca70ba))
+* **syndicated:** updating identifier used to call rec events ([33b433a](https://github.com/Pocket/web-client/commit/33b433aa886ac350d1f4ef8fc9457fbd7bdbdd9c))
+
+
+### Features
+
+* **syndicated:** displaying recommended content provided by the graph ([489c567](https://github.com/Pocket/web-client/commit/489c567f203010cea5960ac01bdc8d0ec3be8e78))
+
 ## [1.72.5](https://github.com/Pocket/web-client/compare/v1.72.4...v1.72.5) (2023-01-25)
 
 
