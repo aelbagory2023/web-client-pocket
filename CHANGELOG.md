@@ -1,3 +1,13 @@
+## [1.72.5](https://github.com/Pocket/web-client/compare/v1.72.4...v1.72.5) (2023-01-25)
+
+
+### Bug Fixes
+
+* **item-actions:** adjust margin ([f0e2784](https://github.com/Pocket/web-client/commit/f0e278412afd21459b2965794dae4aefb1f55172))
+* **item:** fix footer for side-by-side ([69649c6](https://github.com/Pocket/web-client/commit/69649c65b6f6d2104561b6e6b6d37eb8f1c92936))
+* **item:** move item styles into its own file ([d6c2b05](https://github.com/Pocket/web-client/commit/d6c2b05d378f3b3bce6e59a3572481ba8941c056))
+* **item:** use openUrl instead of url ([6fb6e50](https://github.com/Pocket/web-client/commit/6fb6e5068ca436342cf4ab3205c054f233575d45))
+
 ## [1.72.4](https://github.com/Pocket/web-client/compare/v1.72.3...v1.72.4) (2023-01-24)
 
 
