@@ -1,3 +1,10 @@
+## [1.73.2](https://github.com/Pocket/web-client/compare/v1.73.1...v1.73.2) (2023-01-26)
+
+
+### Bug Fixes
+
+* **home:** limit setup on de home ([f49aa31](https://github.com/Pocket/web-client/commit/f49aa31342833453513184b5bfe36abadeee7022))
+
 ## [1.73.1](https://github.com/Pocket/web-client/compare/v1.73.0...v1.73.1) (2023-01-26)
 
 
