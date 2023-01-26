@@ -1,3 +1,10 @@
+## [1.73.5](https://github.com/Pocket/web-client/compare/v1.73.4...v1.73.5) (2023-01-26)
+
+
+### Bug Fixes
+
+* **recent saves:** update savesItemsById checks ([920d099](https://github.com/Pocket/web-client/commit/920d09924fbb32dbd37eb13221d219495ee1372b))
+
 ## [1.73.4](https://github.com/Pocket/web-client/compare/v1.73.3...v1.73.4) (2023-01-26)
 
 
