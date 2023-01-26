@@ -1,3 +1,10 @@
+## [1.73.4](https://github.com/Pocket/web-client/compare/v1.73.3...v1.73.4) (2023-01-26)
+
+
+### Bug Fixes
+
+* **waypoint:** allow home to use lang prefix ([a8e7458](https://github.com/Pocket/web-client/commit/a8e74589d3aae058de5132efd643d1888a1030fd))
+
 ## [1.73.3](https://github.com/Pocket/web-client/compare/v1.73.2...v1.73.3) (2023-01-26)
 
 
