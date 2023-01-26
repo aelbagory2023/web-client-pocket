@@ -1,3 +1,10 @@
+## [1.73.3](https://github.com/Pocket/web-client/compare/v1.73.2...v1.73.3) (2023-01-26)
+
+
+### Bug Fixes
+
+* **home:** cleanup snowplow events and add event for view more ([915212d](https://github.com/Pocket/web-client/commit/915212d46f4a209562855f46a632852ba53f4f65))
+
 ## [1.73.2](https://github.com/Pocket/web-client/compare/v1.73.1...v1.73.2) (2023-01-26)
 
 
