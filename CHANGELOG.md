@@ -1,3 +1,17 @@
+# [1.74.0](https://github.com/Pocket/web-client/compare/v1.73.5...v1.74.0) (2023-01-26)
+
+
+### Bug Fixes
+
+* **item:** anatomy adding isVideo/isImage ([e280138](https://github.com/Pocket/web-client/commit/e2801381c1a3a2706cc825d0dfc477ddb30d16f3))
+* **item:** anatomy doc changes ([26cbd2f](https://github.com/Pocket/web-client/commit/26cbd2ff8c7a72e640546436a57809ecbca9ae99))
+* **item:** anatomy doc spelling and clarity ([9e4e4fb](https://github.com/Pocket/web-client/commit/9e4e4fb5045989a018f595b1d4f5717a3502f733))
+
+
+### Features
+
+* **item:** add colocated anatomy doc ([08c8e33](https://github.com/Pocket/web-client/commit/08c8e33baae535ffd04de112007ea46deea3bb6f))
+
 ## [1.73.5](https://github.com/Pocket/web-client/compare/v1.73.4...v1.73.5) (2023-01-26)
 
 
