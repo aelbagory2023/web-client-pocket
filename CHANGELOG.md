@@ -1,3 +1,13 @@
+## [1.76.2](https://github.com/Pocket/web-client/compare/v1.76.1...v1.76.2) (2023-02-02)
+
+
+### Bug Fixes
+
+* **cookies:** banner not showing up after initial page ([0fcb963](https://github.com/Pocket/web-client/commit/0fcb963253f205387e781be15103dc2f5d3232ed))
+* **cookies:** fixed indentation ([c6876c0](https://github.com/Pocket/web-client/commit/c6876c071f2821e4de6621281570414d47643cf2))
+* **cookies:** move function outside component ([9ac100a](https://github.com/Pocket/web-client/commit/9ac100aed0daf512145e5a7fc450f847c0db57fd))
+* **cookies:** moved function into component, fixed spelling ([c2f4b30](https://github.com/Pocket/web-client/commit/c2f4b30b370b6603c6e18072d49cfd67d77ac26b))
+
 ## [1.76.1](https://github.com/Pocket/web-client/compare/v1.76.0...v1.76.1) (2023-02-02)
 
 
