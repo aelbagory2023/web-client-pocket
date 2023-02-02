@@ -1,3 +1,10 @@
+## [1.76.4](https://github.com/Pocket/web-client/compare/v1.76.3...v1.76.4) (2023-02-02)
+
+
+### Bug Fixes
+
+* **collections:** updating analytics events for unsaving ([2320d9a](https://github.com/Pocket/web-client/commit/2320d9a83b0947f860acdb7f024d3c5252744588))
+
 ## [1.76.3](https://github.com/Pocket/web-client/compare/v1.76.2...v1.76.3) (2023-02-02)
 
 
