@@ -1,3 +1,11 @@
+## [1.76.3](https://github.com/Pocket/web-client/compare/v1.76.2...v1.76.3) (2023-02-02)
+
+
+### Bug Fixes
+
+* **recs:** update tests for syndicated pocket recs ([f63d9c6](https://github.com/Pocket/web-client/commit/f63d9c6637df1937b019e5aa9bff0413d6ee1adb))
+* **syndicated:** replace temp publisher images with images from graph ([dc09db3](https://github.com/Pocket/web-client/commit/dc09db356d0f247c12d9d239a4cbd34fec9e4d4d))
+
 ## [1.76.2](https://github.com/Pocket/web-client/compare/v1.76.1...v1.76.2) (2023-02-02)
 
 
