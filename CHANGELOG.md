@@ -1,3 +1,10 @@
+## [1.76.1](https://github.com/Pocket/web-client/compare/v1.76.0...v1.76.1) (2023-02-02)
+
+
+### Bug Fixes
+
+* **404 error:** add css rule ([7f2ee5f](https://github.com/Pocket/web-client/commit/7f2ee5fd5107ec83ee4524741ee9878d845ca6c0))
+
 # [1.76.0](https://github.com/Pocket/web-client/compare/v1.75.0...v1.76.0) (2023-02-01)
 
 
