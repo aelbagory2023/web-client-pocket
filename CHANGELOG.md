@@ -1,3 +1,10 @@
+## [1.76.5](https://github.com/Pocket/web-client/compare/v1.76.4...v1.76.5) (2023-02-03)
+
+
+### Bug Fixes
+
+* **collections:** update story order ([531e7e0](https://github.com/Pocket/web-client/commit/531e7e0358c233a5541a06d11339403b94ef22b9))
+
 ## [1.76.4](https://github.com/Pocket/web-client/compare/v1.76.3...v1.76.4) (2023-02-02)
 
 
