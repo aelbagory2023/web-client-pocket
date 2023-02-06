@@ -1,3 +1,11 @@
+## [1.76.7](https://github.com/Pocket/web-client/compare/v1.76.6...v1.76.7) (2023-02-06)
+
+
+### Bug Fixes
+
+* **snowplow:** adding descriptions to all actions ([1db6dcf](https://github.com/Pocket/web-client/commit/1db6dcf63e91727796dd6dab573ece120864d283))
+* **snowplow:** update minor copy in action descriptions ([a52c529](https://github.com/Pocket/web-client/commit/a52c5298b30e12ada4bd943e76c56fd0aaa66844))
+
 ## [1.76.6](https://github.com/Pocket/web-client/compare/v1.76.5...v1.76.6) (2023-02-06)
 
 
