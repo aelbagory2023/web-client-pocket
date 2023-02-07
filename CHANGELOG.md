@@ -1,3 +1,11 @@
+## [1.76.9](https://github.com/Pocket/web-client/compare/v1.76.8...v1.76.9) (2023-02-07)
+
+
+### Bug Fixes
+
+* **snowplow:** update readme to include how to build actions and add new events ([ec66c27](https://github.com/Pocket/web-client/commit/ec66c27a73112fd94d6ccdd9a1d5fea2ff367870))
+* **snowplow:** updating info to the readme linking events to eventtype and entities to entitytypes ([941e74c](https://github.com/Pocket/web-client/commit/941e74c003e9a365447fa8ca46af40baa73d8885))
+
 ## [1.76.8](https://github.com/Pocket/web-client/compare/v1.76.7...v1.76.8) (2023-02-07)
 
 
