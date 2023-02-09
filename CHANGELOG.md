@@ -1,3 +1,15 @@
+# [1.78.0](https://github.com/Pocket/web-client/compare/v1.77.0...v1.78.0) (2023-02-09)
+
+
+### Bug Fixes
+
+* **icons:** adding lists specific icons ([bf6b7db](https://github.com/Pocket/web-client/commit/bf6b7db2b3b69d37745f6232fa957166dd5d9aa2))
+
+
+### Features
+
+* **lists:** add bare bones lists page ([2299ea1](https://github.com/Pocket/web-client/commit/2299ea13849a4ce173217d2e43891554a3bc2b82))
+
 # [1.77.0](https://github.com/Pocket/web-client/compare/v1.76.9...v1.77.0) (2023-02-09)
 
 
