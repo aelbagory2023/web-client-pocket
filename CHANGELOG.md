@@ -1,3 +1,13 @@
+## [1.78.1](https://github.com/Pocket/web-client/compare/v1.78.0...v1.78.1) (2023-02-13)
+
+
+### Bug Fixes
+
+* **dev-tools:** adding link to the individual list page in qa modal ([3a54ded](https://github.com/Pocket/web-client/commit/3a54ded38d0d85113a28f5d829be33c4943581c4))
+* **empty-state:** adding empty states for both individual lists and all lists ([bb14234](https://github.com/Pocket/web-client/commit/bb142348a69f618a1f31d65c7bfd5fdbb78148c0))
+* **individual-list:** remove sort order per product requirements ([5a80a96](https://github.com/Pocket/web-client/commit/5a80a963529e57d74748b7390bb368ee3b1cc0a8))
+* **lists:** adding base individual list page ([0fe3e6a](https://github.com/Pocket/web-client/commit/0fe3e6ae847960c0e4cffcbb706a9b9b4f48bf61))
+
 # [1.78.0](https://github.com/Pocket/web-client/compare/v1.77.0...v1.78.0) (2023-02-09)
 
 
