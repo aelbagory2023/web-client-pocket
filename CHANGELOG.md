@@ -1,3 +1,10 @@
+## [1.78.3](https://github.com/Pocket/web-client/compare/v1.78.2...v1.78.3) (2023-02-15)
+
+
+### Bug Fixes
+
+* **reader:** go back on archive click ([ae831e5](https://github.com/Pocket/web-client/commit/ae831e5fb493e63ebb5d1d109f3cf82a06baa0ab))
+
 ## [1.78.2](https://github.com/Pocket/web-client/compare/v1.78.1...v1.78.2) (2023-02-15)
 
 
