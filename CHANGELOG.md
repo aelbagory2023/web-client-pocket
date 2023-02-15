@@ -1,3 +1,15 @@
+## [1.78.2](https://github.com/Pocket/web-client/compare/v1.78.1...v1.78.2) (2023-02-15)
+
+
+### Bug Fixes
+
+* **CreateListModal:** rename file, remove translation ([6be4e28](https://github.com/Pocket/web-client/commit/6be4e28413c648427b92d3217654f3401e371f05))
+* **input-styles:** remove max-width on inputWrapper ([4acc9c7](https://github.com/Pocket/web-client/commit/4acc9c7b0ca127c224455354484b79927f3b5e62))
+* **InputWrapper:** fix has-value class not getting added properly ([c1544b8](https://github.com/Pocket/web-client/commit/c1544b8b0d55bc0f869b25a3f1cd1e888b8a71e8))
+* **modal.story:** add CreateListModal ([edb37fd](https://github.com/Pocket/web-client/commit/edb37fd1c6c5ae2b6650dff83b6aa1c9e2a555a4))
+* **shared lists:** add ListModal scaffold ([21c39fa](https://github.com/Pocket/web-client/commit/21c39fa2803ee36c63d4880702e89fe1472a5e5f))
+* **TextInput:** add maxLength prop ([e0492a0](https://github.com/Pocket/web-client/commit/e0492a0a8b49d9bb506dcf3e932fcf3486cb7f18))
+
 ## [1.78.1](https://github.com/Pocket/web-client/compare/v1.78.0...v1.78.1) (2023-02-13)
 
 
