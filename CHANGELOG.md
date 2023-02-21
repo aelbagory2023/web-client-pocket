@@ -1,3 +1,12 @@
+## [1.79.1](https://github.com/Pocket/web-client/compare/v1.79.0...v1.79.1) (2023-02-21)
+
+
+### Bug Fixes
+
+* **carousel:** add disabled states ([9c3068f](https://github.com/Pocket/web-client/commit/9c3068f5611a070f87f87184e1f2204bc5b52bde))
+* **home:** add analytics to carousel ([bd60155](https://github.com/Pocket/web-client/commit/bd6015578bf8300bba9e17fa79e3a7ab42ea59a4))
+* **reader:** update rec with snowplowId ([39483b2](https://github.com/Pocket/web-client/commit/39483b25bd41ba0166c0a73cf1b52ce83251c62a))
+
 # [1.79.0](https://github.com/Pocket/web-client/compare/v1.78.4...v1.79.0) (2023-02-21)
 
 
