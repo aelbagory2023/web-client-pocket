@@ -1,3 +1,10 @@
+## [1.79.4](https://github.com/Pocket/web-client/compare/v1.79.3...v1.79.4) (2023-02-23)
+
+
+### Bug Fixes
+
+* **snowplow:** remove item id from content entities ([5de05fb](https://github.com/Pocket/web-client/commit/5de05fb47e87900e224cd6b1036c1278934e5afd))
+
 ## [1.79.3](https://github.com/Pocket/web-client/compare/v1.79.2...v1.79.3) (2023-02-22)
 
 
