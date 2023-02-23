@@ -1,3 +1,10 @@
+## [1.79.5](https://github.com/Pocket/web-client/compare/v1.79.4...v1.79.5) (2023-02-23)
+
+
+### Bug Fixes
+
+* **item:** remove scroll into view on focus [DIS-381] ([e065b67](https://github.com/Pocket/web-client/commit/e065b67df4804af77d02a759bb7211d51eaa50f0))
+
 ## [1.79.4](https://github.com/Pocket/web-client/compare/v1.79.3...v1.79.4) (2023-02-23)
 
 
