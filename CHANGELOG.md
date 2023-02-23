@@ -1,3 +1,10 @@
+## [1.79.6](https://github.com/Pocket/web-client/compare/v1.79.5...v1.79.6) (2023-02-23)
+
+
+### Bug Fixes
+
+* **saves:** update banner copy to say Collections instead of lists ([24cb882](https://github.com/Pocket/web-client/commit/24cb8823ba81abfac50249e05d71babc576c5223))
+
 ## [1.79.5](https://github.com/Pocket/web-client/compare/v1.79.4...v1.79.5) (2023-02-23)
 
 
