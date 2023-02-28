@@ -1,3 +1,19 @@
+## [1.79.9](https://github.com/Pocket/web-client/compare/v1.79.8...v1.79.9) (2023-02-28)
+
+
+### Bug Fixes
+
+* **all lists:** update state to respond to ITEMS_CREATE_LIST_SUCCESS ([6709a80](https://github.com/Pocket/web-client/commit/6709a80d058158795cc0ccf7824e1ff1bf97218e))
+* **all-lists:** start wiring up all lists page ([a96d031](https://github.com/Pocket/web-client/commit/a96d031159e5cbca51d8346468f61bc0b5432564))
+* **all-lists:** use item component to show lists ([24cbdbe](https://github.com/Pocket/web-client/commit/24cbdbe2cdcad510fc51c338c1be489b79c81a73))
+* **AllLists:** remove story count ([06bb488](https://github.com/Pocket/web-client/commit/06bb4886c81654057c89ba23f264403a7d0b74e7))
+* **CreateEditShareableList:** reset inputs on submit ([9743363](https://github.com/Pocket/web-client/commit/9743363e4eb79358f6f7eefab581da4b8faac10f))
+* **elements.pcss:** remove button + button from margin-right styling ([852b571](https://github.com/Pocket/web-client/commit/852b571600d0caf6517b941ec77ca406cc268940))
+* **getShareableListsQuery:** add externalId ([5475cb9](https://github.com/Pocket/web-client/commit/5475cb9fe593991c5b9d8889173bb8a6dd943579))
+* **items layout:** add new stackedGridNoAside ([7fd1c91](https://github.com/Pocket/web-client/commit/7fd1c918955a8435149c9d834f6b76a86ce7a519))
+* **lists state:** add USER_SHAREABLE_LISTS_REQUEST_FAILURE ([3cdf958](https://github.com/Pocket/web-client/commit/3cdf958f1031c4018c14444126e7636730436bb8))
+* **lists state:** move getShareableLists API call into try block ([5238d24](https://github.com/Pocket/web-client/commit/5238d2498836f0584131f1bb34f8e67d6fb8d7f3))
+
 ## [1.79.8](https://github.com/Pocket/web-client/compare/v1.79.7...v1.79.8) (2023-02-27)
 
 
