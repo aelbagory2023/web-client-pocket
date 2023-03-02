@@ -1,3 +1,18 @@
+## [1.79.14](https://github.com/Pocket/web-client/compare/v1.79.13...v1.79.14) (2023-03-02)
+
+
+### Bug Fixes
+
+* **delete list:** first pass at deleting lists ([49ad6e8](https://github.com/Pocket/web-client/commit/49ad6e83bceb9994bdfc950028c25780f2ddddda))
+* **deleteShareableListQuery:** update variables to pass ([d7726a9](https://github.com/Pocket/web-client/commit/d7726a9977783f49e5f9088ed76f78d221b3505e))
+* **list-card:** add new list-card connector ([a974621](https://github.com/Pocket/web-client/commit/a9746214e041849671cf0849302b4b6e1d96f690))
+* **lists:** add delete to state, clean up some state ([8238f07](https://github.com/Pocket/web-client/commit/8238f07f2fa2542d7bac76e85d83ec7ed5b82517))
+* **lists:** add item to lists ([00928f5](https://github.com/Pocket/web-client/commit/00928f58be6d1ab1a6e5a236d5747bc885142cd4))
+* **lists:** delete unneeded files ([7917f6c](https://github.com/Pocket/web-client/commit/7917f6c4fdfb5cf209a1428941951e01d62512be))
+* **lists:** update list & mutation create state ([9ded102](https://github.com/Pocket/web-client/commit/9ded102a6ff37557d243a93ce490668a076f8dab))
+* **mutation-delete lists state:** remove comment ([bd22182](https://github.com/Pocket/web-client/commit/bd2218215b4d94391f2c8f4296835d811589944e))
+* **store:** adding mutationListDeleteSagas ([445f749](https://github.com/Pocket/web-client/commit/445f7491308ae1e514fd689334291300b6f0f561))
+
 ## [1.79.13](https://github.com/Pocket/web-client/compare/v1.79.12...v1.79.13) (2023-03-01)
 
 
