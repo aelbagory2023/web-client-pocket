@@ -1,3 +1,10 @@
+## [1.79.16](https://github.com/Pocket/web-client/compare/v1.79.15...v1.79.16) (2023-03-02)
+
+
+### Bug Fixes
+
+* **lists:** deleting item from list and update state management ([f75e55b](https://github.com/Pocket/web-client/commit/f75e55ba4e7fbc14c8a3ae6298a1ac21c7199e38))
+
 ## [1.79.15](https://github.com/Pocket/web-client/compare/v1.79.14...v1.79.15) (2023-03-02)
 
 
