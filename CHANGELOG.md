@@ -1,3 +1,10 @@
+## [1.79.17](https://github.com/Pocket/web-client/compare/v1.79.16...v1.79.17) (2023-03-02)
+
+
+### Bug Fixes
+
+* **cards:** pass topic labels through ([3ac93bc](https://github.com/Pocket/web-client/commit/3ac93bc2175e06ac91b0de3a096dee24d19201cd))
+
 ## [1.79.16](https://github.com/Pocket/web-client/compare/v1.79.15...v1.79.16) (2023-03-02)
 
 
