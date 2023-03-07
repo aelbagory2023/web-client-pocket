@@ -1,3 +1,10 @@
+## [1.79.19](https://github.com/Pocket/web-client/compare/v1.79.18...v1.79.19) (2023-03-07)
+
+
+### Bug Fixes
+
+* **lists:** hook up individual list settings modal ([cca27b5](https://github.com/Pocket/web-client/commit/cca27b5b03604c036d1c3a382978224c608c4e25))
+
 ## [1.79.18](https://github.com/Pocket/web-client/compare/v1.79.17...v1.79.18) (2023-03-07)
 
 
