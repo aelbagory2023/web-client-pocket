@@ -1,3 +1,15 @@
+## [1.79.18](https://github.com/Pocket/web-client/compare/v1.79.17...v1.79.18) (2023-03-07)
+
+
+### Bug Fixes
+
+* **list:** remove console log from update list query ([a6d44e6](https://github.com/Pocket/web-client/commit/a6d44e63812f7307c718ea2957e1e834819e8072))
+* **lists:** add item to list functionality ([e28ef63](https://github.com/Pocket/web-client/commit/e28ef633d63df79f0dc98afbcad6347a32ecfd92))
+* **lists:** adding default option to add to list modal ([3657f43](https://github.com/Pocket/web-client/commit/3657f437af74c70fe39355877b79baa1035df3c3))
+* **lists:** remove console log from add item api ([bc61de9](https://github.com/Pocket/web-client/commit/bc61de9b3f372888e9ab2313dcb27e82620be113))
+* **lists:** remove sneaky console logs ([3a01b87](https://github.com/Pocket/web-client/commit/3a01b875e63f94d0a0608cf4fd08871e9a57ad16))
+* **lists:** remove unused list constant ([394753a](https://github.com/Pocket/web-client/commit/394753a239afefb950b9c8fa77ceeb9d74d996cc))
+
 ## [1.79.17](https://github.com/Pocket/web-client/compare/v1.79.16...v1.79.17) (2023-03-02)
 
 
