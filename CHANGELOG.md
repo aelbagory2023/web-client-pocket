@@ -1,3 +1,13 @@
+## [1.79.20](https://github.com/Pocket/web-client/compare/v1.79.19...v1.79.20) (2023-03-08)
+
+
+### Bug Fixes
+
+* **button:** adding button style inline ([4fe2c21](https://github.com/Pocket/web-client/commit/4fe2c214dde04d0152f4fbaac8c8855abd18b32f))
+* **list:** create list with item ([ed5d935](https://github.com/Pocket/web-client/commit/ed5d935db4cc14c49479600f1561d1a6650a56ea))
+* **lists:** adding comment to create function for clarity ([e9ca815](https://github.com/Pocket/web-client/commit/e9ca815eec41d0649eb0dfeec53ea72c98deb36d))
+* **lists:** remove unneeded parameter from update call ([3f29daa](https://github.com/Pocket/web-client/commit/3f29daa4500540b2bd9992e5974ca0fce21ed2ba))
+
 ## [1.79.19](https://github.com/Pocket/web-client/compare/v1.79.18...v1.79.19) (2023-03-07)
 
 
