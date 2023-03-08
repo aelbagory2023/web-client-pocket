@@ -1,3 +1,10 @@
+## [1.79.22](https://github.com/Pocket/web-client/compare/v1.79.21...v1.79.22) (2023-03-08)
+
+
+### Bug Fixes
+
+* **actions:** rename all actions pertaining to lists ([db1971c](https://github.com/Pocket/web-client/commit/db1971c47db2152d85e8b8e76ac34d0dc142ef4f))
+
 ## [1.79.21](https://github.com/Pocket/web-client/compare/v1.79.20...v1.79.21) (2023-03-08)
 
 
