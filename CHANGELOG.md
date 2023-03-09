@@ -1,3 +1,10 @@
+## [1.81.1](https://github.com/Pocket/web-client/compare/v1.81.0...v1.81.1) (2023-03-09)
+
+
+### Bug Fixes
+
+* **lists:** adding toasts for list actions ([48c7e78](https://github.com/Pocket/web-client/commit/48c7e782c00a4c427c1b43990b1116e9c370d563))
+
 # [1.81.0](https://github.com/Pocket/web-client/compare/v1.80.6...v1.81.0) (2023-03-09)
 
 
