@@ -1,3 +1,10 @@
+## [1.80.5](https://github.com/Pocket/web-client/compare/v1.80.4...v1.80.5) (2023-03-09)
+
+
+### Bug Fixes
+
+* **waypoint:** allow hack for  local testing ([cd1cbe1](https://github.com/Pocket/web-client/commit/cd1cbe1db509b62e967ac4620b4ad4a1a9c2740b))
+
 ## [1.80.4](https://github.com/Pocket/web-client/compare/v1.80.3...v1.80.4) (2023-03-09)
 
 
