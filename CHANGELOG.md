@@ -1,3 +1,11 @@
+## [1.80.6](https://github.com/Pocket/web-client/compare/v1.80.5...v1.80.6) (2023-03-09)
+
+
+### Bug Fixes
+
+* **list:** only fetch individual list if enrolled ([f569f4d](https://github.com/Pocket/web-client/commit/f569f4d3d51f3c60ac87912b9dc84ac04c7c8fca))
+* **lists:** adding check to graph for pilot status ([fae22e5](https://github.com/Pocket/web-client/commit/fae22e5db0a433d42006d28793ef89ac59fed51d))
+
 ## [1.80.5](https://github.com/Pocket/web-client/compare/v1.80.4...v1.80.5) (2023-03-09)
 
 
