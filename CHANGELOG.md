@@ -1,3 +1,11 @@
+## [1.81.2](https://github.com/Pocket/web-client/compare/v1.81.1...v1.81.2) (2023-03-13)
+
+
+### Bug Fixes
+
+* **saves:** add toast entry for bulk unarchive ([f593891](https://github.com/Pocket/web-client/commit/f593891ca888c16165c1b63611f01672fb28877c))
+* **saves:** add toasts entries for bulk favorite/un-favorite/archive ([0470812](https://github.com/Pocket/web-client/commit/04708129bfde86fe3088d575b10e89461065e7d5))
+
 ## [1.81.1](https://github.com/Pocket/web-client/compare/v1.81.0...v1.81.1) (2023-03-09)
 
 
