@@ -31,8 +31,19 @@ const listHeaderStyles = css`
   .create-sort {
     display: flex;
 
+    .share {
+      margin-right: 12px;
+    }
+
     .filter {
       margin-left: 12px;
+    }
+
+    select {
+      min-width: 100px;
+      height: 1.875rem;
+      padding: 0 12px;
+      cursor: pointer;
     }
   }
 `
@@ -69,6 +80,10 @@ const publicListHeaderStyles = css`
     span {
       margin: 0 8px;
     }
+
+    .icon {
+      margin: 0;
+    }
   }
 `
 
@@ -93,14 +108,16 @@ export const ListIndividualHeader = ({
   title,
   description,
   status,
-  userId,
+  externalId,
   slug,
-  handlePublish,
+  handleSetStatus,
   handleShare,
   handleEdit
 }) => {
-  const url = `/${userId}/list/${slug}`
-  const isPrivate = status === 'PRIVATE'
+  const url = `/sharedlists/${externalId}/${slug}`
+  const isPublic = status === 'PUBLIC'
+
+  const setOptionValue = (e) => handleSetStatus(e.currentTarget.value)
 
   return (
     <header className={cx(savesHeaderStyle, listHeaderStyles)}>
@@ -113,15 +130,20 @@ export const ListIndividualHeader = ({
       </div>
 
       <div className="create-sort">
-        {isPrivate ? (
-          <button onClick={handlePublish} className="tiny">
-            Make list public
-          </button>
-        ) : (
-          <button onClick={handleShare} className="tiny">
+        {isPublic ? (
+          <button onClick={handleShare} className="tiny share" disabled>
             Share list
           </button>
-        )}
+        ) : null}
+
+        <select onChange={setOptionValue} value={status}>
+          <option value="PUBLIC">
+            Public
+          </option>
+          <option value="PRIVATE">
+            Private
+          </option>
+        </select>
 
         <button onClick={handleEdit} className="filter tiny outline">
           <FiltersAltIcon /> Settings
@@ -141,6 +163,8 @@ export const ListPublicHeader = ({
   saveStatus,
   handleSaveAll
 }) => {
+  const countText = listCount === 1 ? 'Item' : 'Items'
+
   return (
     <header className={publicListHeaderStyles}>
       <section className="headline">
@@ -150,10 +174,11 @@ export const ListPublicHeader = ({
       <section className="list-info">
         <div className="list-user-info">
           <Avatar src={avatarUrl} size="32px" />
-          <span>{userName}</span> | <span>{listCount} Items</span>
+          <span>{userName || 'Pocket User'}</span> | <span>{listCount} {countText}</span>
         </div>
 
         <SaveListButton
+          isDisabled={true}
           saveAction={handleSaveAll}
           isAuthenticated={isAuthenticated}
           saveStatus={saveStatus}
