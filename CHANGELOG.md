@@ -1,3 +1,10 @@
+## [1.81.4](https://github.com/Pocket/web-client/compare/v1.81.3...v1.81.4) (2023-03-13)
+
+
+### Bug Fixes
+
+* **dependencies:** update web-localization ([6903eb0](https://github.com/Pocket/web-client/commit/6903eb0de6a09a7af6cd0446640f9d9d83041259))
+
 ## [1.81.3](https://github.com/Pocket/web-client/compare/v1.81.2...v1.81.3) (2023-03-13)
 
 
