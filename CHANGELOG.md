@@ -1,3 +1,12 @@
+## [1.81.5](https://github.com/Pocket/web-client/compare/v1.81.4...v1.81.5) (2023-03-14)
+
+
+### Bug Fixes
+
+* **public-list:** adding a public list page ([390a07b](https://github.com/Pocket/web-client/commit/390a07b782104fd9331ad6154f0e4fad6fce3fd6))
+* **public-list:** cleaning up files, removing console logs ([29fc7d4](https://github.com/Pocket/web-client/commit/29fc7d4664c709601e1b73b777f2797b5be45be0))
+* **styles:** make tiny buttons styles have border radius of 8px ([c34917a](https://github.com/Pocket/web-client/commit/c34917ab635d5bf9f959401a1bef6ce7b30d597d))
+
 ## [1.81.4](https://github.com/Pocket/web-client/compare/v1.81.3...v1.81.4) (2023-03-13)
 
 
