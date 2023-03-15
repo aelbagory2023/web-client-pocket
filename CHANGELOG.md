@@ -1,3 +1,10 @@
+## [1.81.8](https://github.com/Pocket/web-client/compare/v1.81.7...v1.81.8) (2023-03-15)
+
+
+### Bug Fixes
+
+* **lists:** adding user to query and other polish ([cb4dfba](https://github.com/Pocket/web-client/commit/cb4dfba7400650fd0c61e75ce7e326b8599935f4))
+
 ## [1.81.7](https://github.com/Pocket/web-client/compare/v1.81.6...v1.81.7) (2023-03-15)
 
 
