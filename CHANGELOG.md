@@ -1,3 +1,11 @@
+## [1.81.7](https://github.com/Pocket/web-client/compare/v1.81.6...v1.81.7) (2023-03-15)
+
+
+### Bug Fixes
+
+* **list-share:** adding share modal to the individual list page ([8b550f7](https://github.com/Pocket/web-client/commit/8b550f7a2e632a64b51596b670c41e6cdc352e98))
+* **list-share:** cleanup of list share mutation state file ([7da0a9f](https://github.com/Pocket/web-client/commit/7da0a9fecdaeddf2e5691f9bae487fcc65586bc5))
+
 ## [1.81.6](https://github.com/Pocket/web-client/compare/v1.81.5...v1.81.6) (2023-03-15)
 
 
