@@ -1,3 +1,10 @@
+## [1.81.11](https://github.com/Pocket/web-client/compare/v1.81.10...v1.81.11) (2023-03-20)
+
+
+### Bug Fixes
+
+* **create-list:** show error when creating a list with a dupe title ([d7c2950](https://github.com/Pocket/web-client/commit/d7c295008b15ff493c9506d0775274bc934d5dc1))
+
 ## [1.81.10](https://github.com/Pocket/web-client/compare/v1.81.9...v1.81.10) (2023-03-20)
 
 
