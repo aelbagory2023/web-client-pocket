@@ -1,3 +1,10 @@
+## [1.81.13](https://github.com/Pocket/web-client/compare/v1.81.12...v1.81.13) (2023-03-20)
+
+
+### Bug Fixes
+
+* **PublicList:** add report list ([4219db2](https://github.com/Pocket/web-client/commit/4219db2975ec91190c8cbfec28e9bf5adc06697b))
+
 ## [1.81.12](https://github.com/Pocket/web-client/compare/v1.81.11...v1.81.12) (2023-03-20)
 
 
