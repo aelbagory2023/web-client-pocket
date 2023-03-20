@@ -1,3 +1,10 @@
+## [1.81.12](https://github.com/Pocket/web-client/compare/v1.81.11...v1.81.12) (2023-03-20)
+
+
+### Bug Fixes
+
+* **lists:** adding custom status toggle to individual lists ([a970620](https://github.com/Pocket/web-client/commit/a970620764c7d0c5733cc8bab13f4912d37deda1))
+
 ## [1.81.11](https://github.com/Pocket/web-client/compare/v1.81.10...v1.81.11) (2023-03-20)
 
 
