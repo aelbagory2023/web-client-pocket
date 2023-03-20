@@ -1,3 +1,11 @@
+## [1.82.2](https://github.com/Pocket/web-client/compare/v1.82.1...v1.82.2) (2023-03-20)
+
+
+### Bug Fixes
+
+* **lists:** trim title and description when editing ([4d4fbe6](https://github.com/Pocket/web-client/commit/4d4fbe6fbd85118305d83f0b62c927862f6d30c7))
+* **list:** trim title and description when creating or updating list ([1b166e4](https://github.com/Pocket/web-client/commit/1b166e4f88b767127807da5b0cfe68c150ac076d))
+
 ## [1.82.1](https://github.com/Pocket/web-client/compare/v1.82.0...v1.82.1) (2023-03-20)
 
 
