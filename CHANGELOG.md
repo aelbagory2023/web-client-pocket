@@ -1,3 +1,10 @@
+## [1.82.8](https://github.com/Pocket/web-client/compare/v1.82.7...v1.82.8) (2023-03-21)
+
+
+### Bug Fixes
+
+* **saves:** adding create list button to saves header ([7d5ebfd](https://github.com/Pocket/web-client/commit/7d5ebfdb83651335b9bf7017a251f37f5eb88434))
+
 ## [1.82.7](https://github.com/Pocket/web-client/compare/v1.82.6...v1.82.7) (2023-03-21)
 
 
