@@ -1,3 +1,10 @@
+## [1.82.13](https://github.com/Pocket/web-client/compare/v1.82.12...v1.82.13) (2023-03-21)
+
+
+### Bug Fixes
+
+* **global-nav:** update saves icon on mobile global nav ([78fac87](https://github.com/Pocket/web-client/commit/78fac875020c67479026788c21c505a762cc7ac4))
+
 ## [1.82.12](https://github.com/Pocket/web-client/compare/v1.82.11...v1.82.12) (2023-03-21)
 
 
