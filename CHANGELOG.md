@@ -1,3 +1,10 @@
+## [1.82.11](https://github.com/Pocket/web-client/compare/v1.82.10...v1.82.11) (2023-03-21)
+
+
+### Bug Fixes
+
+* **localization:** bumped version to 27 ([b3e8d1f](https://github.com/Pocket/web-client/commit/b3e8d1fbf66df99201f5d493fe814feec6fa69c8))
+
 ## [1.82.10](https://github.com/Pocket/web-client/compare/v1.82.9...v1.82.10) (2023-03-21)
 
 
