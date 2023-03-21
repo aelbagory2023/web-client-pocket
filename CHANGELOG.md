@@ -1,3 +1,13 @@
+## [1.82.4](https://github.com/Pocket/web-client/compare/v1.82.3...v1.82.4) (2023-03-21)
+
+
+### Bug Fixes
+
+* **sidebar:** remove unneeded space in line name ([267ef5c](https://github.com/Pocket/web-client/commit/267ef5cf76ec6a533187bd606acb81cf829637a7))
+* **sidebar:** update sidebar icons and active styles ([dcbb087](https://github.com/Pocket/web-client/commit/dcbb087be85df392d3ff3152ddc871917ea74474))
+* **sidebar:** update snapshot to match whitespace changes ([478d65b](https://github.com/Pocket/web-client/commit/478d65bb94b7e66fbf6aa6d66755a40a7443be02))
+* **sidebar:** update the icon in the mobile sidebar for lists ([0ce2e2d](https://github.com/Pocket/web-client/commit/0ce2e2d8a3d8d2603633295bf9cb94465d38d3ec))
+
 ## [1.82.3](https://github.com/Pocket/web-client/compare/v1.82.2...v1.82.3) (2023-03-21)
 
 
