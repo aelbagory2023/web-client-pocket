@@ -1,3 +1,10 @@
+## [1.82.7](https://github.com/Pocket/web-client/compare/v1.82.6...v1.82.7) (2023-03-21)
+
+
+### Bug Fixes
+
+* **head:** remove data-cy attributes from meta tags to assist unfurling ([4f10bf3](https://github.com/Pocket/web-client/commit/4f10bf3fce2ed5c677b50171508442c81da90a21))
+
 ## [1.82.6](https://github.com/Pocket/web-client/compare/v1.82.5...v1.82.6) (2023-03-21)
 
 
