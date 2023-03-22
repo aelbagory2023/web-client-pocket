@@ -1,3 +1,10 @@
+## [1.82.21](https://github.com/Pocket/web-client/compare/v1.82.20...v1.82.21) (2023-03-22)
+
+
+### Bug Fixes
+
+* **lists:** edit list error and story count ([3c0e9d2](https://github.com/Pocket/web-client/commit/3c0e9d20a985122bae1b1126d84fdba71c057abe))
+
 ## [1.82.20](https://github.com/Pocket/web-client/compare/v1.82.19...v1.82.20) (2023-03-22)
 
 
