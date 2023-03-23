@@ -1,3 +1,15 @@
+## [1.82.24](https://github.com/Pocket/web-client/compare/v1.82.23...v1.82.24) (2023-03-23)
+
+
+### Bug Fixes
+
+* **add-to-list:** add engagement events for confirming & cancelling ([50fc35b](https://github.com/Pocket/web-client/commit/50fc35bdde32b47051582bd939a7bb628cafc565))
+* **ConfirmShare:** add engagement events for each of the share buttons ([20e684a](https://github.com/Pocket/web-client/commit/20e684a1f1c07606f6b79e48dfc511527bc95922))
+* **derivers:** update list and list item derivers to pass ID for analytics ([54f9c61](https://github.com/Pocket/web-client/commit/54f9c61325e3a205c8d3e15b2e82c8c05ce144f0))
+* **ListActions:** add engagement event for removing a list item ([5f21142](https://github.com/Pocket/web-client/commit/5f21142efe5965296b4610f2372f07843b76febe))
+* **shareableListActions:** add create list engagement events ([daab86b](https://github.com/Pocket/web-client/commit/daab86bccca56905d26d76abb602fa81dae55579))
+* **snowplow:** add impression events for list, list items and public list items ([8647c25](https://github.com/Pocket/web-client/commit/8647c253a12a10a2ff0933dc5b60ddfe6c4e1e85))
+
 ## [1.82.23](https://github.com/Pocket/web-client/compare/v1.82.22...v1.82.23) (2023-03-23)
 
 
