@@ -1,3 +1,10 @@
+## [1.82.27](https://github.com/Pocket/web-client/compare/v1.82.26...v1.82.27) (2023-03-23)
+
+
+### Bug Fixes
+
+* **analytics:** move gtm to outside custom document ([2d7f823](https://github.com/Pocket/web-client/commit/2d7f82318e5bc82426aaf160ae4ed4a47b963a62))
+
 ## [1.82.26](https://github.com/Pocket/web-client/compare/v1.82.25...v1.82.26) (2023-03-23)
 
 
