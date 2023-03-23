@@ -1,3 +1,18 @@
+## [1.82.26](https://github.com/Pocket/web-client/compare/v1.82.25...v1.82.26) (2023-03-23)
+
+
+### Bug Fixes
+
+* **buttons:** added button class to converted a tags ([6d57d8f](https://github.com/Pocket/web-client/commit/6d57d8fc2a79e043912863a92eac6b9426ad4a17))
+* **buttons:** adjust css rules in 3 spots ([c9d67f9](https://github.com/Pocket/web-client/commit/c9d67f980c649e14d180d559e0c5647d8f116501))
+* **buttons:** deleted Button files and single usage ([f403073](https://github.com/Pocket/web-client/commit/f40307382d9f2eeb77f34bb96c8c3ae20ef33456))
+* **buttons:** fix mis-converted a from Button ([c812a0c](https://github.com/Pocket/web-client/commit/c812a0c75827b1ef14c92db4d744fb7f6aafc5b3))
+* **buttons:** fixed lint ([553b0d0](https://github.com/Pocket/web-client/commit/553b0d0fab4e4ab7d83bebb1f217106465aae691))
+* **buttons:** new buttonBorderRadius var ([fc10360](https://github.com/Pocket/web-client/commit/fc10360f8fbe3faf90a2d460c563424d63e3b580))
+* **buttons:** refactor to remove use of Button class ([3395312](https://github.com/Pocket/web-client/commit/3395312b7f8567470e41bff17894ff1ed7f6b7a2))
+* **buttons:** switch classname order per PR comment ([179179a](https://github.com/Pocket/web-client/commit/179179a09c83ea60d11bb5ab1b922ac16adc8098))
+* **cards:** fixed one mispelling ([064ecea](https://github.com/Pocket/web-client/commit/064ecea68466684031d623dce45238d9ea29f7d9))
+
 ## [1.82.25](https://github.com/Pocket/web-client/compare/v1.82.24...v1.82.25) (2023-03-23)
 
 
