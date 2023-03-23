@@ -1,3 +1,10 @@
+## [1.82.23](https://github.com/Pocket/web-client/compare/v1.82.22...v1.82.23) (2023-03-23)
+
+
+### Bug Fixes
+
+* **lists:** adding instructions on empty list components ([b34b219](https://github.com/Pocket/web-client/commit/b34b219e83c95bf0e7c125db853fae4a68f54e4e))
+
 ## [1.82.22](https://github.com/Pocket/web-client/compare/v1.82.21...v1.82.22) (2023-03-23)
 
 
