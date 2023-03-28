@@ -1,3 +1,15 @@
+## [1.82.28](https://github.com/Pocket/web-client/compare/v1.82.27...v1.82.28) (2023-03-28)
+
+
+### Bug Fixes
+
+* **deriveList:** fix snowplow warning for when list has no slug ([6202349](https://github.com/Pocket/web-client/commit/6202349c7d2885cfa149d8c6473f7e663a05d206))
+* **Lists:** add engagement event for create list on empty all list page ([bc0b000](https://github.com/Pocket/web-client/commit/bc0b00061cbcfdad055eac2e405111b1c2622c17))
+* **Lists:** add engagement event for opening a list ([015e0c0](https://github.com/Pocket/web-client/commit/015e0c0cc8b052ab596b998e42c79e3280c83612))
+* **Lists:** add engagement events for deleting a list ([bc607f3](https://github.com/Pocket/web-client/commit/bc607f318bce0b1b6094af419e8e7016046aa2a5))
+* **Lists:** add engagement events for sorting on All Lists ([c159d86](https://github.com/Pocket/web-client/commit/c159d868a070724cbecff35951ea1294deebb3b0))
+* **lists:** extract functions so they are not inline ([119ee34](https://github.com/Pocket/web-client/commit/119ee34a14f98173ae572da69a6c594f366b05e3))
+
 ## [1.82.27](https://github.com/Pocket/web-client/compare/v1.82.26...v1.82.27) (2023-03-23)
 
 
