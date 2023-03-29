@@ -1,3 +1,10 @@
+## [1.83.1](https://github.com/Pocket/web-client/compare/v1.83.0...v1.83.1) (2023-03-29)
+
+
+### Bug Fixes
+
+* **lists:** bring back itemId for list items ([20b2e0b](https://github.com/Pocket/web-client/commit/20b2e0b66dd0b9c0d1d54c83b017637f415ae835))
+
 # [1.83.0](https://github.com/Pocket/web-client/compare/v1.82.30...v1.83.0) (2023-03-29)
 
 
