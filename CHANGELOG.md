@@ -1,3 +1,10 @@
+## [1.82.29](https://github.com/Pocket/web-client/compare/v1.82.28...v1.82.29) (2023-03-29)
+
+
+### Bug Fixes
+
+* **list items:** include itemId when adding & creating ([1ccea1b](https://github.com/Pocket/web-client/commit/1ccea1b5758c283b146dfcc3425112ad9bfff4b2))
+
 ## [1.82.28](https://github.com/Pocket/web-client/compare/v1.82.27...v1.82.28) (2023-03-28)
 
 
