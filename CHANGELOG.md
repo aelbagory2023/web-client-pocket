@@ -1,3 +1,10 @@
+## [1.82.30](https://github.com/Pocket/web-client/compare/v1.82.29...v1.82.30) (2023-03-29)
+
+
+### Reverts
+
+* Revert "fix(list items): include itemId when adding & creating" ([caaf6ba](https://github.com/Pocket/web-client/commit/caaf6bae152d6398ef67dea4e10fc20dc8c120de))
+
 ## [1.82.29](https://github.com/Pocket/web-client/compare/v1.82.28...v1.82.29) (2023-03-29)
 
 
