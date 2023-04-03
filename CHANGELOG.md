@@ -1,3 +1,15 @@
+## [1.83.3](https://github.com/Pocket/web-client/compare/v1.83.2...v1.83.3) (2023-04-03)
+
+
+### Bug Fixes
+
+* **EmptyIndividualLists:** update file name ([0ef0591](https://github.com/Pocket/web-client/commit/0ef05919c42db6dc938465724b222081237ce38b))
+* **IndividualListCard:** add engagement events for onOpen and onOpenOriginal ([957ba24](https://github.com/Pocket/web-client/commit/957ba241a63e29e537f28283c6734037f8bcfbdd))
+* **ListIndividual:** add engagement event for Go to Saves button ([f44ad74](https://github.com/Pocket/web-client/commit/f44ad741073a71af600b77d0fef4e6a70fd682c4))
+* **ListIndividual:** add engagement event for updating list status ([521445c](https://github.com/Pocket/web-client/commit/521445c43e0ed012af35d3ada88b0218ddc4c070))
+* **ListIndividual:** add engagement events for editing list ([16769bd](https://github.com/Pocket/web-client/commit/16769bd3d593733fed2e30847d897eac16f851bc))
+* **ListIndividual:** don't mutate analyticsData for snowplow event ([e810804](https://github.com/Pocket/web-client/commit/e810804756e92678f26b4f5e3a4103f1ff23af9d))
+
 ## [1.83.2](https://github.com/Pocket/web-client/compare/v1.83.1...v1.83.2) (2023-03-30)
 
 
