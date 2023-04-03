@@ -1,3 +1,19 @@
+## [1.83.4](https://github.com/Pocket/web-client/compare/v1.83.3...v1.83.4) (2023-04-03)
+
+
+### Bug Fixes
+
+* **ConfirmAddToList:** add engagement event for opening create list ([ab7400a](https://github.com/Pocket/web-client/commit/ab7400a0cb47e0b42f13e4bf4565d9459c7dc1af))
+* **CreateListModal:** add engagement events for cancel & submit ([3a1b2a1](https://github.com/Pocket/web-client/commit/3a1b2a1289e888118b50c4bdfdca5a6fa8afd64f))
+* **ListCard:** rename file to be more consistent ([a918324](https://github.com/Pocket/web-client/commit/a918324ea9cf5d86cffe214aba93b195b9e41464))
+* **lists:** add content open events for opening public URLs ([122d14d](https://github.com/Pocket/web-client/commit/122d14db4b48f528b4d6eb4995d53c7b317f3ca5))
+* **PublicList:** add engagement event for reporting a list ([ea5fbdd](https://github.com/Pocket/web-client/commit/ea5fbdd952679dc01b476cfbbb8c2b05f3503029))
+* **PublicLIst:** add engagement events for open & open-original on list items ([6d6696b](https://github.com/Pocket/web-client/commit/6d6696bc20c80d188ac53fc8d2fb1b9e391fc4f3))
+* **PublicList:** add engagement events for saving & unsaving public lists ([8f8c5de](https://github.com/Pocket/web-client/commit/8f8c5deb81fc1215f35982c96503fe3f5f492a65))
+* **PublicListCard:** add engagement events for saving & unsaving ([a7bfa20](https://github.com/Pocket/web-client/commit/a7bfa2088aa35170fe70c95a8daa70d47415d78a))
+* **shareableListActions:** update open events to be contentOpen ([391d478](https://github.com/Pocket/web-client/commit/391d4781596d9b47da1e02039b0dc0730266e63c))
+* **shareableListActions:** update uiType for a number of events ([7c2e4dc](https://github.com/Pocket/web-client/commit/7c2e4dca2b98ce0745082cb9b956d42e3240c915))
+
 ## [1.83.3](https://github.com/Pocket/web-client/compare/v1.83.2...v1.83.3) (2023-04-03)
 
 
