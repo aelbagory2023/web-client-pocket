@@ -1,3 +1,10 @@
+## [1.83.7](https://github.com/Pocket/web-client/compare/v1.83.6...v1.83.7) (2023-04-04)
+
+
+### Bug Fixes
+
+* **waypoint:** add response to waypoint error ([d65f8f0](https://github.com/Pocket/web-client/commit/d65f8f077448c40ca468a8f0335e64c6726d357d))
+
 ## [1.83.6](https://github.com/Pocket/web-client/compare/v1.83.5...v1.83.6) (2023-04-04)
 
 
