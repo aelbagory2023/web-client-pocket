@@ -1,3 +1,12 @@
+## [1.83.10](https://github.com/Pocket/web-client/compare/v1.83.9...v1.83.10) (2023-04-04)
+
+
+### Bug Fixes
+
+* **saves:** add back snowplow for changing sort order ([0baf243](https://github.com/Pocket/web-client/commit/0baf2437f23711d9b78535a3c8c19a5acc0007cd))
+* **saves:** fix snowplow event for publisher ([a8a721a](https://github.com/Pocket/web-client/commit/a8a721a24e2e02d5ae75d4e047616cae5981e901))
+* **saves:** remove 'broken' status from documentation on sort event ([d3c2c10](https://github.com/Pocket/web-client/commit/d3c2c10f75d04477b2f2fe86d068af0eae643ead))
+
 ## [1.83.9](https://github.com/Pocket/web-client/compare/v1.83.8...v1.83.9) (2023-04-04)
 
 
