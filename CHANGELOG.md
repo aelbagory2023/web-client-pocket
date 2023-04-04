@@ -1,3 +1,10 @@
+## [1.83.5](https://github.com/Pocket/web-client/compare/v1.83.4...v1.83.5) (2023-04-04)
+
+
+### Bug Fixes
+
+* **SavesHeader:** hide Create List button when in Bulk Edit mode ([acb1be0](https://github.com/Pocket/web-client/commit/acb1be07cc30823a2d2c8b87c123998c743d083d))
+
 ## [1.83.4](https://github.com/Pocket/web-client/compare/v1.83.3...v1.83.4) (2023-04-03)
 
 
