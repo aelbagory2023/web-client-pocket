@@ -1,3 +1,11 @@
+## [1.83.11](https://github.com/Pocket/web-client/compare/v1.83.10...v1.83.11) (2023-04-06)
+
+
+### Bug Fixes
+
+* **saves:** comment spelling ([d89c65d](https://github.com/Pocket/web-client/commit/d89c65d4c07b30580196e3b737a07c9f3b841866))
+* **saves:** handle null nodes returned from server ([53a3859](https://github.com/Pocket/web-client/commit/53a3859f7e2d6305c9dc12eca2a7d98d0b9d24ed))
+
 ## [1.83.10](https://github.com/Pocket/web-client/compare/v1.83.9...v1.83.10) (2023-04-04)
 
 
