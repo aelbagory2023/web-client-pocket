@@ -1,3 +1,10 @@
+## [1.84.1](https://github.com/Pocket/web-client/compare/v1.84.0...v1.84.1) (2023-04-10)
+
+
+### Bug Fixes
+
+* **user:** absolute url for endpoint ([be868bd](https://github.com/Pocket/web-client/commit/be868bd6d58be017f335422a67e5a23e43fe1eea))
+
 # [1.84.0](https://github.com/Pocket/web-client/compare/v1.83.12...v1.84.0) (2023-04-10)
 
 
