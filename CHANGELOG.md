@@ -1,3 +1,20 @@
+## [1.84.3](https://github.com/Pocket/web-client/compare/v1.84.2...v1.84.3) (2023-04-10)
+
+
+### Reverts
+
+* Revert "refactor(braze): make logging explicit" ([c60ac48](https://github.com/Pocket/web-client/commit/c60ac483836233231bdd9c9e86e00953469b9764))
+* Revert "fix(tsconfig): include JS for go to completions" ([f9b5699](https://github.com/Pocket/web-client/commit/f9b5699992dbc0f19cc594b32edeedc5c65d1596))
+* Revert "feat(logging): add basic graph logging utility ssr" ([309a5d1](https://github.com/Pocket/web-client/commit/309a5d1a5fcec55b43eedd4dc45cdc8c63326850))
+* Revert "feat(user): ssr user api request" ([93119a9](https://github.com/Pocket/web-client/commit/93119a99ddb19275906680356f825853ffc0ac82))
+* Revert "test(account): eligibility test using ISOString" ([e8d7de3](https://github.com/Pocket/web-client/commit/e8d7de3b39c23c6e1c41489416b46033fc883942))
+* Revert "feat(waypoint): get user info from the graph" ([d6afae5](https://github.com/Pocket/web-client/commit/d6afae5c64e90223639dd69e4ab631ea95baa8e6))
+* Revert "fix(user): remove dangerous ignore ssl" ([b5e3ea1](https://github.com/Pocket/web-client/commit/b5e3ea1c15ad0d607e5641eaca1b8b09eacd7754))
+* Revert "fix(user): remove explicit cookie passing" ([348dfce](https://github.com/Pocket/web-client/commit/348dfce8c060109447ef8d43661b1e30d711f98b))
+* Revert "fix(user): spelling error" ([17ce68b](https://github.com/Pocket/web-client/commit/17ce68beac72e87f171be59a700e76413013834a))
+* Revert "fix(account): throw and test discrete eligible tests" ([244b2d8](https://github.com/Pocket/web-client/commit/244b2d8317fa92bcf6c99e6ff3e76213ebd95e2c))
+* Revert "chore(user): cleanup" ([5716409](https://github.com/Pocket/web-client/commit/5716409686b5bfc51af5d438b2f1ecbc244b49f2))
+
 ## [1.84.2](https://github.com/Pocket/web-client/compare/v1.84.1...v1.84.2) (2023-04-10)
 
 
