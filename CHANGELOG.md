@@ -1,3 +1,15 @@
+## [1.83.12](https://github.com/Pocket/web-client/compare/v1.83.11...v1.83.12) (2023-04-10)
+
+
+### Bug Fixes
+
+* **list cards:** include position & destination in the analytics data ([9770538](https://github.com/Pocket/web-client/commit/9770538bdebdb801e499207319735e6663923ce2))
+* **ListCard:** pass through position ([cfe64c4](https://github.com/Pocket/web-client/commit/cfe64c42b06c09849df1e8ebd09e1cd1d95c0183))
+* **ListIndividual:** update analytics data to reflect updated values ([bc99cd8](https://github.com/Pocket/web-client/commit/bc99cd8f8f343f6edd683028920cb9d32f9835c3))
+* **shareableListActions:** add position and card component eventData ([a7bb529](https://github.com/Pocket/web-client/commit/a7bb5298b61feeb4f0701aadedcc11883aa106a1))
+* **shareableListActions:** remove component 'card' from non-impression events ([a8ea89c](https://github.com/Pocket/web-client/commit/a8ea89c1fbb01c16f2e50c798b92f6b830f40cdf))
+* **shareableListActions:** remove non-required fields from expects blocks ([2f1a945](https://github.com/Pocket/web-client/commit/2f1a94541d86a95a71ef7df26c05b818ee8c720b))
+
 ## [1.83.11](https://github.com/Pocket/web-client/compare/v1.83.10...v1.83.11) (2023-04-06)
 
 
