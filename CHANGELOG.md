@@ -1,3 +1,11 @@
+## [1.84.4](https://github.com/Pocket/web-client/compare/v1.84.3...v1.84.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* **error:** adding 403 error page ([0318390](https://github.com/Pocket/web-client/commit/03183909f4c2e440e6db201d4798547a42c204c0))
+* **error:** updating 403 to be specific to a moderated list ([a1cc75e](https://github.com/Pocket/web-client/commit/a1cc75ecf260ce9e1dd77e7e89d92be02559dfc2))
+
 ## [1.84.3](https://github.com/Pocket/web-client/compare/v1.84.2...v1.84.3) (2023-04-10)
 
 
