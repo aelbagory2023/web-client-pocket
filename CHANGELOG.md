@@ -1,3 +1,19 @@
+# [1.85.0](https://github.com/Pocket/web-client/compare/v1.84.5...v1.85.0) (2023-04-11)
+
+
+### Bug Fixes
+
+* **account:** throw and test discrete eligible tests ([2def7db](https://github.com/Pocket/web-client/commit/2def7db948537717f54b0584a28d508b385d3203))
+* **tsconfig:** include JS for go to completions ([70d6bf9](https://github.com/Pocket/web-client/commit/70d6bf935fd3bbd07c5fe6a89a406e528f511c3d))
+
+
+### Features
+
+* **errors:** more custom errors ([301ed97](https://github.com/Pocket/web-client/commit/301ed97f95546ae6db2d55bf0a14ca27061102d9))
+* **logging:** add basic graph logging utility ssr ([3913e55](https://github.com/Pocket/web-client/commit/3913e55ef9f96f36c58a39d42d431cc4e32a9609))
+* **trailhead:** add trailhead ([2f6a8b4](https://github.com/Pocket/web-client/commit/2f6a8b43c7c2d8bab4da8b9bc42f7316ddc2e19b))
+* **user:** ssr user api request ([3b68f32](https://github.com/Pocket/web-client/commit/3b68f32dc61897bb929ccb983f0e7fbaa1a535e1))
+
 ## [1.84.5](https://github.com/Pocket/web-client/compare/v1.84.4...v1.84.5) (2023-04-11)
 
 
