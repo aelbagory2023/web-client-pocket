@@ -1,3 +1,11 @@
+## [1.84.5](https://github.com/Pocket/web-client/compare/v1.84.4...v1.84.5) (2023-04-11)
+
+
+### Bug Fixes
+
+* **lists:** add and update lists icon ([5f06c6e](https://github.com/Pocket/web-client/commit/5f06c6e3e24c61924683a498b493325c87301edb))
+* **lists:** remove unused translation import ([9dd1ebe](https://github.com/Pocket/web-client/commit/9dd1ebea8a7979c262ed022ed57a4427048eb743))
+
 ## [1.84.4](https://github.com/Pocket/web-client/compare/v1.84.3...v1.84.4) (2023-04-11)
 
 
