@@ -1,3 +1,10 @@
+## [1.85.4](https://github.com/Pocket/web-client/compare/v1.85.3...v1.85.4) (2023-04-12)
+
+
+### Bug Fixes
+
+* **trailhead:** preserve sentry prototype extension ([30343e5](https://github.com/Pocket/web-client/commit/30343e5660b03a7921a7c2a48ec6da3b1198880f))
+
 ## [1.85.3](https://github.com/Pocket/web-client/compare/v1.85.2...v1.85.3) (2023-04-12)
 
 
