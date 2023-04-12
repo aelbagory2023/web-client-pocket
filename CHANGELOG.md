@@ -1,3 +1,10 @@
+## [1.85.1](https://github.com/Pocket/web-client/compare/v1.85.0...v1.85.1) (2023-04-12)
+
+
+### Bug Fixes
+
+* **lists:** prevent empty string from being submitted as a description ([05ba1b2](https://github.com/Pocket/web-client/commit/05ba1b2d31068a1f7535faa15350ee78c8826832))
+
 # [1.85.0](https://github.com/Pocket/web-client/compare/v1.84.5...v1.85.0) (2023-04-11)
 
 
