@@ -1,3 +1,11 @@
+## [1.85.7](https://github.com/Pocket/web-client/compare/v1.85.6...v1.85.7) (2023-04-12)
+
+
+### Bug Fixes
+
+* **logging:** update graph error log ([e18c7f3](https://github.com/Pocket/web-client/commit/e18c7f3204f13093683fd62e64252b36a15e3414))
+* **trailhead:** explicitly pass headers in api ([a41ec41](https://github.com/Pocket/web-client/commit/a41ec413f51b0f29bc5a6e8e506c830252cb98ac))
+
 ## [1.85.6](https://github.com/Pocket/web-client/compare/v1.85.5...v1.85.6) (2023-04-12)
 
 
