@@ -1,3 +1,10 @@
+## [1.85.2](https://github.com/Pocket/web-client/compare/v1.85.1...v1.85.2) (2023-04-12)
+
+
+### Bug Fixes
+
+* **trailhead:** update to be noindex,nofollow ([ee00eaf](https://github.com/Pocket/web-client/commit/ee00eafc07228d70e2342aef3f7e7ee267828dc4))
+
 ## [1.85.1](https://github.com/Pocket/web-client/compare/v1.85.0...v1.85.1) (2023-04-12)
 
 
