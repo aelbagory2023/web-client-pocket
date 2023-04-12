@@ -1,3 +1,10 @@
+## [1.85.8](https://github.com/Pocket/web-client/compare/v1.85.7...v1.85.8) (2023-04-12)
+
+
+### Bug Fixes
+
+* **trailhead:** pass cookies all the way down ([6d68694](https://github.com/Pocket/web-client/commit/6d68694b6b1085b4fc7abd0e6a06d4bac69ac479))
+
 ## [1.85.7](https://github.com/Pocket/web-client/compare/v1.85.6...v1.85.7) (2023-04-12)
 
 
