@@ -1,3 +1,10 @@
+## [1.85.6](https://github.com/Pocket/web-client/compare/v1.85.5...v1.85.6) (2023-04-12)
+
+
+### Bug Fixes
+
+* **trailhead:** cookie not cookies ([4659eda](https://github.com/Pocket/web-client/commit/4659eda348f4b51c017e7a7ea8eae95b906e76c5))
+
 ## [1.85.5](https://github.com/Pocket/web-client/compare/v1.85.4...v1.85.5) (2023-04-12)
 
 
