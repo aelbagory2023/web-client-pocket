@@ -1,3 +1,10 @@
+## [1.85.10](https://github.com/Pocket/web-client/compare/v1.85.9...v1.85.10) (2023-04-13)
+
+
+### Bug Fixes
+
+* **saves:** cleanup and remove unused values ([286fc2c](https://github.com/Pocket/web-client/commit/286fc2cf68912143844e3996f5315e245dbc7c17))
+
 ## [1.85.9](https://github.com/Pocket/web-client/compare/v1.85.8...v1.85.9) (2023-04-13)
 
 
