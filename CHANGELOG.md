@@ -1,3 +1,10 @@
+## [1.85.9](https://github.com/Pocket/web-client/compare/v1.85.8...v1.85.9) (2023-04-13)
+
+
+### Bug Fixes
+
+* **shareableListActions:** add component ([c52b032](https://github.com/Pocket/web-client/commit/c52b032b32afa16a1cd502ba588601ebdafab85a))
+
 ## [1.85.8](https://github.com/Pocket/web-client/compare/v1.85.7...v1.85.8) (2023-04-12)
 
 
