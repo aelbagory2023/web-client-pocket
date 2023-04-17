@@ -1,3 +1,15 @@
+# [1.86.0](https://github.com/Pocket/web-client/compare/v1.85.10...v1.86.0) (2023-04-17)
+
+
+### Bug Fixes
+
+* **pagination:** spelling ([27e01eb](https://github.com/Pocket/web-client/commit/27e01eb9353a0f16d6182c8a7eaa1f61e3c4d181))
+
+
+### Features
+
+* **pagination:** add component ([e15986b](https://github.com/Pocket/web-client/commit/e15986b6ceb6ffe2283fef746fbd6212156f9cdd))
+
 ## [1.85.10](https://github.com/Pocket/web-client/compare/v1.85.9...v1.85.10) (2023-04-13)
 
 
