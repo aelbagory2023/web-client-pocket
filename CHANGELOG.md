@@ -1,3 +1,10 @@
+## [1.86.1](https://github.com/Pocket/web-client/compare/v1.86.0...v1.86.1) (2023-04-18)
+
+
+### Bug Fixes
+
+* **lists:** update individual list management to use listsDisplay ([de2fb13](https://github.com/Pocket/web-client/commit/de2fb13abee16d3bc1ce1ad40a15abff81b4e922))
+
 # [1.86.0](https://github.com/Pocket/web-client/compare/v1.85.10...v1.86.0) (2023-04-17)
 
 
