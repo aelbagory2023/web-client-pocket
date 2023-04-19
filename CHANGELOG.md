@@ -1,3 +1,10 @@
+## [1.87.2](https://github.com/Pocket/web-client/compare/v1.87.1...v1.87.2) (2023-04-19)
+
+
+### Bug Fixes
+
+* **home:** reset state on every visit ([2f0374e](https://github.com/Pocket/web-client/commit/2f0374e931012fe59775a258e5dd4f7bada32b1c))
+
 ## [1.87.1](https://github.com/Pocket/web-client/compare/v1.87.0...v1.87.1) (2023-04-18)
 
 
