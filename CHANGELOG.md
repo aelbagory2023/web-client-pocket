@@ -1,3 +1,10 @@
+## [1.87.6](https://github.com/Pocket/web-client/compare/v1.87.5...v1.87.6) (2023-04-19)
+
+
+### Bug Fixes
+
+* **lists:** consolidate lists reducers ([71c120d](https://github.com/Pocket/web-client/commit/71c120d013a8c2478f8ac5e47247fec85fde51de))
+
 ## [1.87.5](https://github.com/Pocket/web-client/compare/v1.87.4...v1.87.5) (2023-04-19)
 
 
