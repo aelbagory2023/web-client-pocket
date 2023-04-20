@@ -1,3 +1,10 @@
+# [1.88.0](https://github.com/Pocket/web-client/compare/v1.87.6...v1.88.0) (2023-04-20)
+
+
+### Features
+
+* **collections:** make pagination live ([e25c6e0](https://github.com/Pocket/web-client/commit/e25c6e0bfdd2e4ff5faa207eceaca52dc2ba6176))
+
 ## [1.87.6](https://github.com/Pocket/web-client/compare/v1.87.5...v1.87.6) (2023-04-19)
 
 
