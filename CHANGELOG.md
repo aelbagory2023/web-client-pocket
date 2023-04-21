@@ -1,3 +1,10 @@
+## [1.88.1](https://github.com/Pocket/web-client/compare/v1.88.0...v1.88.1) (2023-04-21)
+
+
+### Bug Fixes
+
+* **collections:** remove pagination from non-en locales ([b7611ef](https://github.com/Pocket/web-client/commit/b7611ef9b30f980b39468a599ccc64ff4079a43c))
+
 # [1.88.0](https://github.com/Pocket/web-client/compare/v1.87.6...v1.88.0) (2023-04-20)
 
 
