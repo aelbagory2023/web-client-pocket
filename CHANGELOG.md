@@ -1,3 +1,10 @@
+## [1.88.3](https://github.com/Pocket/web-client/compare/v1.88.2...v1.88.3) (2023-04-24)
+
+
+### Bug Fixes
+
+* **account:** remove additional email disclaimer ([5ea97eb](https://github.com/Pocket/web-client/commit/5ea97eb5cc6b5400dd7f1dcc73e5cc55a7864638))
+
 ## [1.88.2](https://github.com/Pocket/web-client/compare/v1.88.1...v1.88.2) (2023-04-24)
 
 
