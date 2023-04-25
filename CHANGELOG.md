@@ -1,3 +1,10 @@
+# [1.90.0](https://github.com/Pocket/web-client/compare/v1.89.1...v1.90.0) (2023-04-25)
+
+
+### Features
+
+* **error:** add QR code for mobile install ([3313833](https://github.com/Pocket/web-client/commit/33138338eeefbfc34452980487b3b7273aa9a829))
+
 ## [1.89.1](https://github.com/Pocket/web-client/compare/v1.89.0...v1.89.1) (2023-04-25)
 
 
