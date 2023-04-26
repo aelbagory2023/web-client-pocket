@@ -1,3 +1,10 @@
+## [1.91.1](https://github.com/Pocket/web-client/compare/v1.91.0...v1.91.1) (2023-04-26)
+
+
+### Bug Fixes
+
+* **lists:** add footer with padding ([8857f6d](https://github.com/Pocket/web-client/commit/8857f6d45c63cb04f86892995085f537de232951))
+
 # [1.91.0](https://github.com/Pocket/web-client/compare/v1.90.2...v1.91.0) (2023-04-26)
 
 
