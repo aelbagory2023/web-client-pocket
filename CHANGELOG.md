@@ -1,3 +1,10 @@
+## [1.90.2](https://github.com/Pocket/web-client/compare/v1.90.1...v1.90.2) (2023-04-26)
+
+
+### Bug Fixes
+
+* **public-list:** update alt text on creator avatar ([8d7cb97](https://github.com/Pocket/web-client/commit/8d7cb9718c213f652dc9175dff9538b6e2e89be7))
+
 ## [1.90.1](https://github.com/Pocket/web-client/compare/v1.90.0...v1.90.1) (2023-04-26)
 
 
