@@ -5,7 +5,7 @@ import ErrorPage from 'containers/_error/error'
 import Layout from 'layouts/with-sidebar'
 import { SideNav } from 'connectors/side-nav/side-nav'
 import { ListContent } from 'containers/lists/list-individual/content'
-import { ReorderList } from 'containers/lists/list-individual/reorder'
+import { ListReorder } from 'containers/lists/list-individual/reorder'
 import { getIndividualListAction } from 'containers/lists/lists.state'
 import { ListSettingsModal } from 'connectors/confirm/list-settings'
 import { CreateListModal } from 'connectors/confirm/create-list'
@@ -27,13 +27,19 @@ export const ListIndividual = () => {
     if (enrolled) dispatch(getIndividualListAction(id))
   }, [dispatch, id, enrolled])
 
+<<<<<<< HEAD
   const toggleSort = (shouldReorder) => {
     const mode = shouldReorder ? 'reorder' : 'default'
     setReorder(shouldReorder)
+=======
+  const toggleSort = (status) => {
+    const mode = status ? 'reorder' : 'default'
+    setReorder(status)
+>>>>>>> 3a769e4a (fix(lists): breaking reorder into reusable component)
     dispatch(appSetMode(mode))
   }
 
-  const Content = reorder ? ReorderList : ListContent
+  const Content = reorder ? ListReorder : ListContent
 
   if (!enrolledFetched) return null
   if (enrolledFetched && !enrolled) return <ErrorPage statusCode={404} />
