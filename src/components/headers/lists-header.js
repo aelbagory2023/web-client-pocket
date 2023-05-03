@@ -83,10 +83,6 @@ const listHeaderStyles = css`
         display: flex;
         width: 100%;
 
-        .save {
-          flex-grow: 2;
-        }
-
         .cancel {
           flex-grow: 1;
         }
