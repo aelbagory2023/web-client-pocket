@@ -1,3 +1,16 @@
+## [1.92.3](https://github.com/Pocket/web-client/compare/v1.92.2...v1.92.3) (2023-05-04)
+
+
+### Bug Fixes
+
+* **lists:** add decoder to lists ([26ec305](https://github.com/Pocket/web-client/commit/26ec305ad77381bf786790d6a98c9ccc2d7f8459))
+* **lists:** add decoder to titleToIdList ([0814b0f](https://github.com/Pocket/web-client/commit/0814b0feabc0ae6356752cdfba725903d721dc4c))
+* **lists:** add guard against null descriptions ([45eb878](https://github.com/Pocket/web-client/commit/45eb878828657935dca5b44d149d94d7e6a3fe7b))
+* **lists:** alternative way of handling titleToIdList ([1cf1f63](https://github.com/Pocket/web-client/commit/1cf1f63f3008c791b5d15aa703906914624481aa))
+* **lists:** changed html var names to screaming snake ([18c21b6](https://github.com/Pocket/web-client/commit/18c21b6f2ad236e98b6f21ea00b4a2b0fb9b6c08))
+* **lists:** removed awry empty space ([7cec60f](https://github.com/Pocket/web-client/commit/7cec60fe29f92d6aa63465cbd85bb9cb48016f82))
+* **lists:** rename function ([d372635](https://github.com/Pocket/web-client/commit/d37263542fd5abfe29a5c3cf52dcabe6b18093e4))
+
 ## [1.92.2](https://github.com/Pocket/web-client/compare/v1.92.1...v1.92.2) (2023-05-04)
 
 
