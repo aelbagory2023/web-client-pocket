@@ -1,3 +1,10 @@
+## [1.92.2](https://github.com/Pocket/web-client/compare/v1.92.1...v1.92.2) (2023-05-04)
+
+
+### Bug Fixes
+
+* **lists:** fixing list header issue caused by rebase and conflicts ([4d985c0](https://github.com/Pocket/web-client/commit/4d985c0fa8ce054521d70ec5db46046671544c5b))
+
 ## [1.92.1](https://github.com/Pocket/web-client/compare/v1.92.0...v1.92.1) (2023-05-04)
 
 
