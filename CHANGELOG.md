@@ -1,3 +1,10 @@
+## [1.92.1](https://github.com/Pocket/web-client/compare/v1.92.0...v1.92.1) (2023-05-04)
+
+
+### Bug Fixes
+
+* **lists:** remove merge conflict ([49cdd11](https://github.com/Pocket/web-client/commit/49cdd11d76829b77b0ba309056b0398e4ba8e031))
+
 # [1.92.0](https://github.com/Pocket/web-client/compare/v1.91.3...v1.92.0) (2023-05-04)
 
 
