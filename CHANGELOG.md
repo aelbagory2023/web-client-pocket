@@ -1,3 +1,11 @@
+# [1.93.0](https://github.com/Pocket/web-client/compare/v1.92.3...v1.93.0) (2023-05-05)
+
+
+### Features
+
+* **gql:** add our own version of gql ([9ff5540](https://github.com/Pocket/web-client/commit/9ff5540244b03e9560d17e808486dfb2d27486bd))
+* **gql:** switch from graphql-request ([a8c6c61](https://github.com/Pocket/web-client/commit/a8c6c61cc2e218bb89bdef34654fe756b6dbb511))
+
 ## [1.92.3](https://github.com/Pocket/web-client/compare/v1.92.2...v1.92.3) (2023-05-04)
 
 
