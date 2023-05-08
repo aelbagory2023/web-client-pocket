@@ -1,3 +1,11 @@
+## [1.93.2](https://github.com/Pocket/web-client/compare/v1.93.1...v1.93.2) (2023-05-08)
+
+
+### Bug Fixes
+
+* **eslint:** error on rebase ([21f1560](https://github.com/Pocket/web-client/commit/21f1560d14c1dc039c72ce4575f70f05cc4b856d))
+* **react:** update hook return errors ([0e6f9db](https://github.com/Pocket/web-client/commit/0e6f9db693bdbf8d2e7882ddceea161086c0eb19))
+
 ## [1.93.1](https://github.com/Pocket/web-client/compare/v1.93.0...v1.93.1) (2023-05-08)
 
 
