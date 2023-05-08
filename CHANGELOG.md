@@ -1,3 +1,10 @@
+## [1.93.4](https://github.com/Pocket/web-client/compare/v1.93.3...v1.93.4) (2023-05-08)
+
+
+### Bug Fixes
+
+* **VisibilityOptions:** update translation keys, pretty things up ([34030fe](https://github.com/Pocket/web-client/commit/34030fe06a04b3e906da97b57bd5ba19bf890a13))
+
 ## [1.93.3](https://github.com/Pocket/web-client/compare/v1.93.2...v1.93.3) (2023-05-08)
 
 
