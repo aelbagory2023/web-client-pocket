@@ -1,3 +1,15 @@
+## [1.93.1](https://github.com/Pocket/web-client/compare/v1.93.0...v1.93.1) (2023-05-08)
+
+
+### Bug Fixes
+
+* **list:** add new list items update action ([0c201c4](https://github.com/Pocket/web-client/commit/0c201c4372c4e3f0128970f09d2924388acfce41))
+* **lists:** batch up reorder in chunks of 30 ([be7c37f](https://github.com/Pocket/web-client/commit/be7c37f12d9070ee90de18a5f9df46fa25f5a3fe))
+* **lists:** hooking up ability to save the reordered list ([33ee373](https://github.com/Pocket/web-client/commit/33ee3737247e8758322c5f3d59c4908b4a45a39f))
+* **list:** update comments in reorder responder ([0ee4aef](https://github.com/Pocket/web-client/commit/0ee4aef203f12b40c460e39b80e9a5dc53a216ab))
+* **reorder:** remove stray characters ([872ceb4](https://github.com/Pocket/web-client/commit/872ceb42034d3333f24ee1af3b9ef90f6011d8db))
+* **reorder:** update result to be type of any ([2e4c98b](https://github.com/Pocket/web-client/commit/2e4c98bd0268f5ea93a35f864483bd3cf61acd0f))
+
 # [1.93.0](https://github.com/Pocket/web-client/compare/v1.92.3...v1.93.0) (2023-05-05)
 
 
