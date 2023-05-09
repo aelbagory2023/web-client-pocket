@@ -1,3 +1,10 @@
+## [1.93.7](https://github.com/Pocket/web-client/compare/v1.93.6...v1.93.7) (2023-05-09)
+
+
+### Bug Fixes
+
+* **list:** adding delete note functionality ([9a7a300](https://github.com/Pocket/web-client/commit/9a7a3000756e3d81abd1e71c69f44b5610532fe7))
+
 ## [1.93.6](https://github.com/Pocket/web-client/compare/v1.93.5...v1.93.6) (2023-05-09)
 
 
