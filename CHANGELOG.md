@@ -1,3 +1,11 @@
+## [1.93.8](https://github.com/Pocket/web-client/compare/v1.93.7...v1.93.8) (2023-05-09)
+
+
+### Bug Fixes
+
+* **lists:** missing useTranslation() ([120d3d9](https://github.com/Pocket/web-client/commit/120d3d9cb3751575130ad056a58a0f45cc4564fb))
+* **lists:** more translations ([7fdc7d3](https://github.com/Pocket/web-client/commit/7fdc7d3ff1d4122e3b8b32b0e4b83b34656681b4))
+
 ## [1.93.7](https://github.com/Pocket/web-client/compare/v1.93.6...v1.93.7) (2023-05-09)
 
 
