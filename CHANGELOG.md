@@ -1,3 +1,16 @@
+## [1.93.5](https://github.com/Pocket/web-client/compare/v1.93.4...v1.93.5) (2023-05-09)
+
+
+### Bug Fixes
+
+* **icons:** adding new add note icon ([581493a](https://github.com/Pocket/web-client/commit/581493abe9af2b9f44bd026c80205391c7dc6dc3))
+* **list:** adding note to public list fetch ([956dd7d](https://github.com/Pocket/web-client/commit/956dd7d2a1661dd6595639e602cbacd367953475))
+* **lists:** add autofocus to note modal ([3e43db7](https://github.com/Pocket/web-client/commit/3e43db7850226c9b643fc4f909841d300cd0b24b))
+* **lists:** adding ability to add a list item note ([3128cd8](https://github.com/Pocket/web-client/commit/3128cd8fbdad5b5a884fcd71de4d4318facf85e9))
+* **lists:** adding api call for adding note to list item ([c6a63a2](https://github.com/Pocket/web-client/commit/c6a63a2fe342d3e47ab32e2ee1772af476529c50))
+* **lists:** adding position when canceling or saving note ([173db96](https://github.com/Pocket/web-client/commit/173db96155195891ee1053e455e34ad843c35d5d))
+* **lists:** update lists deriver to decode note special characters ([89e0540](https://github.com/Pocket/web-client/commit/89e0540fe535151c55369c5e4c8eeb9bbdfe6747))
+
 ## [1.93.4](https://github.com/Pocket/web-client/compare/v1.93.3...v1.93.4) (2023-05-08)
 
 
