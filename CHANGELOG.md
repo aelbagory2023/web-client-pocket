@@ -1,3 +1,11 @@
+## [1.93.10](https://github.com/Pocket/web-client/compare/v1.93.9...v1.93.10) (2023-05-10)
+
+
+### Bug Fixes
+
+* **lists:** add ability to edit a note ([e931c73](https://github.com/Pocket/web-client/commit/e931c738b614da162b1452b0c2dd58b20c21b12b))
+* **lists:** adding the note property to analytics data ([b4ceca8](https://github.com/Pocket/web-client/commit/b4ceca82bdc78f558b20d96ca01df1b1e92ce298))
+
 ## [1.93.9](https://github.com/Pocket/web-client/compare/v1.93.8...v1.93.9) (2023-05-10)
 
 
