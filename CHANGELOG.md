@@ -1,3 +1,10 @@
+## [1.94.5](https://github.com/Pocket/web-client/compare/v1.94.4...v1.94.5) (2023-05-11)
+
+
+### Bug Fixes
+
+* **lists:** removing note visibility from public request and list derivers ([8b77eac](https://github.com/Pocket/web-client/commit/8b77eacf04e530a982d0315673b17368f1d1b6af))
+
 ## [1.94.4](https://github.com/Pocket/web-client/compare/v1.94.3...v1.94.4) (2023-05-11)
 
 
