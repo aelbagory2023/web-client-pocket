@@ -44,7 +44,13 @@ export const ListContent = ({ id, toggleSort }) => {
 
   // Actions
   const handleSetStatus = ({ status, listItemNoteVisibility }) => {
-    dispatch(sendSnowplowEvent('shareable-list.status.update', { ...analyticsData, status }))
+    dispatch(
+      sendSnowplowEvent('shareable-list.status.update', {
+        ...analyticsData,
+        status,
+        listItemNoteVisibility
+      })
+    )
     dispatch(mutateListStatusAction({ id, status, listItemNoteVisibility }))
   }
   const handleShare = () => {
