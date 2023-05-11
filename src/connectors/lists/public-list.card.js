@@ -52,6 +52,7 @@ export const PublicListCard = ({ listId, externalId, position }) => {
         excerpt={excerpt}
         itemImage={itemImage}
         publisher={publisher}
+        note={note}
         openUrl={url}
         externalUrl={url}
         onImageFail={onImageFail}
