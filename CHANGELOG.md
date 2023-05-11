@@ -1,3 +1,11 @@
+## [1.94.2](https://github.com/Pocket/web-client/compare/v1.94.1...v1.94.2) (2023-05-11)
+
+
+### Bug Fixes
+
+* **lists:** adding prettier ignore to deriver ([9f333f3](https://github.com/Pocket/web-client/commit/9f333f3a0b3bcd5a241eeb34c831746e61d47c75))
+* **lists:** update snowplow schemas for lists ([b1e981f](https://github.com/Pocket/web-client/commit/b1e981fabc3ee31cd2f0fc8b0fe3dfb2492f3e27))
+
 ## [1.94.1](https://github.com/Pocket/web-client/compare/v1.94.0...v1.94.1) (2023-05-11)
 
 
