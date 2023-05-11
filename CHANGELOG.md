@@ -1,3 +1,10 @@
+## [1.94.1](https://github.com/Pocket/web-client/compare/v1.94.0...v1.94.1) (2023-05-11)
+
+
+### Bug Fixes
+
+* **lists:** update title on settings update with decoded ([922084a](https://github.com/Pocket/web-client/commit/922084ab33c3f40a6242ee6a6a15d2d4db8f38f0))
+
 # [1.94.0](https://github.com/Pocket/web-client/compare/v1.93.10...v1.94.0) (2023-05-11)
 
 
