@@ -1,3 +1,14 @@
+## [1.94.4](https://github.com/Pocket/web-client/compare/v1.94.3...v1.94.4) (2023-05-11)
+
+
+### Bug Fixes
+
+* **lists:** display note ([54e531d](https://github.com/Pocket/web-client/commit/54e531dae08c30789a313de25c3bf82c8d5fd8bd))
+* **lists:** fixed edit functionality after rebase ([6a0df1b](https://github.com/Pocket/web-client/commit/6a0df1b56dac6e3c76701e691817f2baf28a43fc))
+* **lists:** moved button styles ([21bd6d4](https://github.com/Pocket/web-client/commit/21bd6d47718185ee186b9313069d37e139d8ac7a))
+* **lists:** refactored NotesActions to match ListActions ([4344d85](https://github.com/Pocket/web-client/commit/4344d8551c56876b609d4da0e08d5216c108af80))
+* **lists:** variable-ized colors and prettied-up note action buttons ([911f4a5](https://github.com/Pocket/web-client/commit/911f4a530870c699203faf65d91c16b3e4c97dc3))
+
 ## [1.94.3](https://github.com/Pocket/web-client/compare/v1.94.2...v1.94.3) (2023-05-11)
 
 
