@@ -1,3 +1,10 @@
+## [1.94.6](https://github.com/Pocket/web-client/compare/v1.94.5...v1.94.6) (2023-05-15)
+
+
+### Bug Fixes
+
+* **CopyIcon:** add new icon, replace it ([20ccfe1](https://github.com/Pocket/web-client/commit/20ccfe17e466600e46934203559d0d5f4019a684))
+
 ## [1.94.5](https://github.com/Pocket/web-client/compare/v1.94.4...v1.94.5) (2023-05-11)
 
 
