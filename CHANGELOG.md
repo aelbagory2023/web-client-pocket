@@ -1,3 +1,12 @@
+## [1.94.10](https://github.com/Pocket/web-client/compare/v1.94.9...v1.94.10) (2023-05-17)
+
+
+### Bug Fixes
+
+* **empty-states:** adding empty states for all filters ([6ec39e7](https://github.com/Pocket/web-client/commit/6ec39e7d5d884543ff67f833d189a442e6799d96))
+* **filters:** update empty states based on copy updates ([c00f8fb](https://github.com/Pocket/web-client/commit/c00f8fb2d6358deffa02c7f78d5fba25d6cc0253))
+* **messages:** remove trans component from empty messages string ([9f849ec](https://github.com/Pocket/web-client/commit/9f849ec46d22f911d00e4ffb99c032bcf4dedb6d))
+
 ## [1.94.9](https://github.com/Pocket/web-client/compare/v1.94.8...v1.94.9) (2023-05-17)
 
 
