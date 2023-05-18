@@ -1,3 +1,11 @@
+## [1.94.12](https://github.com/Pocket/web-client/compare/v1.94.11...v1.94.12) (2023-05-18)
+
+
+### Bug Fixes
+
+* **lists:** adding descriptions to reorder event actions ([1c1ba49](https://github.com/Pocket/web-client/commit/1c1ba49f72519473034d0d56f0140beae3a2cc7b))
+* **lists:** adding snowplow events for reorder engagement ([f02da5f](https://github.com/Pocket/web-client/commit/f02da5f1536d78d83f4424229528917d8e767957))
+
 ## [1.94.11](https://github.com/Pocket/web-client/compare/v1.94.10...v1.94.11) (2023-05-18)
 
 
