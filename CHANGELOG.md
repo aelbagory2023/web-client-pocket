@@ -1,3 +1,11 @@
+## [1.94.17](https://github.com/Pocket/web-client/compare/v1.94.16...v1.94.17) (2023-05-23)
+
+
+### Bug Fixes
+
+* **bulk:** update bulk nav strings for count and localization ([7b516eb](https://github.com/Pocket/web-client/commit/7b516eb8aec8f2c05968d4c870554619e5f30f0f))
+* **nav:** add usetranslation function ([501f548](https://github.com/Pocket/web-client/commit/501f548b57376cc7c7615e01b4d6f82279397744))
+
 ## [1.94.16](https://github.com/Pocket/web-client/compare/v1.94.15...v1.94.16) (2023-05-23)
 
 
