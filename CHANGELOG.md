@@ -1,3 +1,15 @@
+## [1.94.19](https://github.com/Pocket/web-client/compare/v1.94.18...v1.94.19) (2023-05-24)
+
+
+### Bug Fixes
+
+* **css:** add emotion react for tsx ([a27192e](https://github.com/Pocket/web-client/commit/a27192ecf76d8468dfd89c8bbea16904e5808874))
+* **intersection observer:** drop lib for simple hook ([d7793a5](https://github.com/Pocket/web-client/commit/d7793a5b3e8698279a8301ad8edb0e87d992f6aa))
+* **item:** check for itemInView ([cc57243](https://github.com/Pocket/web-client/commit/cc57243d6fbc555b2b98ae25da5660473eb11f63))
+* **next:** update to latest and fix tests ([d16e242](https://github.com/Pocket/web-client/commit/d16e2422417c2935ceb0ab86f5c7e310bfa37fba))
+* **pagination:** make key explicit ([e6409e5](https://github.com/Pocket/web-client/commit/e6409e5ac4d95444e0ef77bcccfc293d13c58f59))
+* **refs:** update misplaced refs ([9abe780](https://github.com/Pocket/web-client/commit/9abe7807d4a0bdfcc561b0c94fa490206da25c2f))
+
 ## [1.94.18](https://github.com/Pocket/web-client/compare/v1.94.17...v1.94.18) (2023-05-24)
 
 
