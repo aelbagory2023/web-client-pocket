@@ -1,3 +1,10 @@
+## [1.94.21](https://github.com/Pocket/web-client/compare/v1.94.20...v1.94.21) (2023-05-24)
+
+
+### Bug Fixes
+
+* **translations:** update import ([1c71183](https://github.com/Pocket/web-client/commit/1c711835a4292ef1feaa0bdd92f7ffb5fd3c4585))
+
 ## [1.94.20](https://github.com/Pocket/web-client/compare/v1.94.19...v1.94.20) (2023-05-24)
 
 
