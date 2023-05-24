@@ -1,3 +1,10 @@
+## [1.94.18](https://github.com/Pocket/web-client/compare/v1.94.17...v1.94.18) (2023-05-24)
+
+
+### Bug Fixes
+
+* **note:** display user submitted note on save ([22e1043](https://github.com/Pocket/web-client/commit/22e1043f5b1579f6e7f896d31f81e0a49253a28b))
+
 ## [1.94.17](https://github.com/Pocket/web-client/compare/v1.94.16...v1.94.17) (2023-05-23)
 
 
