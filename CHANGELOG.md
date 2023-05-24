@@ -1,3 +1,10 @@
+## [1.94.20](https://github.com/Pocket/web-client/compare/v1.94.19...v1.94.20) (2023-05-24)
+
+
+### Bug Fixes
+
+* **localization:** bump package version and add new namespace ([70f9d71](https://github.com/Pocket/web-client/commit/70f9d715215112c52adeedff5c2d94038bd835ad))
+
 ## [1.94.19](https://github.com/Pocket/web-client/compare/v1.94.18...v1.94.19) (2023-05-24)
 
 
