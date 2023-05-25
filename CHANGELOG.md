@@ -1,3 +1,10 @@
+## [1.95.2](https://github.com/Pocket/web-client/compare/v1.95.1...v1.95.2) (2023-05-25)
+
+
+### Bug Fixes
+
+* **eslint:** cleanup minor warnings ([07f08d7](https://github.com/Pocket/web-client/commit/07f08d723d54294a21b36247b38170bdaf99b858))
+
 ## [1.95.1](https://github.com/Pocket/web-client/compare/v1.95.0...v1.95.1) (2023-05-25)
 
 
