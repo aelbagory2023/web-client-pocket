@@ -1,3 +1,10 @@
+## [1.95.1](https://github.com/Pocket/web-client/compare/v1.95.0...v1.95.1) (2023-05-25)
+
+
+### Bug Fixes
+
+* **item:** align tag count variable ([479dda2](https://github.com/Pocket/web-client/commit/479dda2559304d085c247e6706f4357db6733505))
+
 # [1.95.0](https://github.com/Pocket/web-client/compare/v1.94.21...v1.95.0) (2023-05-25)
 
 
