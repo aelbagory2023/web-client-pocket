@@ -1,3 +1,12 @@
+# [1.95.0](https://github.com/Pocket/web-client/compare/v1.94.21...v1.95.0) (2023-05-25)
+
+
+### Features
+
+* **IndividualListCard:** show add note button ([5980df7](https://github.com/Pocket/web-client/commit/5980df7b247b42891f4813a2b26d7d9022f7cba8))
+* **ListIndividualHeader:** show reorder button ([01bd71c](https://github.com/Pocket/web-client/commit/01bd71cfab458d9d41a16addba05433a023d972d))
+* **ListIndividualHeader:** use VisibilityOptions ([d6441ed](https://github.com/Pocket/web-client/commit/d6441ed611425a8931d3a2d8881a4c007ac3607f))
+
 ## [1.94.21](https://github.com/Pocket/web-client/compare/v1.94.20...v1.94.21) (2023-05-24)
 
 
