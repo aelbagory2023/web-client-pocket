@@ -1,3 +1,14 @@
+## [1.95.10](https://github.com/Pocket/web-client/compare/v1.95.9...v1.95.10) (2023-05-31)
+
+
+### Bug Fixes
+
+* **lists:** remove code for menu callout ([9f9734a](https://github.com/Pocket/web-client/commit/9f9734a4dfda1bed9bf412a391f59d06db62f5fc))
+* **lists:** remove junit xml ([a571959](https://github.com/Pocket/web-client/commit/a571959ff1b929cc91816a163ab714069ee18e5e))
+* **lists:** remove menu onboarding callouts ([38abd37](https://github.com/Pocket/web-client/commit/38abd37d895e73b9f7175e5def29ac017e8bb064))
+* **lists:** removed code for mobile nav ([a1d92ec](https://github.com/Pocket/web-client/commit/a1d92ecb5910a9a880fbf921ba3ea218d134dbe0))
+* **lists:** updated snapshot test ([125cc0f](https://github.com/Pocket/web-client/commit/125cc0fbc42218a6f2a6585c1ad4f914e6a52a1d))
+
 ## [1.95.9](https://github.com/Pocket/web-client/compare/v1.95.8...v1.95.9) (2023-05-31)
 
 
