@@ -1,3 +1,10 @@
+## [1.95.12](https://github.com/Pocket/web-client/compare/v1.95.11...v1.95.12) (2023-06-01)
+
+
+### Bug Fixes
+
+* **saves:** add missing active styling to item overflow menu ([17f183d](https://github.com/Pocket/web-client/commit/17f183dcc6c0fb6ce751c6f7609b30d796725a5a))
+
 ## [1.95.11](https://github.com/Pocket/web-client/compare/v1.95.10...v1.95.11) (2023-06-01)
 
 
