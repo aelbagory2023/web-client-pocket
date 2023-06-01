@@ -1,3 +1,11 @@
+## [1.95.11](https://github.com/Pocket/web-client/compare/v1.95.10...v1.95.11) (2023-06-01)
+
+
+### Bug Fixes
+
+* **banner:** clean up implimentation ([f5596bb](https://github.com/Pocket/web-client/commit/f5596bb4d12ae1dd57e4b76827beb9dc792123b6))
+* **home:** remove german lang banner ([500d6bc](https://github.com/Pocket/web-client/commit/500d6bcf4f2ed01f050069c2f3d333d9c472aaf8))
+
 ## [1.95.10](https://github.com/Pocket/web-client/compare/v1.95.9...v1.95.10) (2023-05-31)
 
 
