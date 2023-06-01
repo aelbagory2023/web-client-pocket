@@ -1,3 +1,10 @@
+# [1.96.0](https://github.com/Pocket/web-client/compare/v1.95.12...v1.96.0) (2023-06-01)
+
+
+### Features
+
+* **emotion:** add cache provider to emotion ([a39b0ff](https://github.com/Pocket/web-client/commit/a39b0fffb8bb92f8d4917af1dace04c791308eb9))
+
 ## [1.95.12](https://github.com/Pocket/web-client/compare/v1.95.11...v1.95.12) (2023-06-01)
 
 
