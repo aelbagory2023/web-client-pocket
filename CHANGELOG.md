@@ -1,3 +1,11 @@
+## [1.96.1](https://github.com/Pocket/web-client/compare/v1.96.0...v1.96.1) (2023-06-05)
+
+
+### Bug Fixes
+
+* **lists:** update sidebar whenever a list is updated ([b5f77ad](https://github.com/Pocket/web-client/commit/b5f77ad7d319dda036e800c91b62c6a5bb3c7439))
+* **lists:** update sidebar whenever a status is updated ([2b56296](https://github.com/Pocket/web-client/commit/2b56296650bd861265582b166458279d13b9eb86))
+
 # [1.96.0](https://github.com/Pocket/web-client/compare/v1.95.12...v1.96.0) (2023-06-01)
 
 
