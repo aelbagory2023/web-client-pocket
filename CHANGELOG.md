@@ -1,3 +1,18 @@
+# [1.97.0](https://github.com/Pocket/web-client/compare/v1.96.1...v1.97.0) (2023-06-06)
+
+
+### Bug Fixes
+
+* **localization:** add parsed strings for error ([54ff3c2](https://github.com/Pocket/web-client/commit/54ff3c27c6bb48afc104344e49a72535dc869bb9))
+* **localization:** inject automation ([010d6ce](https://github.com/Pocket/web-client/commit/010d6ce6e81cf1b16938c36eeb07763b00c52ba6))
+* **localization:** simplify parsing ([b3c2887](https://github.com/Pocket/web-client/commit/b3c28874ee9c53c7dfe9353e4538fc21df032224))
+* **localization:** update inject ([030e154](https://github.com/Pocket/web-client/commit/030e1547364772c3eb9dd2357e9d1afe65fdf89e))
+
+
+### Features
+
+* **localization:** include localization in repo ([f58f8f0](https://github.com/Pocket/web-client/commit/f58f8f0458087a7f29aa821388fe4a90826732ff))
+
 ## [1.96.1](https://github.com/Pocket/web-client/compare/v1.96.0...v1.96.1) (2023-06-05)
 
 
