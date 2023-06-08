@@ -1,3 +1,10 @@
+## [1.97.3](https://github.com/Pocket/web-client/compare/v1.97.2...v1.97.3) (2023-06-08)
+
+
+### Bug Fixes
+
+* **sidebar:** decode list titles ([b6cd308](https://github.com/Pocket/web-client/commit/b6cd3080ffaf51bb344dedf2d619dae07c0ec4be))
+
 ## [1.97.2](https://github.com/Pocket/web-client/compare/v1.97.1...v1.97.2) (2023-06-08)
 
 
