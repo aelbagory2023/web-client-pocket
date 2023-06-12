@@ -1,3 +1,15 @@
+# [1.98.0](https://github.com/Pocket/web-client/compare/v1.97.3...v1.98.0) (2023-06-12)
+
+
+### Bug Fixes
+
+* **filters:** remove extraneous fragment, prettier ([efeba5e](https://github.com/Pocket/web-client/commit/efeba5eac2157e03193ade963f598bbe75feab9c))
+
+
+### Features
+
+* **lists:** lift feature flag to release private lists to all users ([ea1b13c](https://github.com/Pocket/web-client/commit/ea1b13c6e7702a5445cd1bf0486a475ebec41d2c))
+
 ## [1.97.3](https://github.com/Pocket/web-client/compare/v1.97.2...v1.97.3) (2023-06-08)
 
 
