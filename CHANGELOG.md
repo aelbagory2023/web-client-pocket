@@ -1,3 +1,12 @@
+## [1.98.1](https://github.com/Pocket/web-client/compare/v1.98.0...v1.98.1) (2023-06-13)
+
+
+### Bug Fixes
+
+* **toasts:** adding a clarifying comment to the qa toast component ([81d8850](https://github.com/Pocket/web-client/commit/81d8850b94b37feb4d299158be70865e8b3cb937))
+* **toasts:** adding a tool to test toasts ([0f9fe7c](https://github.com/Pocket/web-client/commit/0f9fe7c57cacfb6543d1b6e7cd7f44d8d21dbb8e))
+* **toasts:** update placement and color of toasts ([7f0e652](https://github.com/Pocket/web-client/commit/7f0e6520ef853570b3594f85fa4b2b54757d40e1))
+
 # [1.98.0](https://github.com/Pocket/web-client/compare/v1.97.3...v1.98.0) (2023-06-12)
 
 
