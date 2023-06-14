@@ -193,15 +193,15 @@ export const itemStyles = css`
     }
 
     &.open-external {
-      a {
-        margin-right: 0;
-        ${breakpointSmallTablet} {
-          margin-right: 0.5rem;
-        }
-      }
       .mobile-view-original {
         display: none;
-        ${breakpointSmallTablet} {
+      }
+      ${breakpointSmallTablet} {
+        .text {
+          display: inline-block;
+          margin-right: 0.5rem;
+        }
+        .mobile-view-original {
           display: inline-block;
         }
       }
