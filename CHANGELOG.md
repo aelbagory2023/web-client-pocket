@@ -1,3 +1,10 @@
+## [1.99.1](https://github.com/Pocket/web-client/compare/v1.99.0...v1.99.1) (2023-06-15)
+
+
+### Bug Fixes
+
+* **call out:** newsroom callout links to a new tab ([52f4378](https://github.com/Pocket/web-client/commit/52f43780b306a18e866e8f558c67ecc7705b3af7))
+
 # [1.99.0](https://github.com/Pocket/web-client/compare/v1.98.3...v1.99.0) (2023-06-15)
 
 
