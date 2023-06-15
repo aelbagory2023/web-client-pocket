@@ -1,3 +1,12 @@
+# [1.99.0](https://github.com/Pocket/web-client/compare/v1.98.3...v1.99.0) (2023-06-15)
+
+
+### Features
+
+* **banner:** add newsroom banner ([edb6820](https://github.com/Pocket/web-client/commit/edb68204bb5d8b70e1623ed9323aac09757508c8))
+* **banner:** add newsroom banner for saves ([a58a321](https://github.com/Pocket/web-client/commit/a58a3213146adef6edd2b53569cc6ead8ce7bd44))
+* **collections:** add newsroom banners ([5f0709b](https://github.com/Pocket/web-client/commit/5f0709be2ea8d8604e4bc63f1779382a53b40d3e))
+
 ## [1.98.3](https://github.com/Pocket/web-client/compare/v1.98.2...v1.98.3) (2023-06-15)
 
 
