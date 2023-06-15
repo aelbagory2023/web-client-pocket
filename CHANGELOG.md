@@ -1,3 +1,10 @@
+## [1.100.1](https://github.com/Pocket/web-client/compare/v1.100.0...v1.100.1) (2023-06-15)
+
+
+### Bug Fixes
+
+* **newsroom:** add missing space ([3703718](https://github.com/Pocket/web-client/commit/370371808fd2a13094d3c18f4e1a2006ab1e8177))
+
 # [1.100.0](https://github.com/Pocket/web-client/compare/v1.99.1...v1.100.0) (2023-06-15)
 
 
