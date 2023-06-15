@@ -1,3 +1,24 @@
+# [1.100.0](https://github.com/Pocket/web-client/compare/v1.99.1...v1.100.0) (2023-06-15)
+
+
+### Bug Fixes
+
+* **home:** remove flash of setup on slow connections ([c36dba7](https://github.com/Pocket/web-client/commit/c36dba7a5b94c2d15186de8155731d751b2fed23))
+* **image:** allow limited view original ([9f65146](https://github.com/Pocket/web-client/commit/9f651467caaa41bd11209db5644777893599e3f7))
+* **item:** fix story ([dd4559b](https://github.com/Pocket/web-client/commit/dd4559b9ce462cd694bd62af7f7a0fd52bdd28c6))
+* **signaled:** don’t trigger on any old animation end ([f41a5e5](https://github.com/Pocket/web-client/commit/f41a5e551469bc8a33ce2b8335bc57d0fc240a5a))
+* **snowplow:** add thumbsup/down ([68a6bfe](https://github.com/Pocket/web-client/commit/68a6bfefe1a88295b0793bcdcd38f6188fe443a4))
+
+
+### Features
+
+* **card:** rough out signaled card ([d5dd7f9](https://github.com/Pocket/web-client/commit/d5dd7f99ed3ebacc7c98bddcc1afc4f32f6d612f))
+* **home:** add toast to demote ([5a4af78](https://github.com/Pocket/web-client/commit/5a4af788d0d82f4ce88590b70f9bacb51e1c76b8))
+* **home:** thumbs up / down functionality ([ad177e7](https://github.com/Pocket/web-client/commit/ad177e79588aa93128eff50b58ddbae9d555c53e))
+* **home:** use signaled cards ([7ba1584](https://github.com/Pocket/web-client/commit/7ba1584b9b37ea31717118c2ec1087e8422f766e))
+* **signaled:** add promoted styles ([0ec598f](https://github.com/Pocket/web-client/commit/0ec598fa668ab9ed7e961dc44ceba7ed6985ac93))
+* **signaled:** persist demotions ([4c98902](https://github.com/Pocket/web-client/commit/4c989026942a578b2624cfcfc2f6818972a58d24))
+
 ## [1.99.1](https://github.com/Pocket/web-client/compare/v1.99.0...v1.99.1) (2023-06-15)
 
 
