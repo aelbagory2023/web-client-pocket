@@ -1,3 +1,17 @@
+## [1.98.3](https://github.com/Pocket/web-client/compare/v1.98.2...v1.98.3) (2023-06-15)
+
+
+### Bug Fixes
+
+* **toast:** break out new toast UI component from connector ([6e027b5](https://github.com/Pocket/web-client/commit/6e027b5c4a8d90d22935917a2cfe5ea61066eb3c))
+* **toast:** fix bad import breaking actual app ([dccc407](https://github.com/Pocket/web-client/commit/dccc407a7649f5a72e0185f6bf1dc072c9c1b14a))
+* **toast:** fix width of toast story not matching actual ([95ba56b](https://github.com/Pocket/web-client/commit/95ba56b804a81b9e07b83f78549046291cee5b34))
+* **toast:** make showUndo variable for story ([093fa83](https://github.com/Pocket/web-client/commit/093fa839756eb9f26a08068111f508af4dbe5581))
+* **toast:** move business logic out from toast component ([28de534](https://github.com/Pocket/web-client/commit/28de5349943fe47421a30b5206ce83b5c6a1fe47))
+* **toast:** re-use action data creation from QA modal ([42ec6e3](https://github.com/Pocket/web-client/commit/42ec6e3515a666294c038e584af23c81cd672e83))
+* **toast:** remove guard against no type from early prototyping ([3c9f532](https://github.com/Pocket/web-client/commit/3c9f53212367f1819d8ea858276b91c32a4f4c28))
+* **toast:** rename dumbtoast and move story into components ([f449567](https://github.com/Pocket/web-client/commit/f44956716086483d480be4163ec988525f0ed3c9))
+
 ## [1.98.2](https://github.com/Pocket/web-client/compare/v1.98.1...v1.98.2) (2023-06-14)
 
 
