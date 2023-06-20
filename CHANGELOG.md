@@ -1,3 +1,10 @@
+## [1.100.2](https://github.com/Pocket/web-client/compare/v1.100.1...v1.100.2) (2023-06-20)
+
+
+### Bug Fixes
+
+* **lists:** fetch list item count with recent list request ([8d0ef1a](https://github.com/Pocket/web-client/commit/8d0ef1a926faac3ae0b68430cc3f942ba4e17807))
+
 ## [1.100.1](https://github.com/Pocket/web-client/compare/v1.100.0...v1.100.1) (2023-06-15)
 
 
