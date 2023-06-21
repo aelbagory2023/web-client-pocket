@@ -1,3 +1,10 @@
+## [1.100.7](https://github.com/Pocket/web-client/compare/v1.100.6...v1.100.7) (2023-06-21)
+
+
+### Bug Fixes
+
+* **callout:** update colors for themes ([43de7b3](https://github.com/Pocket/web-client/commit/43de7b3df60aa21577eb50f9b65dd3c5bdb5176a))
+
 ## [1.100.6](https://github.com/Pocket/web-client/compare/v1.100.5...v1.100.6) (2023-06-21)
 
 
