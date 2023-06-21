@@ -1,3 +1,15 @@
+## [1.100.6](https://github.com/Pocket/web-client/compare/v1.100.5...v1.100.6) (2023-06-21)
+
+
+### Bug Fixes
+
+* **errors:** adding custom sentry errors for loading previous items ([d0906a1](https://github.com/Pocket/web-client/commit/d0906a135b2307770437de8bba3200dc2d3070e3))
+* **saves:** adding comments to responder function for clarity ([d5a2a86](https://github.com/Pocket/web-client/commit/d5a2a864e05804c17e170fdd07db6d7fcf0a980d))
+* **saves:** update comment regarding startcursor ([1d5900a](https://github.com/Pocket/web-client/commit/1d5900a40220a5cbda80cdd43a82c72b9c95b85a))
+* **saves:** update getitemcursor function with optional chaining ([675dee5](https://github.com/Pocket/web-client/commit/675dee5c5dd890a0c4e0411fe0ab06b6fcd0efc3))
+* **saves:** update how we get the startcursor variable ([cae3fcf](https://github.com/Pocket/web-client/commit/cae3fcf4f7139919c071b6c0e19d3907eabfc50d))
+* **saves:** update saves when browser regains focus ([d029c09](https://github.com/Pocket/web-client/commit/d029c0948b69e9a40c1f6cbd270d4022b816a966))
+
 ## [1.100.5](https://github.com/Pocket/web-client/compare/v1.100.4...v1.100.5) (2023-06-21)
 
 
