@@ -1,3 +1,10 @@
+## [1.100.8](https://github.com/Pocket/web-client/compare/v1.100.7...v1.100.8) (2023-06-21)
+
+
+### Bug Fixes
+
+* **home:** remove tooltip delay ([1a2c440](https://github.com/Pocket/web-client/commit/1a2c440bd37d1ddcfd5150a7b543a7b116d73c55))
+
 ## [1.100.7](https://github.com/Pocket/web-client/compare/v1.100.6...v1.100.7) (2023-06-21)
 
 
