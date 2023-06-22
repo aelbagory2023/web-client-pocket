@@ -1,3 +1,10 @@
+## [1.100.9](https://github.com/Pocket/web-client/compare/v1.100.8...v1.100.9) (2023-06-22)
+
+
+### Bug Fixes
+
+* **banner:** add ui type to banner for newsroom campaign ([adc0ded](https://github.com/Pocket/web-client/commit/adc0ded8ea6b4a65542a59dcc187f4cdbe899ba5))
+
 ## [1.100.8](https://github.com/Pocket/web-client/compare/v1.100.7...v1.100.8) (2023-06-21)
 
 
