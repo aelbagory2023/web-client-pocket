@@ -1,3 +1,10 @@
+## [1.100.10](https://github.com/Pocket/web-client/compare/v1.100.9...v1.100.10) (2023-06-23)
+
+
+### Bug Fixes
+
+* **home:** add empty state color backgrounds ([c33a258](https://github.com/Pocket/web-client/commit/c33a258bd00d42f09fa7f9e810372acd8674ea1b))
+
 ## [1.100.9](https://github.com/Pocket/web-client/compare/v1.100.8...v1.100.9) (2023-06-22)
 
 
