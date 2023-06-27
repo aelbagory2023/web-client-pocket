@@ -1,3 +1,10 @@
+## [1.100.11](https://github.com/Pocket/web-client/compare/v1.100.10...v1.100.11) (2023-06-27)
+
+
+### Bug Fixes
+
+* **banner:** newsroom only in us ([7ffdc18](https://github.com/Pocket/web-client/commit/7ffdc185f7584aefc71a088829105a7fe0db9b2d))
+
 ## [1.100.10](https://github.com/Pocket/web-client/compare/v1.100.9...v1.100.10) (2023-06-23)
 
 
