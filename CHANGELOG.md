@@ -1,3 +1,10 @@
+## [1.100.12](https://github.com/Pocket/web-client/compare/v1.100.11...v1.100.12) (2023-07-05)
+
+
+### Bug Fixes
+
+* **mobile-view-original:** add spacing ([6cad227](https://github.com/Pocket/web-client/commit/6cad227c20095211737693809fcdc6ca3d984881))
+
 ## [1.100.11](https://github.com/Pocket/web-client/compare/v1.100.10...v1.100.11) (2023-06-27)
 
 
