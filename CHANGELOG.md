@@ -1,3 +1,12 @@
+## [1.100.13](https://github.com/Pocket/web-client/compare/v1.100.12...v1.100.13) (2023-07-06)
+
+
+### Bug Fixes
+
+* **ListIndividualHeader:** remove share button ([551f46c](https://github.com/Pocket/web-client/commit/551f46cf4ef7d5578c1fc03a572b0ede8421ca0f))
+* **VisibilityOptions:** disable public options ([f649454](https://github.com/Pocket/web-client/commit/f64945422d34d9b00c87e8b206461b57516179c5))
+* **VisibilityOptions:** remove onClick from public PopupMenuItems ([a84835b](https://github.com/Pocket/web-client/commit/a84835b7885bb713c5580f4279853b8ab45a00a5))
+
 ## [1.100.12](https://github.com/Pocket/web-client/compare/v1.100.11...v1.100.12) (2023-07-05)
 
 
