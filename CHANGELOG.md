@@ -1,3 +1,30 @@
+## [1.100.15](https://github.com/Pocket/web-client/compare/v1.100.14...v1.100.15) (2023-07-17)
+
+
+### Bug Fixes
+
+* **pocket-hits:** add route to QA tools ([f5f3d1e](https://github.com/Pocket/web-client/commit/f5f3d1eae67ce49980a71e8963364b1567299e04))
+* **pocket-hits:** adjust metadata description to reflect removal of German support ([9de970c](https://github.com/Pocket/web-client/commit/9de970ce044d7fb8f04e09a1bcdfe06cdfad28e6))
+* **pocket-hits:** break out publishers out from render ([4ca13fb](https://github.com/Pocket/web-client/commit/4ca13fb573e1563a6b74f902a80787ed4580cd3f))
+* **pocket-hits:** cleaning up german source code, remove more tests ([cdb4423](https://github.com/Pocket/web-client/commit/cdb44239b72b7ba7435766f528081eb8d40c4f48))
+* **pocket-hits:** copy over spec file and add new imports ([8b0787e](https://github.com/Pocket/web-client/commit/8b0787ef97d335c7bfdfd015ed122b3b1ce6329a))
+* **pocket-hits:** fix image backgrounds in sepia ([c759559](https://github.com/Pocket/web-client/commit/c7595599a1bb9c8bb2be41b977b9a00395c9c272))
+* **pocket-hits:** fix inverted image background color ([f61e56b](https://github.com/Pocket/web-client/commit/f61e56b538a0e72f340d1a601f6f48834362d768))
+* **pocket-hits:** fix snowplow event not sending ([49cd7de](https://github.com/Pocket/web-client/commit/49cd7de169d4d435892acfda9abf82423aa4ab1b))
+* **pocket-hits:** fix success state image not loading ([4a11b5c](https://github.com/Pocket/web-client/commit/4a11b5c83fdf656d365e2baa839a0c5cdc7e5aef))
+* **pocket-hits:** initial work to get page viewable; copied over and updated code from discover ([9a50c8a](https://github.com/Pocket/web-client/commit/9a50c8a6b42efc8958a72f0334cdbd8c0d7e1625))
+* **pocket-hits:** minor cleanup from self-review of PR ([b1bef99](https://github.com/Pocket/web-client/commit/b1bef99107c75dcd648b810d9efe93ab61ce187c))
+* **pocket-hits:** misc changes done with Joel ([652e898](https://github.com/Pocket/web-client/commit/652e8982c184a0f42c1754fb0c39457205d83685))
+* **pocket-hits:** move page to /explore route ([a8dea4a](https://github.com/Pocket/web-client/commit/a8dea4acc1a0feba7dc0e91191e00bf988cc1559))
+* **pocket-hits:** remove button comments ([e03035a](https://github.com/Pocket/web-client/commit/e03035aa74ac437a7b9b9fe97f07cc8f1d08c7bf))
+* **pocket-hits:** remove commented-out legacy analytics and cleanup ([52911c4](https://github.com/Pocket/web-client/commit/52911c44a6f8f0a6b1f6e2ef81d84cf644c4e1bd))
+* **pocket-hits:** remove data-cy ([0a3f776](https://github.com/Pocket/web-client/commit/0a3f776481a04540ed9754c24d6cc9769b35c3ee))
+* **pocket-hits:** remove de parameter ([3f53d71](https://github.com/Pocket/web-client/commit/3f53d71216b54195849922ade9f482b1754d2a9d))
+* **pocket-hits:** remove german tests ([23f4ef3](https://github.com/Pocket/web-client/commit/23f4ef3d9c2c0d71a6252518020e53bc1436e3df))
+* **pocket-hits:** remove quotes on dictionary strings ([5a4f1a6](https://github.com/Pocket/web-client/commit/5a4f1a6b7ac622964a717c3c0377a8e032ee0075))
+* **pocket-hits:** simplify discover link by removing must-reads subpath ([0aeb6c4](https://github.com/Pocket/web-client/commit/0aeb6c42639db105792ecbc331bf774c75ac561c))
+* **pocket-hits:** snowplow analytics, clean up imports ([c558dbc](https://github.com/Pocket/web-client/commit/c558dbc98c587a1ef210204ea11d40789e55100b))
+
 ## [1.100.14](https://github.com/Pocket/web-client/compare/v1.100.13...v1.100.14) (2023-07-12)
 
 
