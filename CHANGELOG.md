@@ -1,3 +1,11 @@
+## [1.100.16](https://github.com/Pocket/web-client/compare/v1.100.15...v1.100.16) (2023-07-24)
+
+
+### Bug Fixes
+
+* **pocket-hits:** fix legacy API ([267a917](https://github.com/Pocket/web-client/commit/267a917d9e9bbf58d76165f107fe251522b40b48))
+* **pocket-hits:** fix redirect button needs to be anchor ([ef3e19a](https://github.com/Pocket/web-client/commit/ef3e19a2e386f7d553ba1419031a5f23b507c9fa))
+
 ## [1.100.15](https://github.com/Pocket/web-client/compare/v1.100.14...v1.100.15) (2023-07-17)
 
 
