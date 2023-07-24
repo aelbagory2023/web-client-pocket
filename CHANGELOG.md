@@ -1,3 +1,10 @@
+## [1.100.17](https://github.com/Pocket/web-client/compare/v1.100.16...v1.100.17) (2023-07-24)
+
+
+### Bug Fixes
+
+* **collections:** add new article to newsroom urls ([39f51b6](https://github.com/Pocket/web-client/commit/39f51b636b60309907d346561ba7da47679cc2dc))
+
 ## [1.100.16](https://github.com/Pocket/web-client/compare/v1.100.15...v1.100.16) (2023-07-24)
 
 
