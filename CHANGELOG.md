@@ -1,3 +1,10 @@
+## [1.100.18](https://github.com/Pocket/web-client/compare/v1.100.17...v1.100.18) (2023-07-26)
+
+
+### Bug Fixes
+
+* **api:** redirect user to login page when requesting items and not logged in ([1abd571](https://github.com/Pocket/web-client/commit/1abd5713d0edc595c2c1b1c89fda3852718d6e84))
+
 ## [1.100.17](https://github.com/Pocket/web-client/compare/v1.100.16...v1.100.17) (2023-07-24)
 
 
