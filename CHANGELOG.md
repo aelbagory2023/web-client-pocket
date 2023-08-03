@@ -1,3 +1,10 @@
+## [1.101.2](https://github.com/Pocket/web-client/compare/v1.101.1...v1.101.2) (2023-08-03)
+
+
+### Bug Fixes
+
+* **learn more:** wrap header in trans for &nbsp; ([a2f8993](https://github.com/Pocket/web-client/commit/a2f89933b56297f1d7378829c2baa0c160795528))
+
 ## [1.101.1](https://github.com/Pocket/web-client/compare/v1.101.0...v1.101.1) (2023-08-03)
 
 
