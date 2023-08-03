@@ -1,3 +1,21 @@
+# [1.101.0](https://github.com/Pocket/web-client/compare/v1.100.18...v1.101.0) (2023-08-03)
+
+
+### Bug Fixes
+
+* **account:** update delete account ([c377700](https://github.com/Pocket/web-client/commit/c377700ebd2a43ad3980e91c15fb51f90667a8f0))
+* **dev-tools:** add in fxa link ([383d430](https://github.com/Pocket/web-client/commit/383d43015cbac88a53d08f0cd3b35f4c057c978e))
+* **learn more:** add localization ([6c6b756](https://github.com/Pocket/web-client/commit/6c6b7569d59ab94e208e6469cf0fc534ba418ebb))
+* **learn more:** add missing localization wrapper ([0861229](https://github.com/Pocket/web-client/commit/0861229463926b451c9f9a9f5349bdeb777cb8cd))
+* **learn more:** add responsive styles ([ec0c276](https://github.com/Pocket/web-client/commit/ec0c276ac5161b636223b92a47c504ce7d948c38))
+* **learn more:** add upgrade path ([826644e](https://github.com/Pocket/web-client/commit/826644e7fee4568a765cb368a9259a5c032fdebc))
+* **learn-more:** cookie value to string ([46b6d4f](https://github.com/Pocket/web-client/commit/46b6d4f228d23e87af9fa3aa7a17e7367af5be29))
+
+
+### Features
+
+* **learn more:** add learn more page for fxa ([5956731](https://github.com/Pocket/web-client/commit/5956731ea75922ddfc02c00e89f06f6d65cfdf7d))
+
 ## [1.100.18](https://github.com/Pocket/web-client/compare/v1.100.17...v1.100.18) (2023-07-26)
 
 
