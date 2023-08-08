@@ -1,3 +1,10 @@
+## [1.101.4](https://github.com/Pocket/web-client/compare/v1.101.3...v1.101.4) (2023-08-08)
+
+
+### Bug Fixes
+
+* **pocket-hits:** remove qa tools link ([d492e59](https://github.com/Pocket/web-client/commit/d492e592c15551e3b3eb45b77566c76d818f5f35))
+
 ## [1.101.3](https://github.com/Pocket/web-client/compare/v1.101.2...v1.101.3) (2023-08-08)
 
 
