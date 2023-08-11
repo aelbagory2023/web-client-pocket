@@ -1,3 +1,14 @@
+## [1.102.1](https://github.com/Pocket/web-client/compare/v1.102.0...v1.102.1) (2023-08-11)
+
+
+### Bug Fixes
+
+* **account:** fxa changes behind a flag ([fed2ef7](https://github.com/Pocket/web-client/commit/fed2ef79ee0d261e63d321af90618445723c2d6c))
+* **account:** re-add rss ([53ec269](https://github.com/Pocket/web-client/commit/53ec269c401efe558fea71942d9e32a009c811db))
+* **account:** set up post-fxa email section ([8f68b5d](https://github.com/Pocket/web-client/commit/8f68b5da51ebe8f984ab1a6f17beb1db517daac9))
+* **locale:** new strings ([81affc8](https://github.com/Pocket/web-client/commit/81affc83b8e5f10e9c7befc9f1906db1ee8c3ebf))
+* **nav:** FXA changes ([293fe8b](https://github.com/Pocket/web-client/commit/293fe8bdbcf346b31b08dff2428120d2be53eb41))
+
 # [1.102.0](https://github.com/Pocket/web-client/compare/v1.101.4...v1.102.0) (2023-08-10)
 
 
