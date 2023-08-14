@@ -1,3 +1,10 @@
+## [1.102.2](https://github.com/Pocket/web-client/compare/v1.102.1...v1.102.2) (2023-08-14)
+
+
+### Bug Fixes
+
+* **flag:** limit for those in fxa (not lab) ([ee4994a](https://github.com/Pocket/web-client/commit/ee4994a3f79543dcf7f364732c5df6c2e93feeef))
+
 ## [1.102.1](https://github.com/Pocket/web-client/compare/v1.102.0...v1.102.1) (2023-08-11)
 
 
