@@ -1,3 +1,10 @@
+## [1.102.3](https://github.com/Pocket/web-client/compare/v1.102.2...v1.102.3) (2023-08-14)
+
+
+### Bug Fixes
+
+* **learn more:** add snowplow events ([d56071e](https://github.com/Pocket/web-client/commit/d56071ec7eaba9aab53e1dca23837adf16ef44c3))
+
 ## [1.102.2](https://github.com/Pocket/web-client/compare/v1.102.1...v1.102.2) (2023-08-14)
 
 
