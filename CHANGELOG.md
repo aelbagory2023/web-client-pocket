@@ -1,3 +1,10 @@
+## [1.102.4](https://github.com/Pocket/web-client/compare/v1.102.3...v1.102.4) (2023-08-15)
+
+
+### Bug Fixes
+
+* **saves:** throw custom error on saves request fail ([42f4803](https://github.com/Pocket/web-client/commit/42f480348019c53a1506b9dce8352e1fa9f11fa9))
+
 ## [1.102.3](https://github.com/Pocket/web-client/compare/v1.102.2...v1.102.3) (2023-08-14)
 
 
