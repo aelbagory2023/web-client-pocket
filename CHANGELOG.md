@@ -1,3 +1,10 @@
+## [1.102.5](https://github.com/Pocket/web-client/compare/v1.102.4...v1.102.5) (2023-08-16)
+
+
+### Bug Fixes
+
+* **fxa:** update account / learn more ([181628f](https://github.com/Pocket/web-client/commit/181628f93864746ab313e5fdb0666a58679bdc94))
+
 ## [1.102.4](https://github.com/Pocket/web-client/compare/v1.102.3...v1.102.4) (2023-08-15)
 
 
