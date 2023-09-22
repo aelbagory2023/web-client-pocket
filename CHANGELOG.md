@@ -1,3 +1,10 @@
+## [1.102.6](https://github.com/Pocket/web-client/compare/v1.102.5...v1.102.6) (2023-09-22)
+
+
+### Bug Fixes
+
+* **syndicated:** syndicated articles to noindex ([f9d45cf](https://github.com/Pocket/web-client/commit/f9d45cfa7cee641f02dddd993234f9bc758f79c9))
+
 ## [1.102.5](https://github.com/Pocket/web-client/compare/v1.102.4...v1.102.5) (2023-08-16)
 
 
