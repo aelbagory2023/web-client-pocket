@@ -1,3 +1,10 @@
+## [1.102.7](https://github.com/Pocket/web-client/compare/v1.102.6...v1.102.7) (2023-09-27)
+
+
+### Bug Fixes
+
+* **learn-more:** rebranding text changes ([9607239](https://github.com/Pocket/web-client/commit/960723964f0124760df472759dc94cd3412de549))
+
 ## [1.102.6](https://github.com/Pocket/web-client/compare/v1.102.5...v1.102.6) (2023-09-22)
 
 
