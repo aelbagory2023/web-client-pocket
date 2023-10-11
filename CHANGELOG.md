@@ -1,3 +1,11 @@
+## [1.102.8](https://github.com/Pocket/web-client/compare/v1.102.7...v1.102.8) (2023-10-11)
+
+
+### Bug Fixes
+
+* **learn-more:** sneak in translation key correction ([4e0a888](https://github.com/Pocket/web-client/commit/4e0a88810885719ced917df0e001e18a073f94b6))
+* **learn-more:** translations for fxa->moza ([1b2268c](https://github.com/Pocket/web-client/commit/1b2268c550e7f7fe4e908936e5aefa3a96b1ea32))
+
 ## [1.102.7](https://github.com/Pocket/web-client/compare/v1.102.6...v1.102.7) (2023-09-27)
 
 
