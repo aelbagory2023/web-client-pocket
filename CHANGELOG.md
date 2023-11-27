@@ -1,3 +1,12 @@
+## [1.102.10](https://github.com/Pocket/web-client/compare/v1.102.9...v1.102.10) (2023-11-27)
+
+
+### Bug Fixes
+
+* **listen:** add braze feature flag to listen ([715f054](https://github.com/Pocket/web-client/commit/715f054cce5ab759497f403701c16f980062e54e))
+* **listen:** update flag check for enabled status ([a47fa4f](https://github.com/Pocket/web-client/commit/a47fa4ffad61d66699a368d640706d4f20f7d265))
+* **listen:** update flag check for enabled status ([0a9707b](https://github.com/Pocket/web-client/commit/0a9707b72109023a9af52eae4406db11f8999ea2))
+
 ## [1.102.9](https://github.com/Pocket/web-client/compare/v1.102.8...v1.102.9) (2023-11-27)
 
 
