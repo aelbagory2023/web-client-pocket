@@ -1,3 +1,10 @@
+## [1.102.11](https://github.com/Pocket/web-client/compare/v1.102.10...v1.102.11) (2023-11-29)
+
+
+### Bug Fixes
+
+* **lists:** hide list status toggle when set to private ([2624ed6](https://github.com/Pocket/web-client/commit/2624ed6d6cfc1f5933892feb7aad0a12cb59a72d))
+
 ## [1.102.10](https://github.com/Pocket/web-client/compare/v1.102.9...v1.102.10) (2023-11-27)
 
 
