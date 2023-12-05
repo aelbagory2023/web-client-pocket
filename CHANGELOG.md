@@ -1,3 +1,10 @@
+## [1.102.12](https://github.com/Pocket/web-client/compare/v1.102.11...v1.102.12) (2023-12-05)
+
+
+### Bug Fixes
+
+* **listen:** add braze events for listen actions ([2608f9e](https://github.com/Pocket/web-client/commit/2608f9ed740e57f942fd9060ad52b25092204464))
+
 ## [1.102.11](https://github.com/Pocket/web-client/compare/v1.102.10...v1.102.11) (2023-11-29)
 
 
