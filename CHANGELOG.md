@@ -1,3 +1,10 @@
+## [1.102.15](https://github.com/Pocket/web-client/compare/v1.102.14...v1.102.15) (2023-12-07)
+
+
+### Bug Fixes
+
+* **braze:** initialize braze for logged out users ([9595c65](https://github.com/Pocket/web-client/commit/9595c653b51093d327ef9d45c86302d3c14f6714))
+
 ## [1.102.14](https://github.com/Pocket/web-client/compare/v1.102.13...v1.102.14) (2023-12-07)
 
 
