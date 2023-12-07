@@ -1,3 +1,10 @@
+## [1.102.14](https://github.com/Pocket/web-client/compare/v1.102.13...v1.102.14) (2023-12-07)
+
+
+### Bug Fixes
+
+* **listen:** send braze event on signup action ([76316dd](https://github.com/Pocket/web-client/commit/76316ddf9eb9ffd6d948c03342fd7ae3fff345bc))
+
 ## [1.102.13](https://github.com/Pocket/web-client/compare/v1.102.12...v1.102.13) (2023-12-07)
 
 
