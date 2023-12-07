@@ -1,3 +1,10 @@
+## [1.102.16](https://github.com/Pocket/web-client/compare/v1.102.15...v1.102.16) (2023-12-07)
+
+
+### Bug Fixes
+
+* **listen:** utm params on signup link ([8afa5f5](https://github.com/Pocket/web-client/commit/8afa5f56d0149c742b57b873acc50235ff979244))
+
 ## [1.102.15](https://github.com/Pocket/web-client/compare/v1.102.14...v1.102.15) (2023-12-07)
 
 
