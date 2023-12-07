@@ -1,3 +1,10 @@
+## [1.102.13](https://github.com/Pocket/web-client/compare/v1.102.12...v1.102.13) (2023-12-07)
+
+
+### Bug Fixes
+
+* **listen:** add impression to listen ([b90deef](https://github.com/Pocket/web-client/commit/b90deef32a05672f387c82a11b31ef952e8f465a))
+
 ## [1.102.12](https://github.com/Pocket/web-client/compare/v1.102.11...v1.102.12) (2023-12-05)
 
 
