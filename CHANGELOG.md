@@ -1,3 +1,10 @@
+## [1.102.18](https://github.com/Pocket/web-client/compare/v1.102.17...v1.102.18) (2023-12-11)
+
+
+### Bug Fixes
+
+* **pages:** remove messages and whats new pages ([d5f19a3](https://github.com/Pocket/web-client/commit/d5f19a376a0a95954bbd94d73bc693275405621a))
+
 ## [1.102.17](https://github.com/Pocket/web-client/compare/v1.102.16...v1.102.17) (2023-12-11)
 
 
