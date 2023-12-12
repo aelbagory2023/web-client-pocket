@@ -1,3 +1,16 @@
+# [1.103.0](https://github.com/Pocket/web-client/compare/v1.102.18...v1.103.0) (2023-12-12)
+
+
+### Bug Fixes
+
+* **tests:** add custom mock folder for window theme object ([28a7a14](https://github.com/Pocket/web-client/commit/28a7a1400dcecff03cee7fdc47da8b6e7f0a6513))
+* **theme:** update useeffect function to handle theme change ([98fd6d3](https://github.com/Pocket/web-client/commit/98fd6d3f99a3b683a086b681e48bf49ee439b06b))
+
+
+### Features
+
+* **theme:** add support for system theme ([e31aba7](https://github.com/Pocket/web-client/commit/e31aba7ce2cfd83d30f1ef714a0cbded09fd836c))
+
 ## [1.102.18](https://github.com/Pocket/web-client/compare/v1.102.17...v1.102.18) (2023-12-11)
 
 
