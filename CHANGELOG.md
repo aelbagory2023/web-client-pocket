@@ -1,3 +1,20 @@
+# [1.104.0](https://github.com/Pocket/web-client/compare/v1.103.1...v1.104.0) (2024-01-11)
+
+
+### Bug Fixes
+
+* **share:** add mastodon text to translation wrapper ([a7981fe](https://github.com/Pocket/web-client/commit/a7981feab59bc3aa7d034eee2dd7ae61de1384a9))
+* **share:** add protocol free version of url parsing ([5ff6751](https://github.com/Pocket/web-client/commit/5ff6751a385de26bf9deb4f6d14aa55e4156b556))
+* **share:** add share to mastodon to share sheet ([9fcec51](https://github.com/Pocket/web-client/commit/9fcec51dfa8c8059b55a665c95a0eff6fc5969ba))
+* **share:** capture instance in snowplow when users share ([6f02029](https://github.com/Pocket/web-client/commit/6f020291969efe2169e10d6841069b3007aa4e4f))
+* **url:** remove unneeded url verifier function ([5b4ae4a](https://github.com/Pocket/web-client/commit/5b4ae4af845792138dd1559145b4ebb0474f32b6))
+* **utilities:** update is valid http url function for readability ([73efbbf](https://github.com/Pocket/web-client/commit/73efbbf7811524face3c9ac4d7febc7733f08286))
+
+
+### Features
+
+* **share:** add share to mastodon feature ([a1a287c](https://github.com/Pocket/web-client/commit/a1a287c2c35b96c05bfcf08533189eeaac69f191))
+
 ## [1.103.1](https://github.com/Pocket/web-client/compare/v1.103.0...v1.103.1) (2024-01-09)
 
 
