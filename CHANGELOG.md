@@ -1,3 +1,10 @@
+## [1.104.1](https://github.com/Pocket/web-client/compare/v1.104.0...v1.104.1) (2024-01-18)
+
+
+### Bug Fixes
+
+* **explore:** remove coronavirus topic page and buttons ([64cb6ce](https://github.com/Pocket/web-client/commit/64cb6ce87f85a3f58cddc74357d5e62702062a11))
+
 # [1.104.0](https://github.com/Pocket/web-client/compare/v1.103.1...v1.104.0) (2024-01-11)
 
 
