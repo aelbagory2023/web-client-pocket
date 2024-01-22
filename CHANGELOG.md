@@ -1,3 +1,10 @@
+## [1.104.2](https://github.com/Pocket/web-client/compare/v1.104.1...v1.104.2) (2024-01-22)
+
+
+### Bug Fixes
+
+* **waypoint:** route all en and de users to home ([082c684](https://github.com/Pocket/web-client/commit/082c68458bd8adb4caafb70ba207dec71b9faa60))
+
 ## [1.104.1](https://github.com/Pocket/web-client/compare/v1.104.0...v1.104.1) (2024-01-18)
 
 
