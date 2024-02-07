@@ -1,3 +1,28 @@
+# [1.106.0](https://github.com/Pocket/web-client/compare/v1.105.1...v1.106.0) (2024-02-07)
+
+
+### Bug Fixes
+
+* **bulk:** updated the processing animation ([73e3371](https://github.com/Pocket/web-client/commit/73e33718ffc019c7c59e9d34fecf43e6c8783661))
+* **constants:** revert batch size to pre-test int ([ea9bc82](https://github.com/Pocket/web-client/commit/ea9bc82a60f5e63f7e70ac4e2efd238ad1f7c04b))
+* **lists:** add comments to deriver file for clarity ([b5d8912](https://github.com/Pocket/web-client/commit/b5d89120c23f31f3e0bbff94231c4181f7520750))
+* **lists:** add item pagination to reorder component ([fa9958e](https://github.com/Pocket/web-client/commit/fa9958e9a2f215dd2f45a8d2b7f466e3f0c3355d))
+* **lists:** add items pagination to all lists requests ([d1b83c1](https://github.com/Pocket/web-client/commit/d1b83c14963235db258561629ff4b28062ee588d))
+* **lists:** adding snowplow events for bulk actions ([89962b7](https://github.com/Pocket/web-client/commit/89962b761a74f9a0f7c077b3dd9305e5b3dbf6d1))
+* **lists:** remove unneeded code comment ([a5b5fb9](https://github.com/Pocket/web-client/commit/a5b5fb92984c526ff1497ae3a6d7ff9b56e6ec17))
+* **lists:** update lists to use pagination for list items ([02118b7](https://github.com/Pocket/web-client/commit/02118b7791fce4e09fe950a07c78a7faf9957302))
+* **lists:** update public list deriver ([82ade20](https://github.com/Pocket/web-client/commit/82ade209086bcde2ed6c5019bb117b02a0b270c1))
+* **nav:** re-add accidentally removed icon ([78332d6](https://github.com/Pocket/web-client/commit/78332d6208ad7737c17a6041deab32b9c243a7bb))
+
+
+### Features
+
+* **list:** add ability to create list with bulk items ([7a646ac](https://github.com/Pocket/web-client/commit/7a646ac89d4f3a7cc875b35afeaa84c3bb0afd05))
+* **list:** can now bulk add items to a list ([a62ebf2](https://github.com/Pocket/web-client/commit/a62ebf26a5967332c650b6567dff1f1ca269b4aa))
+* **lists:** add pagination to list items ([00741df](https://github.com/Pocket/web-client/commit/00741df43f0fd27a04c6c98cb739bdfd1c5517be))
+* **list:** support bulk adding items to list ([05a820e](https://github.com/Pocket/web-client/commit/05a820e403ece3cbe6a63df8c2bf4ef4c050c206))
+* **processing:** add bulk processing component ([864e484](https://github.com/Pocket/web-client/commit/864e484ce3b25ec8d558ae015a1b76f6232922df))
+
 ## [1.105.1](https://github.com/Pocket/web-client/compare/v1.105.0...v1.105.1) (2024-02-06)
 
 
