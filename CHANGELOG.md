@@ -1,3 +1,10 @@
+## [1.106.1](https://github.com/Pocket/web-client/compare/v1.106.0...v1.106.1) (2024-02-08)
+
+
+### Bug Fixes
+
+* **analytics:** add custom src and utm_source query params to all links directing users to login ([93c069f](https://github.com/Pocket/web-client/commit/93c069fc64eec80dd9d5d6f172b9f34bce167f40))
+
 # [1.106.0](https://github.com/Pocket/web-client/compare/v1.105.1...v1.106.0) (2024-02-07)
 
 
