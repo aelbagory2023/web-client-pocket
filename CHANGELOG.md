@@ -1,3 +1,10 @@
+## [1.106.2](https://github.com/Pocket/web-client/compare/v1.106.1...v1.106.2) (2024-02-09)
+
+
+### Bug Fixes
+
+* **collections:** update copy on upsell on collections ([99a4360](https://github.com/Pocket/web-client/commit/99a4360291d62d413262ea61cea0ce9cf4f72b9d))
+
 ## [1.106.1](https://github.com/Pocket/web-client/compare/v1.106.0...v1.106.1) (2024-02-08)
 
 
