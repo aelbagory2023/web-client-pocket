@@ -1,3 +1,14 @@
+## [1.106.3](https://github.com/Pocket/web-client/compare/v1.106.2...v1.106.3) (2024-02-12)
+
+
+### Bug Fixes
+
+* **lists:** adding language files for lists and previous changes ([a40a294](https://github.com/Pocket/web-client/commit/a40a294fee497db40bdf2b3b59df6fc3631e2fbb))
+* **lists:** ensure item count displays in toast ([2dbcec6](https://github.com/Pocket/web-client/commit/2dbcec66ee8842c7e9fb157fafaee9bc7bb93a1a))
+* **lists:** updating bulk lists with design feedback ([b91ea2b](https://github.com/Pocket/web-client/commit/b91ea2b3d93883eb192175b3363db1d67ee27ca3))
+* **localization:** fix plurals ([c8ebc7e](https://github.com/Pocket/web-client/commit/c8ebc7eaf92f1a4e7a754d4d3d97628e89f34107))
+* **localization:** fix plurals ([f94f71c](https://github.com/Pocket/web-client/commit/f94f71c7ce0804e41ba3537c2c7effcc26448932))
+
 ## [1.106.2](https://github.com/Pocket/web-client/compare/v1.106.1...v1.106.2) (2024-02-09)
 
 
