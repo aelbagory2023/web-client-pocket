@@ -1,3 +1,23 @@
+## [1.106.4](https://github.com/Pocket/web-client/compare/v1.106.3...v1.106.4) (2024-02-28)
+
+
+### Reverts
+
+* Revert "chore(dependencies): update patch" ([f54ae4f](https://github.com/Pocket/web-client/commit/f54ae4f1cf130844b86bd84995c3808dbee714c5))
+* Revert "chore(depenecies): update semi-safe" ([f3c5633](https://github.com/Pocket/web-client/commit/f3c5633cc92417c23ae0259ff07aa1e3b9347c9c))
+* Revert "chore(dependencies): testing/storybook" ([0a814a3](https://github.com/Pocket/web-client/commit/0a814a334e81372887a2a9a784b525b67011aafd))
+* Revert "build(package manager): switch to pnpm" ([024870c](https://github.com/Pocket/web-client/commit/024870cb5428de643df7df25c93350bf76964f37))
+* Revert "chore(eslint): upgrade to latest" ([6b68e4a](https://github.com/Pocket/web-client/commit/6b68e4a668ccf80ec9fe2ab263fa9b238e95c3d5))
+* Revert "chore(depenencies): prettier to latest" ([ad0ac43](https://github.com/Pocket/web-client/commit/ad0ac4339b4155f9f60211197621c7445234ca4d))
+* Revert "chore(dependencies): commitlint/semantic release" ([be6a85e](https://github.com/Pocket/web-client/commit/be6a85ed28e4774aae35b6573eec637b9fa18f13))
+* Revert "chore(dependencies): recaptcha / markdown" ([c514495](https://github.com/Pocket/web-client/commit/c5144953d9f77e782bcbfb76437685d085e13930))
+* Revert "chore(dependencies): react-redux" ([20d44ef](https://github.com/Pocket/web-client/commit/20d44ef90e85ef923c79c35d051922fc36b9d208))
+* Revert "chore(dependencies): nextjs" ([707cb56](https://github.com/Pocket/web-client/commit/707cb5635050850d2bb448c7f2bf524a0f78b110))
+* Revert "chore(locales): inject latest" ([f76a032](https://github.com/Pocket/web-client/commit/f76a032e6b5feaf5c4c12f242f13befcffea7639))
+* Revert "chore(dependencies): rover overides" ([69d2c59](https://github.com/Pocket/web-client/commit/69d2c5944a453bfd8e7019858635d185fe57dc0b))
+* Revert "build(docker and ci): update to pnpm" ([6667bad](https://github.com/Pocket/web-client/commit/6667badb91ba464d6d17ee249752a4d50146ff12))
+* Revert "build(pnpm): setup basic workspace" ([8db95d6](https://github.com/Pocket/web-client/commit/8db95d66d42a1752c818cdc93d8981589776d0a5))
+
 ## [1.106.3](https://github.com/Pocket/web-client/compare/v1.106.2...v1.106.3) (2024-02-12)
 
 
