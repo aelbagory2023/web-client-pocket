@@ -1,3 +1,10 @@
+## [1.106.6](https://github.com/Pocket/web-client/compare/v1.106.5...v1.106.6) (2024-02-29)
+
+
+### Bug Fixes
+
+* **nextjs:** downgrade to sort cors issues ([7687c7b](https://github.com/Pocket/web-client/commit/7687c7b66a97882ff1d179875692a4fc83826c55))
+
 ## [1.106.5](https://github.com/Pocket/web-client/compare/v1.106.4...v1.106.5) (2024-02-29)
 
 
