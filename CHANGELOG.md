@@ -1,3 +1,11 @@
+## [1.106.5](https://github.com/Pocket/web-client/compare/v1.106.4...v1.106.5) (2024-02-29)
+
+
+### Bug Fixes
+
+* **emotion:** add missing dependency ([6f875b1](https://github.com/Pocket/web-client/commit/6f875b186dca5d10f719bf110d5ad89f1c1b0079))
+* **error:** suppressHydrationWarning on not found ([06b591c](https://github.com/Pocket/web-client/commit/06b591c9df50726f45fb6eae408eefccf8d002e0))
+
 ## [1.106.4](https://github.com/Pocket/web-client/compare/v1.106.3...v1.106.4) (2024-02-28)
 
 
