@@ -1,3 +1,10 @@
+# [1.107.0](https://github.com/Pocket/web-client/compare/v1.106.6...v1.107.0) (2024-02-29)
+
+
+### Features
+
+* **next:** upgrade to next 14 ([3a27f37](https://github.com/Pocket/web-client/commit/3a27f372ae68744a1227233b1135d56cf4e49ada))
+
 ## [1.106.6](https://github.com/Pocket/web-client/compare/v1.106.5...v1.106.6) (2024-02-29)
 
 
