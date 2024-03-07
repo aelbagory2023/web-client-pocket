@@ -1,3 +1,10 @@
+## [1.108.1](https://github.com/Pocket/web-client/compare/v1.108.0...v1.108.1) (2024-03-07)
+
+
+### Bug Fixes
+
+* **lists:** validate analytics exist before firing ([f00f2d6](https://github.com/Pocket/web-client/commit/f00f2d66d6cc2b6a5781ce1bd99a30c449c051f3))
+
 # [1.108.0](https://github.com/Pocket/web-client/compare/v1.107.0...v1.108.0) (2024-03-07)
 
 
