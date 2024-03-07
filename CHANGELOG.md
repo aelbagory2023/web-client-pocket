@@ -1,3 +1,15 @@
+# [1.108.0](https://github.com/Pocket/web-client/compare/v1.107.0...v1.108.0) (2024-03-07)
+
+
+### Bug Fixes
+
+* **release:** tag correctly wthout husky commitmsg ([5e007e2](https://github.com/Pocket/web-client/commit/5e007e219c0c96bde67e91993efdbb635875295d))
+
+
+### Features
+
+* **revalidate:** add api to revalidate saves and home ([144c289](https://github.com/Pocket/web-client/commit/144c289f1ab57a22eb995a7450e583ed448885b5))
+
 # [1.107.0](https://github.com/Pocket/web-client/compare/v1.106.6...v1.107.0) (2024-02-29)
 
 
