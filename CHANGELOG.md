@@ -1,3 +1,10 @@
+## [1.109.2](https://github.com/Pocket/web-client/compare/v1.109.1...v1.109.2) (2024-03-11)
+
+
+### Bug Fixes
+
+* **constants:** add mastodon cache key value ([b77da43](https://github.com/Pocket/web-client/commit/b77da43d60a1971f432bf79cebb418c7a747c146))
+
 ## [1.109.1](https://github.com/Pocket/web-client/compare/v1.109.0...v1.109.1) (2024-03-11)
 
 
