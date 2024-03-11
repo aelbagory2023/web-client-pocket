@@ -1,3 +1,10 @@
+## [1.109.1](https://github.com/Pocket/web-client/compare/v1.109.0...v1.109.1) (2024-03-11)
+
+
+### Bug Fixes
+
+* **share:** add in undefined masto constant ([8fa6fd8](https://github.com/Pocket/web-client/commit/8fa6fd822039f411c16b2b3752c6701cc8478cab))
+
 # [1.109.0](https://github.com/Pocket/web-client/compare/v1.108.1...v1.109.0) (2024-03-11)
 
 
