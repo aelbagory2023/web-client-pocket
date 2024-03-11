@@ -1,3 +1,11 @@
+# [1.109.0](https://github.com/Pocket/web-client/compare/v1.108.1...v1.109.0) (2024-03-11)
+
+
+### Features
+
+* **components:** add new icon story to components ([9db519b](https://github.com/Pocket/web-client/commit/9db519be71a30ba737c09f1ae0ae5229d02854a3))
+* **icons:** add icons as workspace package ([f0ec74d](https://github.com/Pocket/web-client/commit/f0ec74dd07c468145a44b13308d33a58901fb9fa))
+
 ## [1.108.1](https://github.com/Pocket/web-client/compare/v1.108.0...v1.108.1) (2024-03-07)
 
 
