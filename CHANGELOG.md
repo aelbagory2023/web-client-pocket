@@ -1,3 +1,10 @@
+## [1.109.3](https://github.com/Pocket/web-client/compare/v1.109.2...v1.109.3) (2024-03-12)
+
+
+### Bug Fixes
+
+* **style:** allow build to run as expected ([27f25c2](https://github.com/Pocket/web-client/commit/27f25c2421d2f7a1acffb94bedabef55e17932d3))
+
 ## [1.109.2](https://github.com/Pocket/web-client/compare/v1.109.1...v1.109.2) (2024-03-11)
 
 
