@@ -1,3 +1,16 @@
+# [1.110.0](https://github.com/Pocket/web-client/compare/v1.109.4...v1.110.0) (2024-03-13)
+
+
+### Bug Fixes
+
+* **maintenance:** cleanup ([89021b1](https://github.com/Pocket/web-client/commit/89021b1a8762913d7a4b09ca2a3190a01f193a61))
+
+
+### Features
+
+* **maintenance:** add cdn url for lottie file ([c7eb49a](https://github.com/Pocket/web-client/commit/c7eb49a10168b6e70bab1e9ef2c6df40b41d39e1))
+* **maintenance:** add markup and local server ([7b35280](https://github.com/Pocket/web-client/commit/7b35280da93960aa48a546a84da497400d3fa583))
+
 ## [1.109.4](https://github.com/Pocket/web-client/compare/v1.109.3...v1.109.4) (2024-03-13)
 
 
