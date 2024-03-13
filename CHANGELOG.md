@@ -1,3 +1,11 @@
+## [1.109.4](https://github.com/Pocket/web-client/compare/v1.109.3...v1.109.4) (2024-03-13)
+
+
+### Bug Fixes
+
+* **noindex:** make sure value is passed along ([9efabd7](https://github.com/Pocket/web-client/commit/9efabd7a790aec9511709207826ae7fcd07a044e))
+* **syndicated:** remove canonical ([223cfe8](https://github.com/Pocket/web-client/commit/223cfe80f77dda9527ef575fd4a458d5cf925f28))
+
 ## [1.109.3](https://github.com/Pocket/web-client/compare/v1.109.2...v1.109.3) (2024-03-12)
 
 
