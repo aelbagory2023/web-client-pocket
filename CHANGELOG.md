@@ -1,3 +1,10 @@
+## [1.110.1](https://github.com/Pocket/web-client/compare/v1.110.0...v1.110.1) (2024-03-15)
+
+
+### Bug Fixes
+
+* **footer:** removing some un-needed links on the footer ([876e517](https://github.com/Pocket/web-client/commit/876e5179317c4aea0d00e41a02054382a9eb7ab9))
+
 # [1.110.0](https://github.com/Pocket/web-client/compare/v1.109.4...v1.110.0) (2024-03-13)
 
 
