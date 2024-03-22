@@ -1,3 +1,10 @@
+## [1.110.2](https://github.com/Pocket/web-client/compare/v1.110.1...v1.110.2) (2024-03-22)
+
+
+### Bug Fixes
+
+* **maintenance:** remove double slash from logo ([2c85935](https://github.com/Pocket/web-client/commit/2c859356fb8a6c1fa29d63652b77c609e7d23583))
+
 ## [1.110.1](https://github.com/Pocket/web-client/compare/v1.110.0...v1.110.1) (2024-03-15)
 
 
