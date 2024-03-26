@@ -1,3 +1,17 @@
+# [1.111.0](https://github.com/Pocket/web-client/compare/v1.110.2...v1.111.0) (2024-03-26)
+
+
+### Bug Fixes
+
+* **icons:** add twitter-x icon ([6ed51fd](https://github.com/Pocket/web-client/commit/6ed51fd8c2396a7007a3a14e5f3698ee4e885c3f))
+* **style:** add scroll-padding-top for top nav ([3e5b5a2](https://github.com/Pocket/web-client/commit/3e5b5a25af0fd7ddf9f993e593858558f4d0ab07))
+
+
+### Features
+
+* **legal:** reclaim privacy and tos ([2ccf55d](https://github.com/Pocket/web-client/commit/2ccf55d521879a5680d3c96ec5bfd681c7815d14))
+* **legal:** reclaim tos and privacy pages ([c77138d](https://github.com/Pocket/web-client/commit/c77138db43a9c2e2ce99b5274a41d4d233380776))
+
 ## [1.110.2](https://github.com/Pocket/web-client/compare/v1.110.1...v1.110.2) (2024-03-22)
 
 
