@@ -1,3 +1,11 @@
+# [1.112.0](https://github.com/Pocket/web-client/compare/v1.111.0...v1.112.0) (2024-03-27)
+
+
+### Features
+
+* **footer:** add nav footer components ([c647c0f](https://github.com/Pocket/web-client/commit/c647c0ffd12b4ac94b182e1369315fa571c66aaa))
+* **localization:** make package consumable ([119281f](https://github.com/Pocket/web-client/commit/119281f0744c7a1a11f730b55ef35c5035659b0b))
+
 # [1.111.0](https://github.com/Pocket/web-client/compare/v1.110.2...v1.111.0) (2024-03-26)
 
 
