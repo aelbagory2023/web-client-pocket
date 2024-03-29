@@ -1,3 +1,15 @@
+# [1.113.0](https://github.com/Pocket/web-client/compare/v1.112.0...v1.113.0) (2024-03-29)
+
+
+### Bug Fixes
+
+* **buttons:** update stories and shapes ([252bbdf](https://github.com/Pocket/web-client/commit/252bbdf8369f0c248cb6684c45aabe138cbcbb99))
+
+
+### Features
+
+* **tooltip:** add css only tooltip styles ([0a8f324](https://github.com/Pocket/web-client/commit/0a8f3240669f505d3d03dc38a77e0215b2a59058))
+
 # [1.112.0](https://github.com/Pocket/web-client/compare/v1.111.0...v1.112.0) (2024-03-27)
 
 
