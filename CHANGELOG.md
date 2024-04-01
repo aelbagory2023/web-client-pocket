@@ -1,3 +1,19 @@
+# [1.114.0](https://github.com/Pocket/web-client/compare/v1.113.0...v1.114.0) (2024-04-01)
+
+
+### Bug Fixes
+
+* **component auth:** clean up patterns ([f6acae2](https://github.com/Pocket/web-client/commit/f6acae29ae45432157ef750ea9af7884d7123931))
+* **component nav:** add container styles ([d2a35fb](https://github.com/Pocket/web-client/commit/d2a35fb38b08e43fe7861f97197851d765480570))
+* **footer:** update style and story ([957f663](https://github.com/Pocket/web-client/commit/957f663dcfdd452a68a7295852851e5238ba9e7a))
+
+
+### Features
+
+* **component layout:** adding component layout ([dc79576](https://github.com/Pocket/web-client/commit/dc795767a6aea00abcc43cb1145bfbcab178e698))
+* **constants:** add constants package ([39a674c](https://github.com/Pocket/web-client/commit/39a674c3924daac2e5b2b9f21627a2a297b93dc5))
+* **nav top:** add nav top to components ([e194d01](https://github.com/Pocket/web-client/commit/e194d01e07c29a06118a8be3732846b5345c95b7))
+
 # [1.113.0](https://github.com/Pocket/web-client/compare/v1.112.0...v1.113.0) (2024-03-29)
 
 
