@@ -1,3 +1,12 @@
+# [1.115.0](https://github.com/Pocket/web-client/compare/v1.114.0...v1.115.0) (2024-04-03)
+
+
+### Features
+
+* **marketing:** add pocket and firefox dev link ([de41ac0](https://github.com/Pocket/web-client/commit/de41ac0e45b3ad7a4d0e46ed136b74dfbd00bf35))
+* **marketing:** reclaim pocket-and-firefox ([9d4b648](https://github.com/Pocket/web-client/commit/9d4b6485e88462e6d3c5b2712e7960f1183319ce))
+* **marketing:** wrap strings for i18n ([b8f1837](https://github.com/Pocket/web-client/commit/b8f1837a1e12dcb86c0fe27807daecc972b0fec6))
+
 # [1.114.0](https://github.com/Pocket/web-client/compare/v1.113.0...v1.114.0) (2024-04-01)
 
 
