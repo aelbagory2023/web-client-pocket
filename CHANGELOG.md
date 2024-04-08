@@ -1,3 +1,10 @@
+## [1.115.1](https://github.com/Pocket/web-client/compare/v1.115.0...v1.115.1) (2024-04-08)
+
+
+### Bug Fixes
+
+* **global nav:** eslint errors ([79ae1e6](https://github.com/Pocket/web-client/commit/79ae1e619fa754a613810c272a69c83264836ccd))
+
 # [1.115.0](https://github.com/Pocket/web-client/compare/v1.114.0...v1.115.0) (2024-04-03)
 
 
