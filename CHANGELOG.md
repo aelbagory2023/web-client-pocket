@@ -1,3 +1,15 @@
+# [1.116.0](https://github.com/Pocket/web-client/compare/v1.115.1...v1.116.0) (2024-04-09)
+
+
+### Bug Fixes
+
+* **home:** adjust for new layout requirements ([9c0a891](https://github.com/Pocket/web-client/commit/9c0a8919f236b38d054978f3b0cd1084131435e1))
+
+
+### Features
+
+* **logged-out-home:** enabling a logged out home expereince ([eabc217](https://github.com/Pocket/web-client/commit/eabc217238ed477cd3606043776e7d82e8cfad55))
+
 ## [1.115.1](https://github.com/Pocket/web-client/compare/v1.115.0...v1.115.1) (2024-04-08)
 
 
