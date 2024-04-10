@@ -1,3 +1,10 @@
+## [1.116.2](https://github.com/Pocket/web-client/compare/v1.116.1...v1.116.2) (2024-04-10)
+
+
+### Bug Fixes
+
+* **view-original:** removing view original on cards ([b658beb](https://github.com/Pocket/web-client/commit/b658beb7f9250afa079c1bdb50ec02774c5740d6))
+
 ## [1.116.1](https://github.com/Pocket/web-client/compare/v1.116.0...v1.116.1) (2024-04-10)
 
 
