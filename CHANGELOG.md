@@ -1,3 +1,10 @@
+## [1.116.3](https://github.com/Pocket/web-client/compare/v1.116.2...v1.116.3) (2024-04-10)
+
+
+### Bug Fixes
+
+* **target:** remove target=_blank ([c4acc88](https://github.com/Pocket/web-client/commit/c4acc8877ba4982dd7631f91ae4b4ce127b969ee))
+
 ## [1.116.2](https://github.com/Pocket/web-client/compare/v1.116.1...v1.116.2) (2024-04-10)
 
 
