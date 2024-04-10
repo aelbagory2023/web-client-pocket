@@ -1,3 +1,10 @@
+## [1.116.4](https://github.com/Pocket/web-client/compare/v1.116.3...v1.116.4) (2024-04-10)
+
+
+### Bug Fixes
+
+* **newTab:** ensure links open in same tab ([20b381e](https://github.com/Pocket/web-client/commit/20b381e57738224a083a007b7c85fc0192d47190))
+
 ## [1.116.3](https://github.com/Pocket/web-client/compare/v1.116.2...v1.116.3) (2024-04-10)
 
 
