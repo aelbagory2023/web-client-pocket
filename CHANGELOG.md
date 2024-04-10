@@ -1,3 +1,10 @@
+## [1.116.1](https://github.com/Pocket/web-client/compare/v1.116.0...v1.116.1) (2024-04-10)
+
+
+### Bug Fixes
+
+* **referrer:** ensure we send a referrer always ([74fb1d4](https://github.com/Pocket/web-client/commit/74fb1d440a2320cab80fd6fa1eeed3f6c744f3b6))
+
 # [1.116.0](https://github.com/Pocket/web-client/compare/v1.115.1...v1.116.0) (2024-04-09)
 
 
