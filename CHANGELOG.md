@@ -1,3 +1,10 @@
+## [1.116.5](https://github.com/Pocket/web-client/compare/v1.116.4...v1.116.5) (2024-04-10)
+
+
+### Bug Fixes
+
+* **reader:** re-enabling view original in reader mode ([a72fea4](https://github.com/Pocket/web-client/commit/a72fea4401ac6ada6bcf9a0c9df4acbaba17a88f))
+
 ## [1.116.4](https://github.com/Pocket/web-client/compare/v1.116.3...v1.116.4) (2024-04-10)
 
 
