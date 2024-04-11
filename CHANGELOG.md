@@ -1,3 +1,12 @@
+# [1.117.0](https://github.com/Pocket/web-client/compare/v1.116.5...v1.117.0) (2024-04-11)
+
+
+### Features
+
+* **components:** pull in types and mock-data ([f43b4d3](https://github.com/Pocket/web-client/commit/f43b4d39f3cf1993da16ec44c4ee5cb7b2db7d93))
+* **mock data:** adding mocks for graph responses ([44fbf7e](https://github.com/Pocket/web-client/commit/44fbf7e52884855bca84484cb65476a368bb1354))
+* **types:** adding basic item type to iterate on ([d72c9a0](https://github.com/Pocket/web-client/commit/d72c9a0d58805179930c398cb077d0f8ec72d841))
+
 ## [1.116.5](https://github.com/Pocket/web-client/compare/v1.116.4...v1.116.5) (2024-04-10)
 
 
