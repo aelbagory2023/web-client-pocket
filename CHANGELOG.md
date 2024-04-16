@@ -1,3 +1,11 @@
+# [1.118.0](https://github.com/Pocket/web-client/compare/v1.117.0...v1.118.0) (2024-04-16)
+
+
+### Features
+
+* **components:** add item ([ffa0352](https://github.com/Pocket/web-client/commit/ffa03524fd528c8ab18f2506a4e7d3cacd027c50))
+* **mock data:** separate response/state ([ac08c57](https://github.com/Pocket/web-client/commit/ac08c57bc0b51da4ea77ef76da03419c546f7636))
+
 # [1.117.0](https://github.com/Pocket/web-client/compare/v1.116.5...v1.117.0) (2024-04-11)
 
 
