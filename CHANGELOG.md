@@ -1,3 +1,10 @@
+## [1.118.1](https://github.com/Pocket/web-client/compare/v1.118.0...v1.118.1) (2024-04-17)
+
+
+### Bug Fixes
+
+* **one trust:** allow test script in dev ([227d8fc](https://github.com/Pocket/web-client/commit/227d8fc75492b500fba7683bff67c2b8574ed19b))
+
 # [1.118.0](https://github.com/Pocket/web-client/compare/v1.117.0...v1.118.0) (2024-04-16)
 
 
