@@ -1,3 +1,10 @@
+## [1.119.1](https://github.com/Pocket/web-client/compare/v1.119.0...v1.119.1) (2024-04-23)
+
+
+### Bug Fixes
+
+* **pnpm:** update to latest ([8ddd8f9](https://github.com/Pocket/web-client/commit/8ddd8f90c0f6ef2d275ee1f2c47812f2f26ffa39))
+
 # [1.119.0](https://github.com/Pocket/web-client/compare/v1.118.1...v1.119.0) (2024-04-23)
 
 
