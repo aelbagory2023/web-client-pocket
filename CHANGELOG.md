@@ -1,3 +1,11 @@
+# [1.119.0](https://github.com/Pocket/web-client/compare/v1.118.1...v1.119.0) (2024-04-23)
+
+
+### Features
+
+* **item:** switch to using uuidSlugs ([c1b17fe](https://github.com/Pocket/web-client/commit/c1b17fed03a657b88d57d6ceab2db8e2f7152491))
+* **sharing:** make reader links shareable ([2d80ab4](https://github.com/Pocket/web-client/commit/2d80ab40e2f1030610548bc1a97f9b2469ac365d))
+
 ## [1.118.1](https://github.com/Pocket/web-client/compare/v1.118.0...v1.118.1) (2024-04-17)
 
 
