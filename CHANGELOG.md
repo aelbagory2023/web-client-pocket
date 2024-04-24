@@ -1,3 +1,10 @@
+## [1.119.3](https://github.com/Pocket/web-client/compare/v1.119.2...v1.119.3) (2024-04-24)
+
+
+### Bug Fixes
+
+* **translations:** match closing brace ([b6a0a2f](https://github.com/Pocket/web-client/commit/b6a0a2f732d498e7d87c02b9a9a117df3fa45041))
+
 ## [1.119.2](https://github.com/Pocket/web-client/compare/v1.119.1...v1.119.2) (2024-04-24)
 
 
