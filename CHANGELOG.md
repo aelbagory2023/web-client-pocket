@@ -1,3 +1,11 @@
+## [1.119.2](https://github.com/Pocket/web-client/compare/v1.119.1...v1.119.2) (2024-04-24)
+
+
+### Bug Fixes
+
+* **recent saves:** open in reader if available ([8b61eb5](https://github.com/Pocket/web-client/commit/8b61eb598dc41754be3bb57a68974e04bc3d9fb8))
+* **share interstitial:** dismiss on in app nav ([f8d47cf](https://github.com/Pocket/web-client/commit/f8d47cf092c84c7fa588037d78bb48d4390ad13c))
+
 ## [1.119.1](https://github.com/Pocket/web-client/compare/v1.119.0...v1.119.1) (2024-04-23)
 
 
