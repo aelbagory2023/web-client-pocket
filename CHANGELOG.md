@@ -1,3 +1,11 @@
+# [1.120.0](https://github.com/Pocket/web-client/compare/v1.119.3...v1.120.0) (2024-04-25)
+
+
+### Features
+
+* **contact info:** add page ([8763213](https://github.com/Pocket/web-client/commit/876321379777e75824d7e4b413309c88d836db97))
+* **marketing:** contact-info / about pages ([94752f5](https://github.com/Pocket/web-client/commit/94752f52c4c477bcf679058eb4046e7fc6db15f0))
+
 ## [1.119.3](https://github.com/Pocket/web-client/compare/v1.119.2...v1.119.3) (2024-04-24)
 
 
