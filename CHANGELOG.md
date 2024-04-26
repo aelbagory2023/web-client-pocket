@@ -1,3 +1,10 @@
+# [1.121.0](https://github.com/Pocket/web-client/compare/v1.120.0...v1.121.0) (2024-04-26)
+
+
+### Features
+
+* **graph:** update query for better data framents ([6950bd8](https://github.com/Pocket/web-client/commit/6950bd860a0e60787f6ab9514bd238f05da547e3))
+
 # [1.120.0](https://github.com/Pocket/web-client/compare/v1.119.3...v1.120.0) (2024-04-25)
 
 
