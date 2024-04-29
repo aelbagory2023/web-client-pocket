@@ -1,3 +1,10 @@
+# [1.123.0](https://github.com/Pocket/web-client/compare/v1.122.0...v1.123.0) (2024-04-29)
+
+
+### Features
+
+* **share:** add share page state/routes ([1ec3765](https://github.com/Pocket/web-client/commit/1ec37658c6e7e278ed64022f1e4f68e766f3c5a5))
+
 # [1.122.0](https://github.com/Pocket/web-client/compare/v1.121.0...v1.122.0) (2024-04-29)
 
 
