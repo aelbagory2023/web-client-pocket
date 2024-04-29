@@ -1,3 +1,16 @@
+# [1.122.0](https://github.com/Pocket/web-client/compare/v1.121.0...v1.122.0) (2024-04-29)
+
+
+### Bug Fixes
+
+* **contact info:** remove outdated references ([394527c](https://github.com/Pocket/web-client/commit/394527c89c32e8fcae7fabde0a1eab5dd8e60442))
+* **footer:** update footer to use local versions ([e0379df](https://github.com/Pocket/web-client/commit/e0379dfd757d74cdfcc7cb80bfd966daf67dcdc3))
+
+
+### Features
+
+* **marketing:** add your-way section ([ed22afa](https://github.com/Pocket/web-client/commit/ed22afa74169758646dc4e8710166e89e740ff8a))
+
 # [1.121.0](https://github.com/Pocket/web-client/compare/v1.120.0...v1.121.0) (2024-04-26)
 
 
