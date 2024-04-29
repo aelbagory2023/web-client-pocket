@@ -1,3 +1,10 @@
+# [1.124.0](https://github.com/Pocket/web-client/compare/v1.123.0...v1.124.0) (2024-04-29)
+
+
+### Features
+
+* **syndicated:** add meta `syndicatedFrom` ([b92b0af](https://github.com/Pocket/web-client/commit/b92b0af26b8f8591fafa52f18e38e88ce972ca24))
+
 # [1.123.0](https://github.com/Pocket/web-client/compare/v1.122.0...v1.123.0) (2024-04-29)
 
 
