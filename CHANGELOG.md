@@ -1,3 +1,10 @@
+## [1.124.1](https://github.com/Pocket/web-client/compare/v1.124.0...v1.124.1) (2024-04-30)
+
+
+### Bug Fixes
+
+* **lists:** change facing name to my collections ([202771e](https://github.com/Pocket/web-client/commit/202771e8dc86b654fd6f7e4f649e6924c25bc5ac))
+
 # [1.124.0](https://github.com/Pocket/web-client/compare/v1.123.0...v1.124.0) (2024-04-29)
 
 
