@@ -1,3 +1,10 @@
+# [1.125.0](https://github.com/Pocket/web-client/compare/v1.124.1...v1.125.0) (2024-05-01)
+
+
+### Features
+
+* **share links:** render ssr for unfurling ([aee7ff9](https://github.com/Pocket/web-client/commit/aee7ff9fab542060ecbc8f2809b55c6f7d1b1ba4))
+
 ## [1.124.1](https://github.com/Pocket/web-client/compare/v1.124.0...v1.124.1) (2024-04-30)
 
 
