@@ -1,3 +1,10 @@
+## [1.126.1](https://github.com/Pocket/web-client/compare/v1.126.0...v1.126.1) (2024-05-01)
+
+
+### Bug Fixes
+
+* **tfcmt:** remove tfcmt noise ([4eca938](https://github.com/Pocket/web-client/commit/4eca938a3d1ff2613b4963af800b11703b24f3d2))
+
 # [1.126.0](https://github.com/Pocket/web-client/compare/v1.125.0...v1.126.0) (2024-05-01)
 
 
