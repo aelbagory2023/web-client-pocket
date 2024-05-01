@@ -1,3 +1,15 @@
+# [1.126.0](https://github.com/Pocket/web-client/compare/v1.125.0...v1.126.0) (2024-05-01)
+
+
+### Bug Fixes
+
+* **collections:** update outdated copy ([40877a4](https://github.com/Pocket/web-client/commit/40877a42efc049cfec8d436e4ec7c992137e07c4))
+
+
+### Features
+
+* **share:** enhance metadata ([6767db9](https://github.com/Pocket/web-client/commit/6767db9c7536d94de7668cba79e78c9c818878de))
+
 # [1.125.0](https://github.com/Pocket/web-client/compare/v1.124.1...v1.125.0) (2024-05-01)
 
 
