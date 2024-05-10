@@ -1,3 +1,15 @@
+## [1.128.2](https://github.com/Pocket/web-client/compare/v1.128.1...v1.128.2) (2024-05-10)
+
+
+### Bug Fixes
+
+* **eslint:** basic js fixes ([120ec93](https://github.com/Pocket/web-client/commit/120ec937de452321a5a4b0e17c30a51cb8b7f95b))
+* **eslint:** cover all ts errors ([89c1ea8](https://github.com/Pocket/web-client/commit/89c1ea83ee14ebe26050c7412966af05f578f3d8))
+* **eslint:** set baseline ([7096702](https://github.com/Pocket/web-client/commit/7096702f9c11f516b406c54fc8f7199cc60777fa))
+* **eslint:** turn on strict mode for typescript ([1b6be03](https://github.com/Pocket/web-client/commit/1b6be03b1be8c475932ba6bae24e5fa0ce1d07a3))
+* **legal:** update for TS complicance ([d46dba9](https://github.com/Pocket/web-client/commit/d46dba93e41107202dcfda1bd5294e0895b57dc4))
+* **ts:** adjust for type errors ([6897170](https://github.com/Pocket/web-client/commit/6897170f8acdefe3f751f75c13459c8c76e908e0))
+
 ## [1.128.1](https://github.com/Pocket/web-client/compare/v1.128.0...v1.128.1) (2024-05-08)
 
 
