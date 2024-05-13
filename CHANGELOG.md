@@ -1,3 +1,10 @@
+## [1.128.3](https://github.com/Pocket/web-client/compare/v1.128.2...v1.128.3) (2024-05-13)
+
+
+### Bug Fixes
+
+* **rss:** removing rss feeds ([129ed9b](https://github.com/Pocket/web-client/commit/129ed9b102093f4bb38dced18f54f77d1c84d588))
+
 ## [1.128.2](https://github.com/Pocket/web-client/compare/v1.128.1...v1.128.2) (2024-05-10)
 
 
