@@ -1,3 +1,10 @@
+## [1.128.4](https://github.com/Pocket/web-client/compare/v1.128.3...v1.128.4) (2024-05-15)
+
+
+### Bug Fixes
+
+* **share interstiail:** add snowplow analytics ([c802daf](https://github.com/Pocket/web-client/commit/c802daf27c59c8b66373cd35bc04eef27981e059))
+
 ## [1.128.3](https://github.com/Pocket/web-client/compare/v1.128.2...v1.128.3) (2024-05-13)
 
 
