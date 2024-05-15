@@ -1,3 +1,10 @@
+## [1.128.5](https://github.com/Pocket/web-client/compare/v1.128.4...v1.128.5) (2024-05-15)
+
+
+### Bug Fixes
+
+* **contact:** change security email to use mozilla ([8ca2a11](https://github.com/Pocket/web-client/commit/8ca2a11113848fa59201a175433cfb488fe1bc4a))
+
 ## [1.128.4](https://github.com/Pocket/web-client/compare/v1.128.3...v1.128.4) (2024-05-15)
 
 
