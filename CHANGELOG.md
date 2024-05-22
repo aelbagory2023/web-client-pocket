@@ -1,3 +1,10 @@
+## [1.128.7](https://github.com/Pocket/web-client/compare/v1.128.6...v1.128.7) (2024-05-22)
+
+
+### Bug Fixes
+
+* **shared:** add destination to open ([5fd33f6](https://github.com/Pocket/web-client/commit/5fd33f649fab01cc9959c10df587bef061822740))
+
 ## [1.128.6](https://github.com/Pocket/web-client/compare/v1.128.5...v1.128.6) (2024-05-22)
 
 
