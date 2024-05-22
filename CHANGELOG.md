@@ -1,3 +1,10 @@
+## [1.128.6](https://github.com/Pocket/web-client/compare/v1.128.5...v1.128.6) (2024-05-22)
+
+
+### Bug Fixes
+
+* **privacy:** pull in latest legal docs ([d8ab3bb](https://github.com/Pocket/web-client/commit/d8ab3bb2350621e1b2f8e07b3c48d95a393202d2))
+
 ## [1.128.5](https://github.com/Pocket/web-client/compare/v1.128.4...v1.128.5) (2024-05-15)
 
 
