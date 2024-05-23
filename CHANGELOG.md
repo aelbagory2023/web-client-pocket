@@ -1,3 +1,10 @@
+## [1.129.1](https://github.com/Pocket/web-client/compare/v1.129.0...v1.129.1) (2024-05-23)
+
+
+### Bug Fixes
+
+* **privacy:** add data region and proper header ([019c8a8](https://github.com/Pocket/web-client/commit/019c8a82da29066e3a9436ef40278b29d573573e))
+
 # [1.129.0](https://github.com/Pocket/web-client/compare/v1.128.7...v1.129.0) (2024-05-23)
 
 
