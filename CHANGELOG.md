@@ -1,3 +1,10 @@
+## [1.129.2](https://github.com/Pocket/web-client/compare/v1.129.1...v1.129.2) (2024-05-23)
+
+
+### Bug Fixes
+
+* **privacy:** temp log headers ssr ([3beb8c5](https://github.com/Pocket/web-client/commit/3beb8c58a606a11b253a113820d39565c8c5b2dd))
+
 ## [1.129.1](https://github.com/Pocket/web-client/compare/v1.129.0...v1.129.1) (2024-05-23)
 
 
