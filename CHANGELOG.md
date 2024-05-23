@@ -1,3 +1,10 @@
+# [1.129.0](https://github.com/Pocket/web-client/compare/v1.128.7...v1.129.0) (2024-05-23)
+
+
+### Features
+
+* **privacy:** show eu specific policy in eu ([6c3e560](https://github.com/Pocket/web-client/commit/6c3e5602ae3766bfdee0fbafa17e533abeb6635c))
+
 ## [1.128.7](https://github.com/Pocket/web-client/compare/v1.128.6...v1.128.7) (2024-05-22)
 
 
