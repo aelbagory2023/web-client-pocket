@@ -1,3 +1,10 @@
+## [1.129.3](https://github.com/Pocket/web-client/compare/v1.129.2...v1.129.3) (2024-05-24)
+
+
+### Bug Fixes
+
+* **localization:** extra spacing in placeholder ([ce3f23d](https://github.com/Pocket/web-client/commit/ce3f23d3ac0a9e52713fd12478000e5dfb01b871))
+
 ## [1.129.2](https://github.com/Pocket/web-client/compare/v1.129.1...v1.129.2) (2024-05-23)
 
 
