@@ -1,3 +1,10 @@
+# [1.130.0](https://github.com/Pocket/web-client/compare/v1.129.3...v1.130.0) (2024-06-04)
+
+
+### Features
+
+* **home:** add signup cta ([eb46fc8](https://github.com/Pocket/web-client/commit/eb46fc8ad57edd724f767308bc1ab6d4eb21189a))
+
 ## [1.129.3](https://github.com/Pocket/web-client/compare/v1.129.2...v1.129.3) (2024-05-24)
 
 
