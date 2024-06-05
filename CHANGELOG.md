@@ -1,3 +1,10 @@
+## [1.130.1](https://github.com/Pocket/web-client/compare/v1.130.0...v1.130.1) (2024-06-05)
+
+
+### Bug Fixes
+
+* **reader:** populate meta data ([d3fd4c7](https://github.com/Pocket/web-client/commit/d3fd4c7ebb9f8b7a70657b5b629b113576a3d508))
+
 # [1.130.0](https://github.com/Pocket/web-client/compare/v1.129.3...v1.130.0) (2024-06-04)
 
 
