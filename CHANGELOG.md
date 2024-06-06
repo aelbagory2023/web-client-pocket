@@ -1,3 +1,10 @@
+## [1.130.2](https://github.com/Pocket/web-client/compare/v1.130.1...v1.130.2) (2024-06-06)
+
+
+### Bug Fixes
+
+* **reader:** update share links behavior ([7dbb143](https://github.com/Pocket/web-client/commit/7dbb143353132d38eaffaaabf78a282b1e952c5c))
+
 ## [1.130.1](https://github.com/Pocket/web-client/compare/v1.130.0...v1.130.1) (2024-06-05)
 
 
