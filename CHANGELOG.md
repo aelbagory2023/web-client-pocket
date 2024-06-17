@@ -1,3 +1,10 @@
+## [1.130.3](https://github.com/Pocket/web-client/compare/v1.130.2...v1.130.3) (2024-06-17)
+
+
+### Bug Fixes
+
+* **image:** reduce pointer events ([95a816b](https://github.com/Pocket/web-client/commit/95a816b0c0f731092aaa506cd478aa082c3244a1))
+
 ## [1.130.2](https://github.com/Pocket/web-client/compare/v1.130.1...v1.130.2) (2024-06-06)
 
 
