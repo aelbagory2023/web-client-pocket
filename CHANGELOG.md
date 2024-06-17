@@ -1,3 +1,10 @@
+## [1.130.4](https://github.com/Pocket/web-client/compare/v1.130.3...v1.130.4) (2024-06-17)
+
+
+### Bug Fixes
+
+* **docker:** update pnpm ([067b47d](https://github.com/Pocket/web-client/commit/067b47de2729570af00f2fcc1478139ca4e4192d))
+
 ## [1.130.3](https://github.com/Pocket/web-client/compare/v1.130.2...v1.130.3) (2024-06-17)
 
 
