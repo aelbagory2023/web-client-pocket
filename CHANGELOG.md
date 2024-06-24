@@ -1,3 +1,20 @@
+# [1.131.0](https://github.com/Pocket/web-client/compare/v1.130.4...v1.131.0) (2024-06-24)
+
+
+### Bug Fixes
+
+* **colors:** update some dark mode colors ([fa5162c](https://github.com/Pocket/web-client/commit/fa5162c18d1fe754a73cea7b61f788538e27ab93))
+* **footer theme:** wire up to state and mutation ([715c161](https://github.com/Pocket/web-client/commit/715c161f9e7c8bf2a501eb76fed5e087c284e2f7))
+* **user settings:** use zustand for theme ([8c31b02](https://github.com/Pocket/web-client/commit/8c31b02f1f276d24db9123cd8a4ac9304e1a0307))
+
+
+### Features
+
+* **baseline:** top / content layout ([b2a5fab](https://github.com/Pocket/web-client/commit/b2a5fab699e66923bebeaf96dc0720dec53d6484))
+* **footer:** add app wrapper and border ([0b625d0](https://github.com/Pocket/web-client/commit/0b625d0cf0c97b205fc1cf4b02ab75ae19814cd9))
+* **pocket:** initial commit ([540f818](https://github.com/Pocket/web-client/commit/540f818014d556235736d886fe56ea17f286c8d7))
+* **turbo:** compile css in time ([42443ae](https://github.com/Pocket/web-client/commit/42443ae896bf8c7b079b008dd9adaeda7947b077))
+
 ## [1.130.4](https://github.com/Pocket/web-client/compare/v1.130.3...v1.130.4) (2024-06-17)
 
 
