@@ -1,3 +1,15 @@
+# [1.132.0](https://github.com/Pocket/web-client/compare/v1.131.0...v1.132.0) (2024-06-25)
+
+
+### Bug Fixes
+
+* **monorepo:** moving infra to infrastructure folder ([a40abfb](https://github.com/Pocket/web-client/commit/a40abfb9f16298399bd9018a2ba63775681f9ce6))
+
+
+### Features
+
+* **infra:** moving to the pocket-monorepo pattern ([ad1f310](https://github.com/Pocket/web-client/commit/ad1f310e4581b8e8bfb7776e9faed0063cee194c))
+
 # [1.131.0](https://github.com/Pocket/web-client/compare/v1.130.4...v1.131.0) (2024-06-24)
 
 
