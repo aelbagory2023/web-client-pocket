@@ -1,3 +1,10 @@
+# [1.133.0](https://github.com/Pocket/web-client/compare/v1.132.0...v1.133.0) (2024-06-27)
+
+
+### Features
+
+* **pocket:** adding in pocket.com deployment ([6780844](https://github.com/Pocket/web-client/commit/678084409c8cfdb1f7528ad8cb1bb981a7cb6913))
+
 # [1.132.0](https://github.com/Pocket/web-client/compare/v1.131.0...v1.132.0) (2024-06-25)
 
 
