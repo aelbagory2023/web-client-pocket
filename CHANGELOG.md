@@ -1,3 +1,10 @@
+## [1.134.1](https://github.com/Pocket/web-client/compare/v1.134.0...v1.134.1) (2024-07-01)
+
+
+### Bug Fixes
+
+* **snowplow:** adding in new snowplow contexts and user ids ([8685c5d](https://github.com/Pocket/web-client/commit/8685c5d84de971353f459d923b8e6e0db96d0086))
+
 # [1.134.0](https://github.com/Pocket/web-client/compare/v1.133.0...v1.134.0) (2024-07-01)
 
 
