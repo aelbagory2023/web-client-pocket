@@ -1,3 +1,10 @@
+# [1.134.0](https://github.com/Pocket/web-client/compare/v1.133.0...v1.134.0) (2024-07-01)
+
+
+### Features
+
+* **types:** add generated pocket graph types ([40f6a34](https://github.com/Pocket/web-client/commit/40f6a3424563bcf3e3a4748aeb75721dc8419bd1))
+
 # [1.133.0](https://github.com/Pocket/web-client/compare/v1.132.0...v1.133.0) (2024-06-27)
 
 
