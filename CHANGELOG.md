@@ -1,3 +1,10 @@
+# [1.135.0](https://github.com/Pocket/web-client/compare/v1.134.2...v1.135.0) (2024-07-02)
+
+
+### Features
+
+* **snowplow:** moving to the latest snowplow package ([c597dfb](https://github.com/Pocket/web-client/commit/c597dfbab7b52c54fcce1d10eb74a9ee754917dc))
+
 ## [1.134.2](https://github.com/Pocket/web-client/compare/v1.134.1...v1.134.2) (2024-07-02)
 
 
