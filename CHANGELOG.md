@@ -1,3 +1,10 @@
+## [1.134.2](https://github.com/Pocket/web-client/compare/v1.134.1...v1.134.2) (2024-07-02)
+
+
+### Bug Fixes
+
+* **types:** update and remove resolvers ([a5a11ff](https://github.com/Pocket/web-client/commit/a5a11ff671dee11a26ce6824270e22a0024285fa))
+
 ## [1.134.1](https://github.com/Pocket/web-client/compare/v1.134.0...v1.134.1) (2024-07-01)
 
 
