@@ -1,3 +1,19 @@
+# [1.136.0](https://github.com/Pocket/web-client/compare/v1.135.0...v1.136.0) (2024-07-05)
+
+
+### Bug Fixes
+
+* **error:** standardize 404 ([2c52f2a](https://github.com/Pocket/web-client/commit/2c52f2a0b78be5f93adade5ef20d8eca78ac30a3))
+
+
+### Features
+
+* **home:** add home feed ([d683f8e](https://github.com/Pocket/web-client/commit/d683f8e951947f8175f6b781cf12729dfd383725))
+* **home:** display feeds ([e32ec4c](https://github.com/Pocket/web-client/commit/e32ec4c44251639a59156c7d8bb021a16593774a))
+* **sentry:** adding sentry to pocket.com ([8183ca4](https://github.com/Pocket/web-client/commit/8183ca41df2dd4313ae01b3a6428a00f47d04b06))
+* **sentry:** initial commit ([0ee41eb](https://github.com/Pocket/web-client/commit/0ee41eb667cf53d908a160c5aba2c0c0bf7e171c))
+* **utilities:** pocket request (graphql) ([9f52ac5](https://github.com/Pocket/web-client/commit/9f52ac53c807513b03148d93c13e16cf4dbe5c6b))
+
 # [1.135.0](https://github.com/Pocket/web-client/compare/v1.134.2...v1.135.0) (2024-07-02)
 
 
