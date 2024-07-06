@@ -1,3 +1,10 @@
+## [1.136.1](https://github.com/Pocket/web-client/compare/v1.136.0...v1.136.1) (2024-07-06)
+
+
+### Bug Fixes
+
+* **home:** add revalidation ([3366a3a](https://github.com/Pocket/web-client/commit/3366a3a210213a1c935fc90912b76f982c665cd7))
+
 # [1.136.0](https://github.com/Pocket/web-client/compare/v1.135.0...v1.136.0) (2024-07-05)
 
 
