@@ -1,3 +1,10 @@
+## [1.136.2](https://github.com/Pocket/web-client/compare/v1.136.1...v1.136.2) (2024-07-08)
+
+
+### Bug Fixes
+
+* **snowplow:** fixing page view ([7f81a5f](https://github.com/Pocket/web-client/commit/7f81a5fec4bff725fffd0b124e80365897fd9151))
+
 ## [1.136.1](https://github.com/Pocket/web-client/compare/v1.136.0...v1.136.1) (2024-07-06)
 
 
