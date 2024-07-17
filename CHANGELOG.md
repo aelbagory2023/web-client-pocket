@@ -1,3 +1,10 @@
+## [1.137.1](https://github.com/Pocket/web-client/compare/v1.137.0...v1.137.1) (2024-07-17)
+
+
+### Bug Fixes
+
+* **home:** add corpusRecId to id field for now ([16156ed](https://github.com/Pocket/web-client/commit/16156ed3f32280e38c9cea953b0c67a75eeb4278))
+
 # [1.137.0](https://github.com/Pocket/web-client/compare/v1.136.2...v1.137.0) (2024-07-17)
 
 
