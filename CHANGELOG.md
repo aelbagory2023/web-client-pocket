@@ -1,3 +1,14 @@
+# [1.137.0](https://github.com/Pocket/web-client/compare/v1.136.2...v1.137.0) (2024-07-17)
+
+
+### Features
+
+* **actions:** add catagory matcher ([a56aed1](https://github.com/Pocket/web-client/commit/a56aed11ededa35afc0bd0c7481ed88fa49766fc))
+* **item actions:**  actions for future pocket ([f8289dd](https://github.com/Pocket/web-client/commit/f8289ddc264e402c2387697026aa169f6e980efc))
+* **item:** add item menu template ([0b5dbf9](https://github.com/Pocket/web-client/commit/0b5dbf9c419909ede9063bab91faa6ee3d4fb096))
+* **pocket future:** update styles ([5a0cf1c](https://github.com/Pocket/web-client/commit/5a0cf1c2e0f4a356535c5aec2db5e12ba4ce0311))
+* **state:** item status baseline ([3504520](https://github.com/Pocket/web-client/commit/350452080f97428a825c7027204fd1714eba27cf))
+
 ## [1.136.2](https://github.com/Pocket/web-client/compare/v1.136.1...v1.136.2) (2024-07-08)
 
 
