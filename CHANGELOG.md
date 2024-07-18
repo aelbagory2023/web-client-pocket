@@ -1,3 +1,10 @@
+## [1.137.2](https://github.com/Pocket/web-client/compare/v1.137.1...v1.137.2) (2024-07-18)
+
+
+### Bug Fixes
+
+* **item actions:** hover state in active portal ([e3ff797](https://github.com/Pocket/web-client/commit/e3ff797adec5f09a6e432b3ef35111cdb8f2c58a))
+
 ## [1.137.1](https://github.com/Pocket/web-client/compare/v1.137.0...v1.137.1) (2024-07-17)
 
 
