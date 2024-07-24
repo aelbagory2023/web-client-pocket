@@ -1,3 +1,10 @@
+# [1.138.0](https://github.com/Pocket/web-client/compare/v1.137.3...v1.138.0) (2024-07-24)
+
+
+### Features
+
+* **search:** initial corpus search page ([947f378](https://github.com/Pocket/web-client/commit/947f378e0dd91202c8e1134f473ff7f008151f41))
+
 ## [1.137.3](https://github.com/Pocket/web-client/compare/v1.137.2...v1.137.3) (2024-07-24)
 
 
