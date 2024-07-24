@@ -1,3 +1,10 @@
+## [1.137.3](https://github.com/Pocket/web-client/compare/v1.137.2...v1.137.3) (2024-07-24)
+
+
+### Bug Fixes
+
+* **item:** anchor hover panel ref ([77786ed](https://github.com/Pocket/web-client/commit/77786ed1763d34944fe31607c7085ddfed0016bb))
+
 ## [1.137.2](https://github.com/Pocket/web-client/compare/v1.137.1...v1.137.2) (2024-07-18)
 
 
