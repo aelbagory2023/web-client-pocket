@@ -1,3 +1,10 @@
+## [1.138.1](https://github.com/Pocket/web-client/compare/v1.138.0...v1.138.1) (2024-07-25)
+
+
+### Bug Fixes
+
+* **syndicated:** switch to static generation ([146fee4](https://github.com/Pocket/web-client/commit/146fee40ab8a7b61f14bb474f1e25e0c810ef8c7))
+
 # [1.138.0](https://github.com/Pocket/web-client/compare/v1.137.3...v1.138.0) (2024-07-24)
 
 
