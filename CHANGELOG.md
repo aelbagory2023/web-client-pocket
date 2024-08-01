@@ -1,3 +1,11 @@
+## [1.138.2](https://github.com/Pocket/web-client/compare/v1.138.1...v1.138.2) (2024-08-01)
+
+
+### Bug Fixes
+
+* **home:** resolve user before share render ([c322684](https://github.com/Pocket/web-client/commit/c32268411cd69179451e3698c000edf96cfe2612))
+* **reader:** don’t request tags until resolved ([87c023d](https://github.com/Pocket/web-client/commit/87c023dc76d331008220fa601a8cc760e748d3c2))
+
 ## [1.138.1](https://github.com/Pocket/web-client/compare/v1.138.0...v1.138.1) (2024-07-25)
 
 
