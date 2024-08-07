@@ -1,3 +1,10 @@
+## [1.138.3](https://github.com/Pocket/web-client/compare/v1.138.2...v1.138.3) (2024-08-07)
+
+
+### Bug Fixes
+
+* **snowplow:** remove auto button tracking for now ([c6b82b5](https://github.com/Pocket/web-client/commit/c6b82b5a05f8d33da996a9afba6e21c233307a4d))
+
 ## [1.138.2](https://github.com/Pocket/web-client/compare/v1.138.1...v1.138.2) (2024-08-01)
 
 
