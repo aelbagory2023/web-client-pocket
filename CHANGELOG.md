@@ -1,3 +1,12 @@
+## [1.138.4](https://github.com/Pocket/web-client/compare/v1.138.3...v1.138.4) (2024-08-08)
+
+
+### Bug Fixes
+
+* **search:** add corpus search analytics actions ([101e230](https://github.com/Pocket/web-client/commit/101e230b7e31a9e4019e33aecdd6f338132e5c9f))
+* **search:** add load more and virtualization ([cc178c6](https://github.com/Pocket/web-client/commit/cc178c62806f3f6c163de03cd58e47ba47891dbb))
+* **search:** persist search term ([018f545](https://github.com/Pocket/web-client/commit/018f5458adcd2102896f3e98b85d582477f7a2ef))
+
 ## [1.138.3](https://github.com/Pocket/web-client/compare/v1.138.2...v1.138.3) (2024-08-07)
 
 
