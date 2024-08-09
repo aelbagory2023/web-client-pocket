@@ -1,3 +1,22 @@
+# [1.139.0](https://github.com/Pocket/web-client/compare/v1.138.4...v1.139.0) (2024-08-09)
+
+
+### Bug Fixes
+
+* **layout:** add carousel padding ([4539b44](https://github.com/Pocket/web-client/commit/4539b44a6dc69d725d4f72b20c8951c8b68a7671))
+* **pocket:** use item article for the time being ([b98aa5b](https://github.com/Pocket/web-client/commit/b98aa5bc1f937b87ba870904ed767e2c8059ce58))
+* **short:** render as server component (implied) ([462c56c](https://github.com/Pocket/web-client/commit/462c56c82d6952e91bde097efc75cbcc8f6c7abf))
+* **sound:** render as server component (implied) ([0101d82](https://github.com/Pocket/web-client/commit/0101d824f6e5482717278692ceec868c3895cd94))
+* **video:** render as server component (implied) ([104f776](https://github.com/Pocket/web-client/commit/104f776ff185f76a2ec150330c6a6e0cebf3ae3e))
+
+
+### Features
+
+* **hook:** add use dimensions hook ([2198747](https://github.com/Pocket/web-client/commit/219874744bc3d87bd181ce23b37ee78e29fb8523))
+* **items:** add new item types ([ce88dc6](https://github.com/Pocket/web-client/commit/ce88dc684607524d0e4f235b01ed19352b6e4f72))
+* **items:** update existing to support expansion ([399c17e](https://github.com/Pocket/web-client/commit/399c17e9e7a0c0e18f7eb2564590bb5b80413ee6))
+* **scraper:** mini scraper for local experiments ([845cf05](https://github.com/Pocket/web-client/commit/845cf05218f9457517693c954299776a9779278c))
+
 ## [1.138.4](https://github.com/Pocket/web-client/compare/v1.138.3...v1.138.4) (2024-08-08)
 
 
