@@ -29,7 +29,7 @@
     "typescript": "5.6.2"
   },
   "engines": {
-    "node": "=20.10.0",
+    "node": "=20.16.0",
     "pnpm": ">=9"
   },
   "homepage": "https://github.com/Pocket/web-client#readme",
@@ -60,9 +60,9 @@
   },
   "repository": "Pocket/web-client.git",
   "scripts": {
-    "build": "pnpm --filter @client/* build",
+    "build": "pnpm turbo build",
     "checktypes": "pnpm turbo checktypes",
-    "clean": "pnpm turbo clean && rm -rf pnpm-lock.yaml",
+    "clean": "pnpm turbo clean && rm -rf pnpm-lock.yaml node_modules",
     "dev": "pnpm turbo dev",
     "dev:snowplow": "pnpm turbo dev:snowplow",
     "format": "lint-staged",
@@ -77,6 +77,7 @@
     "start:local": "pnpm --filter @client/web start:local",
     "start:pocket": "pnpm --filter @client/pocket start",
     "start:web": "pnpm --filter @client/web start",
+    "start": "pnpm turbo start",
     "storybook": "pnpm turbo storybook",
     "storybook:build": "pnpm --filter @config/storybook build-storybook",
     "storybook:start": "pnpm --filter @config/storybook start-storybook",
@@ -84,7 +85,7 @@
     "sync:list": "syncpack list",
     "synth": "pnpm turbo synth",
     "test": "pnpm turbo test",
-    "test:ci": "pnpm --filter @client/web test:ci",
+    "test:ci": "pnpm turbo test:ci",
     "test:update": "pnpm turbo test:update"
   },
   "syncpack": {

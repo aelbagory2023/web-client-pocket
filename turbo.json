@@ -16,7 +16,12 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**", "dist/**"]
     },
-    "test": {},
+    "test": {
+      "dependsOn": ["^build"]
+    },
+    "test:ci": {
+      "dependsOn": ["^build"]
+    },
     "test:update": {},
     "lint": {},
     "checktypes": {},
@@ -25,6 +30,7 @@
       "persistent": true
     },
     "dev": {
+      "dependsOn": ["^build"],
       "cache": false,
       "persistent": true
     },
