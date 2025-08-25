@@ -1,0 +1,22 @@
+# Exclude everything except the web client
+*
+!clients/web/**
+!common/**
+!ui/**
+!config/**
+!package.json
+!pnpm-lock.yaml
+!pnpm-workspace.yaml
+!.nvmrc
+!vercel.json
+
+# Exclude development files
+**/node_modules
+**/.next
+**/.turbo
+**/coverage
+**/*.log
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
